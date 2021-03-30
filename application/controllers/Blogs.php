@@ -2,9 +2,9 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 class Blogs extends CI_Controller
 {
-    public function index()
-    {
-    }
+    // public function index()
+    // {
+    // }
     public function details()
     {
         $slug = str_replace('-', ' ', $this->uri->segment(3)); //blogslug

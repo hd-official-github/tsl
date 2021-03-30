@@ -8,4 +8,8 @@ class Category extends CI_Controller
         $category = str_replace('-', ' ', $this->uri->segment(3));
         echo $loc . $category;
     }
+    public function abc()
+    {
+        echo 'hello';
+    }
 }

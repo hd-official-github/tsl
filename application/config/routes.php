@@ -52,7 +52,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 $route['default_controller'] = 'main';
 $route['admin'] = 'admin/login';
+$route['text'] = 'text/index';
 $route['(:any)'] = 'main/location/$1';
+
 $route['(:any)/blogs/'] = 'blogs/$1/';  // location blogs
 $route['(:any)/blogs/(:any)'] = 'blogs/details/$1/$2';  // location blog details
 $route['(:any)/category/(:any)'] = 'category/index/$1/$2'; // location category all

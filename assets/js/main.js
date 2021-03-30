@@ -602,3 +602,47 @@ var google_tag_params = {
             })(window, navigator, document);
         }).call(this);
     
+            // logo
+        $(function() {
+            $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            
+                if (scroll >= 100) {
+                    $('.logowhite').hide();
+                    //logo.removeClass('lrg-logo').addClass("sml-logo").fadeIn( "slow");
+                  }
+                 if(scroll <= 80 ){
+                  $('.logowhite').show();
+                  $('.logoblack').hide();
+                  }else{
+                      $('.logoblack').show();
+                  }
+
+                });
+            
+            });
+           
+            $(function() {
+                $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+                
+                    if (scroll >= 50) {
+                        $('.mobwhitelogo').hide();
+                        //logo.removeClass('lrg-logo').addClass("sml-logo").fadeIn( "slow");
+                      }
+                     if(scroll <= 50 ){
+                      $('.mobwhitelogo').show();
+                      $('.mobblacklogo').hide();
+                      }else{
+                          $('.mobblacklogo').show();
+                      }
+    
+                    });
+                
+                });
+               
+              
+            $('#overto').on('click',function(){
+                    alert("clicked");
+            });
+        

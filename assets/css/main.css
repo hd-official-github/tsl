@@ -4706,7 +4706,7 @@ h2.anchor {
 }
 .footer-list a:hover,
 .footer-list .footer-link:hover {
-	color: #ff5300;
+	color: #f07c7c;
 	font-weight: 700;
 }
 @media (min-width: 1024px) {
@@ -8736,6 +8736,7 @@ form .base-block-head:before {
 	align-items: center;
 	flex: 0 0 220px;
 	padding: 10px;
+	text-decoration: none;
 }
 @media (min-width: 1024px) {
 	.nearby-destinations__destination:not(:nth-child(4n-3)) {
@@ -9200,7 +9201,7 @@ form .base-block-head:before {
 	display: block;
 }
 .tour-card-v2__name:hover {
-	color: #ff5300;
+	color: #f07c7c;
 }
 .tour-card-v2__reviews-wrap {
 	margin-top: 7px;

@@ -219,35 +219,12 @@ th {
 	padding: 0;
 	list-style: none;
 }
-.thrillo-logo {
-	background: url(https://ui-assets-gc.thrillophilia.com/assets/thrillo-logos-b04d6325af85a64ec78bef683ebd9e2c55747a55315231ba8465a7536d6c010a.png);
-}
-.thrillo-logo.nav-drop-logo {
-	width: 268px;
-	height: 62px;
-}
-.thrillo-logo.colored-logo {
-	background-position: 0 -221px;
-	width: 175px;
-	height: 35px;
-}
-.thrillo-logo.white-logo {
-	width: 175px;
-	height: 35px;
-	background-position: 0 -186px;
-}
-.thrillo-logo.ad_ex-logo {
-	background-position: 0 0;
-}
-.thrillo-logo.ta-logo {
-	background-position: 0 -62px;
-}
-.thrillo-logo.wee_ex-logo {
-	background-position: 0 -124px;
-}
+
+
 html {
 	box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
@@ -263,6 +240,7 @@ body {
 	min-width: 320px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
 }
 img {
 	max-width: 100%;
@@ -4231,7 +4209,7 @@ h2.anchor {
 .view-more-btn:hover {
 	color: black;
 	border: 2px solid #f07c7c;
-	background-color: #fff;
+	background: white;
 }
 .tours-app {
 	min-height: 120vh;
@@ -8714,8 +8692,8 @@ form .base-block-head:before {
 }
 .nearby-destinations__destinations-bar-item--selected,
 .nearby-destinations__destinations-bar-item:hover {
-	color: #ff5300;
-	border-color: #ff5300;
+	color: #f07c7c;
+	border-color: #f07c7c;
 	cursor: pointer;
 }
 @media (max-width: 1023px) {
@@ -8785,6 +8763,7 @@ form .base-block-head:before {
 .nearby-destinations__view-more {
 	width: 130px;
 	margin-top: 40px;
+	background-color: #f07c7c;
 }
 @media (min-width: 1024px) {
 	.nearby-destinations__view-more {
@@ -8965,7 +8944,7 @@ form .base-block-head:before {
 	overflow: hidden;
 }
 .travel-news-section__featured-title:hover {
-	color: #ff5300;
+	color: #f07c7c;
 }
 .travel-news-section__featured-snippet {
 	color: #707070;
@@ -9014,7 +8993,7 @@ form .base-block-head:before {
 	overflow: hidden;
 }
 .travel-news__title:hover {
-	color: #ff5300;
+	color: #f07c7c;
 }
 .travel-news__info {
 	font-size: 12px;

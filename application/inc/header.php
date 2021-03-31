@@ -6,13 +6,13 @@
                     <div href="#" id="header-mobile-nav-opener" class=""><span></span></div>
                     <strong class="logo">
                         <a href="">
-                            <img src='<?php echo base_url() . 'assets/images/logowhite.png'; ?>' class="desktop-logo mobile-hidden logowhite">
+                            <img src='<?php echo base_url() . 'assets/images/logowhite.png'; ?>' class="desktop-logo mobile-hidden logowhite ">
 
                             <img src='<?php echo base_url() . 'assets/images/logo.png'; ?>' class="desktop-logo mobile-hidden logoblack" style='display:none;'>
 
-                            <img src='<?php echo base_url() . 'assets/images/logowhite.png';  ?>' class="colored-logo desktop-hidden mobile-header-logo mobwhitelogo">
+                            <img src='<?php echo base_url() . 'assets/images/logowhite.png';  ?>' class="colored-logo desktop-hidden abc mobile-header-logo mobwhitelogo">
 
-                            <img src='<?php echo base_url() . 'assets/images/logo.png';  ?>' class="desktop-hidden mobile-header-logo mobblacklogo" style='display:none;'>
+                            <img src='<?php echo base_url() . 'assets/images/logo.png';  ?>' class="desktop-hidden mobile-header-logo  abc mobblacklogo" style='display:none;'>
 
                         </a>
                     </strong>
@@ -43,7 +43,7 @@
                         <li><a href="/go-to-gift-page" class="gift-link main-header-link">
 
 
-                                <span class="text" style='background:#f07c7c; padding:9px; border-radius:10px;  color:white; box-shadow:0px 0px 8px black; display:flex; padding-right:15px; '><i class="far fa-plus-square fa-2x" style="padding-right:10px; text-align:center;"> </i> New Bussiness</span>
+                                <span class="text" style='background:#f07c7c; padding:9px; border-radius:10px;  color:white; box-shadow:0px 0px 8px black; display:flex; padding-right:15px;'><i class="far fa-plus-square fa-2x" style="padding-right:10px; text-align:center;"> </i> New Bussiness</span>
                             </a>
                         </li>
                         <li class="divider desktop-hidden"></li>

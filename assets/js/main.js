@@ -613,9 +613,11 @@ var google_tag_params = {
                   }
                  if(scroll <= 80 ){
                   $('.logowhite').show();
+                 
                   $('.logoblack').hide();
                   }else{
                       $('.logoblack').show();
+                      
                   }
 
                 });
@@ -632,17 +634,14 @@ var google_tag_params = {
                       }
                      if(scroll <= 50 ){
                       $('.mobwhitelogo').show();
+                     
                       $('.mobblacklogo').hide();
                       }else{
                           $('.mobblacklogo').show();
+                          
                       }
     
                     });
                 
                 });
                
-              
-            $('#overto').on('click',function(){
-                    alert("clicked");
-            });
-        

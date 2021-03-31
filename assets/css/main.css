@@ -1,6 +1,13 @@
+body{
+	overflow-x: hidden;
+}
+
 @media only screen and (max-width: 1024px) {
 	.searchmob {
 		top: -41px !important;
+	}
+	.abc{
+		width:100px;
 	}
 }
 x .luxury_view {
@@ -2873,6 +2880,7 @@ a:hover {
 img {
 	vertical-align: top;
 	max-width: 100%;
+	width:150px;
 }
 @media (max-width: 767px) {
 	h1,
@@ -3435,6 +3443,7 @@ iframe {
 }
 img {
 	font-size: 1rem;
+	 width:150px; 
 }
 .lazy-image {
 	opacity: 1;
@@ -4207,6 +4216,7 @@ h2.anchor {
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
+	text-decoration: none	;
 }
 @media (min-width: 1024px) {
 	.view-more-btn {
@@ -5733,16 +5743,22 @@ h2.anchor {
 	.tour-card-list .slick-prev,
 	.destination-attraction-card-list .slick-prev {
 		left: -40px;
+		/* position: relative; */
+		top:140px;
 	}
 }
 .tour-card-list .slick-next,
 .destination-attraction-card-list .slick-next {
 	right: -15px;
+	
 }
 @media (min-width: 1200px) {
 	.tour-card-list .slick-next,
 	.destination-attraction-card-list .slick-next {
 		right: -40px;
+		top: 140px;
+		
+		
 	}
 }
 .main-card-container .info-head .raiting-holder .counter {
@@ -6177,6 +6193,7 @@ h2.anchor {
 }
 .banner-wrapper .slick-arrow.slick-next {
 	right: 40px;
+	
 }
 .banner-wrapper .collections-banner {
 	position: relative;
@@ -7848,6 +7865,8 @@ form .base-block-head:before {
 @media (min-width: 1200px) {
 	.section__offers .offers-slider .slick-next {
 		right: -40px;
+		
+		
 	}
 }
 .section__offers .offers-tile {
@@ -8602,6 +8621,7 @@ form .base-block-head:before {
 	}
 	.luxury-experiences__grid-item:nth-child(n + 4) {
 		margin-left: 18px;
+		text-decoration: none;
 	}
 }
 .luxury-experiences__grid-item:nth-child(1) {
@@ -9521,7 +9541,7 @@ body {
 	left: calc(50% - 30.5px);
 	width: 61px;
 	height: 2px;
-	background: #ff5300;
+	background: #f07c7c;
 }
 .multi-line-header--centered .multi-line-header__caption {
 	color: #949494;
@@ -9543,3 +9563,5 @@ body {
 .akhakdhalsdjals {
 	margin-top: 10px;
 }
+
+

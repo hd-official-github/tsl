@@ -155,7 +155,7 @@
                             <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/rishikesh-e6d20c38e539244d1d727d57ec5d9aa16d1cc2eb0b2074317b344ae2b82bf5c6.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/rishikesh-e6d20c38e539244d1d727d57ec5d9aa16d1cc2eb0b2074317b344ae2b82bf5c6.jpg" srcset="">
                             <div class="luxury-experiences__grid-item-title">RISHIKESH</div>
                         </a>
-                        <a target="_blank" href="/tags/luxury-deals" class="luxury-experiences__grid-item luxury_view luxury-experiences__grid-item--btn view-more-btn" style='background:#f07c7c;' >
+                        <a target="_blank" href="/tags/luxury-deals" class="luxury-experiences__grid-item luxury_view luxury-experiences__grid-item--btn view-more-btn">
                             View All
                         </a>
                     </div>
@@ -260,7 +260,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide02">
+                        <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide02">
                             <div data-href="/tours/overnight-jeep-safari-with-camping-in-jaisalmer" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9829">
                                 <div class="tour-card-v2__banner">
                                     <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -3110,28 +3110,27 @@
             </section>
 
             <!-- Carousel for banner  -->
-            <br>
+            <br><br>
             <div class="container">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner" style='height:350px;'>
                         <div class="carousel-item active">
-                            <img src="<?php echo base_url().'assets/images/building-one.jpg'; ?>" class="d-block w-100" alt="...">
+                            <img src="<?php echo base_url().'assets/images/building-one.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="<?php echo base_url().'assets/images/building.jpg'; ?>" class="d-block w-100" alt="...">
+                            <img src="<?php echo base_url().'assets/images/building.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="<?php echo base_url().'assets/images/one.png'; ?>" class="d-block w-100" alt="...">
+                            <img src="<?php echo base_url().'assets/images/one.png'; ?>" class="d-block w-100" style='height:300px' alt="...">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                         
                     </button>
-                     <a href="#" class="slick-prev slick-arrow"><span class="icon-left-arrow"></span></a>
                     
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" style='margin-top:-20px;'data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -3259,7 +3258,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/karnataka" style="background:#f07c7c">View All</a>
+                            <div class='nearby-destinations__destination-details'><a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/karnataka">View All</a></div>
                         </div>
                         <div class="nearby-destinations__destinations-grid " id="destination-grid-mumbai">
                             <a target="_blank" href="/cities/alibag" class="nearby-destinations__destination">
@@ -3334,6 +3333,7 @@
                                     </div>
                                 </div>
                             </a>
+                            
                             <a target="_blank" href="/cities/mahabaleshwar" class="nearby-destinations__destination">
                                 <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg 2x" src="">
                                 <div class="nearby-destinations__destination-details">
@@ -3346,7 +3346,8 @@
                                     </div>
                                 </div>
                             </a>
-                            <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/maharashtra">View All</a>
+                            <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/maharashtra">View All</a></div>
+                            
                         </div>
                         <div class="nearby-destinations__destinations-grid " id="destination-grid-delhi">
                             <a target="_blank" href="/cities/manali" class="nearby-destinations__destination">
@@ -3433,7 +3434,8 @@
                                     </div>
                                 </div>
                             </a>
-                            <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/delhi">View All</a>
+                            <div class="nearby-destinations__destination-details" > <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/delhi">View All</a></div>
+                           
                         </div>
                         <div class="nearby-destinations__destinations-grid " id="destination-grid-jaipur">
                             <a target="_blank" href="/cities/jaisalmer" class="nearby-destinations__destination">
@@ -3508,7 +3510,8 @@
                                     </div>
                                 </div>
                             </a>
-                            <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/rajasthan">View All</a>
+                            <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/rajasthan">View All</a></div>
+                            
                         </div>
                         <div class="nearby-destinations__destinations-grid " id="destination-grid-pune">
                             <a target="_blank" href="/cities/mumbai" class="nearby-destinations__destination">
@@ -3595,7 +3598,8 @@
                                     </div>
                                 </div>
                             </a>
-                            <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/maharashtra">View All</a>
+                            <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/maharashtra">View All</a></div>
+                            
                         </div>
                         <div class="nearby-destinations__destinations-grid " id="destination-grid-chandigarh">
                             <a target="_blank" href="/cities/manali" class="nearby-destinations__destination">
@@ -3682,7 +3686,8 @@
                                     </div>
                                 </div>
                             </a>
-                            <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/punjab">View All</a>
+                            <div class="nearby-destinations__destination-details" >  <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/punjab">View All</a></div>
+                           
                         </div>
                         <div class="nearby-destinations__destinations-grid " id="destination-grid-chennai">
                             <a target="_blank" href="/cities/pondicherry" class="nearby-destinations__destination">
@@ -3769,7 +3774,8 @@
                                     </div>
                                 </div>
                             </a>
-                            <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/tamil-nadu">View All</a>
+                            <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/tamil-nadu">View All</a></div>
+                            
                         </div>
                     </div>
                 </div>
@@ -3853,7 +3859,7 @@
                     <div class="generic-info__details">
                         <div class="generic-info__title">Gift an Experience</div>
                         <div class="generic-info__text">With Thrillophilia Gift Cards</div>
-                        <a target="_blank" class="generic-info__btn view-more-btn view-more-btn--lg" href="https://www.thrillophilia.com/go-to-gift-page" style='background:#f07c7c'>Know More</a>
+                        <a target="_blank" class="generic-info__btn view-more-btn view-more-btn--lg" href="https://www.thrillophilia.com/go-to-gift-page">Know More</a>
                     </div>
                     <img class="lazy-image generic-info__image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" srcset="">
                     <a class="generic-info__link view-more-link " href="https://www.thrillophilia.com/go-to-gift-page">Know More <span class="icon-right-arrow"></span></a>

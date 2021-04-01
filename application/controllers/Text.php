@@ -6,6 +6,9 @@ class Text extends CI_Controller
      {
          $this->load->view("client/text/index");
      }
+     public function banglore(){
+         $this->load->view("client/text/banglore");
+     }
     // public function details()
     // {
     //     $slug = str_replace('-', ' ', $this->uri->segment(3)); //blogslug

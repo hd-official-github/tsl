@@ -8,80 +8,189 @@
             <?php include(APPPATH . '/inc/header.php'); ?>
 
             <!-- Intro banner section -->
-            <section class="section__intro">
-                <div class="container">
-                    <div class="section__intro__main intro-heading">
-                        <div class="intro-heading__title">
-                            <div class="intro-heading__base">It's time for new</div>
-                            <div class="intro-heading__animated">
-                                <div class="intro-heading__animation-window">
-                                    <div class="intro-heading__animated-item">Experiences</div>
-                                    <div class="intro-heading__animated-item">Adventures</div>
-                                    <div class="intro-heading__animated-item">Escapes</div>
-                                    <div class="intro-heading__animated-item">Thrills</div>
-                                    <div class="intro-heading__animated-item">Experiences</div>
+            <div class="banner-section-container">
+                <picture class="bg-image">
+                    <source srcset="https://images.thrillophilia.com/image/upload/s--1yoh_kUx--/c_fill,g_auto,h_642,w_1400/dpr_1.0/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--rAICqDg0--/c_fill,g_auto,h_642,w_1400/dpr_1.5/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 2x" media="(min-width: 1280px)">
+                    <source srcset="https://images.thrillophilia.com/image/upload/s--Tbrx-Gwe--/c_fill,g_auto,h_642,w_1280/dpr_1.0/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--p95V9H7C--/c_fill,g_auto,h_642,w_1280/dpr_1.5/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 2x" media="(min-width: 1024px)">
+                    <source srcset="https://images.thrillophilia.com/image/upload/s--7U1gKohU--/c_fill,g_auto,h_500,w_1024/dpr_1.0/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--_3JvtZYU--/c_fill,g_auto,h_500,w_1024/dpr_1.5/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 2x" media="(min-width: 768px)">
+                    <source srcset="https://images.thrillophilia.com/image/upload/s--UZ4jjecn--/c_fill,g_auto,h_500,w_768/dpr_1.0/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--S6qr6yzA--/c_fill,g_auto,h_500,w_768/dpr_1.5/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 2x" media="(min-width: 576px)">
+                    <source srcset="https://images.thrillophilia.com/image/upload/s--U3KfvpPI--/c_fill,g_auto,h_500,w_470/dpr_1.0/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--5IkmYz2d--/c_fill,g_auto,h_500,w_470/dpr_1.5/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 2x" media="(min-width: 320px)">
+                    <source srcset="https://images.thrillophilia.com/image/upload/s--EbrxzdFO--/c_fill,g_auto,h_500,w_320/dpr_1.0/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--B6lLNyey--/c_fill,g_auto,h_500,w_320/dpr_1.5/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 2x" media="(max-width: 320px)">
+                    <img class="bg-image" srcset="https://images.thrillophilia.com/image/upload/s--1yoh_kUx--/c_fill,g_auto,h_642,w_1400/dpr_1.0/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--rAICqDg0--/c_fill,g_auto,h_642,w_1400/dpr_1.5/v1/collections/images/014/720/766/original/1565604682_shutterstock_347108.jpg.jpg 2x " alt="1565604682 shutterstock 347108.jpg">
+                </picture>
+                <div class="intro-top-container">
+                    <div class="container">
+                        <div class="intro-top-content">
+                            <div class="head-col">
+                                <div class="breadcrumbs-holder">
+                                    <ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList">
+                                        <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                                            <a itemtype="https://schema.org/Thing" itemprop="item" href="/">
+                                                <span itemprop="name">Home</span>
+                                            </a>
+                                            <meta itemprop="position" content="1">
+                                        </li>
+                                        <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                                            <a itemtype="https://schema.org/Thing" itemprop="item" href="/countries/india">
+                                                <span itemprop="name">India</span>
+                                            </a>
+                                            <meta itemprop="position" content="2">
+                                        </li>
+                                        <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                                            <a itemtype="https://schema.org/Thing" itemprop="item" href="/states/karnataka">
+                                                <span itemprop="name">Karnataka</span>
+                                            </a>
+                                            <meta itemprop="position" content="3">
+                                        </li>
+                                        <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                                            <a itemtype="https://schema.org/Thing" itemprop="item" href="/cities/bangalore">
+                                                <span itemprop="name">Bangalore</span>
+                                            </a>
+                                            <meta itemprop="position" content="4">
+                                        </li>
+                                        <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                                            <span itemprop="name">Luxury Resorts Around Bangalore Upto 70% Off</span>
+                                            <meta itemprop="position" content="5">
+                                        </li>
+                                    </ul>
+
                                 </div>
+                                <!-- <div class="base-block-head">
+                                    <div class="head-content">
+                                        <h1 class="constructed-heading">
+                                            <div class="head-content">
+                                                <span class="title">Luxury Resorts Around Bangalore - Upto 70% Off</span>
+                                            </div>
+                                        </h1>
+                                    </div>
+                                </div> -->
+
+
                             </div>
                         </div>
-                        <div class="intro-heading__search-wrap" id="home-banner-search">
-                            <div class="search-wrap__tags-bar mobile-hidden">
 
-                                <button class="tags-bar__tag " id='overto' data-tab-name="activities">
-                                    <span class="tag-icon icon-boat-white "></span>Spa
-                                </button>
-                                <button class="tags-bar__tag" data-tab-name="tours">
-                                    <span class="tag-icon icon-traveler-white"></span>Massage
-                                </button>
-
-                            </div>
-                            <form action="" method="get" class="search-wrap__input-wrap">
-                                <span class="twitter-typeahead" style="position: relative; display: inline-block;">
-                                    <input type="text" class="search-wrap__input-bar tt-hint" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input type="text" name="search" class="search-wrap__input-bar tt-input searchmob" placeholder="Search Destinations, Tours, Activities" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; top:-49px; background-color: transparent;">
-                                    <pre aria-hidden="true" style="position: absolute;  visibility: hidden; white-space: pre; font-family: Poppins, sans-serif; font-size: 12.8px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>
-                                    <div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;">
-                                        <div class="tt-dataset tt-dataset-destination_suggestions"></div>
-                                        <div class="tt-dataset tt-dataset-sub_categories"></div>
-                                        <div class="tt-dataset tt-dataset-tours"></div>
+                        <div class="form-search form-search-style-02 pb-9">
+                            <form>
+                                <div class="row align-items-end no-gutters" style='margin:10px;'>
+                                    <div class="col-xl-6 mb-4 mb-xl-0 py-3 px-4 bg-white border-right position-relative rounded-left form-search-item">
+                                        <label for="key-word" class="font-size-md font-weight-semibold text-dark mb-0 lh-1">What</label>
+                                        <div class="input-group dropdown show">
+                                            <input type="text" autocomplete="off" id="key-word" name="key-word" class="form-control form-control-mini border-0 px-0 bg-transparent" placeholder="Ex: food, service, barber, hotel" data-toggle="dropdown" aria-haspopup="true">
+                                            <a href="#" class="input-group-append text-decoration-none" data-toggle="dropdown">
+                                            <i class="fas fa-chevron-down"></i>
+                                            </a>
+                                            <ul class="dropdown-menu form-search-ajax" aria-labelledby="key-word">
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        <svg class="icon icon-pizza">
+                                                            <use xlink:href="#icon-pizza"></use>
+                                                        </svg>
+                                                        <span class="font-size-md">Foods &amp; Restaurants</span>
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        <svg class="icon icon-bed">
+                                                            <use xlink:href="#icon-bed"></use>
+                                                        </svg>
+                                                        <span class="font-size-md">Hotels &amp; Resorts</span>
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        <svg class="icon icon-pharmaceutical">
+                                                            <use xlink:href="#icon-pharmaceutical"></use>
+                                                        </svg>
+                                                        <span class="font-size-md">Healths &amp; Medicals</span>
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        <svg class="icon icon-cog">
+                                                            <use xlink:href="#icon-cog"></use>
+                                                        </svg>
+                                                        <span class="font-size-md">Services</span>
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        <svg class="icon icon-car">
+                                                            <use xlink:href="#icon-car"></use>
+                                                        </svg>
+                                                        <span class="font-size-md">Automotive</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </span>
-                                <button type="submit" class="icon-search search-button"></button>
-
-
+                                    <div class="col-xl-4 mb-4 mb-xl-0 py-3 px-4 bg-white position-relative rounded-right form-search-item">
+                                        <label for="key-word" class="font-size-md font-weight-semibold text-dark mb-0 lh-1">Where</label>
+                                        <div class="input-group dropdown show">
+                                            <input type="text" autocomplete="off" id="region" name="region" class="form-control form-control-mini border-0 px-0 bg-transparent" placeholder="San Francisco" data-toggle="dropdown" aria-haspopup="true">
+                                            <a href="#" class="input-group-append text-decoration-none" data-toggle="dropdown">
+                                            <i class="fas fa-chevron-down"></i>
+                                            </a>
+                                            <ul class="dropdown-menu form-search-ajax" aria-labelledby="region">
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        Austin
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        Boston
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        Chicago
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        Denver
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        Los Angeles
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        New York
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        San Francisco
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        Seattle
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-item item">
+                                                    <a href="#" class="link-hover-dark-white">
+                                                        Washington
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 button">
+                                        <button type="submit" class="btn btn-primary btn-lg btn-icon-left btn-block"><i class="fas fa-search"></i>Search
+                                        </button>
+                                    </div>
+                                </div>
                             </form>
                         </div>
-                    </div>
-                    <div class="section__intro__footer">
-                        <div class="stats-item">
-                            <span class="stats-item__logo icon-intro-slider-tours"></span>
-                            <div class="stats-item__details">
-                                <div class="stats-item__details__title">12,000+</div>
-                                <div class="stats-item__details__caption">Travel Experiences</div>
-                            </div>
-                        </div>
-                        <div class="stats-item">
-                            <span class="stats-item__logo icon-globe"></span>
-                            <div class="stats-item__details">
-                                <div class="stats-item__details__title">25+</div>
-                                <div class="stats-item__details__caption">Countries</div>
-                            </div>
-                        </div>
-                        <div class="stats-item">
-                            <span class="stats-item__logo icon-savings"></span>
-                            <div class="stats-item__details">
-                                <div class="stats-item__details__title">Best Price</div>
-                                <div class="stats-item__details__caption">Guaranteed</div>
-                            </div>
-                        </div>
-                        <div class="stats-item">
-                            <span class="stats-item__logo icon-group"></span>
-                            <div class="stats-item__details">
-                                <div class="stats-item__details__title">35 Million+</div>
-                                <div class="stats-item__details__caption">Users Per Year</div>
-                            </div>
-                        </div>
+
+
                     </div>
                 </div>
-            </section>
+            </div>
 
             <section class="escapes">
                 <div class="container">
@@ -260,7 +369,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide02">
+                        <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide02">
                             <div data-href="/tours/overnight-jeep-safari-with-camping-in-jaisalmer" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9829">
                                 <div class="tour-card-v2__banner">
                                     <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -3115,22 +3224,22 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner" style='height:350px;'>
                         <div class="carousel-item active">
-                            <img src="<?php echo base_url().'assets/images/building-one.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
+                            <img src="<?php echo base_url() . 'assets/images/building-one.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="<?php echo base_url().'assets/images/building.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
+                            <img src="<?php echo base_url() . 'assets/images/building.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="<?php echo base_url().'assets/images/one.png'; ?>" class="d-block w-100" style='height:300px' alt="...">
+                            <img src="<?php echo base_url() . 'assets/images/one.png'; ?>" class="d-block w-100" style='height:300px' alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
-                        
+
                     </button>
-                    
-                    <button class="carousel-control-next" type="button" style='margin-top:-20px;'data-bs-target="#carouselExampleControls" data-bs-slide="next">
+
+                    <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -3333,7 +3442,7 @@
                                     </div>
                                 </div>
                             </a>
-                            
+
                             <a target="_blank" href="/cities/mahabaleshwar" class="nearby-destinations__destination">
                                 <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg 2x" src="">
                                 <div class="nearby-destinations__destination-details">
@@ -3347,7 +3456,7 @@
                                 </div>
                             </a>
                             <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/maharashtra">View All</a></div>
-                            
+
                         </div>
                         <div class="nearby-destinations__destinations-grid " id="destination-grid-delhi">
                             <a target="_blank" href="/cities/manali" class="nearby-destinations__destination">
@@ -3434,8 +3543,8 @@
                                     </div>
                                 </div>
                             </a>
-                            <div class="nearby-destinations__destination-details" > <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/delhi">View All</a></div>
-                           
+                            <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/delhi">View All</a></div>
+
                         </div>
                         <div class="nearby-destinations__destinations-grid " id="destination-grid-jaipur">
                             <a target="_blank" href="/cities/jaisalmer" class="nearby-destinations__destination">
@@ -3511,7 +3620,7 @@
                                 </div>
                             </a>
                             <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/rajasthan">View All</a></div>
-                            
+
                         </div>
                         <div class="nearby-destinations__destinations-grid " id="destination-grid-pune">
                             <a target="_blank" href="/cities/mumbai" class="nearby-destinations__destination">
@@ -3599,7 +3708,7 @@
                                 </div>
                             </a>
                             <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/maharashtra">View All</a></div>
-                            
+
                         </div>
                         <div class="nearby-destinations__destinations-grid " id="destination-grid-chandigarh">
                             <a target="_blank" href="/cities/manali" class="nearby-destinations__destination">
@@ -3686,8 +3795,8 @@
                                     </div>
                                 </div>
                             </a>
-                            <div class="nearby-destinations__destination-details" >  <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/punjab">View All</a></div>
-                           
+                            <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/punjab">View All</a></div>
+
                         </div>
                         <div class="nearby-destinations__destinations-grid " id="destination-grid-chennai">
                             <a target="_blank" href="/cities/pondicherry" class="nearby-destinations__destination">
@@ -3775,7 +3884,7 @@
                                 </div>
                             </a>
                             <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/tamil-nadu">View All</a></div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -4120,9 +4229,9 @@
                         </ul>
                     </div>
                 </div>
-                        <div class="container">
-                   <?php include(APPPATH.'inc/footer.php'); ?>
-                   </div>
+                <div class="container">
+                    <?php include(APPPATH . 'inc/footer.php'); ?>
+                </div>
                 <div class="reserved">
                     <div class="container">
                         <span class="caption">© 2021 <a href="/">Thrillophilia.com</a> All rights reserved.</span>
@@ -4134,10 +4243,10 @@
             </footer>
         </div>
     </div>
-    
 
 
-        
+
+
 </body>
 
 </html>

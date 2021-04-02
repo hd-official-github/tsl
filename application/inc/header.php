@@ -12,7 +12,7 @@
 
                             <img src='<?php echo base_url() . 'assets/images/logowhite.png';  ?>' class="colored-logo desktop-hidden abc mobile-header-logo mobwhitelogo">
 
-                            <img src='<?php echo base_url() . 'assets/images/logo.png';  ?>' class="desktop-hidden mobile-header-logo  abc mobblacklogo" style='display:none;'>
+                            <img src='<?php echo base_url() . 'assets/images/logo.png';  ?>' class="desktop-hidden colored-logo mobile-header-logo  abc mobblacklogo" style='display:none;'>
 
                         </a>
                     </strong>

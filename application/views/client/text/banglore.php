@@ -1,4 +1,5 @@
 <?php include(APPPATH . '/inc/head.php') ?>
+<title>Bangluru</title>
 </head>
 
 <body>
@@ -142,7 +143,7 @@
                     <div class='secondary_navbar mx-5 animated bounceInUp'> 
                         
                             <div class='secondary-icon'>
-                            <a href="" class='text-decorate'>
+                            <a href="banglist" class='text-decorate'>
                             <img src="<?php echo base_url().'assets/images/fullbody.png'; ?>" alt="icon" class='image-icon'>
                             <p class='pag'>Full Body Message</p>
                             </a>
@@ -2167,7 +2168,7 @@
                         <div class="generic-info__text">With Thrillophilia Gift Cards</div>
                         <a target="_blank" class="generic-info__btn view-more-btn view-more-btn--lg" href="https://www.thrillophilia.com/go-to-gift-page">Know More</a>
                     </div>
-                    <img class="lazy-image generic-info__image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" srcset="">
+                    <img class="lazy-image generic-info__image lazy-image-loaded limg" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" srcset="">
                     <a class="generic-info__link view-more-link " href="https://www.thrillophilia.com/go-to-gift-page">Know More <span class="icon-right-arrow"></span></a>
                 </div>
             </div>

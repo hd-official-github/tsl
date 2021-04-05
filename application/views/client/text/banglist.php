@@ -2,16 +2,83 @@
 <title>Bangluru list</title>
 </head>
 
-<body style="background-color: #e1e9ec;">
+<body style="background-color: #f1f1f1;">
 
 
-    <?php include(APPPATH . '/inc/header.php'); ?>
+    
+    <header id="header" class='mobpanel' data-scroll-white-nav="true" data-scroll-half-nav="true">
+    <div class="header-base">
+        <div class="top-panel mobpanel">
+            <div class="container">
+                <div class="inner-wrap">
+                    <div href="#" id="header-mobile-nav-opener" class=""><span></span></div>
+                    <strong class="logo">
+                        <a href="">
+                            <img src='<?php echo base_url() . 'assets/images/logowhite.png'; ?>' class="desktop-logo mobile-hidden" style="display:none">
+
+                            <img src='<?php echo base_url() . 'assets/images/logo.png'; ?>' class="desktop-logo mobile-hidden ">
+
+                            <img src='<?php echo base_url() . 'assets/images/logowhite.png';  ?>' class="colored-logo desktop-hidden abc mobile-header-logo showlogo">
+
+                            <img src='<?php echo base_url() . 'assets/images/logo.png';  ?>' class="desktop-hidden colored-logo mobile-header-logo mymoblogo abc">
+
+                        </a>
+                    </strong>
+                    <div class="search-container">
+                        <div href="#" id="header-search-opener" class="desktop-hidden navbar-menu-toggler" data-submenu="adventureExcursionsMobileWrapper" data-menu-loaded="false" data-menu-identifier="adventure_excursions" data-version="mobile">
+                            <span class="icon-search"></span>
+                        </div>
+                        <div class="search-slide">
+                            <div class="inner-form-container">
+                                <form action="/listings/search" method="get" id="global-search-form">
+                                    <fieldset>
+
+                                        <div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;">
+
+                                        </div>
+
+                                    </fieldset>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mobile-nav-drop" class="">
+                    <ul class="mobile-tool-list">
+                        <li class="desktop-hidden"><a href="/" class="main-header-link">Home</a></li>
+                        <li class="divider desktop-hidden"></li>
+                        <li><a href="/go-to-gift-page" class="gift-link main-header-link">
+
+
+                                <span class="text" style='background:#f07c7c; padding:9px; border-radius:10px;  color:white; box-shadow:0px 0px 8px black; display:flex; padding-right:15px;'><i class="far fa-plus-square fa-2x" style="padding-right:10px; text-align:center;"> </i> New Bussiness</span>
+                            </a>
+                        </li>
+                        <li class="divider desktop-hidden"></li>
+                        <li id="header-login-wrap">
+                            <span data-href="/consumers/sign_in" class="main-header-link trigger-login-popup onclick-link">Log In</span>
+                        </li>
+                        <li class="divider desktop-hidden"></li>
+                        <li class="desktop-hidden"><a href="https://thrillophilia.freshdesk.com/support/home" class="main-header-link">Help</a></li>
+                        <!-- <li class="desktop-hidden"><a href="#">FAQs</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
 
     <div class="wrapper-content wrapper-content--ud" infinite-scroll="">
         <div class="wrapper">
 
 
-            <div class='container'>
+            <div class='container breadcrab'>
                 <div class="breadcrumbs-nav">
                     <nav class="fl-row">
                         <a class="text-uppercase text-decoration-none" href="/">Nearbuy</a>
@@ -42,7 +109,7 @@
                                         </div>
                                     </div>
                                 </div>  -->
-            <div class="container">
+            <div class="container lshead">
                 <div class="row">
 
                     <div class="col-sm-4 listheading">Promos and filters
@@ -50,6 +117,13 @@
 
                     <div class="col-sm-8 listheading">Best Spa in Banglore</div>
 
+                </div>
+            </div>
+            <div class="bg-white p-3 chead secondhead" style='margin-top:-20px; width:100%;'>
+                <div class='row'>
+                    <div class="col-sm-12">
+                        <img src="<?php echo base_url().'assets/images/backward.png';?>" class='spainBang'><h3 style="position:relative; left:29px;">Best Spa in Banglore</h3>
+                    </div>
                 </div>
             </div>
             <!-- /////the bottom row  -->
@@ -159,7 +233,7 @@
                         <div class="row fl-row fl-row--wrap fl-row--full-gutter">
                             <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4">
                                 <merchant-list-card pagetype="listing">
-                                    <a class="card-main card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="/delhi-ncr/qi-by-zivaya-spa-hotel-aloft-aerocity-aerocity?merchantId=265556">
+                                    <a class="card-main onvisit card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="bang_details">
                                         <div class="card-main__content card-main__content--lg">
 
                                             <div class="">
@@ -240,7 +314,7 @@
                             </div>
                             <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4">
                                 <merchant-list-card pagetype="listing">
-                                    <a class="card-main card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="/delhi-ncr/qi-by-zivaya-spa-hotel-aloft-aerocity-aerocity?merchantId=265556">
+                                    <a class="card-main onvisit card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="/delhi-ncr/qi-by-zivaya-spa-hotel-aloft-aerocity-aerocity?merchantId=265556">
                                         <div class="card-main__content card-main__content--lg">
 
                                             <div class="">
@@ -321,7 +395,7 @@
                             </div>
                             <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4">
                                 <merchant-list-card pagetype="listing">
-                                    <a class="card-main card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="/delhi-ncr/qi-by-zivaya-spa-hotel-aloft-aerocity-aerocity?merchantId=265556">
+                                    <a class="card-main onvisit card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="/delhi-ncr/qi-by-zivaya-spa-hotel-aloft-aerocity-aerocity?merchantId=265556">
                                         <div class="card-main__content card-main__content--lg">
 
                                             <div class="">
@@ -403,9 +477,9 @@
 
                         <!-- ////second?///// -->
                         
-                        <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4 mt-5">
+                        <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4">
                                 <merchant-list-card pagetype="listing">
-                                    <a class="card-main card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="/delhi-ncr/qi-by-zivaya-spa-hotel-aloft-aerocity-aerocity?merchantId=265556">
+                                    <a class="card-main onvisit card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="/delhi-ncr/qi-by-zivaya-spa-hotel-aloft-aerocity-aerocity?merchantId=265556">
                                         <div class="card-main__content card-main__content--lg">
 
                                             <div class="">
@@ -481,9 +555,9 @@
                                         </div>
                                     </a></merchant-list-card>
                             </div>
-                            <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4 mt-5">
+                            <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4">
                                 <merchant-list-card pagetype="listing">
-                                    <a class="card-main card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="/delhi-ncr/qi-by-zivaya-spa-hotel-aloft-aerocity-aerocity?merchantId=265556">
+                                    <a class="card-main onvisit card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="/delhi-ncr/qi-by-zivaya-spa-hotel-aloft-aerocity-aerocity?merchantId=265556">
                                         <div class="card-main__content card-main__content--lg">
 
                                             <div class="">
@@ -562,9 +636,9 @@
                                         </div>
                                     </a></merchant-list-card>
                             </div>
-                            <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4 mt-5">
+                            <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4">
                                 <merchant-list-card pagetype="listing">
-                                    <a class="card-main card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="/delhi-ncr/qi-by-zivaya-spa-hotel-aloft-aerocity-aerocity?merchantId=265556">
+                                    <a class="card-main onvisit card-main--equal-height cursor-pointer text-decoration-none" same-height="" href="/delhi-ncr/qi-by-zivaya-spa-hotel-aloft-aerocity-aerocity?merchantId=265556">
                                         <div class="card-main__content card-main__content--lg">
 
                                             <div class="">
@@ -685,7 +759,7 @@
                     </merchant-listing-grid>
                     <!---->
                     <div class="text-center">
-                        <button class="view-more-btn--lg view-more-btn" style='position:relative; left:40%; border-radius:100px;' tabindex="0">VIEW ALL OFFERS</button>
+                        <button class="view-more-btn newbtn" tabindex="0">VIEW ALL OFFERS</button>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@
         <div class="top-panel">
             <div class="container">
                 <div class="inner-wrap">
-                    <div href="#" id="header-mobile-nav-opener" class=""><span></span></div>
+                    <div href="#" id="header-mobile-nav-opener" class="" style='background:none;'><span></span></div>
                     <strong class="logo">
                         <a href="">
                             <img src='<?php echo base_url() . 'assets/images/logowhite.png'; ?>' class="desktop-logo mobile-hidden logowhite ">

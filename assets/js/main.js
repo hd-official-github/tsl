@@ -13522,3 +13522,14 @@ function drop() {
 function dropwhat() {
 	$(".ulclsw").toggle();
 }
+
+
+function ques1(){
+	$(".answer1").toggle('slow');
+}
+function ques2(){
+	$(".answer2").toggle('slow');
+}
+function ques3(){
+	$(".answer3").toggle('slow');
+}

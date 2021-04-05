@@ -12,4 +12,7 @@ class Text extends CI_Controller
    public function banglist(){
        $this->load->view('client/text/banglist');
    }
+   public function bang_details(){
+       $this->load->view('client/text/bang_details');
+   }
 }

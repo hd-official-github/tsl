@@ -17,7 +17,7 @@
                         </a>
                     </strong>
                     <div class="search-container">
-                        <div href="#" id="header-search-opener" class="desktop-hidden navbar-menu-toggler" data-submenu="adventureExcursionsMobileWrapper" data-menu-loaded="false" data-menu-identifier="adventure_excursions" data-version="mobile">
+                        <div href="#" id="header-search-opener" class="desktop-hidden navbar-menu-toggler" data-submenu="adventureExcursionsMobileWrapper" data-menu-loaded="false" data-menu-identifier="adventure_excursions" data-version="mobile" >
                             <span class="icon-search"></span>
                         </div>
                         <div class="search-slide">
@@ -43,7 +43,7 @@
                         <li><a href="/go-to-gift-page" class="gift-link main-header-link">
 
 
-                                <span class="text" style='background:#f07c7c; padding:9px; border-radius:10px;  color:white; box-shadow:0px 0px 8px black; display:flex; padding-right:15px;'><i class="far fa-plus-square fa-2x" style="padding-right:10px; text-align:center;"> </i> New Bussiness</span>
+                                <span class="text" style='background:#f07c7c; padding:9px; border-radius:5px;  color:white; box-shadow:0px 0px 8px black; display:flex; padding-right:8px;'><i class="far fa-plus-square fa-2x" style="padding-right:10px; text-align:center;"> </i> New Bussiness</span>
                             </a>
                         </li>
                         <li class="divider desktop-hidden"></li>

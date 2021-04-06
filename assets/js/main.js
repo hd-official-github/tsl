@@ -10376,45 +10376,41 @@ $(document).ready(function () {
 	}
 	function n() {
 		o.find(".search-wrap__input-bar").typeahead("destroy"),
-			o
-				.find(".search-wrap__input-bar")
-				.typeahead(
-					{ highlight: !0 },
-					{
-						name: "destination_suggestions",
-						displayKey: "name",
-						source: a,
-						limit: 20,
-					},
-					{
-						name: "sub_categories",
-						displayKey: "name",
-						source: l,
-						limit: 10,
-						templates: { header: '<h3 class="search-title">Tags</h3>' },
-					},
-					{
-						name: "tours",
-						displayKey: "name",
-						limit: 10,
-						source: c,
-						templates: { header: '<h3 class="search-title">Tours</h3>' },
-					}
-				);
+			o.find(".search-wrap__input-bar").typeahead(
+				{ highlight: !0 },
+				{
+					name: "destination_suggestions",
+					displayKey: "name",
+					source: a,
+					limit: 20,
+				},
+				{
+					name: "sub_categories",
+					displayKey: "name",
+					source: l,
+					limit: 10,
+					templates: { header: '<h3 class="search-title">Tags</h3>' },
+				},
+				{
+					name: "tours",
+					displayKey: "name",
+					limit: 10,
+					source: c,
+					templates: { header: '<h3 class="search-title">Tours</h3>' },
+				}
+			);
 	}
 	function i(e) {
 		o.find(".search-wrap__input-bar").typeahead("destroy"),
-			o
-				.find(".search-wrap__input-bar")
-				.typeahead(
-					{ highlight: !0 },
-					{
-						name: "tour_type_search",
-						displayKey: "name",
-						source: t(e),
-						limit: 10,
-					}
-				);
+			o.find(".search-wrap__input-bar").typeahead(
+				{ highlight: !0 },
+				{
+					name: "tour_type_search",
+					displayKey: "name",
+					source: t(e),
+					limit: 10,
+				}
+			);
 	}
 	var o = $("#home-banner-search"),
 		r = o.find(".search-wrap__tags-bar"),
@@ -10478,7 +10474,7 @@ $(".hp-show-more").click(function () {
 	$(window).click(function (e) {
 		$(e.target).hasClass("nearby-destinations__dropdown") ||
 			$(e.target).hasClass("trigger-destinations-dropdown");
-			// dropdown.classList.remove("visible");
+		// dropdown.classList.remove("visible");
 	}),
 	$(function () {
 		initSlick();
@@ -13523,13 +13519,17 @@ function dropwhat() {
 	$(".ulclsw").toggle();
 }
 
+function ques1() {
+	$(".answer1").toggle("slow");
+}
+function ques2() {
+	$(".answer2").toggle("slow");
+}
+function ques3() {
+	$(".answer3").toggle("slow");
+}
+function getreview() {
+	$(".review").slideToggle();
+}
 
-function ques1(){
-	$(".answer1").toggle('slow');
-}
-function ques2(){
-	$(".answer2").toggle('slow');
-}
-function ques3(){
-	$(".answer3").toggle('slow');
-}
+

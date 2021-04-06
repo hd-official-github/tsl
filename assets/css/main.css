@@ -8233,6 +8233,7 @@ form .base-block-head:before {
 #home-banner-search .search-wrap__input-wrap .tt-hint {
 	color: #505050;
 }
+
 #home-banner-search .twitter-typeahead {
 	display: block !important;
 }
@@ -15137,8 +15138,8 @@ h2.anchor {
 	background: #f07c7c;
 }
 .view-more-btn:hover {
-	color: #ff5300;
-	border: 2px solid #ff5300;
+	color: #f07c7c;
+	border: 2px solid #f07c7c;
 	background-color: #fff;
 }
 .tours-app {
@@ -15625,7 +15626,7 @@ h2.anchor {
 }
 .footer-list a:hover,
 .footer-list .footer-link:hover {
-	color: #ff5300;
+	color: #f07c7c;
 	font-weight: 700;
 }
 #sticky-nav-list-container {
@@ -22010,6 +22011,7 @@ display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical
 .question{
 	font-weight:400;
 	font-size:2rem;
+	padding-top:10px;
 }
 .answer{
 	font-size: 13px;
@@ -22036,10 +22038,46 @@ display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical
 	display: inline-block;
 	position: relative;
 	top:2px;
+	padding:5px;
 }
 
 @media (min-width:1024px){
 	.setcont{
 		width:550px;
 	}
+}
+.loc_map{
+	height:300px;
+	width:auto;
+}
+.review-btn{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.titleof_review{
+	font-size: 16px;
+}
+.font-size-review{
+	font-size:14px;
+}
+.date{
+	font-size: 18px;
+	position: relative;
+	top: 5px;
+	font-weight: 700 !important;
+	display: inline-block;
+}
+@media (max-width:1023px){
+	.card-info{
+		position: relative;
+		top:322px;
+	}
+	.card-carousel{
+		position: relative;
+		top:-322px;
+	}
+}
+.fontcovid{
+	font-size:15px;
+	letter-spacing: 1px;
 }

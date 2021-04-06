@@ -51,12 +51,12 @@
                         <li><a href="/go-to-gift-page" class="gift-link main-header-link">
 
 
-                                <span class="text" style='background:#f07c7c; padding:9px; border-radius:10px;  color:white; box-shadow:0px 0px 8px black; display:flex; padding-right:15px;'><i class="far fa-plus-square fa-2x" style="padding-right:10px; text-align:center;"> </i> New Bussiness</span>
+                                <span class="text" style='background:#f07c7c; padding:9px; border-radius:5px;  color:white; box-shadow:0px 0px 8px black; display:flex; padding-right:9px;'><i class="far fa-plus-square fa-2x" style="padding-right:10px; text-align:center;"> </i> New Bussiness</span>
                             </a>
                         </li>
                         <li class="divider desktop-hidden"></li>
                         <li id="header-login-wrap">
-                            <span data-href="/consumers/sign_in" class="main-header-link trigger-login-popup onclick-link">Log In</span>
+                            <span data-href="/consumers/sign_in" class="main-header-link trigger-login-popup onclick-link" style='color:black'>Log In</span>
                         </li>
                         <li class="divider desktop-hidden"></li>
                         <li class="desktop-hidden"><a href="https://thrillophilia.freshdesk.com/support/home" class="main-header-link">Help</a></li>

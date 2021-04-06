@@ -22076,6 +22076,9 @@ display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical
 		position: relative;
 		top:-322px;
 	}
+	.setheight{
+		height: 426px;
+	}
 }
 .fontcovid{
 	font-size:15px;

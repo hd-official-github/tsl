@@ -346,15 +346,15 @@
                         </div>
 
                         <div class="col-sm-6 mt-3">
-                            <div class="container bg-white" style='border-radius:5px; height:auto;'>
+                            <div class="container bg-white setheight" style='border-radius:5px;'>
 
-                                <div class='row p-4'>
-                                    <h2 class='font-weight-bold'>Contact us</h2>
-                                    <div class='col-sm-1'>
+                                <div class='row p-4' style='height:319px;'>
+                                    <h2 class='font-weight-bold' style='font-size:x-large; margin-bottom:5px;'>Contact us</h2>
+                                    <div class='col-sm-1 mt-3'>
                                         <img src="<?php echo base_url() . 'assets/images/location.png'; ?>" style='height:30px; width:32px;'>
 
                                     </div>
-                                    <div class='col-sm-11'><span style='font-size:13px; text-align:justify;'>Yas Mall, Ground Level, adjacent to Ferrari World Entrance, Abu Dhabi 51133 United Arab Emirates</span>
+                                    <div class='col-sm-11 mt-3'><span style='font-size:13px; text-align:justify;'>Yas Mall, Ground Level, adjacent to Ferrari World Entrance, Abu Dhabi 51133 United Arab Emirates</span>
                                     </div>
 
 
@@ -393,14 +393,14 @@
                                         <div class='col-sm-11 mt-1'><span style='font-size:13px; text-align:justify;'>Phone: 99998888777</span>
                                         </div>
                                     </div>
-                                    <div class="row mt-4">
+                                    <!-- <div class="row mt-4">
                                         <div class='col-sm-1'>
                                             <img src="<?php echo base_url() . 'assets/images/mail.png'; ?>" style='height:30px; width:32px;'>
                                         </div>
 
                                         <div class='col-sm-11'><span style='font-size:13px; text-align:justify;'>Email: abc123@fake.com</span>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
 

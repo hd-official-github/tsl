@@ -1,4 +1,5 @@
 <!-- Intro banner section -->
+</div>
 <div class="banner-section-container">
     <picture class="bg-image">
         <source srcset="" media="(min-width: 1280px)">
@@ -543,7 +544,7 @@
         </div>
     </div>
 </section>
-
+</div>
 <footer id="footer" class="footer ">
     <div class="container">
         <div class="pre-footer">

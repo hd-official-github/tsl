@@ -287,33 +287,35 @@
                     </div>
                 </div>
                 <!-- First review -->
-                <div class="container bg-white mt-2 p-2" style='border-radius:5px;'>
-                        <div class="row" style='margin-left:144px'>
-                    <?php foreach ($review->result() as $row) { ?>
+                <div class="container bg-white mt-5 p-2" style='border-radius:5px;'>
+                    <div class="row showinline" style='margin-left:144px;'>
+                        <?php foreach ($review->result() as $row) { ?>
 
-                            <div class="col-sm-5 p-4" style='box-shadow:0px 0px 5px black; border-radius:5px; margin-bottom:30px;'>
+                            <div class="col-sm-5 p-4" style='box-shadow:0px 0px 5px black; border-radius:5px; margin-bottom:30px; margin-top: 15px;'>
                                 <!-- <div class="col-sm-12"> -->
-                                <div class="col-sm-6">
-                                    <img src="<?php echo base_url() . 'assets/images/shop-1.jpg'; ?>" class='img img-responsive' alt="" style='border-radius:100%; height:60px; width:63px;'>
+                                <div class="col-sm-12 text-center" style="position: relative; top:-53px">
+                                    <img src="<?php echo base_url() . 'assets/images/shop-1.jpg'; ?>" class='img img-responsive' alt="" style='border-radius:100%; height:80px; width:80px;'>
                                 </div>
-                                <div class="col-sm-11">
-                                    <div class='font-weight-semibold white-space-normal' style='font-size:22px;'><?php echo $row->name; ?>
+                                <div style='position:relative; top:-40px;'>
+                                    <div class="col-sm-12 mt-0" style="margin-left:-16px;">
+                                        <div class='font-weight-semibold white-space-normal' style='font-size:22px; margin:0px;'><?php echo $row->name; ?>
+                                        </div>
                                     </div>
-                                </div>
-                                <div style='margin-top:10px;'><img src="<?php echo base_url() . 'assets/images/sl_icon.png'; ?>" class='card-rating__nb' style="margin-left: 0px;" alt=""> <span style='font-size:small; font-weight:500;'><?php echo $row->rating; ?></span> </div>
-                                <div class="actual_review txt-primary white-space-normal text-overview" style='text-align:justify;'>
-                                    <?php echo $row->review_text; ?>
-                                </div>
-                                <div>
-                                    <div class="date">Date of post:</div><span style='position: relative;top: 5px;left: 8px; font-size:small'><?php echo $row->created_at; ?></span>
+                                    <div style='margin-top:10px;'><img src="<?php echo base_url() . 'assets/images/sl_icon.png'; ?>" class='card-rating__nb' style="margin-left: 0px;" alt=""> <span style='font-size:small; font-weight:500;'><?php echo $row->rating; ?></span> </div>
+                                    <div class="actual_review  mt-3 txt-primary white-space-normal text-overview" style='text-align:justify;'>
+                                        <?php echo $row->review_text; ?>
+                                    </div>
+                                    <div>
+                                        <div class="date">Date of post:</div><span style='position: relative;top: 5px;left: 8px; font-size:small'><?php echo $row->created_at; ?></span>
+                                    </div>
                                 </div>
                                 <!-- </div> -->
                             </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <?php } ?>
-                        </div>
-                       
+                        <?php } ?>
+                    </div>
+
                 </div>
-           
+
 
 
             </div>

@@ -21413,6 +21413,7 @@ textarea {
 	-webkit-box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 18%);
 	box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 18%);
 }
+
 .form-search-ajax {
 	max-height: 248px;
 	overflow: auto;
@@ -21882,7 +21883,7 @@ display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical
 			overflow: scroll;
 			white-space: nowrap;
 		}
-	
+		
 		
 	}
 	.spainBang{
@@ -21895,6 +21896,7 @@ display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical
 		.chead{
 			display: none;
 		}
+		
 		
 	}
 	/* .fl-column{

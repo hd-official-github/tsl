@@ -8598,7 +8598,7 @@ form .base-block-head:before {
 }
 @media (min-width: 1024px) {
 	.luxury-experiences__grid-item {
-		width: 128px;
+		/* width: 0px; */
 	}
 	.luxury-experiences__grid-item:not(:nth-child(3n-2)) {
 		margin-top: 18px;

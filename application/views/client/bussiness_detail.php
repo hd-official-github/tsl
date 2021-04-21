@@ -293,7 +293,7 @@
 
                             <div class="col-sm-5 p-4" style='box-shadow:0px 0px 5px black; border-radius:5px; margin-bottom:30px;'>
                                 <!-- <div class="col-sm-12"> -->
-                                <div class="col-sm-1">
+                                <div class="col-sm-6">
                                     <img src="<?php echo base_url() . 'assets/images/shop-1.jpg'; ?>" class='img img-responsive' alt="" style='border-radius:100%; height:60px; width:63px;'>
                                 </div>
                                 <div class="col-sm-11">

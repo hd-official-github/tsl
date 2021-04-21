@@ -3820,7 +3820,7 @@
                         <div class="travel-news__info">20 SEP 2020 • 1 MIN READ</div>
                     </div>
                 </a>
-                <a target="_blank" href="https://news.thrillophilia.com/" class="travel-news-section__list-item travel-news-section__list-item--view-more view-more-link">See All Articles <span class="icon-right-arrow"></span></a>
+                <a target="_blank" href="" class="travel-news-section__list-item text-decoration-none travel-news-section__list-item--view-more view-more-link">See All Articles <span class="icon-right-arrow"></span></a>
             </div>
             <a target="_blank" href="https://news.thrillophilia.com/heartening-to-note-that-post-covid-people-plan-to-travel-twice-of-what-they-did-previously-rupinder-brar-adg-ministry-of-tourism-survey-by-thrillophilia/" class="travel-news-section__featured">
                 <img class="lazy-image travel-news-section__featured-image lazy-image-loaded" sizes="100vw" data-src="https://news.thrillophilia.com/content/images/2021/03/0--6-.jpeg" data-srcset="" src="https://news.thrillophilia.com/content/images/2021/03/0--6-.jpeg" srcset="">
@@ -3850,7 +3850,7 @@
         <div class="generic-info__details">
             <div class="generic-info__title">Gift an Experience</div>
             <div class="generic-info__text">With Thrillophilia Gift Cards</div>
-            <a target="_blank" class="generic-info__btn view-more-btn view-more-btn--lg" href="https://www.thrillophilia.com/go-to-gift-page">Know More</a>
+            <a target="_blank" class="generic-info__btn view-more-btn view-more-btn--lg" href="">Know More</a>
         </div>
         <img class="lazy-image generic-info__image lazy-image-loaded limg" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" srcset="">
         

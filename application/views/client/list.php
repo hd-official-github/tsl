@@ -72,7 +72,7 @@
                 <div class="col-sm-4 filter">
 
                     <promo-slider>
-                        <div class="position-relative  promo-slider-wrapper mt-3" style='box-shadow:0px 4px 5px silver; border-radius:5px;'>
+                        <div class="position-relative card-main  promo-slider-wrapper mt-3" style='border-radius:5px;'>
 
                             <div class="all-promo-wrapper">
                                 <div class="promo-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0.6s;">
@@ -174,7 +174,7 @@
                             <?php foreach ($sub_cat->result() as $row) { ?>
                                 <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4 mt-3">
                                     <merchant-list-card pagetype="listing">
-                                        <a href="<?php echo base_url().$row->location;?>/detail/<?php echo str_replace(" ","-",$row->business_name); ?>" class="card-main onvisit card-main--equal-height w-100 cursor-pointer text-decoration-none" same-height="" href="bang_details"  value="" style='border:1px solid black'>
+                                        <a href="<?php echo base_url().$row->location;?>/detail/<?php echo str_replace(" ","-",$row->business_name); ?>" class="card-main onvisit card-main--equal-height w-100 cursor-pointer text-decoration-none" same-height="" href="bang_details"  value="">
                                             <div class="card-main__content card-main__content--lg">
 
                                                 <div class="">
@@ -183,7 +183,7 @@
                                                         <!---->
                                                         <merchant-rating>
                                                             <!---->
-                                                            <div class="margin-right-s card-rating__listing">
+                                                            <div class="margin-right-s mt-3 card-rating__listing">
                                                                 <div class="card-rating margin-bottom-zero nb--4-5">
                                                                     <!----><img alt="nb" class="card-rating__nb" height="10" src="<?php echo base_url() . 'assets/images/sl_icon.png'; ?>" data-lzled="true">
                                                                     <!---->
@@ -192,22 +192,22 @@
                                                                 </div>
                                                             </div>
 
-                                                            <!---->
+                                                           
                                                         </merchant-rating>
                                                     </div>
 
-                                                    <div class="fl-column">
-                                                        <!---->
+                                                    <div class="fl-column" style='padding:8px;'>
+                                                       
                                                         <h2 class="card-main__heading margin-top-s ">
                                                             <?php echo  $row->business_name; ?>
-                                                            <!---->
+                                                            
                                                             <span class="card-main__value line-height-xs display-inline-block font-weight-regular display-block margin-top-xs" style='margin-left:5px;'>
-                                                                <!---->
+                                                               
                                                                 <?php echo $row->about; ?>
                                                             </span>
-                                                            <!---->
+                                                           
                                                         </h2>
-                                                        <!---->
+                                                       
 
                                                     </div>
 
@@ -215,14 +215,14 @@
 
 
 
-                                                <div class="card-list margin-top-s">
+                                                <div class="card-list margin-top-s" style='padding:8px; margin-top: -12px;'>
 
                                                     <div class="card-main cm">
 
                                                         <div class="fl-row fl-row--middle fl-row--start margin-bottom-xs" style='display:flex; align-items:baseline;'>
                                                             <p class="tag tag--delight tag--small white-space-nowrap txt-uppercase margin-bottom-zero line-height-default bg-delight-1">Deals</p>
 
-                                                            <p class="card-main__value txt-primary line-height-primary font-weight-semibold">
+                                                            <p class="card-main__value txt-primary line-height-primary font-weight-semibold" style='position:relative; left:-18px;'>
                                                                 Massage Offer
 
                                                                 from
@@ -231,7 +231,7 @@
                                                             </p>
                                                         </div>
 
-                                                        <!---->
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -315,7 +315,7 @@
                                 <?php foreach ($catloc->result() as $row) { ?>
                                     <div class="col-xs-12 col-s-12 col-m-6 col-l-4 col-sm-4 mt-3">
                                         <merchant-list-card pagetype="listing">
-                                            <a href="<?php echo base_url().$row->location;?>/detail/<?php echo str_replace(" ","-",$row->business_name); ?>" class="card-main onvisit card-main--equal-height     cursor-pointer  text-decoration-none" style='border:1px solid black;'>
+                                            <a href="<?php echo base_url().$row->location;?>/detail/<?php echo str_replace(" ","-",$row->business_name); ?>" class="card-main onvisit card-main--equal-height     cursor-pointer  text-decoration-none" >
                                                 <div class="card-main__content card-main__content--lg">
 
                                                     <div class="">
@@ -325,7 +325,7 @@
                                                             <merchant-rating>
                                                                 <!---->
                                                                 <div class="margin-right-s card-rating__listing">
-                                                                    <div class="card-rating margin-bottom-zero nb--4-5">
+                                                                    <div class="card-rating mt-3 margin-bottom-zero nb--4-5">
                                                                         <!----><img alt="nb" class="card-rating__nb" height="10" src="<?php echo base_url() . 'assets/images/sl_icon.png'; ?>" data-lzled="true">
                                                                 
                                                                         <span class="card-rating__img"></span>
@@ -337,11 +337,11 @@
                                                             </merchant-rating>
                                                         </div>
 
-                                                        <div class="fl-column">
-                                                            <!---->
+                                                        <div class="fl-column" style='padding:8px;'>
+                                                     
                                                             <h2 class="card-main__heading margin-top-s ">
                                                                 <?php echo  $row->business_name; ?>
-                                                                <!---->
+                                                               
                                                                 <span class="card-main__value line-height-xs display-inline-block font-weight-regular display-block margin-top-xs" style='margin-left:5px;'>
                                                                     <!---->
                                                                     <?php echo $row->about; ?>
@@ -360,10 +360,10 @@
 
                                                         <div class="card-main cm">
 
-                                                            <div class="fl-row fl-row--middle fl-row--start margin-bottom-xs" style='display:flex; align-items:baseline;'>
+                                                            <div class="fl-row fl-row--middle fl-row--start margin-bottom-xs" style='display:flex; padding:8px; margin-top:-12px; align-items:baseline;'>
                                                                 <p class="tag tag--delight tag--small white-space-nowrap txt-uppercase margin-bottom-zero line-height-default bg-delight-1" >Deals</p>
 
-                                                                <p class="card-main__value txt-primary line-height-primary font-weight-semibold">
+                                                                <p class="card-main__value txt-primary line-height-primary font-weight-semibold" style='position:relative; left:-18px;'>
                                                                     Massage Offer
 
                                                                     from

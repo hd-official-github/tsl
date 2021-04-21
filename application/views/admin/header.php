@@ -17,6 +17,7 @@
             }
         });
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <link href="https://uploads-ssl.webflow.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="https://uploads-ssl.webflow.com/img/webclip.png" rel="apple-touch-icon" />
@@ -40,4 +41,11 @@
             </a><a href="<?php echo base_url() ?>admin/list" class="nav-block w-inline-block"><img src="<?php echo base_url() ?>assets/images/dash.png" loading="lazy" width="66" sizes="(max-width: 479px) 14vw, 66px" alt="" />
                 <p class="paragraph-4">LISTING BUSINESS</p>
             </a>
+            <a href="<?php echo base_url() ?>admin/add_features" class="nav-block w-inline-block"><img src="<?php echo base_url() ?>assets/images/dash.png" loading="lazy" width="66" sizes="(max-width: 479px) 14vw, 66px" alt="" />
+                <p class="paragraph-4">ADD FEATURES</p>
+            </a>
+            <a href="<?php echo base_url() ?>admin/add_banners" class="nav-block w-inline-block"><img src="<?php echo base_url() ?>assets/images/dash.png" loading="lazy" width="66" sizes="(max-width: 479px) 14vw, 66px" alt="" />
+                <p class="paragraph-4">ADD BANNERS</p>
+            </a>
+            
         </div>

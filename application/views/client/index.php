@@ -1,3826 +1,4119 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TSL</title>
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/style.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/home.css">
+           
 
-    <script src="<?php echo base_url() ?>assets/styles/cdn-cgi/apps/head/2oc_RD5SS6wgN5SiQnSEnWVNHg8.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/styles/vendors/font-awesome/css/fontawesome.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/styles/vendors/magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/styles/vendors/slick/slick.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/styles/vendors/animate.css">
-
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/styles/style.css">
-</head>
-
-<body>
-
-    <div id="site-wrapper" class="site-wrapper home-main">
-
-        <header id="header" class="main-header header-sticky header-sticky-smart header-style-01 header-float text-uppercase">
-            <div class="header-wrapper sticky-area">
-                <div class="container container-1720">
-                    <nav class="navbar navbar-expand-xl">
-                        <div class="header-mobile d-flex d-xl-none flex-fill justify-content-between align-items-center">
-                            <div class="navbar-toggler toggle-icon" data-toggle="collapse" data-target="#navbar-main-menu">
-                                <span></span>
-                            </div>
-                            <a class="navbar-brand navbar-brand-mobile" href="index.html">
-                                <img src="<?php echo base_url() ?>assets/styles/images/logo.png" alt="TheDir">
-                            </a>
-                            <a class="mobile-button-search" href="#search-popup" data-gtf-mfp="true" data-mfp-options='{"type":"inline","mainClass":"mfp-move-from-top mfp-align-top search-popup-bg","closeOnBgClick":false,"showCloseBtn":false}'><i class="far fa-search"></i></a>
-                        </div>
-                        <div class="collapse navbar-collapse" id="navbar-main-menu">
-                            <a class="navbar-brand d-none d-xl-block mr-auto" href="index.html">
-                                <img src="<?php echo base_url() ?>assets/images/logo.png" alt="TheDir">
-                            </a>
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Demos <span class="caret"><i class="fas fa-angle-down"></i></span></a>
-                                    <ul class="sub-menu x-animated x-fadeInUp">
-                                        <li class="nav-item"><a class="nav-link" href="index.html">main</a>
-                                        </li>
-                                        <li class="nav-item"><a class="nav-link" href="demo/automotive-service/home-automotive-services.html">
-                                                automotive service</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="demo/food-and-restaurant/home-food-and-restaurant.html">
-                                                food and restaurant</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="demo/health-and-medical/home-health-and-medical.html">
-                                                health and medical</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="demo/hotel/home-hotels.html">hotel</a>
-                                        </li>
-                                        <li class="nav-item"><a class="nav-link" href="demo/job/home-jobs.html">jobs</a>
-                                        </li>
-                                        <li class="nav-item"><a class="nav-link" href="demo/service-finder/home-services-finder.html">
-                                                service finder</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="demo/shopping/home-shopping.html">
-                                                shopping</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Element<span class="caret"><i class="fas fa-angle-down"></i></span></a>
-                                    <div class="sub-menu x-menu-mega x-animated x-fadeInUp width-800">
-                                        <div class="container">
-                                            <div class="row w-100">
-                                                <div class="col-lg-4">
-                                                    <h5>Group 01</h5>
-                                                    <ul class="mega-menu-col">
-                                                        <li class="nav-item"><a class="nav-link" href="elements/button.html">Buttons</a>
-                                                        </li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/social-icons.html">Socical
-                                                                icon</a></li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/client-logo.html">Client
-                                                                logo</a></li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/counter.html">Counter</a>
-                                                        </li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/cta.html">CTA</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <h5>Group 02</h5>
-                                                    <ul class="mega-menu-col">
-                                                        <li class="nav-item"><a class="nav-link" href="elements/heading.html">Heading</a>
-                                                        </li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/icon-box.html">Icon
-                                                                box</a></li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/image-box.html">Image
-                                                                box</a></li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/listing.html">Listing</a>
-                                                        </li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/post.html">Post</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <h5>Group 03</h5>
-                                                    <ul class="mega-menu-col">
-                                                        <li class="nav-item"><a class="nav-link" href="elements/store.html">Store</a>
-                                                        </li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/tab.html">Tab</a>
-                                                        </li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/table-listing.html">Table
-                                                                listing</a></li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/testimonial.html">Testimonial</a>
-                                                        </li>
-                                                        <li class="nav-item"><a class="nav-link" href="elements/widget.html">Widget</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Pages
-                                        <span class="caret"><i class="fas fa-angle-down"></i></span>
-                                    </a>
-                                    <ul class="sub-menu x-animated x-fadeInUp">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Shop <span class="caret"><i class="fas fa-angle-down"></i></span></a>
-                                            <ul class="sub-menu x-animated x-fadeInUp">
-                                                <li class="nav-item"><a class="nav-link" href="shop-listing.html">Shop
-                                                        listing</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="shop-checkout.html">Shop
-                                                        checkout</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="shop-my-account.html">Shop
-                                                        my account</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="shop-shopping-cart.html">Shop
-                                                        shopping cart</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="shop-single-product.html">Shop single
-                                                        product</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Panel <span class="caret"><i class="fas fa-angle-down"></i></span></a>
-                                            <ul class="sub-menu x-animated x-fadeInUp">
-                                                <li class="nav-item"><a class="nav-link" href="panel-dashboard.html">
-                                                        dashboard</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="panel-ad-campaigns-active.html">
-                                                        ad campaigns active</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="panel-ad-campaigns-start-new.html">
-                                                        ad campaign start new</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="panel-invoice-details.html">
-                                                        invoice details</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="panel-invoice-listing.html">
-                                                        invoice listing</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="panel-my-favourite.html"> my
-                                                        favourite</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="panel-my-listing.html"> my
-                                                        listing</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="panel-my-profile.html"> my
-                                                        profile</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="panel-package.html">
-                                                        package</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="panel-review-received.html">
-                                                        review received</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="panel-review-submitted.html">
-                                                        review submitted</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Other pages <span class="caret"><i class="fas fa-angle-down"></i></span></a>
-                                            <div class="sub-menu x-menu-mega x-animated x-fadeInUp">
-                                                <div class="container">
-                                                    <div class="row w-100">
-                                                        <div class="col-lg-6">
-                                                            <ul class="mega-menu-col">
-                                                                <li class="nav-item"><a class="nav-link" href="page-404.html">
-                                                                        404</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="page-about.html">
-                                                                        about</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="page-coming-soon.html">
-                                                                        comming soon</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="page-contact.html">
-                                                                        contact</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="page-faqs.html">
-                                                                        faqs</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="page-how-it-work.html">
-                                                                        how it work</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="page-pricing-plan.html">
-                                                                        pricing plan</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-lg-6">
-                                                            <ul class="mega-menu-col">
-                                                                <li class="nav-item"><a class="nav-link" href="page-privacy-policy.html">
-                                                                        privacy
-                                                                        policy</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="page-submit-listing.html">submit
-                                                                        listing</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="page-terms-and-condition.html">Term
-                                                                        and condition</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="page-typography.html">
-                                                                        typography</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="page-common-elements.html">
-                                                                        Common elements</a></li>
-                                                                <li class="nav-item"><a class="nav-link" href="page-under-construction.html">
-                                                                        under
-                                                                        construction</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Explore<span class="caret"><i class="fas fa-angle-down"></i></span></a>
-                                    <ul class="sub-menu x-animated x-fadeInUp">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#"> layout
-                                                <span class="caret"><i class="fas fa-angle-down"></i></span>
-                                            </a>
-                                            <ul class="sub-menu x-animated x-fadeInUp">
-                                                <li class="nav-item"><a class="nav-link" href="explore-full-map-grid.html"> full
-                                                        map grid</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="explore-full-map-list.html"> full
-                                                        map list</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="explore-half-map-grid.html"> half
-                                                        map grid</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="explore-half-map-list.html"> half
-                                                        map list</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="explore-sidebar-grid.html"> sidebar
-                                                        grid</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="explore-sidebar-list.html"> sidebar
-                                                        list</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Listing details
-                                                <span class="caret"><i class="fas fa-angle-down"></i></span>
-                                            </a>
-                                            <ul class="sub-menu x-animated x-fadeInUp">
-                                                <li class="nav-item"><a class="nav-link" href="listing-details-full-gallery.html">
-                                                        full gallery</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="listing-details-full-image.html">
-                                                        full image</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="listing-details-full-map.html">
-                                                        full map</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="listing-details-gallery.html">gallery</a>
-                                                </li>
-                                                <li class="nav-item"><a class="nav-link" href="listing-details-image.html"> image</a>
-                                                </li>
-                                                <li class="nav-item"><a class="nav-link" href="listing-details-no-image.html"> no
-                                                        image</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog <span class="caret"><i class="fas fa-angle-down"></i></span></a>
-                                    <ul class="sub-menu x-animated x-fadeInUp">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Blog layout<span class="caret"><i class="fas fa-angle-down"></i></span></a>
-                                            <ul class="sub-menu x-animated x-fadeInUp">
-                                                <li class="nav-item"><a class="nav-link" href="blog-listing-grid.html">
-                                                        grid</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="blog-listing-large-image.html">
-                                                        large image</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="blog-listing-with-sidebar.html">
-                                                        with sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Post
-                                                <span class="caret"><i class="fas fa-angle-down"></i></span>
-                                            </a>
-                                            <ul class="sub-menu x-animated x-fadeInUp">
-                                                <li class="nav-item"><a class="nav-link" href="blog-single-audio.html">
-                                                        audio</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="blog-single-gallery.html">
-                                                        gallery</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="blog-single-image.html">
-                                                        image</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="blog-single-video.html">video</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Docs <span class="caret"><i class="fas fa-angle-down"></i></span></a>
-                                    <ul class="sub-menu x-animated x-fadeInUp">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="document/introduction.html">Documentation</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="starter/introduction.html">Get started
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <div class="header-customize justify-content-end align-items-center d-none d-xl-flex">
-                                <div class="header-customize-item">
-                                    <a href="#login-popup" class="link" data-gtf-mfp="true" data-mfp-options='{"type":"inline"}'>
-                                        <svg class="icon icon-user-circle-o">
-                                            <use xlink:href="#icon-user-circle-o"></use>
-                                        </svg>
-                                        Log in</a>
-                                </div>
-                                <div class="header-customize-item button">
-                                    <a href="page-submit-listing.html" class="btn btn-primary btn-icon-right">Add
-                                        Listing
-                                        <i class="far fa-angle-right"></i></a>
+            <!-- Intro banner section -->
+            <section class="section__intro">
+                <div class="container">
+                    <div class="section__intro__main intro-heading">
+                        <div class="intro-heading__title">
+                            <div class="intro-heading__base">It's time for new</div>
+                            <div class="intro-heading__animated">
+                                <div class="intro-heading__animation-window">
+                                    <div class="intro-heading__animated-item">Experiences</div>
+                                    <div class="intro-heading__animated-item">Adventures</div>
+                                    <div class="intro-heading__animated-item">Escapes</div>
+                                    <div class="intro-heading__animated-item">Thrills</div>
+                                    <div class="intro-heading__animated-item">Experiences</div>
                                 </div>
                             </div>
                         </div>
-                    </nav>
-                </div>
-            </div>
-        </header>
+                        <div class="intro-heading__search-wrap" id="home-banner-search">
+                            <div class="search-wrap__tags-bar mobile-hidden">
 
+                                <button class="tags-bar__tag " id='overto' data-tab-name="activities">
+                                    <span class="tag-icon icon-boat-white "></span>Spa
+                                </button>
+                                <button class="tags-bar__tag" data-tab-name="tours">
+                                    <span class="tag-icon icon-traveler-white"></span>Massage
+                                </button>
 
-
-        <div class="content-wrap">
-
-            <section id="section-01" class="home-main-intro">
-                <div class="home-main-intro-container">
-                    <div class="container">
-                        <div class="heading mb-9">
-                            <h1 class="mb-7">
-                                <span class="d-block" data-animate="slideInLeft">Discover</span>
-                                <span class="font-weight-light d-block" data-animate="fadeInRight">your amazing city</span>
-                            </h1>
-                            <p class="h5 font-weight-normal text-secondary mb-0" data-animate="fadeInDown">
-                                Find great places to stay, eat, shop, or visit from local experts.
-                            </p>
-                        </div>
-                        <div class="form-search form-search-style-02 pb-9" data-animate="fadeInDown">
-                            <form>
-                                <div class="row align-items-end no-gutters">
-                                    <div class="col-xl-6 mb-4 mb-xl-0 py-3 px-4 bg-white border-right position-relative rounded-left form-search-item">
-                                        <label for="key-word" class="font-size-md font-weight-semibold text-dark mb-0 lh-1">What</label>
-                                        <div class="input-group dropdown show">
-                                            <input type="text" autocomplete="off" id="key-word" name="key-word" class="form-control form-control-mini border-0 px-0 bg-transparent" placeholder="Ex: food, service, barber, hotel" data-toggle="dropdown" aria-haspopup="true">
-                                            <a href="#" class="input-group-append text-decoration-none" data-toggle="dropdown">
-                                                <i class="fal fa-chevron-down"></i>
-                                            </a>
-                                            <ul class="dropdown-menu form-search-ajax" aria-labelledby="key-word">
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span class="font-size-md">Foods & Restaurants</span>
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        <svg class="icon icon-bed">
-                                                            <use xlink:href="#icon-bed"></use>
-                                                        </svg>
-                                                        <span class="font-size-md">Hotels & Resorts</span>
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        <svg class="icon icon-pharmaceutical">
-                                                            <use xlink:href="#icon-pharmaceutical"></use>
-                                                        </svg>
-                                                        <span class="font-size-md">Healths & Medicals</span>
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        <svg class="icon icon-cog">
-                                                            <use xlink:href="#icon-cog"></use>
-                                                        </svg>
-                                                        <span class="font-size-md">Services</span>
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        <svg class="icon icon-car">
-                                                            <use xlink:href="#icon-car"></use>
-                                                        </svg>
-                                                        <span class="font-size-md">Automotive</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                            </div>
+                            <form action="" method="get" class="search-wrap__input-wrap">
+                                <span class="twitter-typeahead" style="position: relative; display: inline-block;">
+                                    <input type="text" class="search-wrap__input-bar tt-hint" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input type="text" name="search" class="search-wrap__input-bar tt-input searchmob" placeholder="Search Destinations, Tours, Activities" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; top:-49px; background-color: transparent;">
+                                    <pre aria-hidden="true" style="position: absolute;  visibility: hidden; white-space: pre; font-family: Poppins, sans-serif; font-size: 12.8px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>
+                                    <div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;">
+                                        <div class="tt-dataset tt-dataset-destination_suggestions"></div>
+                                        <div class="tt-dataset tt-dataset-sub_categories"></div>
+                                        <div class="tt-dataset tt-dataset-tours"></div>
                                     </div>
-                                    <div class="col-xl-4 mb-4 mb-xl-0 py-3 px-4 bg-white position-relative rounded-right form-search-item">
-                                        <label for="key-word" class="font-size-md font-weight-semibold text-dark mb-0 lh-1">Where</label>
-                                        <div class="input-group dropdown show">
-                                            <input type="text" autocomplete="off" id="region" name="region" class="form-control form-control-mini border-0 px-0 bg-transparent" placeholder="San Francisco" data-toggle="dropdown" aria-haspopup="true">
-                                            <a href="#" class="input-group-append text-decoration-none" data-toggle="dropdown">
-                                                <i class="fal fa-chevron-down"></i>
-                                            </a>
-                                            <ul class="dropdown-menu form-search-ajax" aria-labelledby="region">
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        Austin
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        Boston
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        Chicago
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        Denver
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        Los Angeles
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        New York
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        San Francisco
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        Seattle
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown-item item">
-                                                    <a href="#" class="link-hover-dark-white">
-                                                        Washington
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-2 button">
-                                        <button type="submit" class="btn btn-primary btn-lg btn-icon-left btn-block"><i class="fal fa-search"></i>Search
-                                        </button>
-                                    </div>
-                                </div>
+                                </span>
+                                <button type="submit" class="icon-search search-button"></button>
+
+
                             </form>
                         </div>
-                        <div class="font-size-lg mb-4">
-                            Or browse the highlights
-                        </div>
-                        <div class="list-inline pb-8 flex-wrap my-n2">
-                            <div class="list-inline-item py-2">
-                                <a href="explore-sidebar-grid.html" class="card border-0 icon-box-style-01 link-hover-dark-white">
-                                    <div class="card-body p-0">
-                                        <svg class="icon icon-pizza">
-                                            <use xlink:href="#icon-pizza"></use>
-                                        </svg>
-                                        <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                            Foods
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="list-inline-item py-2">
-                                <a href="explore-sidebar-grid.html" class="card border-0 icon-box-style-01 link-hover-dark-white">
-                                    <div class="card-body p-0">
-                                        <svg class="icon icon-bed">
-                                            <use xlink:href="#icon-bed"></use>
-                                        </svg>
-                                        <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                            Hotels
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="list-inline-item py-2">
-                                <a href="explore-sidebar-grid.html" class="card border-0 icon-box-style-01 link-hover-dark-white">
-                                    <div class="card-body p-0">
-                                        <svg class="icon icon-brush2">
-                                            <use xlink:href="#icon-brush2"></use>
-                                        </svg>
-                                        <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                            Jobs
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="list-inline-item py-2">
-                                <a href="explore-sidebar-grid.html" class="card border-0 link-hover-dark-white icon-box-style-01">
-                                    <div class="card-body p-0">
-                                        <svg class="icon icon-pharmaceutical">
-                                            <use xlink:href="#icon-pharmaceutical"></use>
-                                        </svg>
-                                        <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                            Medicals
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="list-inline-item py-2">
-                                <a href="explore-sidebar-grid.html" class="card border-0 link-hover-dark-white icon-box-style-01">
-                                    <div class="card-body p-0">
-                                        <svg class="icon icon-cog">
-                                            <use xlink:href="#icon-cog"></use>
-                                        </svg>
-                                        <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                            Services
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="list-inline-item py-2">
-                                <a href="explore-sidebar-grid.html" class="card border-0 link-hover-dark-white icon-box-style-01">
-                                    <div class="card-body p-0">
-                                        <svg class="icon icon-bag">
-                                            <use xlink:href="#icon-bag"></use>
-                                        </svg>
-                                        <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                            Shopping
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="list-inline-item py-2">
-                                <a href="explore-sidebar-grid.html" class="card border-0 link-hover-dark-white icon-box-style-01">
-                                    <div class="card-body p-0">
-                                        <svg class="icon icon-car">
-                                            <use xlink:href="#icon-car"></use>
-                                        </svg>
-                                        <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                            Automotive
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
                     </div>
-                    <div class="home-main-how-it-work bg-white pt-11">
-                        <div class="container">
-                            <h2 class="mb-8">
-                                <span>See</span>
-                                <span class="font-weight-light">How It Works</span>
-                            </h2>
-                            <div class="row no-gutters pb-11">
-                                <div class="col-lg-4 mb-4 mb-lg-0 px-0 px-lg-4">
-                                    <div class="media icon-box-style-02" data-animate="fadeInDown">
-                                        <div class="d-flex flex-column align-items-center mr-6">
-                                            <svg class="icon icon-checkmark-circle">
-                                                <use xlink:href="#icon-checkmark-circle"></use>
-                                            </svg>
-                                            <span class="number h1 font-weight-bold">1</span>
-                                        </div>
-                                        <div class="media-body lh-14">
-                                            <h5 class="mb-3 lh-1">
-                                                Choose What To Do
-                                            </h5>
-                                            <p class="font-size-md text-gray mb-0 text-muted">
-                                                Looking for a cozy hotel to stay, a restaurant to eat, a museum to visit or a mall to do some shopping?
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-4 mb-lg-0 px-0 px-lg-4">
-                                    <div class="media icon-box-style-02" data-animate="fadeInDown">
-                                        <div class="d-flex flex-column align-items-center mr-6">
-                                            <svg class="icon icon-checkmark-circle">
-                                                <use xlink:href="#icon-checkmark-circle"></use>
-                                            </svg>
-                                            <span class="number h1 font-weight-bold">2</span>
-                                        </div>
-                                        <div class="media-body lh-14">
-                                            <h5 class="mb-3 lh-1">
-                                                Find What You Want
-                                            </h5>
-                                            <p class="font-size-md text-gray mb-0 text-muted">
-                                                Search and filter hundreds of listings, read reviews, explore photos and find the perfect spot.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-4 mb-lg-0 px-0 px-lg-4">
-                                    <div class="media icon-box-style-02" data-animate="fadeInDown">
-                                        <div class="d-flex flex-column align-items-center mr-6">
-                                            <svg class="icon icon-checkmark-circle">
-                                                <use xlink:href="#icon-checkmark-circle"></use>
-                                            </svg>
-                                            <span class="number h1 font-weight-bold">3</span>
-                                        </div>
-                                        <div class="media-body lh-14">
-                                            <h5 class="mb-3 lh-1">
-                                                Explore Amazing Places
-                                            </h5>
-                                            <p class="font-size-md text-gray mb-0 text-muted">
-                                                Go and have a good time or even make a booking directly from the listing page. All of those, thanks to TheDir!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="border-bottom"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <section id="section-02" class="pb-8 feature-destination pt-85">
-                <div class="container">
-                    <div class="mb-8">
-                        <h2 class="mb-0">
-                            <span>Featured </span>
-                            <span class="font-weight-light">Destinations</span>
-                        </h2>
-                    </div>
-                    <div class="slick-slider arrow-center" data-slick-options='{"slidesToShow": 4, "autoplay":false,"dots":false,"responsive":[{"breakpoint": 992,"settings": {"slidesToShow": 3,"arrows":false,"dots":true,"autoplay":true}},{"breakpoint": 768,"settings": {"slidesToShow": 2,"arrows":false,"dots":true,"autoplay":true}},{"breakpoint": 400,"settings": {"slidesToShow": 1,"arrows":false,"dots":true,"autoplay":true}}]}'>
-                        <div class="box" data-animate="zoomIn">
-                            <div class="card border-0">
-                                <a class="hover-scale" href="explore-sidebar-grid.html">
-                                    <img src="<?php echo base_url() ?>assets/styles/images/listing/feature-detination-1.jpg" alt="San Francisco" class="image">
-                                </a>
-                                <div class="card-body px-0 pt-4">
-                                    <h5 class="card-title mb-0">
-                                        <a href="explore-sidebar-grid.html" class="font-size-h5 link-hover-dark-primary">
-                                            San Francisco</a>
-                                    </h5>
-                                    <span class="card-text font-size-md">
-                                        20 Listing
-                                    </span>
-                                </div>
+                    <div class="section__intro__footer">
+                        <div class="stats-item">
+                            <span class="stats-item__logo icon-intro-slider-tours"></span>
+                            <div class="stats-item__details">
+                                <div class="stats-item__details__title">12,000+</div>
+                                <div class="stats-item__details__caption">Travel Experiences</div>
                             </div>
                         </div>
-                        <div class="box" data-animate="zoomIn">
-                            <div class="card border-0">
-                                <a class="hover-scale" href="explore-sidebar-grid.html">
-                                    <img src="<?php echo base_url() ?>assets/styles/images/listing/feature-detination-2.jpg" alt="London" class="image">
-                                </a>
-                                <div class="card-body px-0 pt-4">
-                                    <h5 class="mb-0 card-title">
-                                        <a href="explore-sidebar-grid.html" class="font-size-h5 link-hover-dark-primary">
-                                            London
-                                        </a>
-                                    </h5>
-                                    <span class="card-text font-size-md">
-                                        6 Listing
-                                    </span>
-                                </div>
+                        <div class="stats-item">
+                            <span class="stats-item__logo icon-globe"></span>
+                            <div class="stats-item__details">
+                                <div class="stats-item__details__title">25+</div>
+                                <div class="stats-item__details__caption">Countries</div>
                             </div>
                         </div>
-                        <div class="box" data-animate="zoomIn">
-                            <div class="card border-0">
-                                <a class="hover-scale" href="explore-sidebar-grid.html">
-                                    <img src="images/listing/feature-detination-3.jpg" alt="Tokyo" class="image">
-                                </a>
-                                <div class="card-body px-0 pt-4">
-                                    <h5 class="mb-0 card-title">
-                                        <a href="explore-sidebar-grid.html" class="font-size-h5 link-hover-dark-primary">
-                                            Tokyo
-                                        </a>
-                                    </h5>
-                                    <span class="card-text font-size-md">
-                                        12 Listing
-                                    </span>
-                                </div>
+                        <div class="stats-item">
+                            <span class="stats-item__logo icon-savings"></span>
+                            <div class="stats-item__details">
+                                <div class="stats-item__details__title">Best Price</div>
+                                <div class="stats-item__details__caption">Guaranteed</div>
                             </div>
                         </div>
-                        <div class="box" data-animate="zoomIn">
-                            <div class="card border-0">
-                                <a class="hover-scale" href="explore-sidebar-grid.html">
-                                    <img src="images/listing/feature-detination-4.jpg" alt="Miami" class="image">
-                                </a>
-                                <div class="card-body px-0 pt-4">
-                                    <h5 class="mb-0 card-title">
-                                        <a href="explore-sidebar-grid.html" class="font-size-h5 link-hover-dark-primary">
-                                            Miami
-                                        </a>
-                                    </h5>
-                                    <span class="card-text font-size-md">
-                                        4 Listing
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box" data-animate="zoomIn">
-                            <div class="card border-0">
-                                <a class="hover-scale" href="explore-sidebar-grid.html">
-                                    <img src="images/listing/feature-detination-1.jpg" alt="San Francisco" class="image">
-                                </a>
-                                <div class="card-body px-0 pt-4">
-                                    <h5 class="card-title mb-0">
-                                        <a href="explore-sidebar-grid.html" class="font-size-h5 link-hover-dark-primary">
-                                            San Francisco</a>
-                                    </h5>
-                                    <span class="card-text font-size-md">
-                                        20 Listing
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box" data-animate="zoomIn">
-                            <div class="card border-0">
-                                <a class="hover-scale" href="explore-sidebar-grid.html">
-                                    <img src="images/listing/feature-detination-2.jpg" alt="London" class="image">
-                                </a>
-                                <div class="card-body px-0 pt-4">
-                                    <h5 class="mb-0 card-title">
-                                        <a href="explore-sidebar-grid.html" class="font-size-h5 link-hover-dark-primary">
-                                            London
-                                        </a>
-                                    </h5>
-                                    <span class="card-text font-size-md">
-                                        6 Listing
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box" data-animate="zoomIn">
-                            <div class="card border-0">
-                                <a class="hover-scale" href="explore-sidebar-grid.html">
-                                    <img src="images/listing/feature-detination-3.jpg" alt="Tokyo" class="image">
-                                </a>
-                                <div class="card-body px-0 pt-4">
-                                    <h5 class="mb-0 card-title">
-                                        <a href="explore-sidebar-grid.html" class="font-size-h5 link-hover-dark-primary">
-                                            Tokyo
-                                        </a>
-                                    </h5>
-                                    <span class="card-text font-size-md">
-                                        12 Listing
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box" data-animate="zoomIn">
-                            <div class="card border-0">
-                                <a class="hover-scale" href="explore-sidebar-grid.html">
-                                    <img src="images/listing/feature-detination-4.jpg" alt="Miami" class="image">
-                                </a>
-                                <div class="card-body px-0 pt-4">
-                                    <h5 class="mb-0 card-title">
-                                        <a href="explore-sidebar-grid.html" class="font-size-h5 link-hover-dark-primary">
-                                            Miami
-                                        </a>
-                                    </h5>
-                                    <span class="card-text font-size-md">
-                                        4 Listing
-                                    </span>
-                                </div>
+                        <div class="stats-item">
+                            <span class="stats-item__logo icon-group"></span>
+                            <div class="stats-item__details">
+                                <div class="stats-item__details__title">35 Million+</div>
+                                <div class="stats-item__details__caption">Users Per Year</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-
-            <section id="section-03" class="pb-8 our-directory">
+            <section class="escapes">
                 <div class="container">
-                    <div class="mb-7">
-                        <h2 class="mb-0">
-                            <span class="font-weight-semibold">Our </span>
-                            <span class="font-weight-light">Directory</span>
-                        </h2>
+                    <div class="escapes__content">
+                        <span class="escapes__title">Find The Perfect Escape</span>
+                        <span class="escapes__caption">Discover your ideal Experience</span>
                     </div>
-                    <div class="d-flex align-items-center pb-8">
-                        <ul class="nav nav-pills tab-style-01" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">all</a>
+                    <div class="escapes__images">
+                        <a href="/collections/top-rated-himalayan-experiences" target="_blank" class="escapes__image-wrap">
+                            <img class="lazy-image escapes__image lazy-image-loaded" alt="Himalayan Experiences" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@2x-9d8fb087b2887472b068700c67b139461380188f40078cbec91b78b48de9069c.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@2x-9d8fb087b2887472b068700c67b139461380188f40078cbec91b78b48de9069c.jpg 2x">
+                        </a>
+                        <a href="/tags/luxury-deals" target="_blank" class="escapes__image-wrap">
+                            <img class="lazy-image escapes__image lazy-image-loaded" alt="Luxury Deals" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@2x-3e48a35f0e320e1486e1dbfb52408993928961314342e59f74b8aa433b873d43.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@2x-3e48a35f0e320e1486e1dbfb52408993928961314342e59f74b8aa433b873d43.jpg 2x">
+                        </a>
+                        <a href="" target="_blank" class="escapes__image-wrap">
+                            <img class="lazy-image escapes__image lazy-image-loaded" alt="Multi Day Tours" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@2x-740689da3e808db996224ad4cd5a8e7fd20b15c5498d57775effb198ebf400a2.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@2x-740689da3e808db996224ad4cd5a8e7fd20b15c5498d57775effb198ebf400a2.jpg 2x">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="luxury-experiences">
+                <div class="container">
+                    <a target="_blank" href="" class="luxury-experiences__banner">
+                        <img class="lazy-image luxury-experiences__banner-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@2x-c06da52ed7b6229841d27107e36a50f6e8c0e0353abb44ce325aa649ebcc8a62.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@2x-c06da52ed7b6229841d27107e36a50f6e8c0e0353abb44ce325aa649ebcc8a62.jpg 2x">
+                        <div class="luxury-experiences__banner-content">
+                            <div class="luxury-experiences__banner-upto">UPTO</div>
+                            <div class="luxury-experiences__banner-discount">
+                                <div class="discount-left">70</div>
+                                <div class="discount-right">
+                                    <div class="percent-sign">%</div>
+                                    <div class="off-text">OFF</div>
+                                </div>
+                            </div>
+                            <div class="luxury-experiences__banner-bottom-text">
+                                On Luxury Experiences
+                            </div>
+                            <button type="button" class="luxury-experiences__cta-btn">Book Now</button>
+                        </div>
+                    </a>
+                    <div class="luxury-experiences__grid">
+                        <a target="_blank" href="Bengaluru" class="luxury-experiences__grid-item">
+                            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/bangalore-dc510132bac08ce8ad851bf96cf84794b4911ab8ef365fead935fa254b733d8f.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/bangalore-dc510132bac08ce8ad851bf96cf84794b4911ab8ef365fead935fa254b733d8f.jpg" srcset="">
+                            <div class="luxury-experiences__grid-item-title">BANGALORE</div>
+                        </a>
+                        <a target="_blank" href="mumbai" class="luxury-experiences__grid-item">
+                            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/mumbai-855677843252b0e44ff6a2b278f3824e6e6fe8067a5ecde6984689d164fd62fa.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/mumbai-855677843252b0e44ff6a2b278f3824e6e6fe8067a5ecde6984689d164fd62fa.jpg" srcset="">
+                            <div class="luxury-experiences__grid-item-title">MUMBAI</div>
+                        </a>
+                        <a target="_blank" href="/states/goa/tags/luxury-deals" class="luxury-experiences__grid-item">
+                            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/goa-f5346cede02a317d2041e5f815361ccbe2b8f48fad5b8402d4d937d7989f981d.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/goa-f5346cede02a317d2041e5f815361ccbe2b8f48fad5b8402d4d937d7989f981d.jpg" srcset="">
+                            <div class="luxury-experiences__grid-item-title">GOA</div>
+                        </a>
+                        <a target="_blank" href="/collections/resorts-around-delhi" class="luxury-experiences__grid-item">
+                            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/delhi-f97eeaf977f3931f757a2562599b98c91c4e9f7d48a22650626574b6298f07e5.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/delhi-f97eeaf977f3931f757a2562599b98c91c4e9f7d48a22650626574b6298f07e5.jpg" srcset="">
+                            <div class="luxury-experiences__grid-item-title">DELHI</div>
+                        </a>
+                        <a target="_blank" href="/cities/coorg/tags/luxury-deals" class="luxury-experiences__grid-item">
+                            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/coorg-f42ae30e5829c56d215c816511b209d341c7a292009fbdb1d5b05788006b4ff6.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/coorg-f42ae30e5829c56d215c816511b209d341c7a292009fbdb1d5b05788006b4ff6.jpg" srcset="">
+                            <div class="luxury-experiences__grid-item-title">COORG</div>
+                        </a>
+                        <a target="_blank" href="/cities/lonavala/tags/luxury-deals" class="luxury-experiences__grid-item">
+                            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/lonavala-ce674c47510e0d9c1b869cbec755d12d6ee842be2c1ea836f575362de042606b.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/lonavala-ce674c47510e0d9c1b869cbec755d12d6ee842be2c1ea836f575362de042606b.jpg" srcset="">
+                            <div class="luxury-experiences__grid-item-title">LONAVALA</div>
+                        </a>
+                        <a target="_blank" href="/cities/kabini/tags/luxury-deals" class="luxury-experiences__grid-item">
+                            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/kabini-d1e9aa81a80caf8d78394d913428bb7a202ef15c592702babd5930175db98cd2.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/kabini-d1e9aa81a80caf8d78394d913428bb7a202ef15c592702babd5930175db98cd2.jpg" srcset="">
+                            <div class="luxury-experiences__grid-item-title">KABINI</div>
+                        </a>
+                        <a target="_blank" href="/cities/rishikesh/tags/luxury-deals" class="luxury-experiences__grid-item">
+                            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/rishikesh-e6d20c38e539244d1d727d57ec5d9aa16d1cc2eb0b2074317b344ae2b82bf5c6.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/rishikesh-e6d20c38e539244d1d727d57ec5d9aa16d1cc2eb0b2074317b344ae2b82bf5c6.jpg" srcset="">
+                            <div class="luxury-experiences__grid-item-title">RISHIKESH</div>
+                        </a>
+                        <a target="_blank" href="/tags/luxury-deals" class="luxury-experiences__grid-item luxury_view luxury-experiences__grid-item--btn view-more-btn">
+                            View All
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Trending Section -->
+            <section class="section__trending">
+                <div class="container">
+                    <div class="multi-line-header multi-line-header--centered">
+                        <div class="multi-line-header__title">
+                            Top Rated Experiences on Thrillophilia
+                            <!-- <span class="icon-flash icon-trending"></span> -->
+                        </div>
+                    </div>
+                    <div class="tour-card-list tour-card-list--v2 tour-carousel">
+
+                        <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide00">
+                            <div data-href="/tours/kudremukh-trek-in-chikmagalur" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2430">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--2JVWwaSX--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--eEPN_1iG--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x" media="(min-width: 1024px)" srcset="https://images.thrillophilia.com/image/upload/s--2JVWwaSX--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--eEPN_1iG--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--dJB9ZENQ--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--FUgYlbwq--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x" media="(min-width: 768px)" srcset="https://images.thrillophilia.com/image/upload/s--dJB9ZENQ--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--FUgYlbwq--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--AvGmK4eM--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--j_xVNt0M--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x" media="(min-width: 576px)" srcset="https://images.thrillophilia.com/image/upload/s--AvGmK4eM--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--j_xVNt0M--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--a6npoeRX--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--l-RcjBKK--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x" media="(min-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s--a6npoeRX--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--l-RcjBKK--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--qD7n1YjH--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--1OpzBxFJ--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x" media="(max-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s--qD7n1YjH--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--1OpzBxFJ--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x"><img alt="Kudremukh Trek, Chikmagalur | Book @ Flat 18% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--2JVWwaSX--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--eEPN_1iG--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--wnkgA5hE--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg" src="" srcset="https://images.thrillophilia.com/image/upload/s--2JVWwaSX--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--eEPN_1iG--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/028/140/original/1577274210_moun_party35.jpg.jpg 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Bangalore</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/kudremukh-trek-in-chikmagalur" class="tour-card-v2__name" target="_blank" tabindex="-1">Kudremukh Trek, Chikmagalur | Book @ Flat 18% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(2248 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>2,449</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,949</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide01">
+                            <div data-href="/tours/riverside-camping-at-igatpuri" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9661">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--5kDt-8XJ--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--H7bcrkUD--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x" media="(min-width: 1024px)" srcset="https://images.thrillophilia.com/image/upload/s--5kDt-8XJ--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--H7bcrkUD--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--zk-99oGe--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--9CEm1Cfk--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x" media="(min-width: 768px)" srcset="https://images.thrillophilia.com/image/upload/s--zk-99oGe--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--9CEm1Cfk--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--5XvyCUvj--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--IuH2w_5a--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x" media="(min-width: 576px)" srcset="https://images.thrillophilia.com/image/upload/s--5XvyCUvj--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--IuH2w_5a--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--aKhhp0UK--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--OU81urVd--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x" media="(min-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s--aKhhp0UK--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--OU81urVd--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--kazRLDeU--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--EgCDEapF--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x" media="(max-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s--kazRLDeU--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--EgCDEapF--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x"><img alt="Igatpuri Camping | Book Now &amp; Get 900 Cashback" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--5kDt-8XJ--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--H7bcrkUD--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--k8Nvhal1--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg" src="" srcset="https://images.thrillophilia.com/image/upload/s--5kDt-8XJ--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--H7bcrkUD--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/111/329/original/1583312242_igatpuri_camp.png.jpg 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Igatpuri</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/riverside-camping-at-igatpuri" class="tour-card-v2__name" target="_blank" tabindex="-1">Igatpuri Camping | Book Now &amp; Get 900 Cashback</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(354 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,099</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,349</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide02">
+                            <div data-href="/tours/overnight-jeep-safari-with-camping-in-jaisalmer" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9829">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--7sPIPXf6--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--BD_9HNbB--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x" media="(min-width: 1024px)" srcset="https://images.thrillophilia.com/image/upload/s--7sPIPXf6--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--BD_9HNbB--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--rbFbsLTs--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--hIiCWS7l--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x" media="(min-width: 768px)" srcset="https://images.thrillophilia.com/image/upload/s--rbFbsLTs--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--hIiCWS7l--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--T6ZdT8xk--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--9xJ5zOYj--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x" media="(min-width: 576px)" srcset="https://images.thrillophilia.com/image/upload/s--T6ZdT8xk--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--9xJ5zOYj--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--OWj0l8cA--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--C-3EwbDQ--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x" media="(min-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s--OWj0l8cA--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--C-3EwbDQ--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--ms1XQUba--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--FhWXalza--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x" media="(max-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s--ms1XQUba--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--FhWXalza--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x"><img alt="Camping in Jaisalmer with Jeep Safari Flat 45% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--7sPIPXf6--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--BD_9HNbB--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--0v-2hzM4--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg" src="" srcset="https://images.thrillophilia.com/image/upload/s--7sPIPXf6--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--BD_9HNbB--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/119/705/original/1599055091_1571209501_WhatsApp_Image_2019-09-06_at_12.45.27_PM.jpeg.png.jpg 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Jaisalmer</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/overnight-jeep-safari-with-camping-in-jaisalmer" class="tour-card-v2__name" target="_blank" tabindex="-1">Camping in Jaisalmer with Jeep Safari Flat 45% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(949 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,144</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,094</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide03">
+                            <div data-href="/tours/camping-in-rishikesh-sands-trekking-rafting-cliff-jumping-combo" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10656">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--u0KUKlzj--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--btUDEvyU--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--MtJekOVU--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--hpe2NbpM--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--MSBXtfee--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--Tk3olkxf--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--GbFQeBE1--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--GgFXAvwI--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--XsD_K2Z9--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--aE4zUtKR--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Cliff Jumping in Rishikesh + Camping + Rafting Combo, 25% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--u0KUKlzj--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--btUDEvyU--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--GzPU7Kpf--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/135/200/original/1610981314_1595566667_shutterstock_344995025.jpg.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Rishikesh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/camping-in-rishikesh-sands-trekking-rafting-cliff-jumping-combo" class="tour-card-v2__name" target="_blank" tabindex="-1">Cliff Jumping in Rishikesh + Camping + Rafting Combo, 25% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(844 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,300</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,750</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide04">
+                            <div data-href="/tours/jammu-and-kashmir-tour" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="3423">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--pgAH0Y2o--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--LVOfQI7x--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--rVV7tP0G--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--ANZK2QMu--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--GdapnIZR--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--PjlAYnlZ--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--WY4krkZ3--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--k88Xhuuu--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--zF9Yl4TI--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--s7z4OWjZ--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Cheapest Kashmir Tour Package 2021 | Flat 20% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--pgAH0Y2o--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--LVOfQI7x--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--CLKVfsap--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/031/624/original/1591353448_shutterstock_654201766.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                New
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span>9D/8N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/jammu-and-kashmir-tour" class="tour-card-v2__name" target="_blank" tabindex="-1">Cheapest Kashmir Tour Package 2021 | Flat 20% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(26 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>17,199</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>21,498</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide05">
+                            <div data-href="/tours/dine-and-dance-at-a-classic-houseboat-goa" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10822">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--bcHiKMic--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--VqwrVyzw--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--G3t_cCz6--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--BtNywAPf--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--kTrsh14V--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--7ib515Y3--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--bBl8ONjR--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--AFoFPsAr--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--pP_RXQ2o--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--uiTSTZub--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Goa Houseboat Trip | Book Online &amp; Get 25% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--bcHiKMic--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--VqwrVyzw--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--MOMaeaEy--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/136/996/original/1586173366_river-cruise-goa-luxury-houseboat-sunset-dinner-cruise-goa-river-mandovi-slider-pic-5.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Siolim</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>6H</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/dine-and-dance-at-a-classic-houseboat-goa" class="tour-card-v2__name" target="_blank" tabindex="-1">Goa Houseboat Trip | Book Online &amp; Get 25% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(149 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>2,100</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,600</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide06">
+                            <div data-href="/tours/unexplored-arunachal-tour-package-tawang-special" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10546">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--OTnGLygV--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--L7n6gRXW--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--yc1swHQ3--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--8n8aBF8X--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--KaTzkFbf--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--xHdMM2sL--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--fSNtYjJi--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--Qyx3YSAB--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--GhAyqgmP--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--K5k_h1T2--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Unexplored Arunachal Tour Package: Tawang Special" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--OTnGLygV--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--L7n6gRXW--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--UbItGd_i--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/134/047/original/1539066595_shutterstock_1047341446.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Guwahati</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>8D/7N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/unexplored-arunachal-tour-package-tawang-special" class="tour-card-v2__name" target="_blank" tabindex="-1">Unexplored Arunachal Tour Package: Tawang Special</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(47 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>24,750</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>29,250</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide07">
+                            <div data-href="/tours/sheraton-full-moon-resort-and-spa" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21786">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--pJPC2NMV--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--J4EXm6Yj--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--D9CE2ucn--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--3tCuwuvQ--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--_rmtMBIO--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--3bbnf4Gf--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--_RLONBev--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--lpe39nSf--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--8vyFCeKt--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--5Ms09Ek0--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 2x" media="(max-width: 320px)"><img alt="Sheraton Full Moon Resort and Spa, Maldives | Book @ Flat 15% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--pJPC2NMV--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--J4EXm6Yj--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--0CNNJZ_e--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/314/879/original/1612330103_1592280190_mlesi-aerial-view-3821-hor-clsc.jpg.png.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Male</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>4D/3N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/sheraton-full-moon-resort-and-spa" class="tour-card-v2__name" target="_blank" tabindex="-1">Sheraton Full Moon Resort and Spa, Maldives | Book @ Flat 15% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(150 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>38,500</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>59,500</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide08">
+                            <div data-href="/tours/srinagar-leh-manali-umlingla-bike" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9998">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--cY0DNgLL--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--z88P7qSy--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--BtMBUevN--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--rJpccewj--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--uPH5U1f2--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--fSm_Cv24--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--Xjd0DDlz--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--NkeODIYo--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--qVGnoTFj--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--tR3LySvr--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Manali Leh Manali Bike Expedition with Hanle and Tsomoriri" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--cY0DNgLL--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--z88P7qSy--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--qRK0V5zk--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Ladakh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>12D/11N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/srinagar-leh-manali-umlingla-bike" class="tour-card-v2__name" target="_blank" tabindex="-1">Manali Leh Manali Bike Expedition with Hanle and Tsomoriri</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(27 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>24,800</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>31,200</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide09">
+                            <div data-href="/tours/leh-ladakh-tour" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="3141">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--BukLUKWP--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--_fRxZhou--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--BjaHcWWB--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--9qhY374f--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--uk4Xd1FM--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--T1tUvUfA--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--tOwrFdSN--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--ZVxt8HjW--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--RJ51Zc0A--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--B4QGKWlH--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Leh Ladakh Group Tour Package with Camping I Flat 17% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--BukLUKWP--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--_fRxZhou--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--n1MZjNkT--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Ladakh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>7D/6N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/leh-ladakh-tour" class="tour-card-v2__name" target="_blank" tabindex="-1">Leh Ladakh Group Tour Package with Camping I Flat 17% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(2145 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>19,745</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>24,039</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide010">
+                            <div data-href="/tours/valley-of-flowers-uttranchal" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1639">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--rfnJcvUR--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--WXLEAMI8--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--1BK4HvNM--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--nf_crq3f--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--g0MvJuF6--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--7OJ3GZ95--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--Lod-YrC6--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--q0LHD-03--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--vSMs1b0F--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--AFtgtdcW--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 2x" media="(max-width: 320px)"><img alt="Valley of Flowers Trek with Hemkund Sahib 2021: Flat 32% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--rfnJcvUR--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--WXLEAMI8--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--oDi_Qzzu--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/026/388/original/1499683375_colors_of_bliss.png.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Haridwar</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>6D/5N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/valley-of-flowers-uttranchal" class="tour-card-v2__name" target="_blank" tabindex="-1">Valley of Flowers Trek with Hemkund Sahib 2021: Flat 32% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(2190 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>6,500</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>9,000</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide011">
+                            <div data-href="/tours/the-hampta-pass-trek" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2924">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--gazoo5iO--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--fpkb6XsQ--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--1a9X9PBH--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--nD9oUFjK--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--6Rdb1a1o--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--aaER3ZLR--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--ux26CLEg--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--XW5arbj3--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--0sJnfyXv--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--Ea644JVR--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 2x" media="(max-width: 320px)"><img alt="Hampta Pass Trek, Manali 2021 | Book Now @ Flat 30% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--gazoo5iO--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--fpkb6XsQ--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--gwXoXvKs--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/025/687/original/1507810382_trek_of_dreams8.png.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                SPECIAL OFFERS
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Manali</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>5D/4N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/the-hampta-pass-trek" class="tour-card-v2__name" target="_blank" tabindex="-1">Hampta Pass Trek, Manali 2021 | Book Now @ Flat 30% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(2363 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>7,500</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>10,000</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide012">
+                            <div data-href="/tours/trekking-in-sar-pass" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="7811">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--WvNOHnW8--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--PSq-JY7V--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--HzmksemN--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--dlQlmPcO--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--EeV_OY6e--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--7YwHELST--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--e9buM_-i--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--xMRKGyb2--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--xoDUSB-5--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--NsfX3i91--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Sar Pass Trek 2021, Kasol | Sar Pass Trekking @19% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--WvNOHnW8--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--PSq-JY7V--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--uXzxWmIv--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/080/061/original/1616480816_sar_pass1.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Kasol</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>5D/4N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/trekking-in-sar-pass" class="tour-card-v2__name" target="_blank" tabindex="-1">Sar Pass Trek 2021, Kasol | Sar Pass Trekking @19% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(209 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>5,999</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>9,499</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide013">
+                            <div data-href="/tours/triund-trek" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1567">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--zDrCsWPw--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--msCANyco--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--YaOm4ZuB--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--2x3bl6HN--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--S39SlE-x--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--DkdeK_iH--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--VU751NZH--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--xH0sEaDi--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--oZNjxicH--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--l-gyDzVP--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Triund Trek 2021, Mcleodganj | Book @ ₹967 Only!" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--zDrCsWPw--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--msCANyco--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--LLL2ZuWq--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/025/705/original/1577279559_triund_camp3.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Mcleodganj</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/triund-trek" class="tour-card-v2__name" target="_blank" tabindex="-1">Triund Trek 2021, Mcleodganj | Book @ ₹967 Only!</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(2930 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>967</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,212</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide014">
+                            <div data-href="/tours/riverside-camping-in-sakleshpur-chikmagalur" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10925">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--H1Cg3id8--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--dg_Y18jL--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--YwAVeKq6--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--9ZP3oGo5--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s---oWwBgIt--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--80L-YNAv--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--4hYNjTDh--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--dxIxupSm--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--rovNgihf--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--M20gGyf1--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Riverside Camping in Sakleshpur, Chikmagalur | Get 20% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--H1Cg3id8--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--dg_Y18jL--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--9LfozUa8--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/138/477/original/1544180030_camping_in_sakleshwar.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Chikmagalur</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/riverside-camping-in-sakleshpur-chikmagalur" class="tour-card-v2__name" target="_blank" tabindex="-1">Riverside Camping in Sakleshpur, Chikmagalur | Get 20% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(368 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,499</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,904</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide015">
+                            <div data-href="/tours/private-camping-at-pawna-lake" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="3264">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--jg17KOSc--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--BJXbvj75--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--UfARe0Qy--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--T4ii4QyZ--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--LozdgCtT--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--wQ_Q_Fqv--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--Qxa7FWDd--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--YbBesAp3--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--mbYjO-oP--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--Vj7EFqj_--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Pawna Lake Camping | Book @ ₹ 900 Only!" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--jg17KOSc--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--BJXbvj75--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--2mJkedVe--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/050/737/original/1583915348_pawna_thumbnail.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/private-camping-at-pawna-lake" class="tour-card-v2__name" target="_blank" tabindex="-1">Pawna Lake Camping | Book @ ₹ 900 Only!</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(4684 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,499</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,499</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide016">
+                            <div data-href="/tours/kasol-trip-and-trek-to-kheerganga-from-delhi" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="8959">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--Rhw9y9bn--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--IdnpnDQ---/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--BZpS6B5X--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--PJE6muOV--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--AI53jxul--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--o3p66qSa--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--D4j5cBMU--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--i670vmxj--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--GVSYOe7_--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--2yIKMj40--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Kasol Trip and Trek to Kheerganga from Delhi Flat 17% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--Rhw9y9bn--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--IdnpnDQ---/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--wLcXzXmy--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/100/445/original/1578567016_1576498720_1576309294_kasol3.jpg.jpg.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">New Delhi</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>5D/4N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/kasol-trip-and-trek-to-kheerganga-from-delhi" class="tour-card-v2__name" target="_blank" tabindex="-1">Kasol Trip and Trek to Kheerganga from Delhi Flat 17% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(769 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>5,599</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>6,799</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide017">
+                            <div data-href="/tours/scuba-diving-in-goa" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="4546">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--rN9tpr2X--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--ZU5G0jSu--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--W7M2mG3N--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--p_7O9IkC--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--buBDsFpD--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--XHXXivzM--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--Nwe8GLe---/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--oHkrMoQB--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--bbpthTYE--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--zJBDoSle--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Grand Island Goa Scuba Diving | Book Online &amp; Save 20%" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--rN9tpr2X--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--ZU5G0jSu--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--fxD3dT3j--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/046/396/original/1586157734_shutterstock_654264571_%281%29.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">South Goa</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>8H</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/scuba-diving-in-goa" class="tour-card-v2__name" target="_blank" tabindex="-1">Grand Island Goa Scuba Diving | Book Online &amp; Save 20%</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(1983 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,650</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,050</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide018">
+                            <div data-href="/tours/everest-base-camp-trek-nepal" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2732">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--wAKdmSeP--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--rjXLB9Ai--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--c8naY5ng--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--MLnt65VO--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--lttSfKjd--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--SVvrjH0t--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--JoDCzKZH--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--ek4GtZzP--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--WAA8IEEK--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--_XaJVL7b--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 2x" media="(max-width: 320px)"><img alt="Everest Base Camp Trek, Nepal 2021 | Book @ Flat 22% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--wAKdmSeP--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--rjXLB9Ai--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s---TjuFbqp--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/024/278/original/1516271436_Everest-Base-Camp-Trek.png.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Kathmandu</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>12D/11N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/everest-base-camp-trek-nepal" class="tour-card-v2__name" target="_blank" tabindex="-1">Everest Base Camp Trek, Nepal 2021 | Book @ Flat 22% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(1602 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>38,500</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>50,500</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide019">
+                            <div data-href="/tours/camping-circle-adventure-in-ramnagar" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9223">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--TI6iXPpY--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--psSec41T--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--qDdlALdH--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--My9sbZ96--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--ZYBwMop3--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--3AATwnG2--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--AthYovCI--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--HB4OFBmx--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--msOpKAA1--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--qVGunGET--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Ramanagara Camping with Adventure Activities | Save 32%" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--TI6iXPpY--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--psSec41T--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--2ulenWAw--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/105/028/original/1604493352_1576496746_1576324833_ramanagara7.png.jpg.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Bangalore</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/camping-circle-adventure-in-ramnagar" class="tour-card-v2__name" target="_blank" tabindex="-1">Ramanagara Camping with Adventure Activities | Save 32%</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(2952 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,400</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,036</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide020">
+                            <div data-href="/tours/adventure-camping-at-the-foothills-nandi-hills" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10427">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--UYbTU2WO--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--dYGZB_j5--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--bSQuhhG0--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--4X9dP230--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--xZ-rd0S1--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--i8A75Sy_--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--BH1cAhM9--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--YHjKrvb_--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--usaXOfPB--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--olzajbRS--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Nandi Hills Drive in Camp | Book Online &amp; Get 15% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--UYbTU2WO--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--dYGZB_j5--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--bULghNeI--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/131/676/original/1577967438_3a828a29-2412-453d-98b1-88859e888639.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Nandi Hills</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/adventure-camping-at-the-foothills-nandi-hills" class="tour-card-v2__name" target="_blank" tabindex="-1">Nandi Hills Drive in Camp | Book Online &amp; Get 15% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(1556 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,499</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,800</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide021">
+                            <div data-href="/tours/spiti-winter-tour" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9941">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--dfYdcvpC--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--d1Wzuz0V--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--hTpJ7lTm--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--fqM3uZ2e--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--VciC-0Mj--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--tj_9wbNj--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--bOJXNO_E--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--RmwgSIzS--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--MHo2MYm9--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--MxGUD-u_--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 2x" media="(max-width: 320px)"><img alt="Spiti Valley in Winter 2021: Paint It White" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--dfYdcvpC--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--d1Wzuz0V--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s---M3szlxA--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/123/135/original/1533277988_ws.png.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                SPECIAL OFFERS
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">New Delhi</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>9D/8N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/spiti-winter-tour" class="tour-card-v2__name" target="_blank" tabindex="-1">Spiti Valley in Winter 2021: Paint It White</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(96 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>21,800</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>27,700</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide022">
+                            <div data-href="/tours/nagtibba-trek-uttarakhand" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2754">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--mmLUw-nq--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--QiJ8w_Ke--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--wZW9lPDZ--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--bZKJgR4K--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--_Y4k2e30--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--muJkkEq0--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--tDlD8Fo6--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--XCP2E8Gq--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--OU8KbnOX--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--StOdeqeH--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 2x" media="(max-width: 320px)"><img alt="Nag Tibba Trek with Camping, Uttarakhand | Book @ 20% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--mmLUw-nq--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--QiJ8w_Ke--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--6P_cSJga--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/029/617/original/1579073125_nagtibbaaa.png.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Dehradun</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/nagtibba-trek-uttarakhand" class="tour-card-v2__name" target="_blank" tabindex="-1">Nag Tibba Trek with Camping, Uttarakhand | Book @ 20% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(2456 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,399</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,749</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide023">
+                            <div data-href="/tours/kedar-kantha-trek-skiing-uttarakhand" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2748">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--IkkLMUnK--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--KFP1vQXr--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--4-_EBzuY--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--3nsQ4muE--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--EQXuPzPz--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--a-o7S8DQ--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--Rha90VPE--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--3v5WWTWq--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--LNSojBBo--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--LZ5hHnku--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Kedarkantha Trek 2021, Uttarakhand | Book @ ₹5,800 Only" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--IkkLMUnK--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--KFP1vQXr--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--4EMk3Oen--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/027/088/original/1568444861_Final_ascend_to_summit.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Dehradun</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>6D/5N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/kedar-kantha-trek-skiing-uttarakhand" class="tour-card-v2__name" target="_blank" tabindex="-1">Kedarkantha Trek 2021, Uttarakhand | Book @ ₹5,800 Only</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(1254 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>6,000</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>11,817</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide024">
+                            <div data-href="/tours/beach-camping-at-alibaug" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10152">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--3SJHS8GG--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--WQ8mcrBL--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--a1fBuHdq--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--eJ75lD7j--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--2ShDRpp_--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--WyMpQAiy--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--H0hfGiyt--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--zn3i-Y8c--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--V8zOk5-Y--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--163Z4aej--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Alibaug Beach Camping | Get 18% off &amp; Cashback of 500" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--3SJHS8GG--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--WQ8mcrBL--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--FMkwgWUd--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/128/049/original/1579338019_Alibaug_thumbnail.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Alibag</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/beach-camping-at-alibaug" class="tour-card-v2__name" target="_blank" tabindex="-1">Alibaug Beach Camping | Get 18% off &amp; Cashback of 500</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(1363 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,349</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,798</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide025">
+                            <div data-href="/tours/tour-of-mesmerising-meghalaya" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9540">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--KbV4KtNJ--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--DI46qSIY--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--2fY42a-V--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--eONKtfDY--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--P4I74QXP--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--bp-N_m4j--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--3xuQ1tv---/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--4kxT_ucq--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--1RCUMSq2--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--LOiqzuWW--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 2x" media="(max-width: 320px)"><img alt="6 Days Group Tour of Mesmerising Meghalaya | Flat 23% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--KbV4KtNJ--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--DI46qSIY--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--WozOM7Sx--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/109/558/original/1554557829_meg_tp.png.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Guwahati</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>6D/5N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/tour-of-mesmerising-meghalaya" class="tour-card-v2__name" target="_blank" tabindex="-1">6 Days Group Tour of Mesmerising Meghalaya | Flat 23% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(232 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>15,999</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>20,998</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide026">
+                            <div data-href="/tours/lakeside-camping-bhandardara" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="4604">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--pU0P1eNK--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--7g-eOror--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--6fI8levH--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--qEt2OKDy--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--trMrou5P--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--WTmmxJMV--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--XBuYiOR0--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--I_uiHIHc--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--94evJQYG--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--3tRFnsGJ--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Bhandardara Camping | Book Lakeside Camping @ ₹1099 Only" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--pU0P1eNK--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--7g-eOror--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--4wIVA-OJ--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/046/832/original/1577274022_party29.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Bhandardara</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>1D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/lakeside-camping-bhandardara" class="tour-card-v2__name" target="_blank" tabindex="-1">Bhandardara Camping | Book Lakeside Camping @ ₹1099 Only</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(1064 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,099</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,449</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide027">
+                            <div data-href="/tours/the-gokarna-beach-trek" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2395">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--IZFtpwi0--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--T0Y5XlZE--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--01Z6R9HX--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--c90FQyYG--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--ucRGr6ar--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--rysFEzmI--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--kca9KJK5--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--s33pgxqb--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--wK8Oy0JT--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--cdzoeO01--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Gokarna Beach Trek &amp; Camping | Book @ ₹3,699 Only" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--IZFtpwi0--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--T0Y5XlZE--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--9Z-3riZy--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/010/958/original/1577966010_1533988921_DSC_0859.JPG.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Bangalore</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/the-gokarna-beach-trek" class="tour-card-v2__name" target="_blank" tabindex="-1">Gokarna Beach Trek &amp; Camping | Book @ ₹3,699 Only</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(2048 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>2,099</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,799</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide028">
+                            <div data-href="/tours/adventure-and-trekking-trails-of-kodachadri" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1727">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--M6KiMjuA--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--kFur3eCa--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--vmOgAWIp--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--dmghLpQe--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--C-w6gTNr--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--POzARc0m--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--Q1XAA6qJ--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--T09BjNJS--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--CvpAPZGv--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--cBB6vVT2--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Kodachadri Trek | Book Trekking in Kodachadri @ Flat 20% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--M6KiMjuA--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--kFur3eCa--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--ycPOwViR--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/024/386/original/1577274511_moun_party37.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Bangalore</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/adventure-and-trekking-trails-of-kodachadri" class="tour-card-v2__name" target="_blank" tabindex="-1">Kodachadri Trek | Book Trekking in Kodachadri @ Flat 20% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(868 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,799</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,397</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide029">
+                            <div data-href="/tours/thadiyandamol-adventure-escape" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2853">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--2MvvGA1S--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--qACh-pZp--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--znp73Wxl--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--h73jLW2I--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--9BtcuLGy--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--N8vcHGuV--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--GUfyLBRK--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--sQBFh4I0--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--CcyOlAFk--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--hRQOIUu6--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Tadiandamol Trek, Coorg | Book @ ₹3,299 &amp; Get 26% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--2MvvGA1S--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--qACh-pZp--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--F2WsWWux--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/021/950/original/1577274583_hike20.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Bangalore</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/thadiyandamol-adventure-escape" class="tour-card-v2__name" target="_blank" tabindex="-1">Tadiandamol Trek, Coorg | Book @ ₹3,299 &amp; Get 26% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(2395 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,899</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,497</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide030">
+                            <div data-href="/tours/andaman-and-nicobar-honeymoon-diaries" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9772">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--35ZM22zM--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--jy0a9IF5--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--ih8l6lgz--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--LMFyeX0h--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--O0fNMoiI--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--JJYHSuQa--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--ZVkU2eIf--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--sLA8XH-v--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--ndvo5N6y--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--dnUy9iBn--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 2x" media="(max-width: 320px)"><img alt="5 Days Andaman Honeymoon with Romantic Candle Light Dinner" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--35ZM22zM--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--jy0a9IF5--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--f0jZ0dkv--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/116/269/original/1559199692_last.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Port Blair</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>5D/4N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/andaman-and-nicobar-honeymoon-diaries" class="tour-card-v2__name" target="_blank" tabindex="-1">5 Days Andaman Honeymoon with Romantic Candle Light Dinner</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(259 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>18,475</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>21,835</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide031">
+                            <div data-href="/tours/6-days-group-tour-of-sikkim" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10793">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--IBbqkomR--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--1hRUFwBf--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--iZiEs8ZE--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--RBq4tRP3--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--q1gTYBUy--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--KP489WTt--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--v3_mBYZv--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--0lofQ_4M--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--XdXWJjQ1--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--rzfprJRM--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 2x" media="(max-width: 320px)"><img alt="6 Days Enthralling Group Tour of Sikkim | Flat 16% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--IBbqkomR--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--1hRUFwBf--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--NbhKF4Dj--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/136/644/original/1549866550_tour_pag4e.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Gangtok</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>6D/5N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/6-days-group-tour-of-sikkim" class="tour-card-v2__name" target="_blank" tabindex="-1">6 Days Enthralling Group Tour of Sikkim | Flat 16% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(162 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>14,999</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>17,999</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide032">
+                            <div data-href="/tours/nature-adventure-camp-kanakapura" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2987">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--4ysvir9F--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--gGcwmfLB--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--ltJ-6mcP--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--4C-0bpvq--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--cqy1MHAv--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--dGzuth5L--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--lyicemuF--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s---CCxQpIk--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--2v3sie_w--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--dSe_Cet_--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Nature Adventure Camp in Kanakapura | Book @ ₹1399 Only" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--4ysvir9F--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--gGcwmfLB--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--199HPxXK--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/027/970/original/1607234665_kanakpura_featured.png.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Kanakpura</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/nature-adventure-camp-kanakapura" class="tour-card-v2__name" target="_blank" tabindex="-1">Nature Adventure Camp in Kanakapura | Book @ ₹1399 Only</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(3638 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,399</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,900</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide033">
+                            <div data-href="/tours/sandakphu-trek" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1633">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--zkBwHtzB--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--JaZ8zT-l--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--8c6Odxd3--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--lb2rUFt8--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--D4X2gcsa--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--i3MXngLi--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--hwj2wFSb--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--TvhEFm_L--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--rZbGR2cJ--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--EmxVPwSM--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 2x" media="(max-width: 320px)"><img alt="Sandakphu Trek, 2021 | Book Now &amp; Get Upto 25% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--zkBwHtzB--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 1x, https://images.thrillophilia.com/image/upload/s--JaZ8zT-l--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--lUnaMxsr--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/025/598/original/1507900349_TREKKERS_WONDERLAND7.png.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span>6D/5N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/sandakphu-trek" class="tour-card-v2__name" target="_blank" tabindex="-1">Sandakphu Trek, 2021 | Book Now &amp; Get Upto 25% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(915 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>9,250</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>13,216</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section__trending">
+                <div class="container">
+                    <div class="multi-line-header multi-line-header--centered">
+                        <div class="multi-line-header__title">
+                            Luxury Resort Deals
+                            <!-- <span class="icon-flash icon-trending"></span> -->
+                        </div>
+                        <div class="multi-line-header__caption">Upto 70% Off</div>
+                    </div>
+                    <div class="tour-card-list tour-card-list--v2 tour-carousel">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide10">
+                            <div data-href="/tours/aloha-resort-stay-with-spa-experience-flat-40-off" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10192">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x" media="(min-width: 1024px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x" media="(min-width: 768px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x" media="(min-width: 576px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x" media="(min-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x" media="(max-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x"><img alt="Nn4p0a4jw7b3ec7gdb35a4bfn7cu 1589461759 39784e54f69411e78a300a4cef95d023" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png" src="" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nn4p0a4jw7b3ec7gdb35a4bfn7cu_1589461759_39784e54f69411e78a300a4cef95d023.png 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Rishikesh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/aloha-resort-stay-with-spa-experience-flat-40-off" class="tour-card-v2__name" target="_blank" tabindex="-1">Aloha On The Ganges, Rishikesh | Luxury Staycation Deal</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(31 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>7,139</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>8,600</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide11">
+                            <div data-href="/tours/the-honeymoon-resort-apple-country-in-manali" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="12842">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x" media="(min-width: 1024px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x" media="(min-width: 768px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x" media="(min-width: 576px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x" media="(min-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x" media="(max-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x"><img alt="Fatrf6pjr45qqrel7eio3ttvw7a1 6i7l" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg" src="" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/fatrf6pjr45qqrel7eio3ttvw7a1_6i7l.jpg 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                SPECIAL OFFERS
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Manali</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/the-honeymoon-resort-apple-country-in-manali" class="tour-card-v2__name" target="_blank" tabindex="-1">Apple Country Resort, Manali | Luxury Staycation Deal</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(40 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>6,199</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>8,299</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide12">
+                            <div data-href="/tours/the-tattva-resort" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="3196">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x" media="(min-width: 1024px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x" media="(min-width: 768px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x" media="(min-width: 576px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x" media="(min-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x" media="(max-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x"><img alt="Hocuira36fuq4jumrdu32hhccsyt tattva1" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png" src="" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/hocuira36fuq4jumrdu32hhccsyt_tattva1.png 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                SPECIAL OFFERS
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Joshimath</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/the-tattva-resort" class="tour-card-v2__name" target="_blank" tabindex="-1">The Tattva Resort, Auli | Luxury Staycation Deal</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(27 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>4,300</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>6,300</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide13">
+                            <div data-href="/tours/luxury-stay-at-ibnii-resort-coorg" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="18837">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 2x" media="(max-width: 320px)"><img alt="Kr7z436lbkmek0an05kw0bizvuwf 1599480175 ibni" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/kr7z436lbkmek0an05kw0bizvuwf_1599480175_ibni.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Coorg</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/luxury-stay-at-ibnii-resort-coorg" class="tour-card-v2__name" target="_blank" tabindex="-1">The Ibnii, Coorg | Luxury Staycation Deal</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(31 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>13,999</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>24,160</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide14">
+                            <div data-href="/tours/the-roseate-ganges-rishikesh-flat-25-off" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="18430">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 2x" media="(max-width: 320px)"><img alt="Pkhk5khmu5wfl1phdog12w2nwjnk 11 %281%29 %281%29" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/pkhk5khmu5wfl1phdog12w2nwjnk_11_%281%29_%281%29.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                SPECIAL OFFERS
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Rishikesh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/the-roseate-ganges-rishikesh-flat-25-off" class="tour-card-v2__name" target="_blank" tabindex="-1">The Roseate Ganges, Rishikesh | Luxury Staycation Deal</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(46 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>24,400</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>32,000</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide15">
+                            <div data-href="/tours/honeymoon-inn" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="19942">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 2x" media="(max-width: 320px)"><img alt="Qtidnugyscxt7bovcobtpfl5izae 1597228733 57459365" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/qtidnugyscxt7bovcobtpfl5izae_1597228733_57459365.png" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                SPECIAL OFFERS
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Manali</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/honeymoon-inn" class="tour-card-v2__name" target="_blank" tabindex="-1">Honeymoon Inn, Manali | Luxury Staycation Deal</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(57 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>3,500</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>4,300</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide16">
+                            <div data-href="/tours/corbett-jungle-treasure-resort-flat-50-off" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="12098">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 2x" media="(max-width: 320px)"><img alt="T50akowbh32sovty6ayzm1bk0i3s 1600519940 140292047" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/t50akowbh32sovty6ayzm1bk0i3s_1600519940_140292047.png" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                SPECIAL OFFERS
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Ramnagar</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/corbett-jungle-treasure-resort-flat-50-off" class="tour-card-v2__name" target="_blank" tabindex="-1">Corbett Jungle Treasure Resort | Luxury Staycation Deal</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(37 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>2,700</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>3,800</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide17">
+                            <div data-href="/tours/namami-ganges-resort-rishikesh-with-river-rafting-flat-44-off" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1156">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 2x" media="(max-width: 320px)"><img alt="E5pdom5n3ii47k7wigycn6bvfjg6 1591889898 namami ganges resort" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/e5pdom5n3ii47k7wigycn6bvfjg6_1591889898_namami-ganges-resort.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                SPECIAL OFFERS
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Rishikesh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/namami-ganges-resort-rishikesh-with-river-rafting-flat-44-off" class="tour-card-v2__name" target="_blank" tabindex="-1">Namami Ganges Resort, Rishikesh | Luxury Staycation Deal</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(39 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>6,000</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>8,999</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section__trending">
+                <div class="container">
+                    <div class="multi-line-header multi-line-header--centered">
+                        <div class="multi-line-header__title">
+                            Discover Ladakh
+                            <!-- <span class="icon-flash icon-trending"></span> -->
+                        </div>
+                    </div>
+                    <div class="tour-card-list tour-card-list--v2 tour-carousel">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide20">
+                            <div data-href="/tours/thrilling-leh-ladakh-tour-with-pangong-lake" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="13232">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s---3z-2osS--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--ygnu0fYG--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x" media="(min-width: 1024px)" srcset="https://images.thrillophilia.com/image/upload/s---3z-2osS--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--ygnu0fYG--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--AM07SO0---/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--nzaOhgc2--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x" media="(min-width: 768px)" srcset="https://images.thrillophilia.com/image/upload/s--AM07SO0---/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--nzaOhgc2--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--_5248bZO--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--fNJ213je--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x" media="(min-width: 576px)" srcset="https://images.thrillophilia.com/image/upload/s--_5248bZO--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--fNJ213je--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--m_dxPuIR--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--EKknXfhV--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x" media="(min-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s--m_dxPuIR--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--EKknXfhV--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--1HucvV_d--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--VKaf8P1S--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x" media="(max-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s--1HucvV_d--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--VKaf8P1S--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x"><img alt="Thrilling Leh Ladakh Tour with Pangong Lake" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s---3z-2osS--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--ygnu0fYG--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--hBNSG4Q9--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg" src="" srcset="https://images.thrillophilia.com/image/upload/s---3z-2osS--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--ygnu0fYG--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/183/886/original/1614868795_Artboard_1_copy_28.jpg.jpg 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Leh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>5D/4N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/thrilling-leh-ladakh-tour-with-pangong-lake" class="tour-card-v2__name" target="_blank" tabindex="-1">Thrilling Leh Ladakh Tour with Pangong Lake</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(77 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>13,800</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>20,838</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide21">
+                            <div data-href="/tours/7d-6n-leh-ladakh-bike-trip" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="8189">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--EUnawa2m--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--Z2qei-E1--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x" media="(min-width: 1024px)" srcset="https://images.thrillophilia.com/image/upload/s--EUnawa2m--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--Z2qei-E1--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--oX3yKTYo--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--gTlXKEvc--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x" media="(min-width: 768px)" srcset="https://images.thrillophilia.com/image/upload/s--oX3yKTYo--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--gTlXKEvc--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--6T88N_5v--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--lx18dqrk--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x" media="(min-width: 576px)" srcset="https://images.thrillophilia.com/image/upload/s--6T88N_5v--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--lx18dqrk--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s---MuinkFs--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--s_x6OQ1w--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x" media="(min-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s---MuinkFs--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--s_x6OQ1w--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--ZUIZxn6q--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--WyOHxji1--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x" media="(max-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s--ZUIZxn6q--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--WyOHxji1--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x"><img alt="Leh Bike Tour Adventure with Camping: Flat 35% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--EUnawa2m--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--Z2qei-E1--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--cKQDYGye--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg" src="" srcset="https://images.thrillophilia.com/image/upload/s--EUnawa2m--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--Z2qei-E1--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/087/400/original/1614938511_2_%286%29.jpg.jpg 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Ladakh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>7D/6N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/7d-6n-leh-ladakh-bike-trip" class="tour-card-v2__name" target="_blank" tabindex="-1">Leh Bike Tour Adventure with Camping: Flat 35% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(598 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>19,450</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>29,924</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide22">
+                            <div data-href="/tours/leh-ladakh-tour" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="3141">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--BukLUKWP--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--_fRxZhou--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" media="(min-width: 1024px)" srcset="https://images.thrillophilia.com/image/upload/s--BukLUKWP--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--_fRxZhou--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--BjaHcWWB--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--9qhY374f--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" media="(min-width: 768px)" srcset="https://images.thrillophilia.com/image/upload/s--BjaHcWWB--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--9qhY374f--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--uk4Xd1FM--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--T1tUvUfA--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" media="(min-width: 576px)" srcset="https://images.thrillophilia.com/image/upload/s--uk4Xd1FM--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--T1tUvUfA--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--tOwrFdSN--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--ZVxt8HjW--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" media="(min-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s--tOwrFdSN--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--ZVxt8HjW--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--RJ51Zc0A--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--B4QGKWlH--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" media="(max-width: 320px)" srcset="https://images.thrillophilia.com/image/upload/s--RJ51Zc0A--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--B4QGKWlH--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x"><img alt="Leh Ladakh Group Tour Package with Camping I Flat 17% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--BukLUKWP--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--_fRxZhou--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--n1MZjNkT--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg" src="" srcset="https://images.thrillophilia.com/image/upload/s--BukLUKWP--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--_fRxZhou--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/027/250/original/1614937954_3_%284%29.jpg.jpg 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Ladakh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>7D/6N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/leh-ladakh-tour" class="tour-card-v2__name" target="_blank" tabindex="-1">Leh Ladakh Group Tour Package with Camping I Flat 17% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(2145 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>19,745</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>24,039</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide23">
+                            <div data-href="/tours/srinagar-leh-manali-umlingla-bike" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9998">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--cY0DNgLL--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--z88P7qSy--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--BtMBUevN--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--rJpccewj--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--uPH5U1f2--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--fSm_Cv24--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--Xjd0DDlz--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--NkeODIYo--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--qVGnoTFj--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--tR3LySvr--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Manali Leh Manali Bike Expedition with Hanle and Tsomoriri" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--cY0DNgLL--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--z88P7qSy--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--qRK0V5zk--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/126/014/original/1614918113_4_%281%29.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Ladakh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>12D/11N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/srinagar-leh-manali-umlingla-bike" class="tour-card-v2__name" target="_blank" tabindex="-1">Manali Leh Manali Bike Expedition with Hanle and Tsomoriri</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(27 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>24,800</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>31,200</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide24">
+                            <div data-href="/tours/manali-leh-jeep-safari" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1588">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--gw4MzIR3--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--oDqqnbUF--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--sG0t1Nia--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--nTFfU-YH--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--Wr5vuzwk--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--nSpIFGga--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--D9ZUMGIR--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--GZ5qMW5j--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--1Yi2d43g--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--OIT5im_4--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Manali Leh Manali Jeep Safari | Book Now @ Flat 15% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--gw4MzIR3--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--oDqqnbUF--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--D7zKAc0v--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/031/198/original/1614926025_5_%282%29.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Ladakh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>12D/11N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/manali-leh-jeep-safari" class="tour-card-v2__name" target="_blank" tabindex="-1">Manali Leh Manali Jeep Safari | Book Now @ Flat 15% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(448 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>37,900</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>44,590</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide25">
+                            <div data-href="/tours/overland-journey-to-ladakh" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1842">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--KU_ELJeh--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--WTu3dVFN--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--HRAwHWnJ--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--w4wZkqsh--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--FocL3s0q--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--8WX3Xj_M--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--qVHKKNLa--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--pbqpkeJ8--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--qV2jCi2m--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--5C1Y6ksi--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Manali Leh Srinagar Bike Trip, Book &amp; Get 5000 Cashback!" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--KU_ELJeh--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--WTu3dVFN--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--HUUHef-H--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/025/970/original/1614926123_6_%282%29.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Ladakh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>12D/11N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/overland-journey-to-ladakh" class="tour-card-v2__name" target="_blank" tabindex="-1">Manali Leh Srinagar Bike Trip, Book &amp; Get 5000 Cashback!</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(570 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>35,300</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>40,300</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide26">
+                            <div data-href="/tours/leh-ladakh-bike-trip-from-delhi" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9126">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--f6Udv9y6--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--VhYu_2ZO--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--ybAyTasw--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--7oJe1q1C--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--AC539HJ0--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--gGspvdG---/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--DC3UTYS1--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--fsZGQY1J--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--Imd10jBG--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--MRO49O2m--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Leh Ladakh Bike Trip from Delhi, Book Now @ Flat 32% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--f6Udv9y6--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--VhYu_2ZO--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--pGr-qrFi--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/103/725/original/1614924801_14.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                SPECIAL OFFERS
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Ladakh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>10D/9N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/leh-ladakh-bike-trip-from-delhi" class="tour-card-v2__name" target="_blank" tabindex="-1">Leh Ladakh Bike Trip from Delhi, Book Now @ Flat 32% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(213 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>28,800</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>42,353</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide27">
+                            <div data-href="/tours/ladakh-sightseeing-from-delhi" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10000">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--OaGxXH1F--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--347824_n--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--5ny76mn0--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--OFIZXuxA--/c_fill,g_center,h_409,q_auto,w_314/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--u1hGQFMY--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--GMeBblhN--/c_fill,g_center,h_229,q_auto,w_303/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s--0tDNNi5g--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--MOv5-8MD--/c_fill,g_center,h_333,q_auto,w_253/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://images.thrillophilia.com/image/upload/s---3-Fh5rX--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--4vIhvXDZ--/c_fill,g_center,h_196,q_auto,w_143/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Ladakh Sightseeing Tour (with Flights) I Book Now @ 29% off" class="tour-card-v2__image" data-srcset="https://images.thrillophilia.com/image/upload/s--OaGxXH1F--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 1x, https://images.thrillophilia.com/image/upload/s--347824_n--/c_fill,g_center,h_301,q_auto,w_222/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg 2x" data-src="https://images.thrillophilia.com/image/upload/s--Y04TtENk--/c_fill,g_center,h_450,q_auto,w_752/f_auto,fl_strip_profile/v1/images/photos/000/126/036/original/1614918257_9_%281%29.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Ladakh</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>7D/6N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/ladakh-sightseeing-from-delhi" class="tour-card-v2__name" target="_blank" tabindex="-1">Ladakh Sightseeing Tour (with Flights) I Book Now @ 29% off</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(144 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>29,800</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>42,400</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section__trending">
+                <div class="container">
+                    <div class="multi-line-header multi-line-header--centered">
+                        <div class="multi-line-header__title">
+                            Exotic Homestays
+                            <!-- <span class="icon-flash icon-trending"></span> -->
+                        </div>
+                    </div>
+                    <div class="tour-card-list tour-card-list--v2 tour-carousel">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide30">
+                            <div data-href="/tours/kodaikanal-homestay-with-mountain-view" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21177">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x" media="(min-width: 1024px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x" media="(min-width: 768px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x" media="(min-width: 576px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x" media="(min-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x" media="(max-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x"><img alt="3a66wca2xgvenepih100h3fru499 drizzle1" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png" src="" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/3a66wca2xgvenepih100h3fru499_drizzle1.png 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Best Seller
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Kodaikanal</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/kodaikanal-homestay-with-mountain-view" class="tour-card-v2__name" target="_blank" tabindex="-1">Kodaikanal Homestay With Mountain View</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(34 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,599</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,199</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide31">
+                            <div data-href="/tours/a-relaxing-retreat-amidst-kalhatty-ghats-of-ooty" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21049">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x" media="(min-width: 1024px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x" media="(min-width: 768px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x" media="(min-width: 576px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x" media="(min-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x" media="(max-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x"><img alt="28iwb92eoylkq41l6zv0uw5m4juo a1" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg" src="" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/28iwb92eoylkq41l6zv0uw5m4juo_a1.jpg 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Ooty</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/a-relaxing-retreat-amidst-kalhatty-ghats-of-ooty" class="tour-card-v2__name" target="_blank" tabindex="-1">A Relaxing Retreat Amidst Kalhatty Ghats of Ooty</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(39 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,299</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,899</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide32">
+                            <div data-href="/tours/a-quiet-hideaway-amidst-the-lush-outdoors-of-wayanad" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="11775">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x" media="(min-width: 1024px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x" media="(min-width: 768px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x" media="(min-width: 576px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x" media="(min-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x" media="(max-width: 320px)" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x"><img alt="X7vz717gf2bk3r9p6jct6u6y5ytm 1599487024 211" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg" src="" srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/x7vz717gf2bk3r9p6jct6u6y5ytm_1599487024_211.jpg 2x">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Bookings Enabled
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Wayanad</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/a-quiet-hideaway-amidst-the-lush-outdoors-of-wayanad" class="tour-card-v2__name" target="_blank" tabindex="-1">A Quiet Hideaway Amidst the Lush Outdoors of Wayanad</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(60 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,699</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,800</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide33">
+                            <div data-href="/tours/a-wild-vacation-retreat-tucked-in-dandeli-forests" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21039">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 2x" media="(max-width: 320px)"><img alt="Nbpwj33fvox77miu9nau1lc5855w 1" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/nbpwj33fvox77miu9nau1lc5855w_1.JPG" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Dandeli</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/a-wild-vacation-retreat-tucked-in-dandeli-forests" class="tour-card-v2__name" target="_blank" tabindex="-1">A Wild Vacation Retreat Tucked in Dandeli Forests</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(29 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,999</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>3,000</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide34">
+                            <div data-href="/tours/cottage-stay-in-nature-chikmagalur" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="13252">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 2x" media="(max-width: 320px)"><img alt="Ayl2ogdh4mw7738tm4x65g6dz82s 1597060619 1587051656 coffeegroveresort 6.jpg" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/ayl2ogdh4mw7738tm4x65g6dz82s_1597060619_1587051656_CoffeegroveResort-6.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                SPECIAL OFFERS
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Chikmagalur</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/cottage-stay-in-nature-chikmagalur" class="tour-card-v2__name" target="_blank" tabindex="-1">A Scenic Getaway Amidst Lush Green Valleys in Chikmagalur</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(32 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,999</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>3,500</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide35">
+                            <div data-href="/tours/an-adventurous-getaway-in-the-jungles-of-dandeli" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="11780">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 2x" media="(max-width: 320px)"><img alt="Bn7s452wnmds0w87a91a195xkp2n 1599805380 parampara2" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/bn7s452wnmds0w87a91a195xkp2n_1599805380_parampara2.png" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Bookings Enabled
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Dandeli</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/an-adventurous-getaway-in-the-jungles-of-dandeli" class="tour-card-v2__name" target="_blank" tabindex="-1">An Adventurous Getaway in the Jungles of Dandeli</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(46 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,599</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>3,000</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide36">
+                            <div data-href="/tours/a-blissful-farm-retreat-amidst-the-coffee-plantations-of-coorg" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="20963">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 2x" media="(max-width: 320px)"><img alt="2rgda2n9x87c1x3k9plek2cmfj72 1608108581 coorg bliss1" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/2rgda2n9x87c1x3k9plek2cmfj72_1608108581_coorg_bliss1.png" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Coorg</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/a-blissful-farm-retreat-amidst-the-coffee-plantations-of-coorg" class="tour-card-v2__name" target="_blank" tabindex="-1">Private Farmhouse Cottages In Coffee Estate Coorg</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">5.0</div>
+                                        <div class="tour-card-v2__reviews-count">(52 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,199</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,999</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide37">
+                            <div data-href="/tours/a-tranquil-homestay-amidst-coffee-plantations-in-coorg" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21105">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 2x" media="(max-width: 320px)"><img alt="K83com168ozwmqdaiegbap30dftb 132262866" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/k83com168ozwmqdaiegbap30dftb_132262866.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Coorg</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/a-tranquil-homestay-amidst-coffee-plantations-in-coorg" class="tour-card-v2__name" target="_blank" tabindex="-1">A Tranquil Homestay Amidst Coffee Plantations in Coorg</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(38 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>2,499</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,999</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide38">
+                            <div data-href="/tours/stone-house-overlooking-mountains-in-manali" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="16487">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 2x" media="(max-width: 320px)"><img alt="Bfdnsh7boh70l32ihdkxsmrkw2hf 1592440375 thum" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/bfdnsh7boh70l32ihdkxsmrkw2hf_1592440375_thum.png" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Deal Of the Day
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Manali</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/stone-house-overlooking-mountains-in-manali" class="tour-card-v2__name" target="_blank" tabindex="-1">A Boutique Mountain Home in Countryside of Manali</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(37 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,300</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,700</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide39">
+                            <div data-href="/tours/luxurious-homestay-in-kullu-valley-kasol" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9579">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 2x" media="(max-width: 320px)"><img alt="Czhpes7josea8pdgucjftauvtlq5 1575356091 kothi6" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/czhpes7josea8pdgucjftauvtlq5_1575356091_kothi6.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                New
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Kullu</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/luxurious-homestay-in-kullu-valley-kasol" class="tour-card-v2__name" target="_blank" tabindex="-1">A Quite Hideaway with Valley Views in Kullu</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(95 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,700</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,000</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide310">
+                            <div data-href="/tours/modern-chalet-stay-in-pangot" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="16770">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 2x" media="(max-width: 320px)"><img alt="Zsjdns3s5z3zhik4b0t8khg2gkie 1598910205 198622921" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/zsjdns3s5z3zhik4b0t8khg2gkie_1598910205_198622921.png" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Best Seller
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Nainital</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/modern-chalet-stay-in-pangot" class="tour-card-v2__name" target="_blank" tabindex="-1">Chalet Stay On The Hilltop in Nainital</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(35 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>2,050</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,450</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide311">
+                            <div data-href="/tours/an-adventurous-tree-house-near-shimla" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21018">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 2x" media="(max-width: 320px)"><img alt="Alootaj19z9nhsipw1891hzzp22j mmm" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/alootaj19z9nhsipw1891hzzp22j_mmm.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Best Seller
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Shimla</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/an-adventurous-tree-house-near-shimla" class="tour-card-v2__name" target="_blank" tabindex="-1">An Adventurous Tree House Near Shimla</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(27 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,375</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,500</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide312">
+                            <div data-href="/tours/homestay-amidst-silver-oak-trees-chikmagalur" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9590">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 2x" media="(max-width: 320px)"><img alt="Su3ganakk2g3lijjfn53mareiyy6 1588221559 dsc 5010" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/su3ganakk2g3lijjfn53mareiyy6_1588221559_DSC_5010.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                SPECIAL OFFERS
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Chikmagalur</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/homestay-amidst-silver-oak-trees-chikmagalur" class="tour-card-v2__name" target="_blank" tabindex="-1">Private Cottage Homestay in Coffee Plantations Chikmagalur</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(175 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,599</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,500</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide313">
+                            <div data-href="/tours/a-weekend-homestay-in-sakleshpur" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="20937">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 2x" media="(max-width: 320px)"><img alt="I2s03glp6hvj8ymswregfymuimfe 1519543013 img 20170716 100301.jpg" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/i2s03glp6hvj8ymswregfymuimfe_1519543013_IMG_20170716_100301.jpg.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Sakleshpur</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/a-weekend-homestay-in-sakleshpur" class="tour-card-v2__name" target="_blank" tabindex="-1">A Stream Side Hideaway Amidst the Lush Greens of Sakleshpur</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(41 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,799</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>3,334</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide314">
+                            <div data-href="/tours/cozy-villa-stay-on-the-hilltop-of-kasauli" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21019">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 2x" media="(max-width: 320px)"><img alt="8kqreob7ozehafw0550339cxgc9o 51" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/8kqreob7ozehafw0550339cxgc9o_51.webp" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Best Seller
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Kasauli</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/cozy-villa-stay-on-the-hilltop-of-kasauli" class="tour-card-v2__name" target="_blank" tabindex="-1">Cozy Villa Stay on The Hilltop of Kasauli</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(28 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>1,350</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>1,999</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide315">
+                            <div data-href="/tours/a-comfortable-getaway-with-river-view-in-tirthan" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21058">
+                                <div class="tour-card-v2__banner">
+                                    <picture class="lazy-picture tour-card-v2__image">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 2x" media="(min-width: 1024px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_409,q_auto,w_314/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 2x" media="(min-width: 768px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_229,q_auto,w_303/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 2x" media="(min-width: 576px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_333,q_auto,w_253/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 2x" media="(min-width: 320px)">
+                                        <source data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_196,q_auto,w_143/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 2x" media="(max-width: 320px)"><img alt="Ml0bytnfw646pbfobu47xp6tn4e8 dpo 0348" class="tour-card-v2__image" data-srcset="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 1x, https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.5,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg 2x" data-src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_301,q_auto,w_222/v1/filestore/ml0bytnfw646pbfobu47xp6tn4e8_DPO_0348.jpg" src="">
+                                    </picture>
+                                    <div class="tour-card-v2__legibility-gradient"></div>
+                                    <div class="tour-card-v2__banner-data-wrap">
+                                        <span class="tour-card-v2__tags">
+                                            <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                                                Featured
+                                            </span>
+                                        </span>
+
+                                        <ul class="tour-card-v2__additional-info">
+                                            <span class="icon-pin-bold"></span>
+                                            <span class="tour-card-v2__location">Kullu</span>
+                                            <span class="tour-card-v2__location-duration-separator">|</span>
+                                            <span>2D/1N</span>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tour-card-v2__details-wrap">
+                                    <a href="/tours/a-comfortable-getaway-with-river-view-in-tirthan" class="tour-card-v2__name" target="_blank" tabindex="-1">A Comfortable Getaway with River View in Tirthan</a>
+                                    <div class="tour-card-v2__reviews-wrap">
+                                        <div class="icon-star-empty"></div>
+                                        <div class="tour-card-v2__average-rating">4.0</div>
+                                        <div class="tour-card-v2__reviews-count">(29 Reviews)</div>
+                                    </div>
+                                    <div class="tour-card-v2__price-and-cta-wrap">
+                                        <div class="tour-card-v2__pricing">
+                                            <span class="current-price"><span class="currency-type">₹</span>2,100</span>
+                                            <span class="old-price"><span class="currency-type">₹</span>2,500</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Carousel for banner  -->
+            <br><br>
+            <div class="container">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" style='height:350px;'>
+                        <div class="carousel-item active">
+                            <img src="<?php echo base_url().'assets/images/building-one.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="<?php echo base_url().'assets/images/building.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="<?php echo base_url().'assets/images/one.png'; ?>" class="d-block w-100" style='height:300px' alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        
+                    </button>
+                    
+                    <button class="carousel-control-next" type="button" style='margin-top:-20px;'data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+
+
+            <section class="nearby-destinations">
+                <div class="container">
+                    <div class="multi-line-header multi-line-header--centered">
+                        <div class="multi-line-header__title">Destinations near you</div>
+                    </div>
+                    <div class="nearby-destinations__destinations-bar">
+                        <span class="nearby-destinations__destinations-bar-item nearby-destinations__destinations-bar-item--selected" data-trigger-grid="destination-grid-bangalore">Bangalore</span>
+                        <span class="nearby-destinations__destinations-bar-item " data-trigger-grid="destination-grid-mumbai">Mumbai</span>
+                        <span class="nearby-destinations__destinations-bar-item " data-trigger-grid="destination-grid-delhi">Delhi</span>
+                        <span class="nearby-destinations__destinations-bar-item " data-trigger-grid="destination-grid-jaipur">Jaipur</span>
+                        <span class="nearby-destinations__destinations-bar-item " data-trigger-grid="destination-grid-pune">Pune</span>
+                        <span class="nearby-destinations__destinations-bar-item " data-trigger-grid="destination-grid-chandigarh">Chandigarh</span>
+                        <span class="nearby-destinations__destinations-bar-item " data-trigger-grid="destination-grid-chennai">Chennai</span>
+                    </div>
+                    <div class="nearby-destinations__dropdown">
+                        <ul class="nearby-destinations__dropdown-list">
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                            <li class="nearby-destinations__dropdown-list-item"><a class="nearby-destinations__destinations-bar-item" href="#">Bangalore</a></li>
+                        </ul>
+                    </div>
+                    <div class="nearby-destinations__destinations-grid-wrap">
+                        <div class="nearby-destinations__destinations-grid nearby-destinations__destinations-grid--visible" id="destination-grid-bangalore">
+                            <a target="_blank" href="/cities/coorg" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Coorg@2x-c5e0bc1ba90d49cc00b96c58b2199373a0ac018f27b921df11f5c6fb0d55ddd7.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Coorg@2x-c5e0bc1ba90d49cc00b96c58b2199373a0ac018f27b921df11f5c6fb0d55ddd7.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Coorg@2x-c5e0bc1ba90d49cc00b96c58b2199373a0ac018f27b921df11f5c6fb0d55ddd7.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Coorg@2x-c5e0bc1ba90d49cc00b96c58b2199373a0ac018f27b921df11f5c6fb0d55ddd7.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Coorg@2x-c5e0bc1ba90d49cc00b96c58b2199373a0ac018f27b921df11f5c6fb0d55ddd7.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Coorg@2x-c5e0bc1ba90d49cc00b96c58b2199373a0ac018f27b921df11f5c6fb0d55ddd7.jpg 2x">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Coorg</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 4,025
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/chikmagalur" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Chikmagalur@2x-209e72b565513f0e0078eda9a6394ac279d1054af9000eef6b6d23d557acc532.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Chikmagalur@2x-209e72b565513f0e0078eda9a6394ac279d1054af9000eef6b6d23d557acc532.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Chikmagalur@2x-209e72b565513f0e0078eda9a6394ac279d1054af9000eef6b6d23d557acc532.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Chikmagalur@2x-209e72b565513f0e0078eda9a6394ac279d1054af9000eef6b6d23d557acc532.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Chikmagalur@2x-209e72b565513f0e0078eda9a6394ac279d1054af9000eef6b6d23d557acc532.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Chikmagalur@2x-209e72b565513f0e0078eda9a6394ac279d1054af9000eef6b6d23d557acc532.jpg 2x">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Chikmagalur</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,450
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/wayanad" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Wayanad@2x-959c077cde33279090616b976953c80bd52e770f629cfbcdb3ecb1b3badc4078.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Wayanad@2x-959c077cde33279090616b976953c80bd52e770f629cfbcdb3ecb1b3badc4078.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Wayanad@2x-959c077cde33279090616b976953c80bd52e770f629cfbcdb3ecb1b3badc4078.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Wayanad@2x-959c077cde33279090616b976953c80bd52e770f629cfbcdb3ecb1b3badc4078.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Wayanad@2x-959c077cde33279090616b976953c80bd52e770f629cfbcdb3ecb1b3badc4078.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Wayanad@2x-959c077cde33279090616b976953c80bd52e770f629cfbcdb3ecb1b3badc4078.jpg 2x">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Wayanad</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 4,025
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/pondicherry" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Pondicherry@2x-3a4ed6d699c08d825e02f326c10162e619a24e01881cc3ac6e939ceb35364e70.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Pondicherry@2x-3a4ed6d699c08d825e02f326c10162e619a24e01881cc3ac6e939ceb35364e70.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Pondicherry@2x-3a4ed6d699c08d825e02f326c10162e619a24e01881cc3ac6e939ceb35364e70.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Pondicherry@2x-3a4ed6d699c08d825e02f326c10162e619a24e01881cc3ac6e939ceb35364e70.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Pondicherry@2x-3a4ed6d699c08d825e02f326c10162e619a24e01881cc3ac6e939ceb35364e70.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Pondicherry@2x-3a4ed6d699c08d825e02f326c10162e619a24e01881cc3ac6e939ceb35364e70.jpg 2x">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Pondicherry</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 7,415
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/ooty" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Ooty@2x-243285b6056bf687856a3e23eeb156c8e143e74ad3bb31ca2eda61cad0cb9a39.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Ooty@2x-243285b6056bf687856a3e23eeb156c8e143e74ad3bb31ca2eda61cad0cb9a39.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Ooty@2x-243285b6056bf687856a3e23eeb156c8e143e74ad3bb31ca2eda61cad0cb9a39.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Ooty@2x-243285b6056bf687856a3e23eeb156c8e143e74ad3bb31ca2eda61cad0cb9a39.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Ooty@2x-243285b6056bf687856a3e23eeb156c8e143e74ad3bb31ca2eda61cad0cb9a39.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Ooty@2x-243285b6056bf687856a3e23eeb156c8e143e74ad3bb31ca2eda61cad0cb9a39.jpg 2x">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Ooty</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 6,750
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/munnar" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Munnar@2x-c5f1ad5bc043328f2889bd755280ca214e85f869f07a35a1cf12ad539eef5170.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Munnar@2x-c5f1ad5bc043328f2889bd755280ca214e85f869f07a35a1cf12ad539eef5170.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Munnar@2x-c5f1ad5bc043328f2889bd755280ca214e85f869f07a35a1cf12ad539eef5170.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Munnar@2x-c5f1ad5bc043328f2889bd755280ca214e85f869f07a35a1cf12ad539eef5170.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Munnar@2x-c5f1ad5bc043328f2889bd755280ca214e85f869f07a35a1cf12ad539eef5170.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Munnar@2x-c5f1ad5bc043328f2889bd755280ca214e85f869f07a35a1cf12ad539eef5170.jpg 2x">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Munnar</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 200
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/kabini" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Kabini@2x-b604f5bbb78f9065aca7028c7939ea476af8a8fb3330cb0277ec7c4a10c8639f.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Kabini@2x-b604f5bbb78f9065aca7028c7939ea476af8a8fb3330cb0277ec7c4a10c8639f.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Kabini@2x-b604f5bbb78f9065aca7028c7939ea476af8a8fb3330cb0277ec7c4a10c8639f.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Kabini@2x-b604f5bbb78f9065aca7028c7939ea476af8a8fb3330cb0277ec7c4a10c8639f.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Kabini@2x-b604f5bbb78f9065aca7028c7939ea476af8a8fb3330cb0277ec7c4a10c8639f.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Bangalore/Kabini@2x-b604f5bbb78f9065aca7028c7939ea476af8a8fb3330cb0277ec7c4a10c8639f.jpg 2x">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Kabini</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 500
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class='nearby-destinations__destination-details'><a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/karnataka">View All</a></div>
+                        </div>
+                        <div class="nearby-destinations__destinations-grid " id="destination-grid-mumbai">
+                            <a target="_blank" href="/cities/alibag" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Alibaug@2x-ba7a069deecf3a70c7318b46eb84a1b5bf0ab47721bebc6c369a319bd858dd82.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Alibaug@2x-ba7a069deecf3a70c7318b46eb84a1b5bf0ab47721bebc6c369a319bd858dd82.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Alibaug@2x-ba7a069deecf3a70c7318b46eb84a1b5bf0ab47721bebc6c369a319bd858dd82.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Alibaug</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,750
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/mumbai" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Lonavala@2x-1ede3c24517f5a093e60eecf1e3d8fe8cc8218f9b9d9e807ed25e71ec7d7fa6f.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Lonavala@2x-1ede3c24517f5a093e60eecf1e3d8fe8cc8218f9b9d9e807ed25e71ec7d7fa6f.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Lonavala@2x-1ede3c24517f5a093e60eecf1e3d8fe8cc8218f9b9d9e807ed25e71ec7d7fa6f.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Lonavala</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,456
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/states/goa" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Goa@2x-1acd0a5a96142b2998040620d960a7996cb7416e701872b5ad2673110627b096.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Goa@2x-1acd0a5a96142b2998040620d960a7996cb7416e701872b5ad2673110627b096.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Goa@2x-1acd0a5a96142b2998040620d960a7996cb7416e701872b5ad2673110627b096.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Goa</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 650
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/igatpuri" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Igatpuri@2x-2421e78ecd03181d37284d8905de7bccf3954d76fb08b184a276dffcab924f26.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Igatpuri@2x-2421e78ecd03181d37284d8905de7bccf3954d76fb08b184a276dffcab924f26.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Igatpuri@2x-2421e78ecd03181d37284d8905de7bccf3954d76fb08b184a276dffcab924f26.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Igatpuri</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 4,700
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/bhandardara" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Bhandardara@2x-85171504e2e469330263efc8d3e67bfdbae6a52eb7c3fe88eec2b7e1ccceef48.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Bhandardara@2x-85171504e2e469330263efc8d3e67bfdbae6a52eb7c3fe88eec2b7e1ccceef48.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Bhandardara@2x-85171504e2e469330263efc8d3e67bfdbae6a52eb7c3fe88eec2b7e1ccceef48.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Bhandardara</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 5,625
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/karjat" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Karjat@2x-bbff0cc17807a30feb20204f62ff88278ccfc510e9843235589c8c4acc4bbba0.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Karjat@2x-bbff0cc17807a30feb20204f62ff88278ccfc510e9843235589c8c4acc4bbba0.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Karjat@2x-bbff0cc17807a30feb20204f62ff88278ccfc510e9843235589c8c4acc4bbba0.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Karjat</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 4,125
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                            <a target="_blank" href="/cities/mahabaleshwar" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Mumbai/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Mahabaleshwar</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 4,350
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/maharashtra">View All</a></div>
+                            
+                        </div>
+                        <div class="nearby-destinations__destinations-grid " id="destination-grid-delhi">
+                            <a target="_blank" href="/cities/manali" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Manali@2x-c6f2d07ce5f3e5c97190908506805e2287aca7649012966ac52a90588ea68988.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Manali@2x-c6f2d07ce5f3e5c97190908506805e2287aca7649012966ac52a90588ea68988.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Manali@2x-c6f2d07ce5f3e5c97190908506805e2287aca7649012966ac52a90588ea68988.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Manali</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,886
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/shimla" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Shimla@2x-a2dd9c0a908ab4f8991652fa75dfdc95de1d6d529a91c78064d10d2050101535.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Shimla@2x-a2dd9c0a908ab4f8991652fa75dfdc95de1d6d529a91c78064d10d2050101535.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Shimla@2x-a2dd9c0a908ab4f8991652fa75dfdc95de1d6d529a91c78064d10d2050101535.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Shimla</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,976
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/rishikesh" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Rishikesh@2x-b78c21c6b86c6825d3d85399282472e0eca965b3cc7f2c7814c5ed359721b820.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Rishikesh@2x-b78c21c6b86c6825d3d85399282472e0eca965b3cc7f2c7814c5ed359721b820.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Rishikesh@2x-b78c21c6b86c6825d3d85399282472e0eca965b3cc7f2c7814c5ed359721b820.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Rishikesh</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,768
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/agra" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Agra@2x-cf6369c2b95c501ec18a93f702c09398b6c799e795cfdaaa132ae94f78e82ae8.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Agra@2x-cf6369c2b95c501ec18a93f702c09398b6c799e795cfdaaa132ae94f78e82ae8.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Agra@2x-cf6369c2b95c501ec18a93f702c09398b6c799e795cfdaaa132ae94f78e82ae8.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Agra</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 50
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/nainital" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Nainital@2x-1c88f06b202f2c74e1f25d0f33fc48bf19c8bb306daedb81ae6907c0ebf23fcc.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Nainital@2x-1c88f06b202f2c74e1f25d0f33fc48bf19c8bb306daedb81ae6907c0ebf23fcc.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Nainital@2x-1c88f06b202f2c74e1f25d0f33fc48bf19c8bb306daedb81ae6907c0ebf23fcc.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Nainital</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,818
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/corbett" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Corbett@2x-b4937568ed0b5bec023916e95937a16f04e4c454e49bf687e8158050946e3855.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Corbett@2x-b4937568ed0b5bec023916e95937a16f04e4c454e49bf687e8158050946e3855.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Corbett@2x-b4937568ed0b5bec023916e95937a16f04e4c454e49bf687e8158050946e3855.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Corbett</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,850
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/dharamshala" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Dharamshala@2x-bcd74afc1a18821ede1aa8aea7e2770ab8bff889a0db26e0c56fd5677098bf9e.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Dharamshala@2x-bcd74afc1a18821ede1aa8aea7e2770ab8bff889a0db26e0c56fd5677098bf9e.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Delhi/Dharamshala@2x-bcd74afc1a18821ede1aa8aea7e2770ab8bff889a0db26e0c56fd5677098bf9e.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Dharamshala</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 600
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="nearby-destinations__destination-details" > <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/delhi">View All</a></div>
+                           
+                        </div>
+                        <div class="nearby-destinations__destinations-grid " id="destination-grid-jaipur">
+                            <a target="_blank" href="/cities/jaisalmer" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Jaisalmer@2x-0fddb374ef05ecf413a2955558ffc83a2c707f401be6610ac30042c200357865.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Jaisalmer@2x-0fddb374ef05ecf413a2955558ffc83a2c707f401be6610ac30042c200357865.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Jaisalmer@2x-0fddb374ef05ecf413a2955558ffc83a2c707f401be6610ac30042c200357865.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Jaisalmer</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 400
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/jodhpur" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Jodhpur@2x-504f72118aea3a6e5f48d47cd8313df6c9e8f02ca8378b34b5e63f9d52cefdce.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Jodhpur@2x-504f72118aea3a6e5f48d47cd8313df6c9e8f02ca8378b34b5e63f9d52cefdce.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Jodhpur@2x-504f72118aea3a6e5f48d47cd8313df6c9e8f02ca8378b34b5e63f9d52cefdce.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Jodhpur</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 563
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/mount-abu" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Mount-Abu@2x-96a44bfc6bc2fc467bf3d20128340e1986646519b952e310dd6e77b939895e5a.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Mount-Abu@2x-96a44bfc6bc2fc467bf3d20128340e1986646519b952e310dd6e77b939895e5a.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Mount-Abu@2x-96a44bfc6bc2fc467bf3d20128340e1986646519b952e310dd6e77b939895e5a.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Mount Abu</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 286
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/ranthambore" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Ranthambore@2x-0dc26c40d72ae55ed370139fe1adf92b32245a18c7cac52c0023a3297ab96074.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Ranthambore@2x-0dc26c40d72ae55ed370139fe1adf92b32245a18c7cac52c0023a3297ab96074.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Ranthambore@2x-0dc26c40d72ae55ed370139fe1adf92b32245a18c7cac52c0023a3297ab96074.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Ranthambore</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,800
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/udaipur" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Udaipur@2x-f04d0894321475c684abb7549af4790d4889ca7d834e27391532fb0faca70c70.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Udaipur@2x-f04d0894321475c684abb7549af4790d4889ca7d834e27391532fb0faca70c70.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Udaipur@2x-f04d0894321475c684abb7549af4790d4889ca7d834e27391532fb0faca70c70.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Udaipur</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 286
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/pushkar-rajasthan" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Pushkar@2x-f7dff7beff14f241c90072d982fba6199fdb8a5af3b9c387bc6f151944dfadf9.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Pushkar@2x-f7dff7beff14f241c90072d982fba6199fdb8a5af3b9c387bc6f151944dfadf9.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Jaipur/Pushkar@2x-f7dff7beff14f241c90072d982fba6199fdb8a5af3b9c387bc6f151944dfadf9.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Pushkar</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 805
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/rajasthan">View All</a></div>
+                            
+                        </div>
+                        <div class="nearby-destinations__destinations-grid " id="destination-grid-pune">
+                            <a target="_blank" href="/cities/mumbai" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Lonavala@2x-1ede3c24517f5a093e60eecf1e3d8fe8cc8218f9b9d9e807ed25e71ec7d7fa6f.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Lonavala@2x-1ede3c24517f5a093e60eecf1e3d8fe8cc8218f9b9d9e807ed25e71ec7d7fa6f.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Lonavala@2x-1ede3c24517f5a093e60eecf1e3d8fe8cc8218f9b9d9e807ed25e71ec7d7fa6f.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Lonavala</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,456
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/bhandardara" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Bhandardara@2x-85171504e2e469330263efc8d3e67bfdbae6a52eb7c3fe88eec2b7e1ccceef48.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Bhandardara@2x-85171504e2e469330263efc8d3e67bfdbae6a52eb7c3fe88eec2b7e1ccceef48.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Bhandardara@2x-85171504e2e469330263efc8d3e67bfdbae6a52eb7c3fe88eec2b7e1ccceef48.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Bhandardara</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 5,625
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/states/goa" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Goa@2x-1acd0a5a96142b2998040620d960a7996cb7416e701872b5ad2673110627b096.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Goa@2x-1acd0a5a96142b2998040620d960a7996cb7416e701872b5ad2673110627b096.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Goa@2x-1acd0a5a96142b2998040620d960a7996cb7416e701872b5ad2673110627b096.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Goa</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 120
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/mahabaleshwar" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Mahabaleshwar@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Mahabaleshwar</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 4,350
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/alibag" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Alibaug@2x-ba7a069deecf3a70c7318b46eb84a1b5bf0ab47721bebc6c369a319bd858dd82.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Alibaug@2x-ba7a069deecf3a70c7318b46eb84a1b5bf0ab47721bebc6c369a319bd858dd82.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Alibaug@2x-ba7a069deecf3a70c7318b46eb84a1b5bf0ab47721bebc6c369a319bd858dd82.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Alibaug</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,750
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/karjat" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Karjat@2x-bbff0cc17807a30feb20204f62ff88278ccfc510e9843235589c8c4acc4bbba0.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Karjat@2x-bbff0cc17807a30feb20204f62ff88278ccfc510e9843235589c8c4acc4bbba0.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Karjat@2x-bbff0cc17807a30feb20204f62ff88278ccfc510e9843235589c8c4acc4bbba0.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Karjat</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 4,125
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/igatpuri" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Igatpuri@2x-2421e78ecd03181d37284d8905de7bccf3954d76fb08b184a276dffcab924f26.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Igatpuri@2x-2421e78ecd03181d37284d8905de7bccf3954d76fb08b184a276dffcab924f26.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Pune/Igatpuri@2x-2421e78ecd03181d37284d8905de7bccf3954d76fb08b184a276dffcab924f26.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Igatpuri</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 4,700
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/maharashtra">View All</a></div>
+                            
+                        </div>
+                        <div class="nearby-destinations__destinations-grid " id="destination-grid-chandigarh">
+                            <a target="_blank" href="/cities/manali" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Manali@2x-c6f2d07ce5f3e5c97190908506805e2287aca7649012966ac52a90588ea68988.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Manali@2x-c6f2d07ce5f3e5c97190908506805e2287aca7649012966ac52a90588ea68988.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Manali@2x-c6f2d07ce5f3e5c97190908506805e2287aca7649012966ac52a90588ea68988.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Manali</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,886
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/shimla" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Shimla@2x-a2dd9c0a908ab4f8991652fa75dfdc95de1d6d529a91c78064d10d2050101535.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Shimla@2x-a2dd9c0a908ab4f8991652fa75dfdc95de1d6d529a91c78064d10d2050101535.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Shimla@2x-a2dd9c0a908ab4f8991652fa75dfdc95de1d6d529a91c78064d10d2050101535.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Shimla</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,976
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/rishikesh" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Rishikesh@2x-b78c21c6b86c6825d3d85399282472e0eca965b3cc7f2c7814c5ed359721b820.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Rishikesh@2x-b78c21c6b86c6825d3d85399282472e0eca965b3cc7f2c7814c5ed359721b820.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Rishikesh@2x-b78c21c6b86c6825d3d85399282472e0eca965b3cc7f2c7814c5ed359721b820.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Rishikesh</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,768
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/bir-billing" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Bir-Billing@2x-a7863e55ef1486476e13ad8e107a0924a7e4ed7d29d5471bd1ac687886774e94.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Bir-Billing@2x-a7863e55ef1486476e13ad8e107a0924a7e4ed7d29d5471bd1ac687886774e94.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Bir-Billing@2x-a7863e55ef1486476e13ad8e107a0924a7e4ed7d29d5471bd1ac687886774e94.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Bir Billing</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 600
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/corbett" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Corbett@2x-b4937568ed0b5bec023916e95937a16f04e4c454e49bf687e8158050946e3855.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Corbett@2x-b4937568ed0b5bec023916e95937a16f04e4c454e49bf687e8158050946e3855.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Corbett@2x-b4937568ed0b5bec023916e95937a16f04e4c454e49bf687e8158050946e3855.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Corbett</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 3,850
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/kasauli" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Kasauli@2x-0279025dac43b8c35c1cce4ffd64c33ddd289c4129a3fb430ae3eb2e0c4a920c.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Kasauli@2x-0279025dac43b8c35c1cce4ffd64c33ddd289c4129a3fb430ae3eb2e0c4a920c.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Kasauli@2x-0279025dac43b8c35c1cce4ffd64c33ddd289c4129a3fb430ae3eb2e0c4a920c.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Kasauli</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 300
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/mussoorie" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Mussoorie@2x-abff87758a37dd924482d5105d92b832ae36c55a8ffd0cf13757e7c092850d79.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Mussoorie@2x-abff87758a37dd924482d5105d92b832ae36c55a8ffd0cf13757e7c092850d79.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chandigarh/Mussoorie@2x-abff87758a37dd924482d5105d92b832ae36c55a8ffd0cf13757e7c092850d79.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Mussoorie</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 1,000
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="nearby-destinations__destination-details" >  <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/punjab">View All</a></div>
+                           
+                        </div>
+                        <div class="nearby-destinations__destinations-grid " id="destination-grid-chennai">
+                            <a target="_blank" href="/cities/pondicherry" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Pondicherry@2x-3a4ed6d699c08d825e02f326c10162e619a24e01881cc3ac6e939ceb35364e70.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Pondicherry@2x-3a4ed6d699c08d825e02f326c10162e619a24e01881cc3ac6e939ceb35364e70.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Pondicherry@2x-3a4ed6d699c08d825e02f326c10162e619a24e01881cc3ac6e939ceb35364e70.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Pondicherry</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 7,415
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/yelagiri" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Yelagiri@2x-4cbf98f6e9b81fa55008d8d22100e369eb3d0be94a2adaa48841aa6380c0a155.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Yelagiri@2x-4cbf98f6e9b81fa55008d8d22100e369eb3d0be94a2adaa48841aa6380c0a155.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Yelagiri@2x-4cbf98f6e9b81fa55008d8d22100e369eb3d0be94a2adaa48841aa6380c0a155.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Yelagiri</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 250
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/kodaikanal" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Kodaikanal@2x-844ff2153c54317d84194e306663dffcd86f9d91b210666f8c8daf286b0873b0.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Kodaikanal@2x-844ff2153c54317d84194e306663dffcd86f9d91b210666f8c8daf286b0873b0.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Kodaikanal@2x-844ff2153c54317d84194e306663dffcd86f9d91b210666f8c8daf286b0873b0.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Kodaikanal</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 234
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/yercaud" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Yercaud@2x-769d921d2eac9c0f843662f83e3c343f551247c37fd6ce284600fdecec3c67a6.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Yercaud@2x-769d921d2eac9c0f843662f83e3c343f551247c37fd6ce284600fdecec3c67a6.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Yercaud@2x-769d921d2eac9c0f843662f83e3c343f551247c37fd6ce284600fdecec3c67a6.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Yercaud</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 700
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/coorg" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Coorg@2x-c5e0bc1ba90d49cc00b96c58b2199373a0ac018f27b921df11f5c6fb0d55ddd7.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Coorg@2x-c5e0bc1ba90d49cc00b96c58b2199373a0ac018f27b921df11f5c6fb0d55ddd7.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Coorg@2x-c5e0bc1ba90d49cc00b96c58b2199373a0ac018f27b921df11f5c6fb0d55ddd7.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Coorg</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 4,025
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/mysore" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Mysore@2x-38f30a57a337f8a753a1a44a761b6b944aa82c05a240bcf5f8345f5d54af3ab0.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Mysore@2x-38f30a57a337f8a753a1a44a761b6b944aa82c05a240bcf5f8345f5d54af3ab0.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Mysore@2x-38f30a57a337f8a753a1a44a761b6b944aa82c05a240bcf5f8345f5d54af3ab0.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Mysore</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 200
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/cities/mahabalipuram" class="nearby-destinations__destination">
+                                <img class="lazy-image nearby-destinations__destination-image" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Mahabalipuram@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Mahabalipuram@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/destinations/Chennai/Mahabalipuram@2x-6d9857e4ed8c9ff06dbbf81b21929905a49636c015a6090e3792e13bcc18136e.jpg 2x" src="">
+                                <div class="nearby-destinations__destination-details">
+                                    <div class="nearby-destinations__destination-title">Mahabalipuram</div>
+                                    <div class="nearby-destinations__destination-pricing-wrap">
+                                        Starts at
+                                        <span class="nearby-destinations__destination-price">
+                                            ₹ 550
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="nearby-destinations__destination-details"> <a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/tamil-nadu">View All</a></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <section class="travel-news-section">
+                <div class="container">
+                    <div class="multi-line-header multi-line-header--centered">
+                        <div class="multi-line-header__title">Latest Travel Trends</div>
+                    </div>
+
+                    <div class="travel-news-section__wrap">
+                        <div class="travel-news-section__list">
+                            <a target="_blank" href="https://news.thrillophilia.com/report-of-travel-in-india-by-ficci-and-thrillophilia-trends-outlook-2020-21/" class="travel-news-section__list-item travel-news">
+                                <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="https://news.thrillophilia.com/content/images/2021/03/EmDuEbiUcAEk9k7.jpg" data-srcset="" src="https://news.thrillophilia.com/content/images/2021/03/EmDuEbiUcAEk9k7.jpg" srcset="">
+                                <div class="travel-news__details">
+                                    <div class="travel-news__title">
+                                        Report of Travel in India By FICCI And Thrillophilia - Trends &amp; Outlook 2020-21
+                                    </div>
+                                    <div class="travel-news__info">08 MAR 2021 • 1 MIN READ</div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="https://news.thrillophilia.com/uttarakhand-lifts-travel-restrictions-no-more-e-pass-certificate-required-for-entry/" class="travel-news-section__list-item travel-news">
+                                <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="https://news.thrillophilia.com/content/images/2020/09/shutterstock_1086642716--2-.jpg" data-srcset="" src="https://news.thrillophilia.com/content/images/2020/09/shutterstock_1086642716--2-.jpg" srcset="">
+                                <div class="travel-news__details">
+                                    <div class="travel-news__title">
+                                        Uttarakhand Lifts Travel Restrictions: No More E-Pass, Certificate Required For Entry
+                                    </div>
+                                    <div class="travel-news__info">23 SEP 2020 • 1 MIN READ</div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="https://news.thrillophilia.com/thailand-soon-to-introduce-a-90-day-long-visa-for-tourists/" class="travel-news-section__list-item travel-news">
+                                <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="https://news.thrillophilia.com/content/images/2020/09/humphrey-muleba-TejFa7VW5e4-unsplash.jpg" data-srcset="" src="https://news.thrillophilia.com/content/images/2020/09/humphrey-muleba-TejFa7VW5e4-unsplash.jpg" srcset="">
+                                <div class="travel-news__details">
+                                    <div class="travel-news__title">
+                                        Thailand Soon To Introduce A 90-Day Long Visa For Tourists
+                                    </div>
+                                    <div class="travel-news__info">21 SEP 2020 • 1 MIN READ</div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="https://news.thrillophilia.com/national-parks-in-west-bengal-to-reopen-from-september-23/" class="travel-news-section__list-item travel-news">
+                                <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="https://news.thrillophilia.com/content/images/2020/09/shutterstock_1113260963.jpg" data-srcset="" src="https://news.thrillophilia.com/content/images/2020/09/shutterstock_1113260963.jpg" srcset="">
+                                <div class="travel-news__details">
+                                    <div class="travel-news__title">
+                                        National Parks In West Bengal To Reopen From September 23
+                                    </div>
+                                    <div class="travel-news__info">20 SEP 2020 • 1 MIN READ</div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="https://news.thrillophilia.com/" class="travel-news-section__list-item travel-news-section__list-item--view-more view-more-link">See All Articles <span class="icon-right-arrow"></span></a>
+                        </div>
+                        <a target="_blank" href="https://news.thrillophilia.com/heartening-to-note-that-post-covid-people-plan-to-travel-twice-of-what-they-did-previously-rupinder-brar-adg-ministry-of-tourism-survey-by-thrillophilia/" class="travel-news-section__featured">
+                            <img class="lazy-image travel-news-section__featured-image lazy-image-loaded" sizes="100vw" data-src="https://news.thrillophilia.com/content/images/2021/03/0--6-.jpeg" data-srcset="" src="https://news.thrillophilia.com/content/images/2021/03/0--6-.jpeg" srcset="">
+                            <div class="travel-news-section__featured-title">
+                                Heartening to note that post-COVID, people plan to travel twice of what they did previously: Rupinder Brar, ADG, Ministry of Tourism
+                            </div>
+                            <div class="travel-news-section__featured-snippet">
+                                Indian Tourism Largest Survey Report was released yesterday conducted &nbsp;by
+                                Thrillophilia in partnership with FICCI!
+
+                                NEW DELHI, 06 November 2020: Ms Rupinder Brar, Additional Director General,
+                                Ministry of Tourism, Govt of India, released a survey conducted by Thrillophilia
+                                and FICCI across India, and &nbsp;said that the silver lining in the pandemic induced
+                                lockdowns is the fact that even though the industry got severely impacted, but
+                                in a sense it also gave time to the industry to step back, slow do
+                            </div>
+                            <span class="travel-news-section__featured-read-more view-more-link">Read Full Article <span class="icon-right-arrow"></span></span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <div class="generic-info generic-info--ltr">
+                <div class="container">
+                    <div class="generic-info__details">
+                        <div class="generic-info__title">Gift an Experience</div>
+                        <div class="generic-info__text">With Thrillophilia Gift Cards</div>
+                        <a target="_blank" class="generic-info__btn view-more-btn view-more-btn--lg" href="https://www.thrillophilia.com/go-to-gift-page">Know More</a>
+                    </div>
+                    <img class="lazy-image generic-info__image lazy-image-loaded limg" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" srcset="">
+                    <a class="generic-info__link view-more-link " href="https://www.thrillophilia.com/go-to-gift-page">Know More <span class="icon-right-arrow"></span></a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Partners section -->
+            <section class="section__partners">
+                <div class="container">
+                    <div class="multi-line-header multi-line-header--centered">
+                        <div class="multi-line-header__title">Our Partners</div>
+                        <div class="multi-line-header__caption">We team up with the best to give you an unmatchable experience</div>
+                    </div>
+                    <div class="thrillo-partners-container">
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="viator" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/viator-ace82fd6e0f52c90cb97dfedae13e212210d8d98df012e3634ca932771cd4d87.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/viator-ace82fd6e0f52c90cb97dfedae13e212210d8d98df012e3634ca932771cd4d87.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="expedia" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/expedia-cf1b09354d04ea8bfde079edcfabffd9ac6504d53bd6a26e3cc95c78deac0307.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/expedia-cf1b09354d04ea8bfde079edcfabffd9ac6504d53bd6a26e3cc95c78deac0307.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="trip advisor" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/tripadvisor-67f84dff35a7a2f8fffa85eeccdfa79f23a752345978c70506de1b42b67832ed.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/tripadvisor-67f84dff35a7a2f8fffa85eeccdfa79f23a752345978c70506de1b42b67832ed.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="make my trip" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/makemytrip-logo-e0d70f96800e068bbc5b523b72a4d6444f2c794a08478b6ff2f1bcef5aca2aff.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/makemytrip-logo-e0d70f96800e068bbc5b523b72a4d6444f2c794a08478b6ff2f1bcef5aca2aff.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="airbnb" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/airbnb-logo-c0cc623b0da749f03d88517e23d8a104b20bfe084c5b2e10face4764cd8054b0.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/airbnb-logo-c0cc623b0da749f03d88517e23d8a104b20bfe084c5b2e10face4764cd8054b0.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="homeaway" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/homeaway-logo-be9babb2d4ee38ddacc8d543307eba7c9b480666234e5f2b14f93f71f07b8918.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/homeaway-logo-be9babb2d4ee38ddacc8d543307eba7c9b480666234e5f2b14f93f71f07b8918.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="mariott" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/mariott-black-logo-3278cc43d0bff9e6e189e5d487e6750935b11f69db55444affa5b9a45f949e14.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/mariott-black-logo-3278cc43d0bff9e6e189e5d487e6750935b11f69db55444affa5b9a45f949e14.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="sterling" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/sterling-logo-83708a7104c0bdea01b4a7b4edbe98d49eb3ea3a923dc7294fcd8ad99b758524.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/sterling-logo-83708a7104c0bdea01b4a7b4edbe98d49eb3ea3a923dc7294fcd8ad99b758524.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="amazing thailand" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/amazing-thailand-logo-e8085f6855f7a37b9a97dbe472815a1bdac53c540c3b823006f48104298f16fc.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/amazing-thailand-logo-e8085f6855f7a37b9a97dbe472815a1bdac53c540c3b823006f48104298f16fc.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="hong kong tourism" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/hk-tourism-logo-2634d459072c29822eb13be28111113bb163c2f556008386d224ebb7d16e214f.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/hk-tourism-logo-2634d459072c29822eb13be28111113bb163c2f556008386d224ebb7d16e214f.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="visit sweden" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/visit-sweden-logo-5d19aff8b4fdc4b5e30162160ffd508d5178323d892148fec9a653eb60251790.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/visit-sweden-logo-5d19aff8b4fdc4b5e30162160ffd508d5178323d892148fec9a653eb60251790.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="madhya pradesh tourism" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/mp-tourism-logo-cd0343e09de5c46fcc5c22d476ed3f0dde60a1e02f78a25a639bfb4685b042b5.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/mp-tourism-logo-cd0343e09de5c46fcc5c22d476ed3f0dde60a1e02f78a25a639bfb4685b042b5.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="jordan" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/jordan-logo-8ef37d1c364d83fb45e0bdf0852cb6c427616d91a568508cb68c080dbb4f6973.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/jordan-logo-8ef37d1c364d83fb45e0bdf0852cb6c427616d91a568508cb68c080dbb4f6973.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="atta" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/atta-8ed3e5072f7079a64c2ad841b9956253b6c28c9eb31d4da449606ecf61d4148f.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/atta-8ed3e5072f7079a64c2ad841b9956253b6c28c9eb31d4da449606ecf61d4148f.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="isuzu" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/isuzu-logo-8a6d0070eed8e37c183c57a7975814c2b372be73de3bd59d22676d60f635d6a6.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/isuzu-logo-8a6d0070eed8e37c183c57a7975814c2b372be73de3bd59d22676d60f635d6a6.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="mahindra" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/mahindra-logo-420a8fe3d52f77d892ede7a765a4ffa74c6c2ec28ea3489442fb085478bbca49.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/mahindra-logo-420a8fe3d52f77d892ede7a765a4ffa74c6c2ec28ea3489442fb085478bbca49.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="tvs" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/tvs-logo-33279dd1d169bc288d6ea774dbbe01cd9b6a413a361625095536ea195a194b04.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/tvs-logo-33279dd1d169bc288d6ea774dbbe01cd9b6a413a361625095536ea195a194b04.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="uber" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/uber-logo-7a70dca26812f5ee32139f2b580676c6936628eabae46a8d10cc8ba657958e12.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/uber-logo-7a70dca26812f5ee32139f2b580676c6936628eabae46a8d10cc8ba657958e12.jpg" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="zoomcar" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/zoomcar-logo-2410dbade419f21875689bf8dc5b61c39b62afefef1541930613338fc086029d.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/zoomcar-logo-2410dbade419f21875689bf8dc5b61c39b62afefef1541930613338fc086029d.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="gopro" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/gopro-black-logo-98b6b7d0a8f2fbdfb50e386eb1853fc28fb65948b79c4fbf120aab342e4f54f5.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/gopro-black-logo-98b6b7d0a8f2fbdfb50e386eb1853fc28fb65948b79c4fbf120aab342e4f54f5.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="decathlon" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/decathlon-logo-d8af856eb7dcb8b11559db2d59e5711c864e806a70944505d771ce51bc35adb1.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/decathlon-logo-d8af856eb7dcb8b11559db2d59e5711c864e806a70944505d771ce51bc35adb1.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="wildcraft" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/wildcraft-logo-bab2ac65adea1897d117752de07db443532b4fafa55620a23206f964b111ccbe.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/wildcraft-logo-bab2ac65adea1897d117752de07db443532b4fafa55620a23206f964b111ccbe.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="airasia" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/airasia-91f344c0c1efef24dd2ed0c60b91e68bebc23664fef1fbc63acaac69660f6694.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/airasia-91f344c0c1efef24dd2ed0c60b91e68bebc23664fef1fbc63acaac69660f6694.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="skyscanner" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/skyscanner-blue-logo-0e45353d947812d7cbea4d39783e259415c59d70b7e2bbcab1890b9bd6830872.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/skyscanner-blue-logo-0e45353d947812d7cbea4d39783e259415c59d70b7e2bbcab1890b9bd6830872.png" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="mastercard" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/mastercard-logo-4733b7c05b2f228a2d46f83fbdb3135e04d333199cec3a4206d70c22eb0a3c12.svg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/mastercard-logo-4733b7c05b2f228a2d46f83fbdb3135e04d333199cec3a4206d70c22eb0a3c12.svg" srcset="">
+                        </div>
+                        <div class="thrillo-partner-logo">
+                            <img class="lazy-image thrillo-partner-logo-image lazy-image-loaded" alt="wrangler" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/wrangler-logo-30be531bc3a61072675b2c73bf5ff244cd7dff950fc0115d1d64e872c19555d0.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/static_pages/partner_with_us/wrangler-logo-30be531bc3a61072675b2c73bf5ff244cd7dff950fc0115d1d64e872c19555d0.png" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="footer" class="footer ">
+                <div class="container">
+                    <div class="pre-footer">
+                        <div class="row">
+                            <div class="col">
+                                <p class="footer-titles">ABOUT THRILLOPHILIA</p>
+                                <ul class="footer-list">
+                                    <li><a href="/about-us" target="_blank">ABOUT US</a></li>
+                                    <li><a href="/careers" target="_blank">WE ARE HIRING</a></li>
+                                    <li><a href="/reviews" target="_blank">THRILLOPHILIA REVIEWS</a></li>
+                                    <li><a href="/terms-and-conditions" target="_blank">TERMS &amp; CONDITIONS</a></li>
+                                    <li><a href="/privacy-policy" target="_blank">PRIVACY POLICIES</a></li>
+                                    <li><a href="/copyright-policies" target="_blank">COPYRIGHT POLICIES</a></li>
+                                    <li><a href="https://thrillophilia.freshdesk.com/support/home" target="_blank">SUPPORT</a></li>
+                                    <li><span class="onclick-link footer-link" data-href="/apps">APPS</span></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <p class="footer-titles">FOR SUPPLIERS</p>
+                                <ul class="footer-list">
+                                    <li><a class="footer-link" target="_blank" href="/suppliers">LIST YOUR ACTIVITIES</a></li>
+                                </ul>
+                                <p class="footer-titles">FOR BRANDS</p>
+                                <ul class="footer-list">
+                                    <li><a class="footer-link" target="_blank" href="/advertise-with-us">PARTNER WITH US</a></li>
+                                    <li><a class="footer-link" target="_blank" href="/destination-marketing">DESTINATION MARKETING</a></li>
+                                </ul>
+                                <p class="footer-titles">FOR TRAVEL AGENTS</p>
+                                <ul class="footer-list">
+                                    <li><span class="onclick-link footer-link" data-href="/platform_leads/new?lead_type=agent_lead">SIGN UP AS A AGENT</span></li>
+                                    <li><span class="onclick-link footer-link" data-href="/agents/sign_in">AGENT LOGIN</span></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <p class="footer-titles">FOR TRAVELLERS</p>
+                                <ul class="footer-list">
+                                    <li><span class="onclick-link footer-link" data-href="/gopro">GOPRO PASSPORT PROGRAM</span></li>
+                                    <li><span class="onclick-link footer-link gift-link" data-href="/go-to-gift-page">Gift an Experience</span></li>
+                                </ul>
+                            </div>
+                            <div class="col destination">
+                                <p class="footer-titles">TRAVEL DESTINATIONS</p>
+                                <div class="nearby-places-list">
+                                    <div class="col">
+                                        <div class="nearby-places-item">
+                                            <img class="lazy-image nearby-places-item-image lazy-image-loaded" alt="Bali" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/bali-4ef4a1f6f5bdf828f8f3780de7d59d8927a85b1036d9f3513dc135e4d4812ac4.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/bali-4ef4a1f6f5bdf828f8f3780de7d59d8927a85b1036d9f3513dc135e4d4812ac4.png" srcset="">
+                                            <span class="onclick-link footer-link" data-href="/cities/bali">
+                                                <span class="caption">BALI</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="nearby-places-item">
+                                            <img class="lazy-image nearby-places-item-image lazy-image-loaded" alt="Dubai" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/dubai-f44e9fe3e35837870659f9eea44c3e5115c2f372a18c6d61bfffced671c9107a.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/dubai-f44e9fe3e35837870659f9eea44c3e5115c2f372a18c6d61bfffced671c9107a.png" srcset="">
+                                            <span class="onclick-link footer-link" data-href="/cities/dubai">
+                                                <span class="caption">DUBAI</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="nearby-places-item">
+                                            <img class="lazy-image nearby-places-item-image lazy-image-loaded" alt="Singapore" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/singapore-84cf28a90e6abf6dc50c6094f2ee26c3ea66e02dbc86c7537d9d6fa8f23144be.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/singapore-84cf28a90e6abf6dc50c6094f2ee26c3ea66e02dbc86c7537d9d6fa8f23144be.png" srcset="">
+                                            <span class="onclick-link footer-link" data-href="/countries/singapore">
+                                                <span class="caption">SINGAPORE</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="nearby-places-item">
+                                            <img class="lazy-image nearby-places-item-image lazy-image-loaded" alt="Thailand" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/thailand-7c637ba996a37d1b39eeab188e99da39500f620a5ae17d18a468cce72540b194.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/thailand-7c637ba996a37d1b39eeab188e99da39500f620a5ae17d18a468cce72540b194.png" srcset="">
+                                            <span class="onclick-link footer-link" data-href="/countries/thailand">
+                                                <span class="caption">THAILAND</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="nearby-places-item">
+                                            <img class="lazy-image nearby-places-item-image lazy-image-loaded" alt="New Zealand" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/andaman-056508e12d2428e8b3efb7de2565cf254584ea97daa8fe9b75719571b2fd6dff.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/andaman-056508e12d2428e8b3efb7de2565cf254584ea97daa8fe9b75719571b2fd6dff.png" srcset="">
+                                            <span class="onclick-link footer-link" data-href="/states/andaman-and-nicobar-islands">
+                                                <span class="caption">ANDAMAN</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="nearby-places-item">
+                                            <img class="lazy-image nearby-places-item-image lazy-image-loaded" alt="India" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/india-08df8c7f2902e2293487bf7c922aceb0db3ba59b462eae1309d7fbe3de720ec5.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/india-08df8c7f2902e2293487bf7c922aceb0db3ba59b462eae1309d7fbe3de720ec5.png" srcset="">
+                                            <span class="onclick-link footer-link" data-href="/countries/india">
+                                                <span class="caption">INDIA</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="nearby-places-item">
+                                            <img class="lazy-image nearby-places-item-image lazy-image-loaded" alt="Ladakh" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/ladakh-66ea2f16d4f34af639c26118dfbabfcb8cdc37ea298f8505bd702d76fc5e3f76.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/ladakh-66ea2f16d4f34af639c26118dfbabfcb8cdc37ea298f8505bd702d76fc5e3f76.png" srcset="">
+                                            <span class="onclick-link footer-link" data-href="/cities/ladakh">
+                                                <span class="caption">LADAKH</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="nearby-places-item">
+                                            <img class="lazy-image nearby-places-item-image lazy-image-loaded" alt="Hong Kong" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/hongkong-706a1492cba46d77363ed21678108ca17f87ec6f92cbbbb97ab561e4c3501b9f.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/hongkong-706a1492cba46d77363ed21678108ca17f87ec6f92cbbbb97ab561e4c3501b9f.png" srcset="">
+                                            <span class="onclick-link footer-link" data-href="/countries/hong-kong">
+                                                <span class="caption">HONGKONG</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="nearby-places-item">
+                                            <img class="lazy-image nearby-places-item-image lazy-image-loaded" alt="Singapore" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/srilanka-5c2d88de3877628c6b384f6c2ba6d51d018bd1460b7e4666825ddb7f6e1bc25f.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/srilanka-5c2d88de3877628c6b384f6c2ba6d51d018bd1460b7e4666825ddb7f6e1bc25f.png" srcset="">
+                                            <span class="onclick-link footer-link" data-href="/countries/srilanka">
+                                                <span class="caption">SRI LANKA</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-content">
+                        <div class="footer-logo">
+                            <a href="" class="logo-link">
+                                <img src='<?php echo base_url() . 'assets/images/logowhite.png'; ?>' class="desktop-logo mobile-hidden ">
+                                <img src='<?php echo base_url() . 'assets/images/logowhite.png';  ?>' class="desktop-hidden mobile-header-logo ">
+
+                                <!-- <div class="thrillo-logo white-logo desktop-logo"></div> -->
+                            </a>
+                        </div>
+                        <ul class="social-list">
+                            <li>
+                                <span class="onclick-link footer-link" data-href="https://www.facebook.com/Adventure.India.Thrillophilia">
+                                    <span class="icon-facebook-circle"></span>
+                                </span>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="featured-tab" data-toggle="tab" href="#feature" role="tab" aria-controls="feature" aria-selected="false">featured</a>
+                            <li>
+                                <span class="onclick-link footer-link" data-href="https://www.instagram.com/thrillophilia/">
+                                    <span class="icon-instagram-circle"></span>
+                                </span>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="best-rate-tab" data-toggle="tab" href="#best-rate" role="tab" aria-controls="best-rate" aria-selected="false">best rate</a>
+                            <li>
+                                <span class="onclick-link footer-link" data-href="https://twitter.com/thrillophilia">
+                                    <span class="icon-twitter-circle"></span>
+                                </span>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="most-view-tab" data-toggle="tab" href="#most-view" role="tab" aria-controls="most-view" aria-selected="false">most view </a>
+                            <li>
+                                <span class="onclick-link footer-link" data-href="https://in.linkedin.com/company/thrillophilia-adventure-tours-pvt.-ltd.">
+                                    <span class="icon-linkedin-circle"></span>
+                                </span>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="popular-tab" data-toggle="tab" href="#popular" role="tab" aria-controls="popular" aria-selected="false">popular</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#ad-directory" role="tab" aria-controls="ad-directory" aria-selected="false">ad directory</a>
+                            <li>
+                                <span class="onclick-link footer-link" data-href="https://www.youtube.com/channel/UC8MbRQQdYhNwOFeXmpK5UBw">
+                                    <span class="icon-youtube-circle"></span>
+                                </span>
                             </li>
                         </ul>
-                        <div class="ml-auto d-flex slick-custom-nav pl-5">
-                            <div class="arrow slick-prev disabled" id="previous"></div>
-                            <div class="arrow slick-next" id="next"></div>
-                        </div>
                     </div>
                 </div>
-                <div class="container container-1720">
-                    <div class="tab-content">
-                        <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all">
-                            <div class="slick-slider arrow-top full-slide custom-nav equal-height" data-slick-options='{"slidesToShow": 5,"autoplay":false,"dots":false,"arrows":false,"responsive":[{"breakpoint": 2000,"settings": {"slidesToShow": 4}},{"breakpoint": 1500,"settings": {"slidesToShow": 3}},{"breakpoint": 1000,"settings": {"slidesToShow": 2}},{"breakpoint": 770,"settings": {"slidesToShow": 1}}]}'>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="<?php echo base_url() ?>assets/styles/images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex w-lg show-link">
-                                                    <a href="<?php echo base_url() ?>assets/styles/images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                    <a href="#" class="item" data-toggle="tooltip" data-placement="top" title="Compare">
-                                                        <svg class="icon icon-chart-bars">
-                                                            <use xlink:href="#icon-chart-bars"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$56.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item">
-                                                    <a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bed">
-                                                            <use xlink:href="#icon-bed"></use>
-                                                        </svg>
-                                                        <span>Hotel</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="<?php echo base_url() ?>assets/styles/images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Overlooking Bloomsbury's Russell Square and a 2 minutes' walk from the tube station of the same name...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none link-hover-secondary-blue">
-                                                    San Francisco, CA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-2.jpg" alt="store 2" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Best Rate</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-2.jpg" data-gtf-mfp="true" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Karly Gomez Cake</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>8 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$12.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Florencia,
-                                                    Italy</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-3.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Most view</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-3.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.3</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$10.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-5.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">After a yoga class changed her life, Maz became vegan, launched...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Miami,
-                                                    FL</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-4.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-4.jpg" class="item viewing" data-toggle="tooltip" data-gtf-mfp="true" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Red Wings Shoes Store</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>6 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$75.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bag">
-                                                            <use xlink:href="#icon-bag"></use>
-                                                        </svg>
-                                                        <span>Shopping</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-3.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Established in 1895, these style merchants have set the standard in Sydney suiting for generations...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">
-                                                    Paris, France</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-5.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">AD</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-5.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" data-gtf-mfp="true" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Packing & Delivery Service</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.5</span><span>2 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="text-danger font-weight-semibold">Get a quote</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-cog">
-                                                            <use xlink:href="#icon-cog"></use>
-                                                        </svg>
-                                                        <span>Service</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Most items can be packed securely in these boxes, which are available in several sizes...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">New
-                                                    York, USA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="<?php echo base_url() ?>assets/styles/vendors/images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$9.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address py-1">Ubud,
-                                                    Indonesia</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="feature" role="tabpanel" aria-labelledby="feature">
-                            <div class="slick-slider arrow-top full-slide custom-nav equal-height" data-slick-options='{"slidesToShow": 5,"autoplay":false,"dots":false,"arrows":false,"responsive":[{"breakpoint": 2000,"settings": {"slidesToShow": 4}},{"breakpoint": 1500,"settings": {"slidesToShow": 3}},{"breakpoint": 1000,"settings": {"slidesToShow": 2}},{"breakpoint": 770,"settings": {"slidesToShow": 1}}]}'>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex w-lg show-link">
-                                                    <a href="images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                    <a href="#" class="item" data-toggle="tooltip" data-placement="top" title="Compare">
-                                                        <svg class="icon icon-chart-bars">
-                                                            <use xlink:href="#icon-chart-bars"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$56.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item">
-                                                    <a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bed">
-                                                            <use xlink:href="#icon-bed"></use>
-                                                        </svg>
-                                                        <span>Hotel</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Overlooking Bloomsbury's Russell Square and a 2 minutes' walk from the tube station of the same name...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none link-hover-secondary-blue">
-                                                    San Francisco, CA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-2.jpg" alt="store 2" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Best Rate</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-2.jpg" data-gtf-mfp="true" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Karly Gomez Cake</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>8 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$12.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Florencia,
-                                                    Italy</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-3.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Most view</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-3.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.3</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$10.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-5.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">After a yoga class changed her life, Maz became vegan, launched...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Miami,
-                                                    FL</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-4.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-4.jpg" class="item viewing" data-toggle="tooltip" data-gtf-mfp="true" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Red Wings Shoes Store</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>6 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$75.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bag">
-                                                            <use xlink:href="#icon-bag"></use>
-                                                        </svg>
-                                                        <span>Shopping</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-3.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Established in 1895, these style merchants have set the standard in Sydney suiting for generations...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">
-                                                    Paris, France</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-5.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">AD</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-5.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" data-gtf-mfp="true" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Packing & Delivery Service</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.5</span><span>2 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="text-danger font-weight-semibold">Get a quote</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-cog">
-                                                            <use xlink:href="#icon-cog"></use>
-                                                        </svg>
-                                                        <span>Service</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Most items can be packed securely in these boxes, which are available in several sizes...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">New
-                                                    York, USA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$9.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address py-1">Ubud,
-                                                    Indonesia</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="best-rate" role="tabpanel" aria-labelledby="best-rate">
-                            <div class="slick-slider arrow-top full-slide custom-nav" data-slick-options='{"slidesToShow": 5,"autoplay":false,"dots":false,"arrows":false,"responsive":[{"breakpoint": 2000,"settings": {"slidesToShow": 4}},{"breakpoint": 1500,"settings": {"slidesToShow": 3}},{"breakpoint": 1000,"settings": {"slidesToShow": 2}},{"breakpoint": 770,"settings": {"slidesToShow": 1}}]}'>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex w-lg show-link">
-                                                    <a href="images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                    <a href="#" class="item" data-toggle="tooltip" data-placement="top" title="Compare">
-                                                        <svg class="icon icon-chart-bars">
-                                                            <use xlink:href="#icon-chart-bars"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$56.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item">
-                                                    <a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bed">
-                                                            <use xlink:href="#icon-bed"></use>
-                                                        </svg>
-                                                        <span>Hotel</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Overlooking Bloomsbury's Russell Square and a 2 minutes' walk from the tube station of the same name...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none link-hover-secondary-blue">
-                                                    San Francisco, CA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-2.jpg" alt="store 2" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Best Rate</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-2.jpg" data-gtf-mfp="true" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Karly Gomez Cake</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>8 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$12.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Florencia,
-                                                    Italy</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-3.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Most view</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-3.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.3</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$10.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-5.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">After a yoga class changed her life, Maz became vegan, launched...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Miami,
-                                                    FL</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-4.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-4.jpg" class="item viewing" data-toggle="tooltip" data-gtf-mfp="true" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Red Wings Shoes Store</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>6 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$75.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bag">
-                                                            <use xlink:href="#icon-bag"></use>
-                                                        </svg>
-                                                        <span>Shopping</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-3.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Established in 1895, these style merchants have set the standard in Sydney suiting for generations...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">
-                                                    Paris, France</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-5.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">AD</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-5.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" data-gtf-mfp="true" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Packing & Delivery Service</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.5</span><span>2 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="text-danger font-weight-semibold">Get a quote</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-cog">
-                                                            <use xlink:href="#icon-cog"></use>
-                                                        </svg>
-                                                        <span>Service</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Most items can be packed securely in these boxes, which are available in several sizes...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">New
-                                                    York, USA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$9.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address py-1">Ubud,
-                                                    Indonesia</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="most-view" role="tabpanel" aria-labelledby="most-view">
-                            <div class="slick-slider arrow-top full-slide custom-nav" data-slick-options='{"slidesToShow": 5,"autoplay":false,"dots":false,"arrows":false,"responsive":[{"breakpoint": 2000,"settings": {"slidesToShow": 4}},{"breakpoint": 1500,"settings": {"slidesToShow": 3}},{"breakpoint": 1000,"settings": {"slidesToShow": 2}},{"breakpoint": 770,"settings": {"slidesToShow": 1}}]}'>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex w-lg show-link">
-                                                    <a href="images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                    <a href="#" class="item" data-toggle="tooltip" data-placement="top" title="Compare">
-                                                        <svg class="icon icon-chart-bars">
-                                                            <use xlink:href="#icon-chart-bars"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$56.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item">
-                                                    <a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bed">
-                                                            <use xlink:href="#icon-bed"></use>
-                                                        </svg>
-                                                        <span>Hotel</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Overlooking Bloomsbury's Russell Square and a 2 minutes' walk from the tube station of the same name...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none link-hover-secondary-blue">
-                                                    San Francisco, CA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-2.jpg" alt="store 2" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Best Rate</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-2.jpg" data-gtf-mfp="true" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Karly Gomez Cake</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>8 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$12.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Florencia,
-                                                    Italy</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-3.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Most view</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-3.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.3</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$10.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-5.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">After a yoga class changed her life, Maz became vegan, launched...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Miami,
-                                                    FL</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-4.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-4.jpg" class="item viewing" data-toggle="tooltip" data-gtf-mfp="true" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Red Wings Shoes Store</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>6 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$75.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bag">
-                                                            <use xlink:href="#icon-bag"></use>
-                                                        </svg>
-                                                        <span>Shopping</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-3.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Established in 1895, these style merchants have set the standard in Sydney suiting for generations...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">
-                                                    Paris, France</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-5.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">AD</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-5.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" data-gtf-mfp="true" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Packing & Delivery Service</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.5</span><span>2 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="text-danger font-weight-semibold">Get a quote</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-cog">
-                                                            <use xlink:href="#icon-cog"></use>
-                                                        </svg>
-                                                        <span>Service</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Most items can be packed securely in these boxes, which are available in several sizes...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">New
-                                                    York, USA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$9.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address py-1">Ubud,
-                                                    Indonesia</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="popular" role="tabpanel" aria-labelledby="popular">
-                            <div class="slick-slider arrow-top full-slide custom-nav" data-slick-options='{"slidesToShow": 5,"autoplay":false,"dots":false,"arrows":false,"responsive":[{"breakpoint": 2000,"settings": {"slidesToShow": 4}},{"breakpoint": 1500,"settings": {"slidesToShow": 3}},{"breakpoint": 1000,"settings": {"slidesToShow": 2}},{"breakpoint": 770,"settings": {"slidesToShow": 1}}]}'>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex w-lg show-link">
-                                                    <a href="images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                    <a href="#" class="item" data-toggle="tooltip" data-placement="top" title="Compare">
-                                                        <svg class="icon icon-chart-bars">
-                                                            <use xlink:href="#icon-chart-bars"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$56.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item">
-                                                    <a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bed">
-                                                            <use xlink:href="#icon-bed"></use>
-                                                        </svg>
-                                                        <span>Hotel</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Overlooking Bloomsbury's Russell Square and a 2 minutes' walk from the tube station of the same name...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none link-hover-secondary-blue">
-                                                    San Francisco, CA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-2.jpg" alt="store 2" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Best Rate</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-2.jpg" data-gtf-mfp="true" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Karly Gomez Cake</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>8 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$12.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Florencia,
-                                                    Italy</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-3.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Most view</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-3.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.3</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$10.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-5.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">After a yoga class changed her life, Maz became vegan, launched...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Miami,
-                                                    FL</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-4.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-4.jpg" class="item viewing" data-toggle="tooltip" data-gtf-mfp="true" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Red Wings Shoes Store</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>6 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$75.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bag">
-                                                            <use xlink:href="#icon-bag"></use>
-                                                        </svg>
-                                                        <span>Shopping</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-3.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Established in 1895, these style merchants have set the standard in Sydney suiting for generations...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">
-                                                    Paris, France</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-5.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">AD</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-5.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" data-gtf-mfp="true" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Packing & Delivery Service</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.5</span><span>2 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="text-danger font-weight-semibold">Get a quote</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-cog">
-                                                            <use xlink:href="#icon-cog"></use>
-                                                        </svg>
-                                                        <span>Service</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Most items can be packed securely in these boxes, which are available in several sizes...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">New
-                                                    York, USA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$9.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address py-1">Ubud,
-                                                    Indonesia</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="ad-directory" role="tabpanel" aria-labelledby="ad-directory">
-                            <div class="slick-slider arrow-top full-slide custom-nav" data-slick-options='{"slidesToShow": 5,"autoplay":false,"dots":false,"arrows":false,"responsive":[{"breakpoint": 2000,"settings": {"slidesToShow": 4}},{"breakpoint": 1500,"settings": {"slidesToShow": 3}},{"breakpoint": 1000,"settings": {"slidesToShow": 2}},{"breakpoint": 770,"settings": {"slidesToShow": 1}}]}'>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex w-lg show-link">
-                                                    <a href="images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                    <a href="#" class="item" data-toggle="tooltip" data-placement="top" title="Compare">
-                                                        <svg class="icon icon-chart-bars">
-                                                            <use xlink:href="#icon-chart-bars"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$56.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item">
-                                                    <a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bed">
-                                                            <use xlink:href="#icon-bed"></use>
-                                                        </svg>
-                                                        <span>Hotel</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Overlooking Bloomsbury's Russell Square and a 2 minutes' walk from the tube station of the same name...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none link-hover-secondary-blue">
-                                                    San Francisco, CA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-2.jpg" alt="store 2" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Best Rate</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-2.jpg" data-gtf-mfp="true" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Karly Gomez Cake</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>8 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$12.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1">
-                                                    <i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Florencia,
-                                                    Italy</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-3.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Most view</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-3.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quick view" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.3</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$10.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-5.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">After a yoga class changed her life, Maz became vegan, launched...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">Miami,
-                                                    FL</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-4.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-4.jpg" class="item viewing" data-toggle="tooltip" data-gtf-mfp="true" data-placement="top" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Red Wings Shoes Store</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>6 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$75.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-bag">
-                                                            <use xlink:href="#icon-bag"></use>
-                                                        </svg>
-                                                        <span>Shopping</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-3.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Established in 1895, these style merchants have set the standard in Sydney suiting for generations...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">
-                                                    Paris, France</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-5.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">AD</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-5.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" data-gtf-mfp="true" title="Quick view">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-image.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Packing & Delivery Service</span>
-                                                <span class="check">
-                                                    <svg class="icon icon-check-circle">
-                                                        <use xlink:href="#icon-check-circle"></use>
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-warning d-inline-block mr-1">4.5</span><span>2 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="text-danger font-weight-semibold">Get a quote</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-cog">
-                                                            <use xlink:href="#icon-cog"></use>
-                                                        </svg>
-                                                        <span>Service</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-2.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">Most items can be packed securely in these boxes, which are available in several sizes...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address">New
-                                                    York, USA</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-green">Open now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="box" data-animate="fadeInUp">
-                                    <div class="store card border-0 rounded-0">
-                                        <div class="position-relative store-image">
-                                            <a href="listing-details-full-gallery.html">
-                                                <img src="images/shop/shop-1.jpg" alt="store 1" class="card-img-top rounded-0">
-                                            </a>
-                                            <div class="image-content position-absolute d-flex align-items-center">
-                                                <div class="content-left">
-                                                    <div class="badge badge-primary">Featured</div>
-                                                </div>
-                                                <div class="content-right ml-auto d-flex show-link">
-                                                    <a href="images/shop/full-shop-1.jpg" class="item viewing" data-toggle="tooltip" data-placement="top" title="Quickview" data-gtf-mfp="true">
-                                                        <svg class="icon icon-expand">
-                                                            <use xlink:href="#icon-expand"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <a href="#" class="item marking" data-toggle="tooltip" data-placement="top" title="Bookmark"><i class="fal fa-bookmark"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body px-0 pb-0 pt-3">
-                                            <a href="listing-details-full-gallery.html" class="card-title h5 text-dark d-inline-block mb-2"><span class="letter-spacing-25">Roman
-                                                    Kraft Hotel</span></a>
-                                            <ul class="list-inline store-meta mb-4 font-size-sm d-flex align-items-center flex-wrap">
-                                                <li class="list-inline-item"><span class="badge badge-success d-inline-block mr-1">5.0</span><span>4 rating</span>
-                                                </li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><span class="mr-1">From</span><span class="text-danger font-weight-semibold">$9.00</span></li>
-                                                <li class="list-inline-item separate"></li>
-                                                <li class="list-inline-item"><a href="#" class="link-hover-secondary-primary">
-                                                        <svg class="icon icon-pizza">
-                                                            <use xlink:href="#icon-pizza"></use>
-                                                        </svg>
-                                                        <span>Food</span>
-                                                    </a></li>
-                                            </ul>
-                                            <div class="media">
-                                                <a href="#" class="d-inline-block mr-3"><img src="images/listing/testimonial-1.png" alt="testimonial" class="rounded-circle">
-                                                </a>
-                                                <div class="media-body lh-14 font-size-sm">They specialize in makgeolli at this Korean-style pub in Seorae Village. And they use...
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="list-inline card-footer rounded-0 border-top pt-3 mt-5 bg-transparent px-0 store-meta d-flex align-items-center">
-                                            <li class="list-inline-item">
-                                                <span class="d-inline-block mr-1"><i class="fal fa-map-marker-alt">
-                                                    </i>
-                                                </span>
-                                                <a href="#" class="text-secondary text-decoration-none address py-1">Ubud,
-                                                    Indonesia</a>
-                                            </li>
-                                            <li class="list-inline-item separate"></li>
-                                            <li class="list-inline-item">
-                                                <span class="text-danger">Close now!</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <section class="home-main-testimonial pt-12 pb-13" id="section-04">
-                <div class="container">
-                    <h2 class="mb-8">
-                        <span class="font-weight-semibold">Clients </span>
-                        <span class="font-weight-light">Review</span>
-                    </h2>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col col-md-12">
-                                <div class="slick-slider testimonials-slider arrow-top" data-slick-options='{"slidesToShow": 2,"autoplay":false,"dots":false,"responsive":[{"breakpoint": 992,"settings": {"slidesToShow": 1,"arrows":false}}]}'>
-                                    <div class="box">
-                                        <div class="card testimonial h-100 border-0 bg-transparent">
-                                            <a href="#" class="author-image">
-                                                <img src="images/listing/client-1.png" alt="Testimonial" class="rounded-circle">
-                                            </a>
-                                            <div class="card-body bg-white">
-                                                <div class="testimonial-icon text-right">
-                                                    <svg class="icon icon-quote">
-                                                        <use xlink:href="#icon-quote"></use>
-                                                    </svg>
-                                                </div>
-                                                <ul class="list-inline mb-4 d-flex align-items-end flex-wrap">
-                                                    <li class="list-inline-item">
-                                                        <a href="#" class="font-size-lg text-dark font-weight-semibold d-inline-block">Kanye
-                                                            West
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <span class="h5 font-weight-light mb-0 d-inline-block ml-1 text-gray">/</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="text-gray">
-                                                            CEO at Google INC
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                                <div class="card-text text-gray pr-4">Sed elit quam, iaculis sed semper sit amet udin vitae nibh.<br> at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box">
-                                        <div class="card testimonial h-100 border-0 bg-transparent">
-                                            <a href="#" class="author-image">
-                                                <img src="images/listing/client-2.png" alt="Testimonial" class="rounded-circle">
-                                            </a>
-                                            <div class="card-body bg-white">
-                                                <div class="testimonial-icon text-right">
-                                                    <svg class="icon icon-quote">
-                                                        <use xlink:href="#icon-quote"></use>
-                                                    </svg>
-                                                </div>
-                                                <ul class="list-inline mb-4 d-flex align-items-end flex-wrap">
-                                                    <li class="list-inline-item">
-                                                        <a href="#" class="font-size-lg text-dark font-weight-semibold d-inline-block">Anabella
-                                                            Kleva
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <span class="h5 font-weight-light mb-0 d-inline-block ml-1 text-gray">/</span>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <span class="text-gray">
-                                                            Managerment at Envato
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                                <div class="card-text text-gray pr-4">Sed elit quam, iaculis sed semper sit amet udin vitae nibh.<br> at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box">
-                                        <div class="card testimonial h-100 border-0 bg-transparent">
-                                            <a href="#" class="author-image">
-                                                <img src="images/listing/client-1.png" alt="Testimonial" class="rounded-circle">
-                                            </a>
-                                            <div class="card-body bg-white">
-                                                <div class="testimonial-icon text-right">
-                                                    <svg class="icon icon-quote">
-                                                        <use xlink:href="#icon-quote"></use>
-                                                    </svg>
-                                                </div>
-                                                <ul class="list-inline mb-4 d-flex align-items-end flex-wrap">
-                                                    <li class="list-inline-item">
-                                                        <a href="#" class="font-size-lg text-dark font-weight-semibold d-inline-block">Kanye
-                                                            West
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <span class="h5 font-weight-light mb-0 d-inline-block ml-1 text-gray">/</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="text-gray">
-                                                            CEO at Google INC
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                                <div class="card-text text-gray pr-4">Sed elit quam, iaculis sed semper sit amet udin vitae nibh.<br> at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box">
-                                        <div class="card testimonial h-100 border-0 bg-transparent">
-                                            <a href="#" class="author-image">
-                                                <img src="images/listing/client-2.png" alt="Testimonial" class="rounded-circle">
-                                            </a>
-                                            <div class="card-body bg-white">
-                                                <div class="testimonial-icon text-right">
-                                                    <svg class="icon icon-quote">
-                                                        <use xlink:href="#icon-quote"></use>
-                                                    </svg>
-                                                </div>
-                                                <ul class="list-inline mb-4 d-flex align-items-end flex-wrap">
-                                                    <li class="list-inline-item">
-                                                        <a href="#" class="font-size-lg text-dark font-weight-semibold d-inline-block">Anabella
-                                                            Kleva
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <span class="h5 font-weight-light mb-0 d-inline-block ml-1 text-gray">/</span>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <span class="text-gray">
-                                                            Managerment at Envato
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                                <div class="card-text text-gray pr-4">Sed elit quam, iaculis sed semper sit amet udin vitae nibh.<br> at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <section id="section-05" class="pt-11 pb-11">
-                <div class="container">
-                    <div class="d-flex align-items-center mb-7 flex-wrap flex-sm-nowrap">
-                        <h2 class="mb-3 mb-sm-0">
-                            <span class="font-weight-semibold">Some</span>
-                            <span class="font-weight-light">Tips & Articles</span>
-                        </h2>
-                        <a href="blog-listing-grid.html" class="link-hover-dark-primary ml-0 ml-sm-auto w-100 w-sm-auto">
-                            <span class="font-size-md d-inline-block mr-1">All articles</span>
-                            <i class="fal fa-chevron-right"></i>
-                        </a>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 mb-4" data-animate="zoomIn">
-                            <div class="card border-0">
-                                <a href="blog-single-gallery.html" class="hover-scale">
-                                    <img src="images/blog/main-blog-2.jpg" alt="product 1" class="card-img-top image">
-                                </a>
-                                <div class="card-body px-0">
-                                    <div class="mb-2"><a href="#" class="link-hover-dark-primary">Tips</a>, <a href="#" class="link-hover-dark-primary">Travel</a></div>
-                                    <h5 class="card-title lh-13 letter-spacing-25">
-                                        <a href="blog-single-image.html" class="link-hover-dark-primary text-capitalize">
-                                            10 best homestay in florencia that you don't miss
-                                            out</a>
-                                    </h5>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item mr-0">
-                                            <span class="text-gray">Aug 28th, 2017 by</span>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="#" class="link-hover-dark-primary">Admin</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4" data-animate="zoomIn">
-                            <div class="card border-0">
-                                <a href="blog-single-gallery.html" class="hover-scale">
-                                    <img src="images/blog/main-blog-3.jpg" alt="product 1" class="card-img-top image">
-                                </a>
-                                <div class="card-body px-0">
-                                    <div class="mb-2"><a href="#" class="link-hover-dark-primary">Culture</a></div>
-                                    <h5 class="card-title lh-13 letter-spacing-25"><a href="blog-single-gallery.html" class="link-hover-dark-primary text-capitalize">Coffee
-                                            On Street & Look Super Car</a>
-                                    </h5>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item mr-0">
-                                            <span class="text-gray">Aug 25th, 2017 by</span>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="#" class="link-hover-dark-primary">David</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4" data-animate="zoomIn">
-                            <div class="card border-0">
-                                <a href="blog-single-gallery.html" class="hover-scale">
-                                    <img src="images/blog/main-blog-1.jpg" alt="product 1" class="card-img-top image">
-                                </a>
-                                <div class="card-body px-0">
-                                    <div class="mb-2"><a href="#" class="link-hover-dark-primary">Location</a></div>
-                                    <h5 class="card-title lh-13 letter-spacing-25"><a href="blog-single-gallery.html" class="link-hover-dark-primary">MadCap
-                                            Coffee At
-                                            Brooklyn Town For Who Love Black
-                                            Coffee</a>
-                                    </h5>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item mr-0">
-                                            <span class="text-gray">Aug 19th, 2017 by</span>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="#" class="link-hover-dark-primary">LoganCee</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </div>
-
-
-
-        <footer class="main-footer main-footer-style-01 bg-pattern-01 pt-12 pb-8">
-            <div class="footer-second">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 col-lg-4 mb-6 mb-lg-0">
-                            <div class="mb-8"><img src="images/logo.png" alt="Thedir"></div>
-                            <div class="mb-7">
-                                <div class="font-size-md font-weight-semibold text-dark mb-4">Global Headquaters</div>
-                                <p class="mb-0">
-                                    90 Fifth Avenue, 3rd Floor<br> New York NY 10011<br> 212.913.9058
-                                </p>
-                            </div>
-                            <div class="region pt-1">
-                                <div class="font-size-md font-weight-semibold text-dark mb-2">Recent Region</div>
-                                <form>
-                                    <div class="select-custom bg-white">
-                                        <select class="form-control bg-transparent">
-                                            <option value="1">San Fracisco, CA</option>
-                                            <option value="1">New York</option>
-                                            <option value="1">LA</option>
-                                        </select>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg mb-6 mb-lg-0">
-                            <div class="font-size-md font-weight-semibold text-dark mb-4">
-                                Company
-                            </div>
-                            <ul class="list-group list-group-flush list-group-borderless">
-                                <li class="list-group-item px-0 lh-1625 bg-transparent py-1">
-                                    <a href="page-about.html" class="link-hover-secondary-primary">About Us</a>
-                                </li>
-                                <li class="list-group-item px-0 lh-1625 bg-transparent py-1">
-                                    <a href="#" class="link-hover-secondary-primary">Team</a>
-                                </li>
-                                <li class="list-group-item px-0 lh-1625 bg-transparent py-1">
-                                    <a href="#" class="link-hover-secondary-primary">Careers</a>
-                                </li>
-                                <li class="list-group-item px-0 lh-1625 bg-transparent py-1">
-                                    <a href="#" class="link-hover-secondary-primary">Investors</a>
-                                </li>
-                                <li class="list-group-item px-0 lh-1625 bg-transparent py-1">
-                                    <a href="page-contact.html" class="link-hover-secondary-primary">Contact Us</a>
-                                </li>
-                                <li class="list-group-item px-0 lh-1625 bg-transparent py-1">
-                                    <a href="#" class="link-hover-secondary-primary">Offices</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-lg mb-6 mb-lg-0">
-                            <div class="font-size-md font-weight-semibold text-dark mb-4">
-                                Quick Links
-                            </div>
-                            <ul class="list-group list-group-flush list-group-borderless">
-                                <li class="list-group-item px-0 lh-1625 bg-transparent py-1">
-                                    <a href="page-faqs.html" class="link-hover-secondary-primary">FAQS</a>
-                                </li>
-                                <li class="list-group-item px-0 lh-1625 bg-transparent py-1">
-                                    <a href="#" class="link-hover-secondary-primary">Support</a>
-                                </li>
-                                <li class="list-group-item px-0 lh-1625 bg-transparent py-1">
-                                    <a href="#" class="link-hover-secondary-primary">Sitemap</a>
-                                </li>
-                                <li class="list-group-item px-0 lh-1625 bg-transparent py-1">
-                                    <a href="#" class="link-hover-secondary-primary">Community</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-6 mb-lg-0">
-                            <div class="pl-0 pl-lg-9">
-                                <div class="font-size-md font-weight-semibold text-dark mb-4">Our Newsletter</div>
-                                <div class="mb-4">Subscribe to our newsletter and<br> we will inform you about newset directory and promotions
-                                </div>
-                                <div class="form-newsletter">
-                                    <form>
-                                        <div class="input-group bg-white">
-                                            <input type="text" class="form-control border-0" placeholder="Email Address... ">
-                                            <button type="button" class="input-group-append btn btn-white bg-transparent text-dark border-0">
-                                                <i class="fas fa-arrow-right"></i>
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-last mt-8 mt-md-11">
-                <div class="container">
-                    <div class="footer-last-container position-relative">
-                        <div class="row align-items-center">
-                            <div class="col-lg-4 mb-3 mb-lg-0">
-                                <div class="social-icon text-dark">
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item mr-5">
-                                            <a target="_blank" title="Twitter" href="#">
-                                                <i class="fab fa-twitter">
-                                                </i>
-                                                <span>Twitter</span>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item mr-5">
-                                            <a target="_blank" title="Facebook" href="#">
-                                                <i class="fab fa-facebook-f">
-                                                </i>
-                                                <span>Facebook</span>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item mr-5">
-                                            <a target="_blank" title="Google plus" href="#">
-                                                <svg class="icon icon-google-plus-symbol">
-                                                    <use xlink:href="#icon-google-plus-symbol"></use>
-                                                </svg>
-                                                <span>Google plus</span>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item mr-5">
-                                            <a target="_blank" title="Instagram" href="#">
-                                                <svg class="icon icon-instagram">
-                                                    <use xlink:href="#icon-instagram"></use>
-                                                </svg>
-                                                <span>Instagram</span>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item mr-5">
-                                            <a target="_blank" title="Rss" href="#">
-                                                <i class="fas fa-rss"></i>
-                                                <span>Rss</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 mb-3 mb-lg-0">
-                                <div>
-                                    &copy; 2020 <a href="index.html" class="link-hover-dark-primary font-weight-semibold">The Dir.</a> All Rights Resevered. Design by <a href="http://g5plus.net/" class="link-hover-dark-primary font-weight-semibold">G5Theme</a>
-                                </div>
-                            </div>
-                            <div class="back-top text-left text-lg-right gtf-back-to-top">
-                                <a href="#" class="link-hover-secondary-primary"><i class="fal fa-arrow-up"></i><span>Back To Top</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-    </div>
-
-    <div id="login-popup" class="mfp-hide">
-        <div class="form-login-register">
-            <div class="tabs mb-8">
-                <ul class="nav nav-pills tab-style-01 text-capitalize justify-content-center" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true">
-                            <h3>Log In</h3>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false">
-                            <h3>Register</h3>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="tab-content">
-                <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
-                    <div class="form-login">
-                        <form>
-                            <div class="font-size-md text-dark mb-5">Log In Your Account</div>
-                            <div class="form-group mb-2">
-                                <label for="username" class="sr-only">Username</label>
-                                <input id="username" type="text" class="form-control" placeholder="Username">
-                            </div>
-                            <div class="form-group mb-3">
-                                <div class="input-group flex-nowrap align-items-center">
-                                    <label for="password" class="sr-only">Password</label>
-                                    <input id="password" type="text" class="form-control" placeholder="Password">
-                                    <a href="#" class="input-group-append text-decoration-none">Forgot?</a>
-                                </div>
-                            </div>
-                            <div class="form-group mb-6">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="check">
-                                    <label class="custom-control-label text-dark" for="check">Remember</label>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-block font-weight-bold text-uppercase font-size-lg rounded-sm mb-8">
-                                Log In
-                            </button>
-                        </form>
-                        <div class="font-size-md text-dark mb-5">Or Log In With</div>
-                        <div class="social-icon origin-color si-square">
-                            <ul class="row no-gutters list-inline text-center">
-                                <li class="list-inline-item si-facebook col-3">
-                                    <a target="_blank" title="Facebook" href="#">
-                                        <i class="fab fa-facebook-f">
-                                        </i>
-                                        <span>Facebook</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item si-twitter col-3">
-                                    <a target="_blank" title="Twitter" href="#">
-                                        <i class="fab fa-twitter">
-                                        </i>
-                                        <span>Twitter</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item si-google col-3">
-                                    <a target="_blank" title="Google plus" href="#">
-                                        <svg class="icon icon-google-plus-symbol">
-                                            <use xlink:href="#icon-google-plus-symbol"></use>
-                                        </svg>
-                                        <span>Google plus</span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item si-rss col-3">
-                                    <a target="_blank" title="RSS" href="#">
-                                        <i class="fas fa-rss"></i>
-                                        <span>RSS</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade " id="register" role="tabpanel" aria-labelledby="register-tab">
-                    <div class="form-register">
-                        <form>
-                            <div class="font-size-md text-dark mb-5">Create Your Account</div>
-                            <div class="form-group mb-2">
-                                <label for="username-rt" class="sr-only">Username</label>
-                                <input id="username-rt" type="text" class="form-control" placeholder="Username">
-                            </div>
-                            <div class="form-group mb-2">
-                                <label for="email" class="sr-only">Email</label>
-                                <input id="email" type="text" class="form-control" placeholder="Email Address">
-                            </div>
-                            <div class="form-group mb-2">
-                                <label for="password-rt" class="sr-only">Username</label>
-                                <input id="password-rt" type="password" class="form-control" placeholder="Password">
-                            </div>
-                            <div class="form-group mb-3">
-                                <label for="r-password" class="sr-only">Username</label>
-                                <input id="r-password" type="password" class="form-control" placeholder="Retype password">
-                            </div>
-                            <div class="form-group mb-8">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="check-term">
-                                    <label class="custom-control-label text-dark" for="check-term">You agree with our
-                                        Terms Privacy Policy and</label>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-block font-weight-bold text-uppercase font-size-lg rounded-sm">
-                                Create an
-                                account
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <form>
-            </form>
-        </div>
-    </div>
-    <div id="search-popup" class="mfp-hide">
-        <div class="search-popup text-center">
-            <h2 class="mb-8">Search</h2>
-            <div class="form-search">
-                <form>
-                    <div class="row align-items-end">
-                        <div class="form-search-item col-md-7 mb-4 mb-md-0 text-left bg-white">
-                            <label for="key-word-02" class="pt-4 mb-0 text-dark font-weight-semibold font-size-lg lh-1">What</label>
-                            <div class="input-group dropdown show pr-0 bg-transparent align-items-start">
-                                <input type="text" autocomplete="off" id="key-word-02" class="form-control bg-transparent border-0 p-0 font-size-md lh-1" data-toggle="dropdown" aria-haspopup="true" placeholder="Ex: food, service, barber, hotel">
-                                <button type="submit" class="btn text-dark btn-link input-group-append font-weight-normal p-0">
-                                    <i class="fal fa-search"></i>
-                                </button>
-                                <ul class="dropdown-menu form-search-ajax" aria-labelledby="key-word-02">
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            <svg class="icon icon-pizza">
-                                                <use xlink:href="#icon-pizza"></use>
-                                            </svg>
-                                            <span class="font-size-md">Foods & Restaurants</span>
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            <svg class="icon icon-bed">
-                                                <use xlink:href="#icon-bed"></use>
-                                            </svg>
-                                            <span class="font-size-md">Hotels & Resorts</span>
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            <svg class="icon icon-pharmaceutical">
-                                                <use xlink:href="#icon-pharmaceutical"></use>
-                                            </svg>
-                                            <span class="font-size-md">Healths & Medicals</span>
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            <svg class="icon icon-cog">
-                                                <use xlink:href="#icon-cog"></use>
-                                            </svg>
-                                            <span class="font-size-md">Services</span>
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            <svg class="icon icon-car">
-                                                <use xlink:href="#icon-car"></use>
-                                            </svg>
-                                            <span class="font-size-md">Automotive</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="form-search-item col-md-5 mb-4 mb-md-0 text-left bg-white">
-                            <label for="region-02" class="pt-4 mb-0 text-dark font-weight-semibold font-size-lg lh-1">Where</label>
-                            <div class="input-group dropdown show pr-0 bg-transparent align-items-start">
-                                <input type="text" autocomplete="off" id="region-02" class="form-control bg-transparent border-0 p-0 font-size-md lh-1" data-toggle="dropdown" aria-haspopup="true" placeholder="San Francisco">
-                                <a href="#" class="input-group-append text-decoration-none" data-toggle="dropdown">
-                                    <i class="fal fa-chevron-down"></i>
-                                </a>
-                                <ul class="dropdown-menu form-search-ajax" aria-labelledby="region-02">
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            Austin
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            Boston
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            Chicago
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            Denver
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            Los Angeles
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            New York
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            San Francisco
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            Seattle
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item item">
-                                        <a href="#" class="link-hover-dark-white">
-                                            Washington
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="heading mb-4">
-                <div class="pt-8 font-size-lg mb-5">
-                    Or browse the highlights
-                </div>
-            </div>
-            <div class="list-inline flex-wrap my-n2">
-                <div class="list-inline-item py-2">
-                    <a href="explore-sidebar-grid.html" class="card icon-box-style-01 link-hover-dark-white">
-                        <div class="card-body p-0">
-                            <svg class="icon icon-pizza">
-                                <use xlink:href="#icon-pizza"></use>
-                            </svg>
-                            <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                Foods
-                            </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="list-inline-item py-2">
-                    <a href="explore-sidebar-grid.html" class="card icon-box-style-01 link-hover-dark-white">
-                        <div class="card-body p-0">
-                            <svg class="icon icon-bed">
-                                <use xlink:href="#icon-bed"></use>
-                            </svg>
-                            <span class="card-text font-size-md font-weight-semibold mt-2 d-block ">
-                                Hotels
-                            </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="list-inline-item py-2">
-                    <a href="explore-sidebar-grid.html" class="card icon-box-style-01 link-hover-dark-white">
-                        <div class="card-body p-0">
-                            <svg class="icon icon-brush2">
-                                <use xlink:href="#icon-brush2"></use>
-                            </svg>
-                            <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                Jobs
-                            </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="list-inline-item py-2">
-                    <a href="explore-sidebar-grid.html" class="card link-hover-dark-white icon-box-style-01">
-                        <div class="card-body p-0">
-                            <svg class="icon icon-pharmaceutical">
-                                <use xlink:href="#icon-pharmaceutical"></use>
-                            </svg>
-                            <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                Medicals
-                            </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="list-inline-item py-2">
-                    <a href="explore-sidebar-grid.html" class="card link-hover-dark-white icon-box-style-01">
-                        <div class="card-body p-0">
-                            <svg class="icon icon-cog">
-                                <use xlink:href="#icon-cog"></use>
-                            </svg>
-                            <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                Services
-                            </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="list-inline-item py-2">
-                    <a href="explore-sidebar-grid.html" class="card link-hover-dark-white icon-box-style-01">
-                        <div class="card-body p-0">
-                            <svg class="icon icon-bag">
-                                <use xlink:href="#icon-bag"></use>
-                            </svg>
-                            <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                Shopping
-                            </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="list-inline-item py-2">
-                    <a href="explore-sidebar-grid.html" class="card link-hover-dark-white icon-box-style-01">
-                        <div class="card-body p-0">
-                            <svg class="icon icon-car">
-                                <use xlink:href="#icon-car"></use>
-                            </svg>
-                            <span class="card-text font-size-md font-weight-semibold mt-2 d-block">
-                                Automotive
-                            </span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <a href="#" class="d-inline-block button-close mt-11 pt-1 text-dark font-size-lg font-weight-semibold text-decoration-none">
-                <span class="d-block"><i class="fal fa-times"></i></span>
-                <span class="d-block">Close</span>
-            </a>
-        </div>
-    </div>
-
-    <script src="<?php echo base_url() ?>assets/styles/vendors/jquery.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/styles/vendors/popper/popper.js"></script>
-    <script src="<?php echo base_url() ?>assets/styles/vendors/bootstrap/js/bootstrap.js"></script>
-    <script src="<?php echo base_url() ?>assets/styles/vendors/hc-sticky/hc-sticky.js"></script>
-    <script src="<?php echo base_url() ?>assets/styles/vendors/isotope/isotope.pkgd.js"></script>
-    <script src="<?php echo base_url() ?>assets/styles/vendors/magnific-popup/jquery.magnific-popup.js"></script>
-    <script src="<?php echo base_url() ?>assets/styles/vendors/slick/slick.js"></script>
-    <script src="<?php echo base_url() ?>assets/styles/vendors/waypoints/jquery.waypoints.js"></script>
-
-    <script src="<?php echo base_url() ?>assets/styles/js/app.js"></script>
-    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <defs>
-            <symbol id="icon-bed" viewBox="0 0 32 32">
-                <title>bed</title>
-                <path d="M28 28.8h-1.6c-0.442 0-0.8-0.358-0.8-0.8s0.358-0.8 0.8-0.8h1.6c0.442 0 0.8 0.358 0.8 0.8s-0.358 0.8-0.8 0.8zM4 28.8h-1.6c-0.442 0-0.8-0.358-0.8-0.8s0.358-0.8 0.8-0.8h1.6c0.442 0 0.8 0.358 0.8 0.8s-0.358 0.8-0.8 0.8zM29.853 18.229l-3.789-11.365c-0.318-0.954-1.229-1.738-2.221-1.984-0.035-0.152-0.074-0.298-0.118-0.432-0.363-1.088-0.986-1.25-1.325-1.25h-6.4c-0.203 0-0.509 0.059-0.8 0.341-0.291-0.282-0.597-0.341-0.8-0.341h-6.4c-0.339 0-0.962 0.163-1.325 1.25-0.045 0.134-0.085 0.278-0.118 0.432-0.994 0.246-1.904 1.029-2.221 1.984l-3.789 11.365c-0.307 0.92-0.547 2.402-0.547 3.371v3.2c0 1.323 1.077 2.4 2.4 2.4h25.6c1.323 0 2.4-1.077 2.4-2.4v-3.2c0-0.97-0.24-2.451-0.547-3.371zM16.251 4.8h5.898c0.112 0.251 0.251 0.822 0.251 1.6s-0.139 1.349-0.251 1.6h-5.898c-0.112-0.251-0.251-0.822-0.251-1.6s0.139-1.349 0.251-1.6zM8.251 4.8h5.898c0.112 0.251 0.251 0.822 0.251 1.6s-0.139 1.349-0.251 1.6h-5.898c-0.112-0.251-0.251-0.822-0.251-1.6s0.139-1.349 0.251-1.6zM5.853 7.371c0.086-0.259 0.296-0.507 0.552-0.686 0.022 0.621 0.115 1.203 0.27 1.666 0.363 1.088 0.986 1.25 1.325 1.25h6.4c0.203 0 0.509-0.059 0.8-0.341 0.291 0.282 0.597 0.341 0.8 0.341h6.4c0.339 0 0.962-0.163 1.325-1.25 0.154-0.462 0.248-1.046 0.27-1.666 0.256 0.181 0.466 0.427 0.552 0.686l1.277 3.829h-21.246l1.277-3.829zM4.043 12.8h22.314l1.978 5.934c0.051 0.152 0.099 0.326 0.146 0.514-0.155-0.032-0.315-0.048-0.48-0.048h-25.6c-0.165 0-0.325 0.016-0.48 0.048 0.046-0.187 0.094-0.362 0.146-0.514l1.979-5.934zM28.8 24.8c0 0.442-0.358 0.8-0.8 0.8h-25.6c-0.442 0-0.8-0.358-0.8-0.8v-3.2c0-0.442 0.358-0.8 0.8-0.8h25.6c0.442 0 0.8 0.358 0.8 0.8v3.2z"></path>
-            </symbol>
-            <symbol id="icon-brush2" viewBox="0 0 32 32">
-                <title>brush2</title>
-                <path d="M5.6 27.2c-0.211 0-0.418-0.085-0.565-0.235s-0.235-0.355-0.235-0.565 0.085-0.416 0.235-0.565c0.149-0.149 0.355-0.235 0.565-0.235s0.416 0.085 0.565 0.235c0.149 0.149 0.235 0.355 0.235 0.565s-0.085 0.418-0.235 0.565c-0.149 0.149-0.355 0.235-0.565 0.235zM29.834 15.102l-12.938-12.938c-0.453-0.453-1.054-0.701-1.698-0.701s-1.245 0.25-1.698 0.701l-8.138 8.138c-0.862 0.862-1.112 2.394-0.566 3.486l2.57 5.138c0.078 0.158 0.093 0.309 0.038 0.424s-0.178 0.203-0.35 0.243c-0.138 0.034-3.406 0.834-5.418 2.845-1.058 1.058-1.64 2.464-1.64 3.96s0.582 2.902 1.64 3.96c1.058 1.058 2.464 1.64 3.96 1.64 0 0 0 0 0 0 1.496 0 2.902-0.582 3.96-1.64 2.011-2.011 2.813-5.28 2.845-5.418 0.034-0.142 0.131-0.382 0.398-0.382 0.085 0 0.176 0.024 0.27 0.072l5.138 2.57c0.381 0.19 0.827 0.291 1.293 0.291 0.837 0 1.656-0.32 2.192-0.856l8.138-8.138c0.936-0.936 0.936-2.458 0-3.394zM20.566 25.502c-0.235 0.235-0.653 0.387-1.061 0.387-0.219 0-0.419-0.042-0.578-0.122l-5.138-2.57c-0.318-0.16-0.651-0.24-0.986-0.24-0.938 0-1.723 0.646-1.954 1.61-0.006 0.029-0.733 2.973-2.421 4.659-0.755 0.755-1.76 1.171-2.829 1.171s-2.074-0.416-2.829-1.171c-0.755-0.755-1.171-1.76-1.171-2.829s0.416-2.074 1.171-2.829c1.688-1.688 4.63-2.414 4.659-2.421 0.646-0.155 1.166-0.565 1.427-1.123s0.24-1.221-0.058-1.816l-2.57-5.138c-0.24-0.478-0.112-1.261 0.266-1.638l1.502-1.502 14.069 14.069-1.502 1.502zM28.702 17.366l-5.502 5.502-14.069-14.069 5.502-5.502c0.15-0.15 0.35-0.232 0.566-0.232s0.416 0.083 0.566 0.232l12.938 12.938c0.312 0.312 0.312 0.819 0 1.131z"></path>
-            </symbol>
-            <symbol id="icon-cog" viewBox="0 0 32 32">
-                <title>cog</title>
-                <path d="M12.21 31.523c-0.066 0-0.133-0.008-0.2-0.026-1.437-0.37-2.818-0.939-4.102-1.694-0.373-0.219-0.504-0.694-0.298-1.074 0.254-0.467 0.389-0.995 0.389-1.531 0-1.765-1.435-3.2-3.2-3.2-0.534 0-1.064 0.134-1.531 0.389-0.379 0.206-0.854 0.075-1.074-0.298-0.755-1.286-1.325-2.666-1.694-4.102-0.104-0.406 0.123-0.824 0.52-0.957 1.302-0.438 2.179-1.658 2.179-3.032s-0.875-2.594-2.179-3.032c-0.397-0.134-0.624-0.55-0.52-0.957 0.37-1.437 0.939-2.818 1.694-4.102 0.219-0.373 0.694-0.504 1.074-0.298 0.466 0.254 0.995 0.389 1.531 0.389 1.765 0 3.2-1.435 3.2-3.2 0-0.534-0.134-1.064-0.389-1.531-0.206-0.379-0.075-0.854 0.298-1.074 1.286-0.755 2.666-1.325 4.102-1.694 0.406-0.104 0.824 0.123 0.957 0.52 0.438 1.302 1.658 2.179 3.032 2.179s2.594-0.875 3.032-2.179c0.134-0.397 0.552-0.624 0.957-0.52 1.437 0.37 2.818 0.939 4.102 1.694 0.373 0.219 0.504 0.694 0.298 1.074-0.254 0.467-0.389 0.995-0.389 1.531 0 1.765 1.435 3.2 3.2 3.2 0.534 0 1.064-0.134 1.531-0.389 0.379-0.206 0.854-0.075 1.074 0.298 0.755 1.286 1.325 2.666 1.694 4.102 0.104 0.406-0.123 0.824-0.52 0.957-1.302 0.438-2.179 1.658-2.179 3.032s0.875 2.594 2.179 3.032c0.397 0.134 0.624 0.55 0.52 0.957-0.37 1.437-0.939 2.818-1.694 4.102-0.219 0.373-0.694 0.504-1.074 0.298-0.467-0.254-0.995-0.389-1.531-0.389-1.765 0-3.2 1.435-3.2 3.2 0 0.534 0.134 1.064 0.389 1.531 0.206 0.379 0.075 0.854-0.298 1.074-1.286 0.755-2.666 1.325-4.102 1.694-0.406 0.104-0.824-0.123-0.957-0.52-0.438-1.302-1.658-2.179-3.032-2.179s-2.594 0.875-3.032 2.179c-0.112 0.331-0.422 0.546-0.758 0.546zM16 27.2c1.803 0 3.427 1.005 4.248 2.563 0.832-0.258 1.642-0.59 2.416-0.995-0.173-0.502-0.262-1.034-0.262-1.568 0-2.646 2.154-4.8 4.8-4.8 0.534 0 1.066 0.090 1.568 0.262 0.405-0.774 0.739-1.582 0.995-2.416-1.558-0.819-2.563-2.443-2.563-4.248s1.005-3.427 2.563-4.248c-0.258-0.832-0.59-1.642-0.995-2.416-0.502 0.173-1.034 0.262-1.568 0.262-2.646 0-4.8-2.154-4.8-4.8 0-0.534 0.090-1.066 0.262-1.568-0.774-0.405-1.582-0.739-2.416-0.995-0.819 1.558-2.443 2.563-4.248 2.563s-3.427-1.005-4.248-2.563c-0.832 0.256-1.642 0.59-2.416 0.995 0.173 0.502 0.262 1.034 0.262 1.568 0 2.646-2.154 4.8-4.8 4.8-0.534 0-1.066-0.090-1.568-0.262-0.405 0.774-0.739 1.582-0.995 2.416 1.558 0.819 2.563 2.443 2.563 4.248s-1.005 3.427-2.563 4.248c0.256 0.832 0.59 1.642 0.995 2.416 0.502-0.173 1.034-0.262 1.568-0.262 2.646 0 4.8 2.154 4.8 4.8 0 0.534-0.090 1.066-0.262 1.568 0.774 0.405 1.582 0.739 2.416 0.995 0.819-1.558 2.443-2.563 4.248-2.563zM16 20.8c-2.646 0-4.8-2.154-4.8-4.8s2.154-4.8 4.8-4.8 4.8 2.154 4.8 4.8-2.154 4.8-4.8 4.8zM16 12.8c-1.765 0-3.2 1.435-3.2 3.2s1.435 3.2 3.2 3.2c1.765 0 3.2-1.435 3.2-3.2s-1.435-3.2-3.2-3.2z"></path>
-            </symbol>
-            <symbol id="icon-bag" viewBox="0 0 32 32">
-                <title>bag</title>
-                <path d="M13.6 27.2c-0.349 0-0.669-0.229-0.77-0.581-0.122-0.426 0.125-0.867 0.549-0.989l11.2-3.2c0.426-0.122 0.867 0.125 0.989 0.549s-0.125 0.867-0.549 0.989l-11.2 3.2c-0.074 0.021-0.147 0.030-0.221 0.030zM28.797 26.333l-1.6-19.2c-0.022-0.274-0.186-0.523-0.438-0.65l-3.2-1.6c-0.395-0.197-0.875-0.037-1.074 0.358s-0.037 0.875 0.358 1.074l1.115 0.557-2.013 0.403c-0.046-0.331-0.099-0.669-0.155-1.006-0.712-4.277-1.79-6.269-3.389-6.269-0.638 0-1.238 0.269-1.731 0.778-1.125 1.158-1.822 3.624-2.133 7.536-0.013 0.152-0.022 0.301-0.034 0.45l-3.933 0.787-2.965-1.976 6.17-1.371c0.432-0.096 0.704-0.523 0.608-0.955s-0.523-0.702-0.955-0.608l-1.64 0.365c0.442-2.154 1.096-3.406 1.813-3.406 0.086 0 0.262 0.115 0.475 0.438 0.243 0.37 0.739 0.472 1.107 0.229s0.472-0.739 0.229-1.107c-0.63-0.96-1.333-1.16-1.813-1.16-0.734 0-1.774 0.355-2.566 2.043-0.39 0.834-0.709 1.955-0.946 3.339l-4.662 1.035c-0.314 0.069-0.554 0.318-0.613 0.634-0.005 0.029-0.008 0.058-0.011 0.085v0l-1.6 20.8c-0.026 0.325 0.149 0.632 0.44 0.778l6.4 3.2c0.112 0.056 0.235 0.085 0.358 0.085 0.070 0 0.141-0.010 0.211-0.029l17.6-4.8c0.373-0.101 0.619-0.454 0.587-0.838zM17.816 1.893c0.254-0.262 0.454-0.293 0.584-0.293s0.482 0.261 0.882 1.246c0.354 0.872 0.666 2.109 0.926 3.674 0.059 0.358 0.114 0.717 0.163 1.070l-4.242 0.848c0.363-4.557 1.213-6.058 1.686-6.546zM6.293 8.624l3.307 2.205v19.077l-4.762-2.381 1.454-18.902zM11.2 30.152v-19.096l3.214-0.643c-0.067 1.803-0.029 3.136-0.027 3.211 0.013 0.434 0.368 0.776 0.798 0.776 0.008 0 0.016 0 0.024 0 0.442-0.013 0.789-0.382 0.776-0.824 0-0.019-0.045-1.53 0.043-3.486l4.539-0.907c0.173 1.614 0.234 2.837 0.234 2.856 0.021 0.442 0.395 0.782 0.837 0.762s0.782-0.395 0.762-0.837c-0.003-0.078-0.067-1.382-0.256-3.094l3.534-0.707 1.47 17.643-15.947 4.349z"></path>
-            </symbol>
-            <symbol id="icon-pizza" viewBox="0 0 32 32">
-                <title>pizza</title>
-                <path d="M31.92 14.931c-0.072-0.2-0.219-0.363-0.411-0.454l-4.338-2.058c0 0 0 0 0 0s0 0 0 0l-26.029-12.342c-0.306-0.146-0.669-0.082-0.909 0.157s-0.302 0.603-0.157 0.909l12.342 26.029c0 0 0 0 0 0s0 0 0 0l2.056 4.338c0.091 0.192 0.254 0.339 0.454 0.411 0.086 0.030 0.178 0.046 0.269 0.046 0.118 0 0.235-0.026 0.344-0.077 7.146-3.395 12.95-9.2 16.346-16.346 0.091-0.192 0.102-0.411 0.030-0.611zM22.4 12.8c0 0.882-0.718 1.6-1.6 1.6s-1.6-0.718-1.6-1.6 0.718-1.6 1.6-1.6c0.019 0 0.038-0.002 0.058-0.003l1.138 0.539c0.262 0.293 0.405 0.666 0.405 1.064zM18.866 10.253c-0.768 0.586-1.266 1.509-1.266 2.547 0 1.765 1.435 3.2 3.2 3.2s3.2-1.435 3.2-3.2c0-0.038-0.003-0.077-0.010-0.117l1.762 0.835c-2.682 5.25-6.984 9.552-12.234 12.234l-3.139-6.621c0.269 0.046 0.544 0.070 0.822 0.070 2.646 0 4.8-2.154 4.8-4.8s-2.154-4.8-4.8-4.8c-1.261 0-2.451 0.485-3.354 1.365-0.331 0.323-0.608 0.686-0.83 1.078l-4.533-9.56 16.382 7.768zM8.011 14.139c0.131-1.661 1.499-2.939 3.189-2.939 1.765 0 3.2 1.435 3.2 3.2s-1.435 3.2-3.2 3.2c-0.658 0-1.282-0.195-1.816-0.565l-1.373-2.896zM15.576 30.091l-1.373-2.894c5.582-2.84 10.154-7.411 12.994-12.994l2.894 1.373c-3.158 6.246-8.269 11.358-14.515 14.515zM7.2 8h1.6c0.442 0 0.8-0.358 0.8-0.8s-0.358-0.8-0.8-0.8h-1.6c-0.442 0-0.8 0.358-0.8 0.8s0.358 0.8 0.8 0.8zM18.4 20.8c0.442 0 0.8-0.358 0.8-0.8v-1.6c0-0.442-0.358-0.8-0.8-0.8s-0.8 0.358-0.8 0.8v1.6c0 0.442 0.358 0.8 0.8 0.8z"></path>
-            </symbol>
-            <symbol id="icon-car" viewBox="0 0 32 32">
-                <title>car</title>
-                <path d="M32.002 24.816c0-0.018 0-0.037-0.002-0.054-0.010-0.413-0.15-2.933-2.042-3.878-0.274-0.136-0.84-0.419-6.213-0.838-0.195-0.448-0.523-1.17-0.922-1.925-1.246-2.365-2.032-2.907-2.515-3.109-1.691-0.707-6.787-0.867-10.102-0.038-2.075 0.518-3.934 1.741-5.376 3.534-0.821 1.021-1.291 1.957-1.478 2.373-0.475 0.374-0.904 0.81-1.285 1.307-1.371 1.784-2.066 4.277-2.066 7.411 0 0.213 0.085 0.416 0.234 0.566s0.354 0.234 0.566 0.234h1.656c0.398 0 0.736-0.293 0.792-0.686 0.045-0.315 0.122-0.621 0.226-0.912 0.661 1.862 2.44 3.2 4.525 3.2s3.864-1.338 4.525-3.2c0.104 0.293 0.181 0.597 0.226 0.912 0.056 0.394 0.394 0.686 0.792 0.686h9.714c0.398 0 0.736-0.293 0.792-0.686 0.027-0.19 0.067-0.378 0.117-0.56 0.498 1.645 2.027 2.846 3.832 2.846 2.208 0 4.003-1.795 4.003-4.003 0-0.888-0.29-1.714-0.786-2.382 0.435-0.008 0.786-0.362 0.786-0.8zM10.594 16.526c3.062-0.766 7.837-0.565 9.098-0.038 0.061 0.026 0.624 0.307 1.71 2.368 0.195 0.368 0.373 0.733 0.525 1.056-0.968-0.067-2.056-0.138-3.28-0.211-4.95-0.298-9.766-0.499-9.814-0.501-0.011 0-0.022 0-0.034 0-0.994 0-1.91 0.115-2.747 0.344 0.933-1.168 2.403-2.483 4.542-3.018zM8 30.4c-1.765 0-3.2-1.435-3.2-3.2 0-0.131 0.010-0.261 0.024-0.39 0.854-0.754 1.971-1.21 3.176-1.21s2.322 0.456 3.176 1.21c0.016 0.13 0.024 0.259 0.024 0.39 0 1.765-1.435 3.2-3.2 3.2zM22.602 28.8h-8.405c-0.288-1.117-0.877-2.139-1.704-2.955-0.008-0.008-0.018-0.018-0.026-0.026-0.083-0.082-0.17-0.162-0.258-0.238-1.165-1.019-2.661-1.579-4.211-1.579s-3.045 0.562-4.211 1.579c-0.069 0.061-0.136 0.122-0.202 0.186-0.046 0.037-0.088 0.077-0.125 0.123-0.803 0.808-1.378 1.814-1.659 2.912h-0.186c0.168-3.819 1.621-7.992 7.166-8 0.315 0.013 4.933 0.21 9.693 0.494 9.090 0.544 10.541 0.92 10.765 1.021 0.637 0.318 0.923 1.083 1.053 1.685h-1.494c-0.16 0-0.32 0.006-0.478 0.018-0.010 0-0.019 0.002-0.029 0.002-1.042 0.083-2.045 0.418-2.922 0.976-0.010 0.005-0.018 0.011-0.027 0.018-0.264 0.17-0.517 0.358-0.755 0.566-0.976 0.854-1.667 1.979-1.987 3.219zM27.997 30.4c-1.325 0-2.403-1.078-2.403-2.403 0-0.629 0.238-1.216 0.67-1.666 0.621-0.389 1.333-0.64 2.091-0.71 1.171 0.174 2.045 1.182 2.045 2.376 0 1.325-1.078 2.403-2.403 2.403z"></path>
-            </symbol>
-            <symbol id="icon-pharmaceutical" viewBox="0 0 32 32">
-                <title>pharmaceutical</title>
-                <path d="M25.003 17.956c-3.858 0-6.997 3.139-6.997 6.997s3.139 6.997 6.997 6.997 6.997-3.139 6.997-6.997c-0-3.858-3.139-6.997-6.997-6.997zM25.003 30.588c-3.107 0-5.634-2.528-5.634-5.634s2.528-5.634 5.634-5.634 5.634 2.528 5.634 5.634c-0 3.107-2.528 5.634-5.634 5.634z"></path>
-                <path d="M27.133 21.498c-0.32-0.197-0.74-0.098-0.938 0.223l-3.545 5.751c-0.198 0.32-0.098 0.74 0.223 0.938 0.111 0.069 0.235 0.102 0.357 0.102 0.229 0 0.452-0.115 0.581-0.324l3.545-5.751c0.198-0.321 0.098-0.74-0.223-0.938z"></path>
-                <path d="M5.541 27.145l-0.104-0.065c-0.565-0.354-0.959-0.907-1.109-1.559s-0.038-1.322 0.316-1.887c0.2-0.319 0.103-0.74-0.216-0.939s-0.74-0.103-0.939 0.216c-0.547 0.874-0.72 1.909-0.489 2.916s0.84 1.862 1.714 2.409l0.104 0.065c0.112 0.070 0.237 0.104 0.361 0.104 0.227 0 0.449-0.113 0.578-0.32 0.2-0.319 0.103-0.74-0.216-0.939z"></path>
-                <path d="M19.45 4.692l0.104 0.065c1.169 0.732 1.525 2.278 0.793 3.446-0.2 0.319-0.103 0.74 0.216 0.939 0.112 0.070 0.237 0.104 0.361 0.104 0.227 0 0.449-0.113 0.578-0.32 1.13-1.806 0.581-4.195-1.225-5.325l-0.104-0.065c-0.319-0.2-0.74-0.103-0.939 0.216s-0.103 0.74 0.216 0.939z"></path>
-                <path d="M18.279 19.538c0-0 0-0 0-0l5.679-9.074c0.958-1.531 1.263-3.343 0.858-5.103s-1.471-3.257-3.002-4.215l-0.104-0.065c-1.077-0.674-2.316-1.031-3.581-1.031-2.348 0-4.493 1.187-5.737 3.175l-11.359 18.148c-0.958 1.531-1.263 3.343-0.858 5.103s1.471 3.257 3.002 4.215l0.104 0.065c1.077 0.674 2.316 1.031 3.582 1.031 2.348 0 4.493-1.187 5.737-3.175l5.679-9.074c0 0 0 0 0 0zM13.547 3.947c0.994-1.587 2.706-2.535 4.582-2.535 1.009 0 1.998 0.285 2.858 0.823l0.104 0.065c1.222 0.765 2.073 1.96 2.397 3.365s0.080 2.852-0.685 4.074l-5.318 8.496-9.256-5.793 5.318-8.496zM11.444 27.889c-0.994 1.587-2.706 2.535-4.582 2.535-1.009 0-1.998-0.285-2.858-0.823l-0.104-0.065c-1.222-0.765-2.073-1.96-2.397-3.365s-0.080-2.852 0.685-4.075l5.318-8.496 9.256 5.793-5.318 8.496z"></path>
-            </symbol>
-            <symbol id="icon-checkmark-circle" viewBox="0 0 32 32">
-                <title>checkmark-circle</title>
-                <path d="M15.2 32c-4.061 0-7.877-1.581-10.749-4.451s-4.451-6.688-4.451-10.747c0-4.061 1.581-7.877 4.451-10.749s6.688-4.453 10.749-4.453c4.061 0 7.877 1.581 10.749 4.453s4.451 6.688 4.451 10.749-1.581 7.877-4.451 10.747c-2.87 2.87-6.688 4.451-10.749 4.451zM15.2 3.2c-7.499 0-13.6 6.101-13.6 13.6s6.101 13.6 13.6 13.6 13.6-6.101 13.6-13.6-6.101-13.6-13.6-13.6zM12 23.2c-0.205 0-0.41-0.078-0.566-0.234l-4.8-4.8c-0.312-0.312-0.312-0.819 0-1.131s0.819-0.312 1.131 0l4.234 4.234 10.634-10.634c0.312-0.312 0.819-0.312 1.131 0s0.312 0.819 0 1.131l-11.2 11.2c-0.157 0.157-0.362 0.234-0.566 0.234z"></path>
-            </symbol>
-            <symbol id="icon-user-circle-o" viewBox="0 0 28 28">
-                <title>user-circle-o</title>
-                <path d="M14 0c7.734 0 14 6.266 14 14 0 7.688-6.234 14-14 14-7.75 0-14-6.297-14-14 0-7.734 6.266-14 14-14zM23.672 21.109c1.453-2 2.328-4.453 2.328-7.109 0-6.609-5.391-12-12-12s-12 5.391-12 12c0 2.656 0.875 5.109 2.328 7.109 0.562-2.797 1.922-5.109 4.781-5.109 1.266 1.234 2.984 2 4.891 2s3.625-0.766 4.891-2c2.859 0 4.219 2.312 4.781 5.109zM20 11c0-3.313-2.688-6-6-6s-6 2.688-6 6 2.688 6 6 6 6-2.688 6-6z"></path>
-            </symbol>
-            <symbol id="icon-expand" viewBox="0 0 32 32">
-                <title>expand</title>
-                <path d="M12.566 11.434l-9.834-9.834h6.069c0.442 0 0.8-0.358 0.8-0.8s-0.358-0.8-0.8-0.8h-8c-0.442 0-0.8 0.358-0.8 0.8v8c0 0.442 0.358 0.8 0.8 0.8s0.8-0.358 0.8-0.8v-6.069l9.834 9.834c0.157 0.157 0.362 0.234 0.566 0.234s0.41-0.078 0.566-0.234c0.312-0.312 0.312-0.819 0-1.131zM31.2 0h-8c-0.442 0-0.8 0.358-0.8 0.8s0.358 0.8 0.8 0.8h6.069l-9.834 9.834c-0.312 0.312-0.312 0.819 0 1.131 0.157 0.157 0.362 0.234 0.565 0.234s0.41-0.078 0.565-0.234l9.835-9.834v6.069c0 0.442 0.358 0.8 0.8 0.8s0.8-0.358 0.8-0.8v-8c0-0.442-0.358-0.8-0.8-0.8zM12.566 19.435c-0.312-0.312-0.819-0.312-1.131 0l-9.834 9.834v-6.069c0-0.442-0.358-0.8-0.8-0.8s-0.8 0.358-0.8 0.8v8c0 0.442 0.358 0.8 0.8 0.8h8c0.442 0 0.8-0.358 0.8-0.8s-0.358-0.8-0.8-0.8h-6.069l9.834-9.835c0.312-0.312 0.312-0.819 0-1.131zM31.2 22.4c-0.442 0-0.8 0.358-0.8 0.8v6.069l-9.835-9.834c-0.312-0.312-0.819-0.312-1.131 0s-0.312 0.819 0 1.131l9.835 9.834h-6.069c-0.442 0-0.8 0.358-0.8 0.8s0.358 0.8 0.8 0.8h8c0.442 0 0.8-0.358 0.8-0.8v-8c0-0.442-0.358-0.8-0.8-0.8z"></path>
-            </symbol>
-            <symbol id="icon-quote" viewBox="0 0 20 20">
-                <title>quote</title>
-                <path d="M5.315 3.401c-1.61 0-2.916 1.343-2.916 3s1.306 3 2.916 3c2.915 0 0.972 5.799-2.916 5.799v1.4c6.939 0.001 9.658-13.199 2.916-13.199zM13.715 3.401c-1.609 0-2.915 1.343-2.915 3s1.306 3 2.915 3c2.916 0 0.973 5.799-2.915 5.799v1.4c6.938 0.001 9.657-13.199 2.915-13.199z"></path>
-            </symbol>
-            <symbol id="icon-google-plus-symbol" viewBox="0 0 32 32">
-                <title>google-plus-symbol</title>
-                <path d="M18.413 20.375c-0.34-0.455-0.715-0.879-1.125-1.269s-0.821-0.747-1.231-1.067c-0.41-0.32-0.785-0.628-1.125-0.923s-0.615-0.602-0.827-0.923-0.317-0.647-0.317-0.981c0-0.462 0.148-0.894 0.442-1.298s0.654-0.795 1.077-1.173c0.423-0.378 0.846-0.792 1.269-1.24s0.782-1.042 1.077-1.779c0.295-0.737 0.442-1.58 0.442-2.529 0-1.128-0.25-2.212-0.75-3.25s-1.205-1.846-2.115-2.423h2.596l2.596-1.519h-8.403c-1.192 0-2.391 0.128-3.596 0.385-1.782 0.397-3.282 1.305-4.5 2.721s-1.827 3.022-1.827 4.817c0 1.897 0.683 3.474 2.048 4.731s3.003 1.884 4.913 1.884c0.385 0 0.833-0.032 1.346-0.096-0.026 0.102-0.070 0.24-0.134 0.413s-0.116 0.311-0.154 0.414c-0.038 0.102-0.071 0.227-0.096 0.375s-0.038 0.298-0.038 0.452c0 0.846 0.41 1.801 1.231 2.865-0.974 0.026-1.936 0.112-2.884 0.26s-1.942 0.378-2.981 0.692c-1.038 0.314-1.968 0.769-2.788 1.365s-1.436 1.304-1.846 2.125c-0.474 0.949-0.712 1.814-0.712 2.596 0 0.859 0.192 1.638 0.577 2.337s0.878 1.269 1.481 1.711c0.603 0.443 1.298 0.814 2.087 1.116s1.57 0.516 2.346 0.644c0.776 0.128 1.542 0.192 2.298 0.192 3.436 0 6.128-0.84 8.077-2.519 1.795-1.564 2.692-3.372 2.692-5.423 0-0.731-0.106-1.413-0.317-2.048s-0.487-1.18-0.827-1.635zM11 13.385c-0.654 0-1.276-0.167-1.865-0.5s-1.090-0.766-1.5-1.298c-0.41-0.532-0.769-1.131-1.077-1.798s-0.535-1.333-0.683-2c-0.147-0.666-0.221-1.301-0.221-1.904 0-1.231 0.327-2.288 0.981-3.173s1.577-1.327 2.769-1.327c0.846 0 1.612 0.263 2.298 0.788s1.224 1.192 1.615 2c0.391 0.808 0.692 1.644 0.904 2.509s0.317 1.683 0.317 2.452c0 1.282-0.279 2.311-0.836 3.087s-1.458 1.163-2.702 1.163zM16.317 27.826c-0.352 0.603-0.83 1.074-1.432 1.413s-1.247 0.59-1.933 0.75c-0.686 0.161-1.407 0.241-2.163 0.241-0.821 0-1.635-0.096-2.442-0.289s-1.58-0.484-2.317-0.875c-0.737-0.391-1.333-0.929-1.788-1.615s-0.683-1.465-0.683-2.337c0-0.769 0.173-1.455 0.519-2.058s0.789-1.083 1.327-1.442c0.538-0.359 1.167-0.654 1.885-0.884s1.41-0.391 2.077-0.481c0.666-0.090 1.346-0.134 2.038-0.134 0.423 0 0.744 0.013 0.962 0.038 0.077 0.052 0.272 0.186 0.587 0.404s0.526 0.366 0.635 0.443c0.109 0.077 0.308 0.224 0.596 0.442s0.493 0.381 0.615 0.49c0.121 0.109 0.298 0.272 0.529 0.49s0.401 0.407 0.51 0.567c0.109 0.16 0.244 0.356 0.404 0.586s0.272 0.452 0.337 0.664c0.064 0.212 0.125 0.442 0.182 0.692s0.086 0.51 0.086 0.779c0 0.807-0.176 1.513-0.529 2.115z"></path>
-                <path d="M27.077 4.923v-4.923h-2.462v4.923h-4.923v2.462h4.923v4.923h2.462v-4.923h4.923v-2.462z"></path>
-            </symbol>
-            <symbol id="icon-instagram" viewBox="0 0 20 20">
-                <title>instagram</title>
-                <path d="M17 1h-14c-1.1 0-2 0.9-2 2v14c0 1.101 0.9 2 2 2h14c1.1 0 2-0.899 2-2v-14c0-1.1-0.9-2-2-2zM9.984 15.523c3.059 0 5.538-2.481 5.538-5.539 0-0.338-0.043-0.664-0.103-0.984h1.581v7.216c0 0.382-0.31 0.69-0.693 0.69h-12.614c-0.383 0-0.693-0.308-0.693-0.69v-7.216h1.549c-0.061 0.32-0.104 0.646-0.104 0.984 0 3.059 2.481 5.539 5.539 5.539zM6.523 9.984c0-1.912 1.55-3.461 3.462-3.461s3.462 1.549 3.462 3.461-1.551 3.462-3.462 3.462c-1.913 0-3.462-1.55-3.462-3.462zM16.307 6h-1.615c-0.382 0-0.692-0.312-0.692-0.692v-1.617c0-0.382 0.31-0.691 0.691-0.691h1.615c0.384 0 0.694 0.309 0.694 0.691v1.616c0 0.381-0.31 0.693-0.693 0.693z"></path>
-            </symbol>
-            <symbol id="icon-bag-1" viewBox="0 0 32 32">
-                <title>bag-1</title>
-                <path d="M26.832 7.898h-5.174v-1.684c0-3.426-2.787-6.214-6.214-6.214s-6.213 2.787-6.213 6.214v1.684h-4.458c-0.376 0-0.681 0.305-0.681 0.681l-3.827 22.74c0 0.376 0.305 0.681 0.681 0.681h30.107c0.376 0 0.681-0.305 0.681-0.681l-4.221-22.74c0-0.376-0.305-0.681-0.681-0.681zM10.593 6.214c0-2.675 2.177-4.852 4.852-4.852s4.852 2.177 4.852 4.852v1.684h-9.704v-1.684zM30.373 30.638h-28.746l3.826-21.379h3.777v2.998c-0.329 0.22-0.544 0.594-0.544 1.019 0 0.677 0.548 1.226 1.225 1.226s1.226-0.548 1.226-1.226c0-0.425-0.217-0.799-0.545-1.019v-2.998h9.705v2.998c-0.328 0.22-0.545 0.594-0.545 1.019 0 0.677 0.548 1.226 1.226 1.226s1.226-0.548 1.226-1.226c0-0.425-0.217-0.799-0.545-1.019v-2.998h4.494l4.222 21.379z"></path>
-            </symbol>
-            <symbol id="icon-check-circle" viewBox="0 0 24 24">
-                <title>check-circle</title>
-                <path d="M21 11.080v0.92c-0.001 2.485-1.009 4.733-2.64 6.362s-3.88 2.634-6.365 2.632-4.734-1.009-6.362-2.64-2.634-3.879-2.633-6.365 1.009-4.733 2.64-6.362 3.88-2.634 6.365-2.633c1.33 0.001 2.586 0.289 3.649 0.775 0.502 0.23 1.096 0.008 1.325-0.494s0.008-1.096-0.494-1.325c-1.327-0.606-2.866-0.955-4.479-0.956-3.037-0.002-5.789 1.229-7.78 3.217s-3.224 4.74-3.226 7.777 1.229 5.789 3.217 7.78 4.739 3.225 7.776 3.226 5.789-1.229 7.78-3.217 3.225-4.739 3.227-7.777v-0.92c0-0.552-0.448-1-1-1s-1 0.448-1 1zM21.293 3.293l-9.293 9.302-2.293-2.292c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414l3 3c0.391 0.391 1.024 0.39 1.415 0l10-10.010c0.39-0.391 0.39-1.024-0.001-1.414s-1.024-0.39-1.414 0.001z"></path>
-            </symbol>
-            <symbol id="icon-chart-bars" viewBox="0 0 32 32">
-                <title>chart-bars</title>
-                <path d="M28 32h-25.6c-1.323 0-2.4-1.077-2.4-2.4v-25.6c0-1.323 1.077-2.4 2.4-2.4h25.6c1.323 0 2.4 1.077 2.4 2.4v25.6c0 1.323-1.077 2.4-2.4 2.4zM2.4 3.2c-0.442 0-0.8 0.358-0.8 0.8v25.6c0 0.442 0.358 0.8 0.8 0.8h25.6c0.442 0 0.8-0.358 0.8-0.8v-25.6c0-0.442-0.358-0.8-0.8-0.8h-25.6zM10.4 27.2h-3.2c-0.442 0-0.8-0.358-0.8-0.8v-14.4c0-0.442 0.358-0.8 0.8-0.8h3.2c0.442 0 0.8 0.358 0.8 0.8v14.4c0 0.442-0.358 0.8-0.8 0.8zM8 25.6h1.6v-12.8h-1.6v12.8zM16.8 27.2h-3.2c-0.442 0-0.8-0.358-0.8-0.8v-19.2c0-0.442 0.358-0.8 0.8-0.8h3.2c0.442 0 0.8 0.358 0.8 0.8v19.2c0 0.442-0.358 0.8-0.8 0.8zM14.4 25.6h1.6v-17.6h-1.6v17.6zM23.2 27.2h-3.2c-0.442 0-0.8-0.358-0.8-0.8v-8c0-0.442 0.358-0.8 0.8-0.8h3.2c0.442 0 0.8 0.358 0.8 0.8v8c0 0.442-0.358 0.8-0.8 0.8zM20.8 25.6h1.6v-6.4h-1.6v6.4z"></path>
-            </symbol>
-        </defs>
-    </svg>
-</body>
-
-</html>
+                        <div class="container">
+                  
+                   

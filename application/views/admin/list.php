@@ -8,6 +8,9 @@
     <div class="card">
         <h4>ADD IMAGES</h4><a href="<?php echo base_url() ?>admin/add_business_image" class="link-2">+ ADD</a>
     </div>
+    <div class="card">
+        <h4>ADD FAQ</h4><a href="<?php echo base_url() ?>admin/add_faq" class="link-2">+ ADD</a>
+    </div>
     <h2 class="heading-2">Business List</h2>
     <?php
     foreach ($business->result() as $row) {

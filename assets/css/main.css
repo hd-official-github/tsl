@@ -273,7 +273,7 @@ input[type="search"],
 input[type="password"],
 textarea {
 	-webkit-appearance: none;
-	-webkit-border-radius: 0;
+	
 	box-sizing: border-box;
 	border: 1px solid #d9d9d9;
 	padding: 8px 15px;
@@ -337,9 +337,7 @@ input[type="password"].placeholder,
 textarea.placeholder {
 	color: #969696;
 }
-select {
-	-webkit-border-radius: 0;
-}
+
 textarea {
 	resize: vertical;
 	vertical-align: top;
@@ -350,7 +348,7 @@ input[type="reset"],
 input[type="file"],
 input[type="submit"] {
 	-webkit-appearance: none;
-	-webkit-border-radius: 0;
+	
 	cursor: pointer;
 }
 @font-face {
@@ -368,7 +366,7 @@ input[type="submit"] {
 [class^="icon-"],
 [class*=" icon-"] {
 	font-family: "icomoon" !important;
-	speak: none;
+	
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -5180,7 +5178,7 @@ h2.anchor {
 	.slick-arrow
 	[class*="icon-"] {
 	background: linear-gradient(to right, #ff7102, #ff7102 19%, #ff0256);
-	-webkit-background-clip: text;
+	
 	-webkit-text-fill-color: transparent;
 }
 @media (max-width: 1023px) {
@@ -5690,7 +5688,7 @@ h2.anchor {
 .tour-card-list .slick-arrow [class*="icon-"],
 .destination-attraction-card-list .slick-arrow [class*="icon-"] {
 	background: linear-gradient(to right, #f07c7c, #f07c7c 19%, #f07c7c);
-	-webkit-background-clip: text;
+	
 	-webkit-text-fill-color: transparent;
 }
 @media (max-width: 1023px) {
@@ -6297,7 +6295,7 @@ input[type="number"],
 input[type="password"],
 input[type="search"],
 input[type="tel"],
-input[type="text"],
+input[type="text"],x
 input[type="url"],
 textarea,
 select,
@@ -6305,7 +6303,7 @@ select,
 	transition: border-color 0.3s ease-in-out;
 	display: block;
 	height: 34px;
-	border-radius: 100px;
+	/* border-radius: 100px; */
 	border: 1px solid #d9d9d9;
 	font-size: 1.2rem;
 	padding: 5px 15px;
@@ -7808,7 +7806,7 @@ form .base-block-head:before {
 }
 .section__offers .offers-slider .slick-arrow [class*="icon-"] {
 	background: linear-gradient(to right, #ff7102, #ff7102 19%, #ff0256);
-	-webkit-background-clip: text;
+	
 	-webkit-text-fill-color: transparent;
 }
 @media (max-width: 1023px) {
@@ -8026,7 +8024,7 @@ form .base-block-head:before {
 }
 .section__banner_ads .banner-ad-carousel .slick-arrow [class*="icon-"] {
 	background: linear-gradient(to right, #ff7102, #ff7102 19%, #ff0256);
-	-webkit-background-clip: text;
+	
 	-webkit-text-fill-color: transparent;
 }
 @media (max-width: 1023px) {
@@ -9539,6 +9537,7 @@ body {
 	font-size: 1.6rem;
 	line-height: 1.56;
 	margin-top: -10px;
+	letter-spacing: 0.5px;
 }
 .banner-wrapper .collections-banner {
 	height: 550px;
@@ -9554,6 +9553,7 @@ body {
 .akhakdhalsdjals {
 	margin-top: 10px;
 }
+
 
 /* //////////////////////banglore city////////////// */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap");
@@ -9572,7 +9572,7 @@ body {
 [class^="icon-"],
 [class*=" icon-"] {
 	font-family: "icomoon" !important;
-	speak: none;
+	
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -10002,7 +10002,7 @@ input[type="search"],
 input[type="password"],
 textarea {
 	-webkit-appearance: none;
-	-webkit-border-radius: 0;
+	
 	box-sizing: border-box;
 	border: 1px solid #d9d9d9;
 	padding: 8px 15px;
@@ -10066,9 +10066,7 @@ input[type="password"].placeholder,
 textarea.placeholder {
 	color: #969696;
 }
-select {
-	-webkit-border-radius: 0;
-}
+
 textarea {
 	resize: vertical;
 	vertical-align: top;
@@ -10079,7 +10077,7 @@ input[type="reset"],
 input[type="file"],
 input[type="submit"] {
 	-webkit-appearance: none;
-	-webkit-border-radius: 0;
+	
 	cursor: pointer;
 }
 .thrillo-logo {
@@ -10234,7 +10232,7 @@ input[type="submit"] {
 [class^="icon-"],
 [class*=" icon-"] {
 	font-family: "icomoon" !important;
-	speak: none;
+
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -20850,6 +20848,8 @@ lefteye {
 .breadcrumbs-holder .breadcrumbs li span {
 	color: #fff;
 	text-shadow: 1px 0 2px #595959;
+	font-size:18px;
+	text-decoration: none;
 }
 .breadcrumbs-holder .breadcrumbs li a:hover span {
 	color: #ff5300;
@@ -21729,7 +21729,7 @@ float: left;
 display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;
 }
 .card-main{
-	-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,.1),0 0 4px 0 rgba(0,0,0,.1);box-shadow:0 2px 2px 0 rgba(0,0,0,.1),0 0 4px 0 rgba(0,0,0,.1);background-color:#fff;display:block;border-radius:4px;height:100%;position:relative;
+	-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,.1),0 0 4px 0 rgba(0,0,0,.1);box-shadow:0 2px 2px 0 rgba(0,0,0,.1),0 0 4px 0 rgba(0,0,0,.1);background-color:#fff;display:block;border-radius:4px;position:relative;
 	
 }
 .card-main__content--lg{
@@ -21821,7 +21821,7 @@ display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical
 	font-size:10px;
 }
 .nb-icon{
-	font-family:nb_font-icon!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;font-size:15px;letter-spacing:normal;display:inline-block;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+	font-family:nb_font-icon!important;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;font-size:15px;letter-spacing:normal;display:inline-block;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
 }
 .nb-icon_rupee:before{
 	content:"\e91a";
@@ -21878,12 +21878,16 @@ display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical
 		.lshead{
 			display: none;
 		}
+		.setoverflow{
+			overflow: scroll;
+			white-space: nowrap;
+		}
 	
 		
 	}
 	.spainBang{
 		position: absolute;
-		top:2px;
+		top:17px;
 		height:20px;
 		width:23px;
 	}
@@ -21893,9 +21897,9 @@ display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical
 		}
 		
 	}
-	.fl-column{
+	/* .fl-column{
 		margin-bottom:12px;
-	}
+	} */
 	.newbtn{
 		position:relative; left:40%; border-radius:100px;
 	}
@@ -21917,7 +21921,7 @@ display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical
 		}
 	}
 	.onvisit:hover{
-		box-shadow: 0px 0px 4px 2px black;
+		box-shadow: 0px 3px 2px 2px silver;
 	}
 	.text-overview{
 		font-weight: 600 !important;
@@ -22045,6 +22049,7 @@ display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical
 	.setcont{
 		width:550px;
 	}
+	
 }
 .loc_map{
 	height:300px;
@@ -22077,8 +22082,12 @@ display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical
 		top:-322px;
 	}
 	.setheight{
-		height: 426px;
+		height: 444px;
 	}
+	.subcatof_spa{
+		width:auto;	
+		} 
+	
 }
 .fontcovid{
 	font-size:15px;

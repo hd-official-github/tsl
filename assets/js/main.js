@@ -11332,78 +11332,78 @@ var google_remarketing_only = true;
 				d && Ja(b, d, e);
 			}
 		};
-	(function (a, b, c) {
-		if (a)
-			if (/[\?&;]google_debug/.exec(document.URL)) Ia(a);
-			else {
-				try {
-					if (Fa(a))
-						if (3 == Y(c)) {
-							var d = Ha(a),
-								e = "google_conversion_" + Math.floor(1e9 * Math.random());
-							c.write('<span id="' + e + '"></span>');
-							La(function () {
-								try {
-									var f = c.getElementById(e);
-									f &&
-										((f.innerHTML = T(a, b, c, d)),
-										d.google_remarketing_for_search &&
-											!d.google_conversion_domain &&
-											X(a, c, d));
-								} catch (g) {}
-							}, c);
-						} else
-							c.write(T(a, b, c, a)),
-								a.google_remarketing_for_search &&
-									!a.google_conversion_domain &&
-									X(a, c, a);
-					a.google_conversion_merchant_id &&
-						a.google_conversion_order_id &&
-						a.google_conversion_items &&
-						c.documentElement.appendChild(Ea(a, a));
-				} catch (f) {}
-				Ga(a);
-			}
-	})(window, navigator, document);
+	// (function (a, b, c) {
+	// 	if (a)
+	// 		if (/[\?&;]google_debug/.exec(document.URL)) Ia(a);
+	// 		else {
+	// 			try {
+	// 				if (Fa(a))
+	// 					if (3 == Y(c)) {
+	// 						var d = Ha(a),
+	// 							e = "google_conversion_" + Math.floor(1e9 * Math.random());
+	// 						c.write('<span id="' + e + '"></span>');
+	// 						La(function () {
+	// 							try {
+	// 								var f = c.getElementById(e);
+	// 								f &&
+	// 									((f.innerHTML = T(a, b, c, d)),
+	// 									d.google_remarketing_for_search &&
+	// 										!d.google_conversion_domain &&
+	// 										X(a, c, d));
+	// 							} catch (g) {}
+	// 						}, c);
+	// 					} else
+	// 						c.write(T(a, b, c, a)),
+	// 							a.google_remarketing_for_search &&
+	// 								!a.google_conversion_domain &&
+	// 								X(a, c, a);
+	// 				a.google_conversion_merchant_id &&
+	// 					a.google_conversion_order_id &&
+	// 					a.google_conversion_items &&
+	// 					c.documentElement.appendChild(Ea(a, a));
+	// 			} catch (f) {}
+	// 			Ga(a);
+	// 		}
+	// })(window, navigator, document);
 }.call(this));
 
 // logo
-$(function () {
-	$(window).scroll(function () {
-		var scroll = $(window).scrollTop();
+// $(function () {
+// 	$(window).scroll(function () {
+// 		var scroll = $(window).scrollTop();
 
-		if (scroll >= 100) {
-			$(".logowhite").hide();
-			$(".logoblack").show();
+// 		if (scroll >= 100) {
+// 			$(".logowhite").hide();
+// 			$(".logoblack").show();
 
-			//logo.removeClass('lrg-logo').addClass("sml-logo").fadeIn( "slow");
-		}
-		if (scroll <= 80) {
-			$(".logowhite").show();
+// 			//logo.removeClass('lrg-logo').addClass("sml-logo").fadeIn( "slow");
+// 		}
+// 		if (scroll <= 80) {
+// 			$(".logowhite").show();
 
-			$(".logoblack").hide();
-		} else {
-			$(".logoblack").show();
-		}
-	});
-});
+// 			$(".logoblack").hide();
+// 		} else {
+// 			$(".logoblack").show();
+// 		}
+// 	});
+// });
 
-$(function () {
-	$(window).scroll(function () {
-		var scroll = $(window).scrollTop();
+// $(function () {
+// 	$(window).scroll(function () {
+// 		var scroll = $(window).scrollTop();
 
-		if (scroll >= 50) {
-			$(".mobwhitelogo").hide();
-		}
-		if (scroll <= 50) {
-			$(".mobwhitelogo").show();
+// 		if (scroll >= 50) {
+// 			$(".mobwhitelogo").hide();
+// 		}
+// 		if (scroll <= 50) {
+// 			$(".mobwhitelogo").show();
 
-			$(".mobblacklogo").hide();
-		} else {
-			$(".mobblacklogo").show();
-		}
-	});
-});
+// 			$(".mobblacklogo").hide();
+// 		} else {
+// 			$(".mobblacklogo").show();
+// 		}
+// 	});
+// });
 
 // ////////////////////////////////////////
 // !(function (n, t, e) {
@@ -13512,24 +13512,24 @@ $(function () {
 
 ////////////////////////
 
-function drop() {
-	$(".ulcls").toggle();
-}
-function dropwhat() {
-	$(".ulclsw").toggle();
-}
+// function drop() {
+// 	$(".ulcls").toggle();
+// }
+// function dropwhat() {
+// 	$(".ulclsw").toggle();
+// }
 
-function ques1() {
-	$(".answer1").toggle("slow");
-}
-function ques2() {
-	$(".answer2").toggle("slow");
-}
-function ques3() {
-	$(".answer3").toggle("slow");
-}
-function getreview() {
-	$(".review").slideToggle();
-}
+// function ques1() {
+// 	$(".answer1").toggle("slow");
+// }
+// function ques2() {
+// 	$(".answer2").toggle("slow");
+// }
+// function ques3() {
+// 	$(".answer3").toggle("slow");
+// }
+// function getreview() {
+// 	$(".review").slideToggle();
+// }
 
 

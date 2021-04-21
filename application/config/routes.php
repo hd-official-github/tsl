@@ -52,8 +52,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 $route['default_controller'] = 'main';
 $route['admin'] = 'admin/login';
-$route['text'] = 'text/index';
+$route['search'] = 'main/submit_search';
+$route['cat'] = 'main/catogery';
+$route['detail'] = 'main/bussiness_detail';
+
+
+// $route['list'] = 'main/list';
+// $route['text'] = 'text/index';
+// $route['location'] = 'main';
+$route['(:any)/submit_review/(:any)'] = 'main/submit_review/$1';
+$route['(:any)/detail/(:any)'] = 'main/bussiness_detail/$1';
+$route['(:any)/blog_list/(:any)'] = 'blogs/blog_list/$1/$2'; 
 $route['(:any)'] = 'main/location/$1';
+$route['(:any)/blogs/list'] = 'blogs/list';
 $route['(:any)/blogs/'] = 'blogs/$1/';  // location blogs
 $route['(:any)/blogs/(:any)'] = 'blogs/details/$1/$2';  // location blog details
 $route['(:any)/category/(:any)'] = 'category/index/$1/$2'; // location category all

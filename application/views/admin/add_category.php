@@ -11,6 +11,16 @@
                 <label for="">URL SLUG</label>
                 <input type="text" placeholder="SLUG" name="slug" required>
             </div>
+            <div class='form-group'>
+            
+            <select name="location" id="">
+            <?php foreach($location->result() as $row) {?>
+
+            <option value="<?php echo $row->location_name;?>" > <?php echo $row->location_name;?> </option>
+            <?php } ?>
+
+            </select>
+            </div>
             <div class="form-block">
                 <label for="">CATEGORY NAME</label>
                 <input type="text" placeholder="CATEGORY NAME" name="category_name" required>

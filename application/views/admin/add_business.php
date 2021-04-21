@@ -32,6 +32,12 @@
             </div>
             <div class="form-block">
                 <label for="">SELECT SUB LOCATION</label>
+                <select name="sub_location" id="sub_loc">
+                    <option value="#" default>PLEASE SELECT SUB LOCATION..</option>
+                    <?php foreach ($sub_loc->result() as $row) {
+                        echo '<option value="' . $row->sub_loc_name . '">' . $row->sub_loc_name . '</option>';
+                    } ?>
+                </select>
             </div>
             <div class="form-block">
                 <div id="subloc"></div>
@@ -64,6 +70,15 @@
                 <label for="">MAP LOCATION EMBEDED CODE</label>
                 <input type="text" placeholder="BUSINESS LOCATION EMBED CODE" name="business_map_loc">
             </div>
+            <div class="form-block">
+                <label for="">MOB. NO.</label>
+                <input type="number" placeholder="MOBILE NUMBER" name="mobno">
+            </div>
+            <div class="form-block">
+                <label for="">EMAIL</label>
+                <input type="email" placeholder="EMAIL" name="email">
+            </div>
+
             <div class="form-block">
                 <label for="">WEBSITE</label>
                 <input type="text" placeholder="BUSINESS WEBSITE" name="business_website">

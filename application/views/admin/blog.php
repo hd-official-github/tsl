@@ -2,6 +2,9 @@
     <div class="card">
         <h4>ADD BLOG</h4><a href="<?php echo base_url() ?>admin/add_blog" class="link-2">+ ADD</a>
     </div>
+    <div class="card">
+        <h4>ADD FEATURE BLOG</h4><a href="<?php echo base_url() ?>admin/add_feature_blog" class="link-2">+ ADD</a>
+    </div>
     <h4 class="heading-2" style="font-family:Arial, Helvetica, sans-serif;">Blog List</h4>
     <?php
     foreach ($blogs->result() as $row) {

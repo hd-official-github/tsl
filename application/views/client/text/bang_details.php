@@ -34,9 +34,7 @@
                                             <fieldset>
 
                                                 <div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;">
-
                                                 </div>
-
                                             </fieldset>
                                         </form>
 
@@ -49,76 +47,31 @@
                                 <li class="desktop-hidden"><a href="/" class="main-header-link">Home</a></li>
                                 <li class="divider desktop-hidden"></li>
                                 <li><a href="/go-to-gift-page" class="gift-link main-header-link">
-
-
-                                        <span class="text" style='background:#f07c7c; padding:9px; border-radius:10px;  color:white; box-shadow:0px 0px 8px black; display:flex; padding-right:15px;'><i class="far fa-plus-square fa-2x" style="padding-right:10px; text-align:center;"> </i> New Bussiness</span>
+                                        <span class="text" style='background:#f07c7c; padding:9px; border-radius:10px;  color:white; box-shadow:0px 0px 8px black; display:flex; padding-right:15px; align-items:center;'><i class="far fa-plus-square fa-2x" style="padding-right:10px; text-align:center;"> </i> New Bussiness</span>
                                     </a>
                                 </li>
                                 <li class="divider desktop-hidden"></li>
                                 <li id="header-login-wrap">
                                     <span data-href="" class="main-header-link trigger-login-popup onclick-link" style='color:black'>Log In</span>
                                 </li>
-                                <li class="divider desktop-hidden"></li>
-                                <li class="desktop-hidden"><a href="https://thrillophilia.freshdesk.com/support/home" class="main-header-link">Help</a></li>
-                                <!-- <li class="desktop-hidden"><a href="#">FAQs</a></li> -->
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-
-
-
-
-
-
-
         <div class="wrapper-content wrapper-content--ud" infinite-scroll="">
             <div class="wrapper">
-
-
                 <div class='container breadcrab'>
                     <div class="breadcrumbs-nav">
                         <nav class="fl-row">
                             <a class="text-uppercase text-decoration-none" href="/">Nearbuy</a>
-
                             <a class="text-uppercase text-decoration-none" href="/delhi-ncr/c/all-offers">Deals in New Delhi</a>
-
                             <a class="text-uppercase cursor-default text-decoration-none" href="/delhi-ncr/collection/full-body-massage-offers/">Body Massage</a>
                         </nav>
                     </div>
                     <hr class="divider divider--thick">
-
                 </div>
-
-                <!-- <div class="row">
-                                    <div class="col-xs-12 col-s-4 col-l-3">
-                                        <div class="city-name">
-                                            <p class="txt-primary font-weight-semibold font-lg">Promos &amp; Filters</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-12 col-s-8 col-l-9">
-                                        <div class="row">
-                                            <div class="col-s-6">
-                                            
-                                                <h1 class="txt-primary font-weight-semibold font-lg line-height-default">Full Body Massage Offers in New Delhi</h1>
-                                            </div>
-                                            
-                                            
-                                        </div>
-                                    </div>
-                                </div>  -->
-                <!-- <div class="container lshead">
-                <div class="row">
-
-                    <div class="col-sm-4 listheading">Promos and filters
-                    </div>
-
-                    <div class="col-sm-8 listheading">All photos</div>
-
-                </div>
-            </div> -->
                 <div class="bg-white p-3 chead secondhead" style='margin-top:-20px; width:100%;'>
                     <div class='row'>
                         <div class="col-sm-12">
@@ -131,80 +84,51 @@
                 <div class="container mt-5 p-0">
                     <div class="row">
                         <div class="col-sm-4 card-info">
-
                             <promo-slider>
                                 <div class="position-relative  promo-slider-wrapper">
-
                                     <div class="all-promo-wrapper">
                                         <div class="promo-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0.6s;">
-
                                             <div>
                                                 <promo-card initindex="1">
                                                     <div class="promo" ga-impression="">
                                                         <div class="block margin-reset clearfix overflow-hidden">
                                                             <div class="block__inner local-promo">
-
                                                                 <div class="promo__price">
                                                                     <p class="txt-primary font-weight-bold white-space-normal" style="font-size:25px;">Domaine de Berinzenn</p>
                                                                 </div>
-
-
-
-
                                                                 <div class="promo__title">
                                                                     <merchant-rating>
-                                                                        <!---->
                                                                         <div class="margin-right-s card-rating__listing" style="margin-top: -8px; margin-left:-10px;">
                                                                             <div class="card-rating margin-bottom-zero nb--4-5">
-                                                                                <!----><img alt="nb" class="card-rating__nb" height="10" src="<?php echo base_url() . 'assets/images/sl_icon.png'; ?>" data-lzled="true">
-                                                                                <!---->
+                                                                                <img alt="nb" class="card-rating__nb" height="10" src="<?php echo base_url() . 'assets/images/sl_icon.png'; ?>" data-lzled="true">
                                                                                 <span class="card-rating__img"></span>
-                                                                                <!----><span class="card-rating__value font-weight-bold line-height-default" style='font-size:small;'>4.3</span>
+                                                                                <span class="card-rating__value font-weight-bold line-height-default" style='font-size:small;'>4.3</span>
                                                                                 <span><a class='text-decoration-none font-weight-bold' style='color: #010101; font-size:small; margin-left:5px;'>100 Reviews</a></span>
                                                                             </div>
                                                                         </div>
-
-                                                                        <!---->
                                                                     </merchant-rating>
                                                                 </div>
                                                                 <p class="txt-primary font-weight-bold white-space-normal" style="font-size:14px; margin-top:10px;">Overviews</p>
-
                                                                 <div class='txt-primary white-space-normal text-overview'> In the heart of the Spa forest and on the edge of the Fagne de Malchamps, the Domaine of Bérinzenne offers spaces freely to the public: panoramic tower, park with accessible </div>
                                                                 <div>
                                                                     <img src="<?php echo base_url() . 'assets/images/duration.png'; ?>" alt="" class='dur'>
                                                                     <span class='txt-primary font-weight-bold white-space-normal inline'> Suggested Duration: </span> <span style='margin-left:120px;padding:7px;margin-top:8px; font-size:12px;display:inline-block; '> 2-3 hours</span>
-
                                                                 </div>
                                                                 <div>
                                                                     <img src="<?php echo base_url() . 'assets/images/location.png'; ?>" alt="" class='dur'>
                                                                     <span class='txt-primary font-weight-bold white-space-normal inline'> Address: </span> <span style='margin-left:50px;padding:7px;margin-top:8px; font-size:12px;display:inline-block; '> Electronic city Bangluru,Karnatka</span>
-
                                                                 </div>
                                                             </div>
-
-                                                            <!---->
-
-
-
                                                         </div>
                                                     </div>
                                                 </promo-card>
                                             </div>
-
-
                                         </div>
                                     </div>
-
-                                    <!---->
-
                                 </div>
-
                             </promo-slider>
-
-
                         </div>
                         <div class="col-sm-8 col-m-8 col-l-9 listing-grid card-carousel">
-                            <!-- Carousel by me  -->
                             <div class="container p-0">
                                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner" style="height:350px; border-radius:5px 5px 5px 5px;">
@@ -221,47 +145,29 @@
                                     <button class="carousel-control-prev" style="margin-top:-20px;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
-
                                     </button>
                                     <span style="position:relative; top:-90px; color:white; letter-spacing:1px; left:5px;">All Photos(3)</span>
                                     <button class="carousel-control-next" type="button" style="margin-top:-20px;" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
-
                                 </div>
                             </div>
-
-
-
-                            <!---->
-                            <!-- <div class="text-center">
-                            <button class="view-more-btn newbtn" tabindex="0">VIEW ALL OFFERS</button>
-                        </div> -->
                         </div>
                     </div>
-
                 </div>
-
-
-
                 <!-- /////the next row/// -->
-
-
                 <div class="container p-0" style='margin-top:50px;'>
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="multi-line-header multi-line-header--centered">
                                 <div class="multi-line-header__title">
                                     FEATURES
-                                    <!-- <span class="icon-flash icon-trending"></span> -->
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-sm-12">
                             <div class="container bg-white p-3" style='border-radius:5px;'>
-
                                 <div class="row" style='padding:10px;'>
                                     <div class="col-sm-6 col-xs-6 col-md-6 ">
                                         <img src="<?php echo base_url() . 'assets/images/features.png'; ?>" alt="" class='feature'>
@@ -274,10 +180,8 @@
                                         <h3 class='fstate'>featuers 4</h3><br>
                                         <img src="<?php echo base_url() . 'assets/images/features.png'; ?>" alt="" class='feature'>
                                         <h3 class='fstate'>featuers 5</h3>
-
                                     </div>
                                     <div class="col-sm-6  col-xs-6 col-md-6">
-
                                         <img src="<?php echo base_url() . 'assets/images/features.png'; ?>" alt="" class='feature'>
                                         <h3 class='fstate'>featuers 1</h3><br>
                                         <img src="<?php echo base_url() . 'assets/images/features.png'; ?>" alt="" class='feature'>
@@ -291,13 +195,9 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
-
                 </div>
-
                 <!-- ///location?/ -->
                 <div class="container" style='margin-top:100px;'>
                     <div class="row">
@@ -305,16 +205,13 @@
                             <div class="multi-line-header multi-line-header--centered">
                                 <div class="multi-line-header__title">
                                     LOCATION
-                                    <!-- <span class="icon-flash icon-trending"></span> -->
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class="row p-0">
                         <div class="col-sm-6 mt-3">
                             <div class="container bg-white" style='border-radius:5px; height:auto;'>
-
                                 <div class="mapouter">
                                     <div class="gmap_canvas"><iframe width="534" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://embedgooglemap.net/maps/93"></a><br>
                                         <style>
@@ -340,83 +237,51 @@
                                         </style>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
-
                         <div class="col-sm-6 mt-3">
                             <div class="container bg-white setheight" style='border-radius:5px;'>
-
                                 <div class='row p-4' style='height:319px;'>
                                     <h2 class='font-weight-bold' style='font-size:x-large; margin-bottom:5px;'>Contact us</h2>
                                     <div class='col-sm-1 mt-3'>
                                         <img src="<?php echo base_url() . 'assets/images/location.png'; ?>" style='height:30px; width:32px;'>
-
                                     </div>
                                     <div class='col-sm-11 mt-3'><span style='font-size:13px; text-align:justify;'>Yas Mall, Ground Level, adjacent to Ferrari World Entrance, Abu Dhabi 51133 United Arab Emirates</span>
                                     </div>
-
-
                                     <div class="row mt-4">
                                         <div class='col-sm-1'>
                                             <img src="<?php echo base_url() . 'assets/images/building.png'; ?>" style='height:30px; width:32px;'>
                                         </div>
-
                                         <div class='col-sm-11 mt-1'><span style='font-size:13px; text-align:justify;'>0.5 km from Electronic city Bangluru </span>
                                         </div>
                                     </div>
-
                                     <div class="row mt-4">
                                         <div class='col-sm-1'>
                                             <img src="<?php echo base_url() . 'assets/images/web.png'; ?>" style='height:30px; width:32px;'>
                                         </div>
-
                                         <div class='col-sm-11 mt-1'><span style='font-size:13px; text-align:justify;'>Visit on our website <a href="www.abc.com" class='text-decoration-none'>https://www.abc.com</a></span>
                                         </div>
                                     </div>
-
                                     <div class="row mt-4">
                                         <div class='col-sm-1'>
                                             <img src="<?php echo base_url() . 'assets/images/mail.png'; ?>" style='height:30px; width:32px;'>
                                         </div>
-
                                         <div class='col-sm-11 mt-1'><span style='font-size:13px; text-align:justify;'>Email: abc123@fake.com</span>
                                         </div>
                                     </div>
-
                                     <div class="row mt-4">
                                         <div class='col-sm-1'>
                                             <img src="<?php echo base_url() . 'assets/images/tel.png'; ?>" style='height:30px; width:32px;'>
                                         </div>
-
                                         <div class='col-sm-11 mt-1'><span style='font-size:13px; text-align:justify;'>Phone: 99998888777</span>
                                         </div>
                                     </div>
-                                    <!-- <div class="row mt-4">
-                                        <div class='col-sm-1'>
-                                            <img src="<?php echo base_url() . 'assets/images/mail.png'; ?>" style='height:30px; width:32px;'>
-                                        </div>
-
-                                        <div class='col-sm-11'><span style='font-size:13px; text-align:justify;'>Email: abc123@fake.com</span>
-                                        </div>
-                                    </div> -->
-
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-
-
-
-
             </div>
-
             <!-- /////Review///// -->
             <div class="container" style="margin-top: 100px;">
                 <div class="row">
@@ -424,17 +289,12 @@
                         <div class="multi-line-header multi-line-header--centered">
                             <div class="multi-line-header__title">
                                 REVIEW
-                                <!-- <span class="icon-flash icon-trending"></span> -->
                             </div>
                         </div>
-
                     </div>
                     <div class="col-sm-12">
                         <div class="container bg-white p-3 review-btn" style='border-radius:5px;'>
-
                             <a class='view-more-btn' style="width: 106px; cursor:pointer;" onclick='getreview()'>Write a Review</a>
-
-
                         </div>
                         <div class="container bg-white review mt-2" style='display:none; padding:10px; border-radius:5px;'>
                             <div class="col-sm-6">
@@ -496,17 +356,8 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-
-
-
-
             </div>
-
-
-
             <!-- /////Covid///// -->
             <div class="container" style='margin-top:100px;'>
                 <div class="row p-3">
@@ -514,39 +365,24 @@
                         <div class="multi-line-header multi-line-header--centered">
                             <div class="multi-line-header__title">
                                 TRAVEL SAFE DURING COVID-19
-                                <!-- <span class="icon-flash icon-trending"></span> -->
                             </div>
                         </div>
-
                     </div>
                     <div class="col-sm-12 bg-white p-4" style='border-radius:5px;'>
                         <div class='date'>What you can expect during covid-19 </div>
                         <ul class='p-4'>
-                            <li class='actual_review p-2 txt-primary white-space-normal fontcovid' >All linens senitized in high temperature</li>
+                            <li class='actual_review p-2 txt-primary white-space-normal fontcovid'>All linens senitized in high temperature</li>
                             <li class='actual_review p-2  txt-primary white-space-normal fontcovid'>Face mask is required for guest in public area</li>
                             <li class='actual_review p-2 txt-primary white-space-normal fontcovid'>Face mask is required for staff in public area</li>
                             <li class='actual_review p-2  txt-primary white-space-normal fontcovid'>Hand senitizer is must for staff and guest also</li>
                             <li class='actual_review p-2 txt-primary white-space-normal fontcovid'>Paid stay-at-home policy for staff with symptoms</li>
                             <li class='actual_review p-2 txt-primary white-space-normal fontcovid'>Regularly sanitized high-traffic areas</li>
                             <li class='actual_review p-2 txt-primary white-space-normal fontcovid'>Staff required to regularly wash hands</li>
-
                         </ul>
                     </div>
                 </div>
             </div>
-
-
-            <!-- ///////recommanded//// -->
-
-
-
-
-
-
         </div>
-
-
-
         <!-- ////frequently asked questions: -->
 
         <div class='container' style='margin-top:100px;'>

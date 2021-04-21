@@ -3853,7 +3853,7 @@
             <a target="_blank" class="generic-info__btn view-more-btn view-more-btn--lg" href="https://www.thrillophilia.com/go-to-gift-page">Know More</a>
         </div>
         <img class="lazy-image generic-info__image lazy-image-loaded limg" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" srcset="">
-        <a class="generic-info__link view-more-link " href="https://www.thrillophilia.com/go-to-gift-page">Know More <span class="icon-right-arrow"></span></a>
+        
     </div>
 </div>
 

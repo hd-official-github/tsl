@@ -47,6 +47,7 @@
                             <label for="key-word" class="font-size-md font-weight-semibold text-dark mb-0 lh-1">What</label>
                             <div class="input-group dropdown show" onclick="dropwhat()">
                                 <input type="text" name="selected_cat_name" id="keyval" class="form-control border-0 px-0  keyval bg-transparent valofcat" autocomplete="off" placeholder="Ex: food, service, barber, hotel" data-toggle="dropdown" value="" aria-haspopup="true" aria-expanded="ture" style='box-shadow:none; color:black'>
+
                                 <a href="#" class="input-group-append text-decoration-none" data-toggle="dropdown">
                                     <i class="fas fa-chevron-down"></i>
                                 </a>
@@ -90,7 +91,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 button">
-                            <button type="submit" name='submit' value='submit' class="btn btn-primary btn-lg btn-icon-left btn-block"><i class="fas fa-search"></i>Search
+                            <button id="search" type="submit" name='submit' value='submit' class="btn btn-primary btn-lg btn-icon-left btn-block"><i class="fas fa-search"></i>Search
                             </button>
                         </div>
                     </div>
@@ -102,7 +103,15 @@
     </div>
 </div>
 
+<script>
+    $("#search").click((e) => {
+        e.preventDefault();
+        var cat = $("#keyval").val();
+        var subloc = $("#subloc").val();
 
+        window.location.href = <?php echo base_url() ?> + cat + "-in-" + subloc;
+    });
+</script>
 
 <div class="col-sm-12 bg-white" style='margin:0px; padding:15px; border-bottom:1px solid grey;'>
     <?php foreach ($cat->result() as $row) { ?>

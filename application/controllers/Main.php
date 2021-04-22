@@ -38,9 +38,7 @@ class Main extends CI_Controller
     }
     public function submit_search()
     {
-        if (!$this->input->post('submit')) {
-            redirect(base_url());
-        }
+        
         $cat = $this->input->post('selected_cat_name');
         $loc = $this->input->post('selected_subloc');
 

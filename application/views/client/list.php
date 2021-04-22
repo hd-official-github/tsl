@@ -8,12 +8,10 @@
                     <a class="text-uppercase text-decoration-none" href="<?php echo base_url(); ?>">Thespaline</a>
 
                     <a class="text-uppercase text-decoration-none" href="">Deals in <?php foreach ($sub_cat->result() as $row) {
-                                                                                        echo $row->location;
-                                                                                        break;
-                                                                                    } ?></a>
+                            echo $row->location;
+                            break;  } ?></a>
                     <a class="text-uppercase cursor-default text-decoration-none" href=""><?php foreach ($cat->result() as $row) {
-                                                                                                echo $row->category_name;
-                                                                                            } ?></a>
+                         echo $row->category_name;                                                       } ?></a>
                 </nav>
             </div>
             <hr class="divider divider--thick">

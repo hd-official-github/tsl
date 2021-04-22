@@ -2,7 +2,7 @@
 
     <div class="col-sm-12 bg-white newscroll " style='margin:0px; overflow:scroll; height:115px; overflow:auto; white-space:nowrap;overflow-y:hidden;'>
         <?php foreach ($sub_cat->result() as $row) { ?>
-            <a href="" class="btn" style='border-radius: 56px; height: 60px; vertical-align: middle; border:1px solid #cfcfcf; padding:5px; position: relative; top: 20px;'>
+            <a href="<?php echo base_url().$row->location.'/'.str_replace(' ','-',$row->category_name.'/'.$row->sub_category_name); ?>" class="btn" style='border-radius: 56px; height: 60px; vertical-align: middle; border:1px solid #cfcfcf; padding:5px; position: relative; top: 20px;'>
                 <div style="height:auto; width:auto; outline:none;">
                     <img src="<?php echo $row->icon; ?>" alt="<?php echo $row->icon_alt; ?>" style='height:52px; width:56px; border-radius:100%; margin:-3px 8px 3px -2px'><span style='font-size:16px; font-weight: 400; padding:20px;'><?php echo $row->sub_category_name; ?></span>
                 </div>
@@ -323,7 +323,7 @@
         <div class="travel-news-section__wrap">
             <div class="travel-news-section__list">
                 <?php foreach ($blogs->result() as $row) { ?>
-                    <a target="_blank" class="travel-news-section__list-item travel-news">
+                    <a target="" class="travel-news-section__list-item travel-news">
                         <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="<?php echo $row->blog_img; ?>" data-srcset="<?php echo $row->blog_img; ?>" src="<?php echo $row->blog_img; ?>" srcset="<?php echo $row->blog_img; ?>">
                         <div class="travel-news__details">
                             <div class="travel-news__title">

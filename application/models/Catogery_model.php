@@ -14,9 +14,15 @@ class Catogery_model  extends CI_Model
     }
     function get_subcat($id, $loc)
     {
-
         $this->db->where(array('category_id' => $id, 'sub_location' => $loc));
         return $this->db->get('business_list');
+    }
+    function get_subcat_from_list($id,$city,$subcat)
+    { 
+      
+        $this->db->where(array('category_id' => $id, 'location' => $city,'sub_category'=>$subcat));
+        return $this->db->get('business_list');
+        
     }
     function get_footer($name)
     {

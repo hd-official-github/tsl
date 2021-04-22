@@ -33,8 +33,8 @@ class Catogery_model  extends CI_Model
     }
     function get_footer_of_cat($cat)
     {
-        
-        $this->db->where('category_name',$cat);
+
+        $this->db->where('category_name', $cat);
         return $this->db->get('category');
     }
     function get_cat_name($id)
@@ -167,10 +167,10 @@ class Catogery_model  extends CI_Model
             return $row->business_id;
         }
     }
-    function get_all_subcat($cat,$loc)
+    function get_all_subcat($cat, $loc)
     {
-        
-        $this->db->where(array('category_name'=> $cat,'location'=>$loc));
+
+        $this->db->where(array('category_name' => $cat, 'location' => $loc));
         return $this->db->get("subcategory");
     }
     function validate_loc($loc)

@@ -91,7 +91,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 button">
-                            <button id="search" type="submit" name='submit' value='submit' class="btn btn-primary btn-lg btn-icon-left btn-block"><i class="fas fa-search"></i>Search
+                            <button id="search" class="btn btn-primary btn-lg btn-icon-left btn-block"><i class="fas fa-search"></i>Search
                             </button>
                         </div>
                     </div>
@@ -109,7 +109,11 @@
         var cat = $("#keyval").val();
         var subloc = $("#subloc").val();
 
-        window.location.href = <?php echo base_url() ?> + cat + "-in-" + subloc;
+        var s1 = window.location.href;
+        var ca = s1.split('/');
+
+        var cl = `<?php echo base_url(); ?>` + `${ca[4]}` + `/` + `${cat}` + `-in-` + `${subloc}`;
+        window.location.href = cl.trim();
     });
 </script>
 

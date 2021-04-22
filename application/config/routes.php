@@ -64,7 +64,7 @@ $route['search'] = 'main/submit_search';
 // $route['location'] = 'main';
 $route['(:any)/submit_review/(:any)'] = 'main/submit_review/$1';
 $route['(:any)/detail/(:any)'] = 'main/bussiness_detail/$1';
-$route['(:any)/blog_list/(:any)'] = 'blogs/blog_list/$1/$2'; 
+$route['(:any)/blog_list/(:any)'] = 'blogs/blog_list/$1/$2';
 $route['(:any)/blogs/list'] = 'blogs/list';
 $route['(:any)/blogs/'] = 'blogs/$1/';  // location blogs
 $route['(:any)/blogs/(:any)'] = 'blogs/details/$1/$2';  // location blog details
@@ -73,7 +73,7 @@ $route['(:any)/subcategory/(:any)/(:any)'] = 'subcategory/index/$1/$2/$3'; // lo
 $route['(:any)'] = 'main/location/$1';
 
 $route['(:any)/(:any)'] = 'category/index/$1/$2'; // location subcategory all
-// $route['(:any)/(:any)/(:any)'] = 'category/subcategory/$1/$2/$3'; // location subcategory all
+$route['(:any)/(:any)/(:any)'] = 'category/subcategory/$1/$2/$3'; // location subcategory all
 
 // $route['dir/(:any)'] = 'dir/dir_details_without_location/$1';
 // $route['(:any)/dir/(:any)'] = 'dir/dir_details/$1/$2';

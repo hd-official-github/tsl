@@ -165,4 +165,15 @@ class Catogery_model  extends CI_Model
        }
         
     }
+    function get_all_subcat($cat)
+    {
+       $this->db->where('sub_category_name',$cat);
+       return $this->db->get("subcategory");
+    }
+    function validate_loc($loc)
+    {
+        $this->db->where('location_name',$loc);
+        $val = $this->db->get("location");   
+        return $val->num_rows();
+    }
 } 

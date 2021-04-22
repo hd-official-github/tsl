@@ -111,7 +111,7 @@
         <div class='secondary_navbar mx-5 animated bounceInUp'>
 
             <div class='secondary-icon'>
-                <a href="cat" class='text-decorate'>
+                <a href="<?php echo $row->location.'/'.$row->category_name?>" class='text-decorate'>
                     <img src="<?php echo $row->icon; ?>" alt="icon" class='image-icon'>
                     <p class='pag' style='text-align:center;'> <?php echo $row->category_name; ?></p>
                 </a>

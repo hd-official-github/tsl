@@ -13,10 +13,13 @@ class Main extends CI_Controller
     public function location()
     {
         if($this->uri->segment(1)=='location'){
-            redirect(base_url());
+            redirect(base_url().'404');
         }
         $name = $this->uri->segment(1); //location name
+
         $this->load->model('catogery_model');
+        $res= $this->catogery_model->validate_loc($name);
+        if(!$res>0){redirect(base_url().'404');}
         $data['subloc'] = $this->catogery_model->getsub_loc($name);
         $data['cat'] = $this->catogery_model->getcat($name);
         $data['footer'] = $this->catogery_model->get_footer($name);

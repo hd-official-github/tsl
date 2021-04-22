@@ -2,7 +2,7 @@
 <div class="row subcatof_spa" style='margin-top:80px; width:auto; height:115px;'>
 
     <div class="col-sm-12 bg-white" style='margin:0px; border-bottom:1px solid grey;overflow:scroll; height:115px; overflow:auto; white-space:nowrap;overflow-y:hidden;'>
-
+    <?php foreach($sub_cat->result() as $row) { ?>
         <div class='secondary_navbar mx-5 animated bounceInUp'>
 
             <div class='secondary-icon'>
@@ -13,6 +13,7 @@
 
             </div>
         </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <?php } ?>
         <div class='secondary_navbar mx-5 animated bounceInUp'>
 
             <div class='secondary-icon'>
@@ -149,7 +150,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide01">
+            <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide01">
                 <div data-href="/tours/riverside-camping-at-igatpuri" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9661">
                     <div class="tour-card-v2__banner">
                         <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -235,7 +236,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tour-card-v2" style="" aria-hidden="true" role="tabpanel" id="slick-slide03">
+            <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide03">
                 <div data-href="/tours/camping-in-rishikesh-sands-trekking-rafting-cliff-jumping-combo" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10656">
                     <div class="tour-card-v2__banner">
                         <picture class="lazy-picture tour-card-v2__image">
@@ -278,7 +279,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide04">
+            <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide04">
                 <div data-href="/tours/jammu-and-kashmir-tour" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="3423">
                     <div class="tour-card-v2__banner">
                         <picture class="lazy-picture tour-card-v2__image">
@@ -318,7 +319,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide05">
+            <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide05">
                 <div data-href="/tours/dine-and-dance-at-a-classic-houseboat-goa" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10822">
                     <div class="tour-card-v2__banner">
                         <picture class="lazy-picture tour-card-v2__image">
@@ -361,7 +362,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide06">
+            <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide06">
                 <div data-href="/tours/unexplored-arunachal-tour-package-tawang-special" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10546">
                     <div class="tour-card-v2__banner">
                         <picture class="lazy-picture tour-card-v2__image">
@@ -404,7 +405,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide07">
+            <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide07">
                 <div data-href="/tours/sheraton-full-moon-resort-and-spa" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21786">
                     <div class="tour-card-v2__banner">
                         <picture class="lazy-picture tour-card-v2__image">
@@ -447,7 +448,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide08">
+            <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide08">
                 <div data-href="/tours/srinagar-leh-manali-umlingla-bike" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9998">
                     <div class="tour-card-v2__banner">
                         <picture class="lazy-picture tour-card-v2__image">
@@ -490,7 +491,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide09">
+            <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide09">
                 <div data-href="/tours/leh-ladakh-tour" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="3141">
                     <div class="tour-card-v2__banner">
                         <picture class="lazy-picture tour-card-v2__image">
@@ -533,7 +534,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tour-card-v2" style="" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide010">
+            <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide010">
                 <div data-href="/tours/valley-of-flowers-uttranchal" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1639">
                     <div class="tour-card-v2__banner">
                         <picture class="lazy-picture tour-card-v2__image">

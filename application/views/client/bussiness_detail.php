@@ -12,13 +12,13 @@
             </div>
             <hr class="divider divider--thick">
         </div>
-        <div class="bg-white p-3 chead secondhead" style='margin-top:-20px; width:100%;'>
+        <div class="bg-white p-3 chead secondhead " style='margin-top:-20px; width:100%;'>
             <div class='row'>
                 <div class="col-sm-12">
                     <img src="<?php echo base_url() . 'assets/images/backward.png'; ?>" class='spainBang' style='top:0px'>
                     <h3 style="position:relative; left:29px;">Best Spa in <?php foreach ($details->result() as $row) {
-                                                                                echo $row->sub_location;
-                                                                            } ?></h3>
+                       echo $row->sub_location;
+                        } ?></h3>
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@
                 <div class="col-sm-8 col-m-8 col-l-9 listing-grid card-carousel">
                     <div class="container p-0">
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner" style=" border-radius:5px; box-shadow: 0px 0px 5px black; height:100%;">
+                            <div class="carousel-inner" style=" border-radius:5px; height:100%;">
 
                                 <div class="carousel-item active">
                                     <?php foreach ($details->result() as $row) { ?>
@@ -288,7 +288,7 @@
                 </div>
                 <!-- First review -->
                 <div class="container bg-white mt-5 p-2" style='border-radius:5px;'>
-                    <div class="row showinline" style='margin-left:144px;'>
+                    <div class="row showinline">
                         <?php foreach ($review->result() as $row) { ?>
 
                             <div class="col-sm-5 p-4" style='box-shadow:0px 0px 5px black; border-radius:5px; margin-bottom:30px; margin-top: 15px;'>

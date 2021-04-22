@@ -203,8 +203,8 @@
     }
 
     #forhover:hover {
-        border: 2px solid #f07c7c;
-        background: white;
+        /* border: 2px solid #f07c7c; */
+        box-shadow: 0px 0px 5px white;
         color: black;
     }
 

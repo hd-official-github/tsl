@@ -14030,16 +14030,31 @@ html {
 	}
 }
 .btn:hover {
-	color: #fff;
-	background: #ffb100;
+	color: white !important;
+	background: #f07c7c;
 	cursor: pointer;
 }
+
 @media (max-width: 1023px) {
 	.btn:hover {
 		color: #fff;
 		background: #ff5300;
 	}
 }
+@media (min-width:1023px){
+.showinline{
+	margin-left:144px !important;
+}
+}
+@media (max-width:1023px){
+.showinline{
+	margin-left: 0px;
+}
+}
+.newscroll::-webkit-scrollbar {
+	width: 10px;
+	
+  }
 .btn:focus {
 	outline: none;
 }
@@ -15196,7 +15211,7 @@ h2.anchor {
 }
 .pre-footer {
 	background-color: #fff;
-	box-shadow: 0 50px 50px rgba(0, 0, 0, 0.14);
+	/* box-shadow: 0 50px 50px rgba(0, 0, 0, 0.14); */
 	border-radius: 19px;
 	max-width: 1270px;
 	width: 100%;
@@ -15360,6 +15375,7 @@ h2.anchor {
 @media (max-width: 575px) {
 	.pre-footer .nearby-places-list .col .nearby-places-item {
 		min-height: 21vw;
+		width:100px;
 	}
 }
 .pre-footer .nearby-places-list .col .nearby-places-item:before {
@@ -21607,7 +21623,7 @@ margin-left: 10px;
 }
 .listheading{
 	font-weight: 600 !important;
-	font-size:14px !important;
+	font-size:20px !important;
 }
 .position-relative{
 	position: relative;
@@ -21729,10 +21745,10 @@ float: left;
 .card-main--equal-height{
 display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;
 }
-.card-main{
+/* .card-main{
 	-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,.1),0 0 4px 0 rgba(0,0,0,.1);box-shadow:0 2px 2px 0 rgba(0,0,0,.1),0 0 4px 0 rgba(0,0,0,.1);background-color:#fff;display:block;border-radius:4px;position:relative;
 	
-}
+} */
 .card-main__content--lg{
 	/* padding: 18px; */
 }

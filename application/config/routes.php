@@ -74,6 +74,7 @@ $route['(:any)'] = 'main/location/$1';
 
 $route['(:any)/(:any)'] = 'category/index/$1/$2'; // location subcategory all
 $route['(:any)/(:any)/(:any)'] = 'category/subcategory/$1/$2/$3'; // location subcategory all
+$route['(:any)/(:any)/(:any)/(:any)'] = 'category/sublocation/$1/$2/$2/$4';
 
 // $route['dir/(:any)'] = 'dir/dir_details_without_location/$1';
 // $route['(:any)/dir/(:any)'] = 'dir/dir_details/$1/$2';

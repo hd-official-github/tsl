@@ -4,6 +4,8 @@ $(function () {
 		var scroll = $(window).scrollTop();
        
 if($('#fun').val()){
+	
+
    
 }else{
     
@@ -11,14 +13,16 @@ if($('#fun').val()){
         $(".logowhite").hide();
         $(".logoblack").show();
 
-        //logo.removeClass('lrg-logo').addClass("sml-logo").fadeIn( "slow");
     }
     if (scroll <= 60) {
         $(".logowhite").show();
+		$('.text').css('background','transparent');
 
         $(".logoblack").hide();
     } else {
         $(".logoblack").show();
+		$('.text').css('background','#f07c7c');
+
     }
 }
 		
@@ -30,6 +34,9 @@ $(function () {
 	$(window).scroll(function () {
 		var scroll = $(window).scrollTop();
 
+		if($('#fun').val()){
+			$('#header').addClass('transparent-nav');
+		}else{
 		if (scroll >= 50) {
 			$(".mobwhitelogo").hide();
 		}
@@ -40,26 +47,10 @@ $(function () {
 		} else {
 			$(".mobblacklogo").show();
 		}
+	  }
 	});
 });
-// $(function () {
-// 	$(window).scroll(function () {
-// 		var scroll = $(window).scrollTop();
-//         if($('#fun').val()){
-           
-//             return;
-//         }else{
-//             if (scroll >=10) {
-//                 $(".top-panel").css('background','white');
-//             }
-//             if(scroll<10){
-//                 $('.top-panel').css('background','transparent');
-//             }
-            
-//         }
-	
-// 	});
-// });
+
 function drop() {
 	$(".ulcls").toggle();
 }
@@ -67,15 +58,7 @@ function dropwhat() {
 	$(".ulclsw").toggle();
 }
 
-// function ques1() {
-// 	$(".answer1").toggle("slow");
-// }
-// function ques2() {
-// 	$(".answer2").toggle("slow");
-// }
-// function ques3() {
-// 	$(".answer3").toggle("slow");
-// }
+
 function getreview() {
 	$(".review").slideToggle();
 }

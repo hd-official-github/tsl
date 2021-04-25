@@ -17,71 +17,7 @@
 
 
 
-<!-- Trending Section -->
-<section class="section__trending">
-    <div class="container">
-        <div class="multi-line-header multi-line-header--centered">
-            <div class="multi-line-header__title">
-                Top Brands
-                <!-- <span class="icon-flash icon-trending"></span> -->
-            </div>
-        </div>
-        <div class="tour-card-list tour-card-list--v2 tour-carousel">
-            <?php foreach ($feature1->result() as $row) { ?>
-                <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide00">
-                    <div data-href="/tours/kudremukh-trek-in-chikmagalur" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2430">
-                        <div class="tour-card-v2__banner">
-                            <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
-                                <source data-srcset="" media="(min-width: 1024px)" srcset="">
-                                <source data-srcset="" media="(min-width: 768px)" srcset="<?php echo $row->main_image; ?>">
-                                <source data-srcset="" media="(min-width: 576px)" srcset="">
-                                <source data-srcset="" media="(min-width: 320px)" srcset="">
-                                <source data-srcset="" media="(max-width: 320px)" srcset=""><img alt="Kudremukh Trek, Chikmagalur | Book @ Flat 18% off" class="tour-card-v2__image" data-srcset="" data-src="" src="" srcset="">
-                            </picture>
-                            <div class="tour-card-v2__legibility-gradient"></div>
-                            <div class="tour-card-v2__banner-data-wrap">
-                                <span class="tour-card-v2__tags">
-                                    <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                                        Featured
-                                    </span>
-                                </span>
 
-                                <ul class="tour-card-v2__additional-info">
-                                    <span class="icon-pin-bold"></span>
-                                    <span class="tour-card-v2__location">Bangalore</span>
-                                    <span class="tour-card-v2__location-duration-separator">|</span>
-                                    <span>2D/1N</span>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="tour-card-v2__details-wrap">
-                            <a href="/tours/kudremukh-trek-in-chikmagalur" class="tour-card-v2__name" target="_blank" tabindex="-1"><?php echo $row->features; ?></a>
-                            <div class="tour-card-v2__reviews-wrap">
-                                <div class="icon-star-empty"></div>
-                                <div class="tour-card-v2__average-rating"><?php echo $row->rating; ?></div>
-                            </div>
-                            <div class="tour-card-v2__price-and-cta-wrap">
-                                <div class="tour-card-v2__pricing">
-                                    <span class="current-price"><span class="currency-type">₹<?php echo $row->price_range; ?></span></span>
-                                    <span class="old-price"><span class="currency-type">₹</span>2,949</span>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <?php } ?>
-        </div><div class="row subcatof_spa" style='margin-top:80px; width:auto; height:115px;'>
-   <div class="col-sm-12 bg-white newscroll " style='margin:0px; overflow:scroll; height:115px; overflow:auto; white-space:nowrap;overflow-y:hidden;'>
-      <?php foreach ($sub_cat->result() as $row) { ?>
-      <a href="<?php echo base_url().$row->location.'/'.str_replace(' ','-',$row->category_name.'/'.$row->sub_category_name); ?>" class="btn" style='border-radius: 56px; height: 60px; vertical-align: middle; border:1px solid #cfcfcf; padding:5px; position: relative; top: 20px;'>
-         <div style="height:auto; width:auto; outline:none;">
-            <img src="<?php echo $row->icon; ?>" alt="<?php echo $row->icon_alt; ?>" style='height:52px; width:56px; border-radius:100%; margin:-3px 8px 3px -2px'><span style='font-size:16px; font-weight: 400; padding:20px;'><?php echo $row->sub_category_name; ?></span>
-         </div>
-      </a>
-      <?php } ?>
-   </div>
-</div>
 <!-- Trending Section -->
 <section class="section__trending">
    <div class="container">

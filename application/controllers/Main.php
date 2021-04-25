@@ -55,7 +55,7 @@ $this->load->view('client/includes/footer');
 public function bussiness_detail()
 {
 $data['bgcolor'] = "background:#f07c7c";
-// $id= $_GET['cardval'];
+
 $business_name = str_replace("-", " ", $this->uri->segment(3));
 $this->load->model('catogery_model');
 $data['details'] = $this->catogery_model->get_details($business_name);
@@ -76,9 +76,9 @@ public function blog_detail()
 $d = $this->uri->segment(2);
 $this->load->view('client/includes/header');
 $this->load->model('catogery_model');
-// $data['blogs'] = $this->catogery_model->get_blogs();
+
 $this->load->view('client/blog_detail');
-// $this->load->view('client/includes/footer');
+
 }
 public function submit_review()
 {

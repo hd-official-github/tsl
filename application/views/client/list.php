@@ -19,7 +19,7 @@
          <div class="row">
             <div class="col-sm-12 setoverflow newscroll" style='margin:0px; overflow:scroll; white-space:nowrap;'>
                <?php if(isset($all_subcat)){foreach ($all_subcat->result() as $row) { ?>
-               <a href="<?php echo base_url().$row->location;if(isset($subloc)){echo '/'.$subloc;}; echo '/'.str_replace(' ','-',$row->category_name.'/'.$row->sub_category_name); ?>" class="btn" style='border-radius: 56px; height: 60px; vertical-align: middle; border:1px solid #cfcfcf; padding:5px;'>
+               <a href="<?php echo str_replace(" ","-",$row->sub_category_name);if(isset($subloc)){echo '-in-'.$subloc;};?>" class="btn" style='border-radius: 56px; height: 60px; vertical-align: middle; border:1px solid #cfcfcf; padding:5px;'>
                   <div style="height:auto; width:auto; outline:none;">
                      <img src="<?php echo $row->icon; ?>" alt="<?php echo $row->icon_alt; ?>" style='height:52px; width:56px; border-radius:100%; margin:-2px 8px 3px -2px'><span style='font-size:16px; font-weight: 400; padding:20px;'><?php echo $row->sub_category_name; ?></span>
                   </div>

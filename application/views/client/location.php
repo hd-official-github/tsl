@@ -362,10 +362,10 @@
                </div>
             </a>
             <?php } ?>
-            <a class="generic-info__link view-more-link text-decoration-none" href="<?php echo $this->uri->segment(1); ?>/blogs/list">Know More <span class="icon-right-arrow"></span></a>
+            <a class="generic-info__link view-more-link text-decoration-none" href="<?php echo base_url().$this->uri->segment(1); ?>/blogs/list">Know More <span class="icon-right-arrow"></span></a>
          </div>
          <?php foreach ($feature_blog->result() as $row) { ?>
-         <a href='<?php echo $row->location; ?>/blogs/<?php echo $row->slug; ?>' target="_blank" href="" style='text-decoration:none;'>
+         <a href='<?php echo base_url().$row->location; ?>/blogs/<?php echo $row->slug; ?>' target="_blank"  style='text-decoration:none;'>
             <img class="lazy-image travel-news-section__featured-image lazy-image-loaded" sizes="100vw" data-src="<?php echo $row->blog_img; ?>" data-srcset="" src="<?php echo $row->blog_img; ?>" srcset="">
             <div class="travel-news-section__featured-title offset-1">
                <?php echo $row->blog_title; ?>

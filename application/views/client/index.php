@@ -2963,7 +2963,7 @@
 <!-- Carousel for banner  -->
 <br><br>
 <div class="container">
-   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
             <img src="<?php echo base_url() . 'assets/images/building-one.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
@@ -3103,7 +3103,7 @@
                   </div>
                </div>
             </a>
-            <div class='nearby-destinations__destination-details'><a target="_blank" class="nearby-destinations__view-more view-more-btn" href="/states/karnataka">View All</a></div>
+            <div class='nearby-destinations__destination-details'><a target="_blank" class="nearby-destinations__view-more view-more-btn viewallbtn" href="/states/karnataka">View All</a></div>
          </div>
          <div class="nearby-destinations__destinations-grid " id="destination-grid-mumbai">
             <a target="_blank" href="/cities/alibag" class="nearby-destinations__destination">

@@ -8,7 +8,7 @@
                   echo $row->location;
                   break;  } ?></a>
                <a class="text-uppercase cursor-default text-decoration-none" href=""><?php if(isset($subloc)){
-                  echo $subloc;  } ?></a>
+                  echo $subloc;  }else echo "Different spa's" ?></a>
                <a class="text-uppercase cursor-default text-decoration-none" href=""><?php foreach ($cat->result() as $row) {
                   echo $row->category_name;                                                       } ?></a>
             </nav>
@@ -19,9 +19,10 @@
          <div class="row">
             <div class="col-sm-12 setoverflow newscroll" style='margin:0px; overflow:scroll; white-space:nowrap;'>
                <?php if(isset($all_subcat)){foreach ($all_subcat->result() as $row) { ?>
-               <a href="<?php echo str_replace(" ","-",$row->sub_category_name);if(isset($subloc)){echo '-in-'.$subloc;};?>" class="btn" style='border-radius: 56px; height: 60px; vertical-align: middle; border:1px solid #cfcfcf; padding:5px;'>
+               <a href="<?php echo str_replace(" ","-",$row->sub_category_name);if(isset($subloc)){echo '-in-'.$subloc;};?>" class="btn aofhead" style="border: 1px solid #cfcfcf;
+                  border-radius: 56px; box-shadow:none;">
                   <div style="height:auto; width:auto; outline:none;">
-                     <img src="<?php echo $row->icon; ?>" alt="<?php echo $row->icon_alt; ?>" style='height:52px; width:56px; border-radius:100%; margin:-2px 8px 3px -2px'><span style='font-size:16px; font-weight: 400; padding:20px;'><?php echo $row->sub_category_name; ?></span>
+                     <img src="<?php echo $row->icon; ?>" class="imgofhead" alt="<?php echo $row->icon_alt; ?>" ><span style='font-size:16px; font-weight: 400; padding:20px;'><?php echo $row->sub_category_name; ?></span>
                   </div>
                </a>
                &nbsp;
@@ -58,7 +59,7 @@
                            <div class="promo-cont">
                               <promo-card initindex="1">
                                  <div class="promo" ga-impression="">
-                                    <div class="block margin-reset clearfix overflow-hidden">
+                                    <div class="block margin-reset overflow-hidden">
                                        <!---->
                                        <div class="block__inner local-promo">
                                           <!---->
@@ -127,22 +128,22 @@
                <merchant-listing-grid>
                   <div class="row fl-row fl-row--wrap fl-row--full-gutter" style="display:flex; place-content:flex-start;">
                      <?php foreach ($sub_cat->result() as $row) { ?>
-                     <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4 mt-5">
+                     <div class="col-xs-12 col-s-12 col-m-6 col-l-4 fl-column col-sm-4 mt-5 ">
                         <merchant-list-card pagetype="listing">
-                           <a href="<?php echo base_url() . $row->location; ?>/detail/<?php echo str_replace(" ", "-", $row->business_name); ?>" class="card-main onvisit card-main--equal-height w-100 cursor-pointer text-decoration-none" same-height="" href="bang_details" value="">
+                           
+                           <a href="<?php echo base_url() . $row->location; ?>/detail/<?php echo str_replace(" ", "-", $row->business_name); ?>" class="card-main onvisit card-main--equal-height w-100 text-decoration-none" href="bang_details" value="">
                               <div class="card-main__content card-main__content--lg">
                                  <div class="">
                                     <div class="fl-column position-relative">
                                        <img class="card-main__img img-responsive" src="<?php echo $row->main_image; ?>" style="max-height: 155px; height:145px; border-radius: 3px;" data-lzled="true">
-                                       <!---->
+                                    
                                        <merchant-rating>
-                                          <!---->
+                                         
                                           <div class="margin-right-s mt-3 card-rating__listing">
                                              <div class="card-rating margin-bottom-zero nb--4-5">
-                                                <!----><img alt="nb" class="card-rating__nb" height="10" src="<?php echo base_url() . 'assets/images/sl_icon.png'; ?>" data-lzled="true">
-                                                <!---->
+                                                     <img alt="nb" class="card-rating__nb" height="10" src="<?php echo base_url() . 'assets/images/sl_icon.png'; ?>" data-lzled="true">
                                                 <span class="card-rating__img"></span>
-                                                <!----><span class="card-rating__value font-weight-bold line-height-default"><?php echo $row->rating; ?></span>
+                                                <span class="card-rating__value font-weight-bold line-height-default"><?php echo $row->rating; ?></span>
                                              </div>
                                           </div>
                                        </merchant-rating>
@@ -184,18 +185,18 @@
                                                 } ?>
                                           </p>
                                        </span>
-                                       <!-- <div class="fl-column">
-                                          </div> -->
+                                       
                                     </div>
                                  </div>
                               </div>
                            </a>
+                        
                         </merchant-list-card>
                      </div>
                      <?php } ?>
                      <!-- mycarousel -->
                      <div class="container mt-5">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
                            <div class="carousel-inner" style="height:350px; border-radius:5px 5px 5px 5px;">
                               <div class="carousel-item">
                                  <img src="http://localhost/tsl/assets/images/building-one.jpg" class="d-block w-100 " style="height:300px" alt="...">

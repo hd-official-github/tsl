@@ -35,14 +35,14 @@
                   <div class="col-xl-6 mb-4 mb-xl-0 py-3 px-4 bg-white border-right position-relative rounded-left form-search-item">
                      <label for="key-word" class="font-size-md font-weight-semibold text-dark mb-0 lh-1">What</label>
                      <div class="input-group dropdown show" onclick="dropwhat()">
-                        <input type="text" name="selected_cat_name" id="keyval" class="form-control border-0 px-0  keyval bg-transparent valofcat" autocomplete="off" placeholder="Ex: food, service, barber, hotel" data-toggle="dropdown" value="" aria-haspopup="true" aria-expanded="ture" style='box-shadow:none; color:black'>
+                        <input type="text" name="selected_cat_name" id="keyval" class="form-control border-0 px-0  keyval bg-transparent valofcat" autocomplete="off" placeholder="Ex: food, service, barber, hotel" data-toggle="dropdown" value="" aria-haspopup="true" aria-expanded="ture" style='box-shadow:none; color:black; cursor:pointer;'>
                         <a href="#" class="input-group-append text-decoration-none" data-toggle="dropdown">
                         <i class="fas fa-chevron-down"></i>
                         </a>
                         <ul class="dropdown-menu form-search-ajax ulclsw" aria-labelledby="key-word" x-placement='top-start' style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(20px, -205px, 0px);">
                            <?php foreach ($cat->result() as $row) { ?>
                            <li class="dropdown-item item">
-                              <p value="<?php echo $row->id; ?>" text="<?php echo $row->category_name; ?>" onclick="getval(this)">
+                              <p class="fit-height" value="<?php echo $row->id; ?>" text="<?php echo $row->category_name; ?>" onclick="getval(this)">
                                  <span class="lisize">
                                  <?php echo $row->category_name; ?>
                                  </span>
@@ -55,14 +55,14 @@
                   <div class="col-xl-4 mb-4 mb-xl-0 py-3 px-4 bg-white position-relative rounded-right form-search-item">
                      <label for="key-word" class="font-size-md font-weight-semibold text-dark mb-0 lh-1">Where</label>
                      <div class="input-group dropdown show" onclick="drop()">
-                        <input type="text" autocomplete="off" id="subloc" name="selected_subloc" class="form-control form-control-mini border-0 px-0 bg-transparent" placeholder="San Francisco" data-toggle="dropdown" value="" aria-haspopup="true" style='box-shadow:none; color:black'>
+                        <input type="text" autocomplete="off" id="subloc" name="selected_subloc" class="form-control form-control-mini border-0 px-0 bg-transparent" placeholder="San Francisco" data-toggle="dropdown" value="" aria-haspopup="true" style='box-shadow:none; color:black; cursor:pointer;'>
                         <a href="#" class="input-group-append text-decoration-none" data-toggle="dropdown">
                         <i class="fas fa-chevron-down"></i>
                         </a>
                         <ul class="dropdown-menu form-search-ajax ulcls" aria-labelledby="key-word" x-placement='top-start' style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(20px, -205px, 0px);">
                            <?php foreach ($subloc->result() as $row) { ?>
                            <li class="dropdown-item item">
-                              <p class="lisize" value="<?php echo $row->sub_loc_name; ?>" onclick="getsublocval(this)">
+                              <p class="lisize fit-height" value="<?php echo $row->sub_loc_name; ?>" onclick="getsublocval(this)">
                                  <?php echo $row->sub_loc_name; ?>
                               </p>
                            </li>
@@ -71,7 +71,7 @@
                      </div>
                   </div>
                   <div class="col-xl-2 button">
-                     <button id="search" class="btn btn-primary btn-lg btn-icon-left btn-block"><i class="fas fa-search"></i>Search
+                     <button id="search" class="btn btn-danger btn-lg btn-icon-left btn-block"><i class="fas fa-search"></i>Search
                      </button>
                   </div>
                </div>
@@ -169,7 +169,7 @@
 <!-- Carousel -->
 <br><br>
 <div class="container desktop_banner1">
-   <div id="carouselCont" class="carousel slide" data-bs-ride="carousel">
+   <div id="carouselCont" class="carousel slide" data-bs-ride="carousel" data-bs-interval='1200'>
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
             <img src="<?php echo base_url() . 'uploads/banners/1.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
@@ -191,7 +191,7 @@
    </div>
 </div>
 <div class="container mobile_banner1">
-   <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+   <div id="carouselControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
             <img src="<?php echo base_url() . 'uploads/banners/2.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
@@ -301,7 +301,7 @@
 <!-- Carousel for banner  -->
 <br><br><br><br>
 <div class="container desktop_banner2">
-   <div id="carouselEx" class="carousel slide" data-bs-ride="carousel">
+   <div id="carouselEx" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
             <img src="<?php echo 'uploads/banners/112.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
@@ -323,7 +323,7 @@
    </div>
 </div>
 <div class="container mobile_banner2">
-   <div id="carouselCos" class="carousel slide" data-bs-ride="carousel">
+   <div id="carouselCos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
             <img src="<?php echo base_url() . 'assets/images/b2.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">

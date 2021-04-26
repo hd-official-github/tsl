@@ -28,25 +28,25 @@
                         <div class="col">
                             <p class="footer-titles">ABOUT THRILLOPHILIA</p>
                             <ul class="footer-list">
-                                <li><a href="" target="_blank">ABOUT US</a></li>
-                                <li><a href="" target="_blank">WE ARE HIRING</a></li>
-                                <li><a href="" target="_blank">THRILLOPHILIA REVIEWS</a></li>
-                                <li><a href="" target="_blank">TERMS &amp; CONDITIONS</a></li>
-                                <li><a href="" target="_blank">PRIVACY POLICIES</a></li>
-                                <li><a href="" target="_blank">COPYRIGHT POLICIES</a></li>
-                                <li><a href="" target="_blank">SUPPORT</a></li>
+                                <li><a href="" class='text-decoration-none' target="_blank">ABOUT US</a></li>
+                                <li><a href="" class='text-decoration-none' target="_blank">WE ARE HIRING</a></li>
+                                <li><a href="" target="_blank" class='text-decoration-none'>THRILLOPHILIA REVIEWS</a></li>
+                                <li><a href="" target="_blank" class='text-decoration-none'>TERMS &amp; CONDITIONS</a></li>
+                                <li><a href="" target="_blank" class='text-decoration-none' >PRIVACY POLICIES</a></li>
+                                <li><a href="" target="_blank" class='text-decoration-none'>COPYRIGHT POLICIES</a></li>
+                                <li><a href="" target="_blank" class='text-decoration-none'>SUPPORT</a></li>
                                 <li><span class="onclick-link footer-link" data-href="">APPS</span></li>
                             </ul>
                         </div>
                         <div class="col">
                             <p class="footer-titles">FOR SUPPLIERS</p>
                             <ul class="footer-list">
-                                <li><a class="footer-link" target="_blank" href="">LIST YOUR ACTIVITIES</a></li>
+                                <li><a class="footer-link text-decoration-none" target="_blank" href="">LIST YOUR ACTIVITIES</a></li>
                             </ul>
                             <p class="footer-titles">FOR BRANDS</p>
                             <ul class="footer-list">
-                                <li><a class="footer-link" target="_blank" href="">PARTNER WITH US</a></li>
-                                <li><a class="footer-link" target="_blank" href="">DESTINATION MARKETING</a></li>
+                                <li><a class="footer-link text-decoration-none" target="_blank" href="">PARTNER WITH US</a></li>
+                                <li><a class="footer-link text-decoration-none" target="_blank" href="">DESTINATION MARKETING</a></li>
                             </ul>
                             <p class="footer-titles">FOR TRAVEL AGENTS</p>
                             <ul class="footer-list">
@@ -146,7 +146,7 @@
                             <img src='<?php echo base_url() . 'assets/images/logowhite.png'; ?>' class="desktop-logo mobile-hidden ">
                             <img src='<?php echo base_url() . 'assets/images/logowhite.png';  ?>' class="desktop-hidden mobile-header-logo ">
 
-                            <!-- <div class="thrillo-logo white-logo desktop-logo"></div> -->
+                          
                         </a>
                     </div>
                     <ul class="social-list">

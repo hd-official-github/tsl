@@ -5,25 +5,25 @@
             <div class="col">
                <p class="footer-titles">ABOUT THESPALINE</p>
                <ul class="footer-list">
-                  <li><a href="" target="_blank">ABOUT US</a></li>
-                  <li><a href="" target="_blank">WE ARE HIRING</a></li>
-                  <li><a href="" target="_blank">THRILLOPHILIA REVIEWS</a></li>
-                  <li><a href="" target="_blank">TERMS &amp; CONDITIONS</a></li>
-                  <li><a href="" target="_blank">PRIVACY POLICIES</a></li>
-                  <li><a href="" target="_blank">COPYRIGHT POLICIES</a></li>
-                  <li><a href="" target="_blank">SUPPORT</a></li>
+                  <li><a href="" class="text-decoration-none" target="_blank">ABOUT US</a></li>
+                  <li><a href="" class="text-decoration-none" target="_blank">WE ARE HIRING</a></li>
+                  <li><a href="" class="text-decoration-none" target="_blank">THRILLOPHILIA REVIEWS</a></li>
+                  <li><a href="" class="text-decoration-none" target="_blank">TERMS &amp; CONDITIONS</a></li>
+                  <li><a href="" class="text-decoration-none" target="_blank">PRIVACY POLICIES</a></li>
+                  <li><a href="" class="text-decoration-none" target="_blank">COPYRIGHT POLICIES</a></li>
+                  <li><a href="" class="text-decoration-none" target="_blank">SUPPORT</a></li>
                   <li><span class="onclick-link footer-link" data-href="">APPS</span></li>
                </ul>
             </div>
             <div class="col">
                <p class="footer-titles">FOR SUPPLIERS</p>
                <ul class="footer-list">
-                  <li><a class="footer-link" target="_blank" href="">LIST YOUR ACTIVITIES</a></li>
+                  <li><a class="footer-link text-decoration-none" target="_blank" href="">LIST YOUR ACTIVITIES</a></li>
                </ul>
                <p class="footer-titles">FOR BRANDS</p>
                <ul class="footer-list">
-                  <li><a class="footer-link" target="_blank" href="">PARTNER WITH US</a></li>
-                  <li><a class="footer-link" target="_blank" href="">DESTINATION MARKETING</a></li>
+                  <li><a class="footer-link text-decoration-none" target="_blank" href="">PARTNER WITH US</a></li>
+                  <li><a class="footer-link text-decoration-none" target="_blank" href="">DESTINATION MARKETING</a></li>
                </ul>
                <p class="footer-titles">FOR TRAVEL AGENTS</p>
                <ul class="footer-list">
@@ -128,27 +128,28 @@
          <ul class="social-list">
             <li>
                <span class="onclick-link footer-link" data-href="">
-               <span class="icon-facebook-circle"></span>
+               <span> <img src="<?php echo base_url().'assets/images/fb4.png'?>" alt="" class="social-media">
+             </span>
                </span>
             </li>
             <li>
                <span class="onclick-link footer-link" data-href="">
-               <span class="icon-instagram-circle"></span>
+               <span> <img src="<?php echo base_url().'assets/images/insta3.png'?>" alt="" class="social-media"></span>
                </span>
             </li>
             <li>
                <span class="onclick-link footer-link" data-href="">
-               <span class="icon-twitter-circle"></span>
+               <span><img src="<?php echo base_url().'assets/images/linkedin3.png'?>" alt="" class="social-media"></span>
                </span>
             </li>
             <li>
                <span class="onclick-link footer-link" data-href="">
-               <span class="icon-linkedin-circle"></span>
+               <span><img src="<?php echo base_url().'assets/images/youtube2.png'?>" alt="" class="social-media"></span>
                </span>
             </li>
             <li>
                <span class="onclick-link footer-link" data-href="">
-               <span class="icon-youtube-circle"></span>
+               <span><img src="<?php echo base_url().'assets/images/twitter3.png'?>" alt="" class="social-media"></span>
                </span>
             </li>
          </ul>

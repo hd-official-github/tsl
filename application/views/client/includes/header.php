@@ -12,14 +12,12 @@
       <meta name="HandheldFriendly" content="true">
       <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
       <link rel='stylesheet' href='<?php echo base_url() ?>assets/css/main2.css'>
-     
-      <link rel='stylesheet' href='<?php echo base_url() ?>assets/css/all.min.css'>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
       <script src="<?php echo base_url() . 'assets/js/jquery.js' ?>"></script>
       
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
-      <script src='<?php echo base_url() ?>assets/js/myjs.js'></script>
+      
       <script src='<?php echo base_url() ?>assets/js/main.js'></script>
    </head>
    <body>
@@ -60,12 +58,12 @@
                         <li class="desktop-hidden"><a href="/" class="main-header-link">Home</a></li>
                         <li class="divider desktop-hidden"></li>
                         <li><a href="" class="gift-link main-header-link">
-                           <span class="text" style='padding:9px;  border-radius:5px;  color:white; box-shadow:0px 0px 5px black; display:flex; padding-right:8px; align-items:center;'><i class="far fa-plus-square fa-2x" style="padding-right:10px; text-align:center;"> </i> New Bussiness</span>
+                           <span class="text btnstyle" style="font-size:14px;"><i class="far fa-plus-square fa-2x" style="padding-right:10px; text-align:center;"> </i> New Bussiness</span>
                            </a>
                         </li>
                         <li class="divider desktop-hidden"></li>
                         <li id="header-login-wrap">
-                           <span data-href="/consumers/sign_in" class="main-header-link trigger-login-popup onclick-link">Log In</span>
+                           <span data-href="" class="main-header-link trigger-login-popup onclick-link" style='font-size:initial;'>Log In</span>
                         </li>
                         <li class="divider desktop-hidden"></li>
                         <li class="desktop-hidden"><a href="" class="main-header-link">Help</a></li>

@@ -314,7 +314,6 @@
             <img src="<?php echo base_url() . '/uploads/banners/112.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
          </div>
          <?php foreach ($banner2->result() as $row) { ?>
-
             <div class="carousel-item">
                <img src="<?php echo $row->img_url_desk; ?>" class="d-block w-100" style='height:300px' alt="<?php echo $row->img_alt_desktop; ?>">
             </div>

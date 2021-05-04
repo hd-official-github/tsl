@@ -1,6 +1,6 @@
 </div>
 <!-- Intro banner section -->
-<section class="section__intro">
+<section class="section__intro" style="height: 70vh;">
    <div class="container">
       <div class="section__intro__main intro-heading">
          <div class="intro-heading__title">
@@ -18,10 +18,10 @@
          <div class="intro-heading__search-wrap" id="home-banner-search">
             <div class="search-wrap__tags-bar mobile-hidden">
                <button class="tags-bar__tag " id='overto' data-tab-name="activities">
-               <span class="tag-icon icon-boat-white "></span>Spa
+                  <span class="tag-icon icon-boat-white "></span>Spa
                </button>
                <button class="tags-bar__tag" data-tab-name="tours">
-               <span class="tag-icon icon-traveler-white"></span>Massage
+                  <span class="tag-icon icon-traveler-white"></span>Massage
                </button>
             </div>
             <form action="" method="get" class="search-wrap__input-wrap">
@@ -78,20 +78,20 @@
       </div>
       <div class="escapes__images">
          <a href="/collections/top-rated-himalayan-experiences" target="_blank" class="escapes__image-wrap">
-         <img class="lazy-image escapes__image lazy-image-loaded" alt="Himalayan Experiences" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@2x-9d8fb087b2887472b068700c67b139461380188f40078cbec91b78b48de9069c.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@2x-9d8fb087b2887472b068700c67b139461380188f40078cbec91b78b48de9069c.jpg 2x">
+            <img class="lazy-image escapes__image lazy-image-loaded" alt="Himalayan Experiences" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@2x-9d8fb087b2887472b068700c67b139461380188f40078cbec91b78b48de9069c.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@2x-9d8fb087b2887472b068700c67b139461380188f40078cbec91b78b48de9069c.jpg 2x">
          </a>
          <a href="/tags/luxury-deals" target="_blank" class="escapes__image-wrap">
-         <img class="lazy-image escapes__image lazy-image-loaded" alt="Luxury Deals" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@2x-3e48a35f0e320e1486e1dbfb52408993928961314342e59f74b8aa433b873d43.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@2x-3e48a35f0e320e1486e1dbfb52408993928961314342e59f74b8aa433b873d43.jpg 2x">
+            <img class="lazy-image escapes__image lazy-image-loaded" alt="Luxury Deals" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@2x-3e48a35f0e320e1486e1dbfb52408993928961314342e59f74b8aa433b873d43.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@2x-3e48a35f0e320e1486e1dbfb52408993928961314342e59f74b8aa433b873d43.jpg 2x">
          </a>
          <a href="" target="_blank" class="escapes__image-wrap">
-         <img class="lazy-image escapes__image lazy-image-loaded" alt="Multi Day Tours" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@2x-740689da3e808db996224ad4cd5a8e7fd20b15c5498d57775effb198ebf400a2.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@2x-740689da3e808db996224ad4cd5a8e7fd20b15c5498d57775effb198ebf400a2.jpg 2x">
+            <img class="lazy-image escapes__image lazy-image-loaded" alt="Multi Day Tours" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@2x-740689da3e808db996224ad4cd5a8e7fd20b15c5498d57775effb198ebf400a2.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@2x-740689da3e808db996224ad4cd5a8e7fd20b15c5498d57775effb198ebf400a2.jpg 2x">
          </a>
       </div>
    </div>
 </section>
 <section class="luxury-experiences">
    <div class="container">
-      <a  href="" class="luxury-experiences__banner">
+      <a href="" class="luxury-experiences__banner">
          <img class="lazy-image luxury-experiences__banner-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@2x-c06da52ed7b6229841d27107e36a50f6e8c0e0353abb44ce325aa649ebcc8a62.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@2x-c06da52ed7b6229841d27107e36a50f6e8c0e0353abb44ce325aa649ebcc8a62.jpg 2x">
          <div class="luxury-experiences__banner-content">
             <div class="luxury-experiences__banner-upto">UPTO</div>
@@ -109,11 +109,11 @@
          </div>
       </a>
       <div class="luxury-experiences__grid">
-         <a  href="Bengaluru" class="luxury-experiences__grid-item">
+         <a href="Bengaluru" class="luxury-experiences__grid-item">
             <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/bangalore-dc510132bac08ce8ad851bf96cf84794b4911ab8ef365fead935fa254b733d8f.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/bangalore-dc510132bac08ce8ad851bf96cf84794b4911ab8ef365fead935fa254b733d8f.jpg" srcset="">
             <div class="luxury-experiences__grid-item-title">BANGALORE</div>
          </a>
-         <a  href="mumbai" class="luxury-experiences__grid-item">
+         <a href="mumbai" class="luxury-experiences__grid-item">
             <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/mumbai-855677843252b0e44ff6a2b278f3824e6e6fe8067a5ecde6984689d164fd62fa.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/mumbai-855677843252b0e44ff6a2b278f3824e6e6fe8067a5ecde6984689d164fd62fa.jpg" srcset="">
             <div class="luxury-experiences__grid-item-title">MUMBAI</div>
          </a>
@@ -121,28 +121,28 @@
             <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/goa-f5346cede02a317d2041e5f815361ccbe2b8f48fad5b8402d4d937d7989f981d.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/goa-f5346cede02a317d2041e5f815361ccbe2b8f48fad5b8402d4d937d7989f981d.jpg" srcset="">
             <div class="luxury-experiences__grid-item-title">GOA</div>
          </a>
-         <a  href="/collections/resorts-around-delhi" class="luxury-experiences__grid-item">
+         <a href="/collections/resorts-around-delhi" class="luxury-experiences__grid-item">
             <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/delhi-f97eeaf977f3931f757a2562599b98c91c4e9f7d48a22650626574b6298f07e5.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/delhi-f97eeaf977f3931f757a2562599b98c91c4e9f7d48a22650626574b6298f07e5.jpg" srcset="">
             <div class="luxury-experiences__grid-item-title">DELHI</div>
          </a>
-         <a  href="/cities/coorg/tags/luxury-deals" class="luxury-experiences__grid-item">
+         <a href="/cities/coorg/tags/luxury-deals" class="luxury-experiences__grid-item">
             <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/coorg-f42ae30e5829c56d215c816511b209d341c7a292009fbdb1d5b05788006b4ff6.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/coorg-f42ae30e5829c56d215c816511b209d341c7a292009fbdb1d5b05788006b4ff6.jpg" srcset="">
             <div class="luxury-experiences__grid-item-title">COORG</div>
          </a>
-         <a  href="/cities/lonavala/tags/luxury-deals" class="luxury-experiences__grid-item">
+         <a href="/cities/lonavala/tags/luxury-deals" class="luxury-experiences__grid-item">
             <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/lonavala-ce674c47510e0d9c1b869cbec755d12d6ee842be2c1ea836f575362de042606b.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/lonavala-ce674c47510e0d9c1b869cbec755d12d6ee842be2c1ea836f575362de042606b.jpg" srcset="">
             <div class="luxury-experiences__grid-item-title">LONAVALA</div>
          </a>
-         <a  href="/cities/kabini/tags/luxury-deals" class="luxury-experiences__grid-item">
+         <a href="/cities/kabini/tags/luxury-deals" class="luxury-experiences__grid-item">
             <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/kabini-d1e9aa81a80caf8d78394d913428bb7a202ef15c592702babd5930175db98cd2.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/kabini-d1e9aa81a80caf8d78394d913428bb7a202ef15c592702babd5930175db98cd2.jpg" srcset="">
             <div class="luxury-experiences__grid-item-title">KABINI</div>
          </a>
-         <a  href="/cities/rishikesh/tags/luxury-deals" class="luxury-experiences__grid-item">
+         <a href="/cities/rishikesh/tags/luxury-deals" class="luxury-experiences__grid-item">
             <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/rishikesh-e6d20c38e539244d1d727d57ec5d9aa16d1cc2eb0b2074317b344ae2b82bf5c6.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/rishikesh-e6d20c38e539244d1d727d57ec5d9aa16d1cc2eb0b2074317b344ae2b82bf5c6.jpg" srcset="">
             <div class="luxury-experiences__grid-item-title">RISHIKESH</div>
          </a>
          <a target="_blank" href="/tags/luxury-deals" class="luxury-experiences__grid-item luxury_view luxury-experiences__grid-item--btn view-more-btn">
-         View All
+            View All
          </a>
       </div>
    </div>
@@ -171,9 +171,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -199,7 +199,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide01">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide01">
             <div data-href="/tours/riverside-camping-at-igatpuri" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9661">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -213,9 +213,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -255,9 +255,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -297,9 +297,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -339,9 +339,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     New
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           New
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span>9D/8N</span>
@@ -364,7 +364,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide05">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide05">
             <div data-href="/tours/dine-and-dance-at-a-classic-houseboat-goa" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10822">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -378,9 +378,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -406,7 +406,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide06">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide06">
             <div data-href="/tours/unexplored-arunachal-tour-package-tawang-special" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10546">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -420,9 +420,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -448,7 +448,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide07">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide07">
             <div data-href="/tours/sheraton-full-moon-resort-and-spa" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21786">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -462,9 +462,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -490,7 +490,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide08">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide08">
             <div data-href="/tours/srinagar-leh-manali-umlingla-bike" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9998">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -504,9 +504,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -532,7 +532,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide09">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide09">
             <div data-href="/tours/leh-ladakh-tour" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="3141">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -546,9 +546,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -574,7 +574,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide010">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide010">
             <div data-href="/tours/valley-of-flowers-uttranchal" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1639">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -588,9 +588,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -616,7 +616,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide011">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide011">
             <div data-href="/tours/the-hampta-pass-trek" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2924">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -630,9 +630,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     SPECIAL OFFERS
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           SPECIAL OFFERS
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -658,7 +658,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide012">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide012">
             <div data-href="/tours/trekking-in-sar-pass" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="7811">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -672,9 +672,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -700,7 +700,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide013">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide013">
             <div data-href="/tours/triund-trek" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1567">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -714,9 +714,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -742,7 +742,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide014">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide014">
             <div data-href="/tours/riverside-camping-in-sakleshpur-chikmagalur" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10925">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -756,9 +756,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -784,7 +784,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide015">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide015">
             <div data-href="/tours/private-camping-at-pawna-lake" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="3264">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -798,9 +798,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span>2D/1N</span>
@@ -823,7 +823,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide016">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide016">
             <div data-href="/tours/kasol-trip-and-trek-to-kheerganga-from-delhi" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="8959">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -837,9 +837,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -865,7 +865,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide017">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide017">
             <div data-href="/tours/scuba-diving-in-goa" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="4546">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -879,9 +879,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -907,7 +907,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide018">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide018">
             <div data-href="/tours/everest-base-camp-trek-nepal" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2732">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -921,9 +921,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -949,7 +949,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide019">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide019">
             <div data-href="/tours/camping-circle-adventure-in-ramnagar" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9223">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -963,9 +963,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -991,7 +991,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide020">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide020">
             <div data-href="/tours/adventure-camping-at-the-foothills-nandi-hills" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10427">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1005,9 +1005,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1033,7 +1033,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide021">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide021">
             <div data-href="/tours/spiti-winter-tour" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9941">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1047,9 +1047,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     SPECIAL OFFERS
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           SPECIAL OFFERS
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1075,7 +1075,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide022">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide022">
             <div data-href="/tours/nagtibba-trek-uttarakhand" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2754">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1089,9 +1089,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1117,7 +1117,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide023">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide023">
             <div data-href="/tours/kedar-kantha-trek-skiing-uttarakhand" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2748">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1131,9 +1131,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1159,7 +1159,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide024">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide024">
             <div data-href="/tours/beach-camping-at-alibaug" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10152">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1173,9 +1173,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1201,7 +1201,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide025">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide025">
             <div data-href="/tours/tour-of-mesmerising-meghalaya" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9540">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1215,9 +1215,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1243,7 +1243,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide026">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide026">
             <div data-href="/tours/lakeside-camping-bhandardara" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="4604">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1257,9 +1257,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1285,7 +1285,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide027">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide027">
             <div data-href="/tours/the-gokarna-beach-trek" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2395">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1299,9 +1299,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1327,7 +1327,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide028">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide028">
             <div data-href="/tours/adventure-and-trekking-trails-of-kodachadri" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1727">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1341,9 +1341,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1369,7 +1369,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide029">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide029">
             <div data-href="/tours/thadiyandamol-adventure-escape" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2853">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1383,9 +1383,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1411,7 +1411,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide030">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide030">
             <div data-href="/tours/andaman-and-nicobar-honeymoon-diaries" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9772">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1425,9 +1425,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1453,7 +1453,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide031">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide031">
             <div data-href="/tours/6-days-group-tour-of-sikkim" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10793">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1467,9 +1467,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1495,7 +1495,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide032">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide032">
             <div data-href="/tours/nature-adventure-camp-kanakapura" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2987">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1509,9 +1509,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1537,7 +1537,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide033">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide033">
             <div data-href="/tours/sandakphu-trek" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1633">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1551,9 +1551,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span>6D/5N</span>
@@ -1589,7 +1589,7 @@
          <div class="multi-line-header__caption">Upto 70% Off</div>
       </div>
       <div class="tour-card-list tour-card-list--v2 tour-carousel">
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide10">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide10">
             <div data-href="/tours/aloha-resort-stay-with-spa-experience-flat-40-off" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10192">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -1603,9 +1603,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1631,7 +1631,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide11">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide11">
             <div data-href="/tours/the-honeymoon-resort-apple-country-in-manali" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="12842">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -1645,9 +1645,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     SPECIAL OFFERS
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           SPECIAL OFFERS
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1673,7 +1673,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide12">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide12">
             <div data-href="/tours/the-tattva-resort" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="3196">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -1687,9 +1687,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     SPECIAL OFFERS
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           SPECIAL OFFERS
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1715,7 +1715,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide13">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide13">
             <div data-href="/tours/luxury-stay-at-ibnii-resort-coorg" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="18837">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1729,9 +1729,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1757,7 +1757,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide14">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide14">
             <div data-href="/tours/the-roseate-ganges-rishikesh-flat-25-off" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="18430">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1771,9 +1771,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     SPECIAL OFFERS
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           SPECIAL OFFERS
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1799,7 +1799,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide15">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide15">
             <div data-href="/tours/honeymoon-inn" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="19942">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1813,9 +1813,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     SPECIAL OFFERS
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           SPECIAL OFFERS
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1841,7 +1841,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide16">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide16">
             <div data-href="/tours/corbett-jungle-treasure-resort-flat-50-off" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="12098">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1855,9 +1855,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     SPECIAL OFFERS
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           SPECIAL OFFERS
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1883,7 +1883,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide17">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide17">
             <div data-href="/tours/namami-ganges-resort-rishikesh-with-river-rafting-flat-44-off" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1156">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -1897,9 +1897,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     SPECIAL OFFERS
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           SPECIAL OFFERS
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1937,7 +1937,7 @@
          </div>
       </div>
       <div class="tour-card-list tour-card-list--v2 tour-carousel">
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide20">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide20">
             <div data-href="/tours/thrilling-leh-ladakh-tour-with-pangong-lake" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="13232">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -1951,9 +1951,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -1979,7 +1979,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide21">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide21">
             <div data-href="/tours/7d-6n-leh-ladakh-bike-trip" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="8189">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -1993,9 +1993,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2021,7 +2021,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide22">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide22">
             <div data-href="/tours/leh-ladakh-tour" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="3141">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -2035,9 +2035,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2063,7 +2063,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide23">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide23">
             <div data-href="/tours/srinagar-leh-manali-umlingla-bike" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9998">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2077,9 +2077,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2105,7 +2105,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide24">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide24">
             <div data-href="/tours/manali-leh-jeep-safari" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1588">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2119,9 +2119,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2147,7 +2147,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide25">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide25">
             <div data-href="/tours/overland-journey-to-ladakh" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="1842">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2161,9 +2161,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2189,7 +2189,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide26">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide26">
             <div data-href="/tours/leh-ladakh-bike-trip-from-delhi" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9126">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2203,9 +2203,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     SPECIAL OFFERS
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           SPECIAL OFFERS
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2231,7 +2231,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide27">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide27">
             <div data-href="/tours/ladakh-sightseeing-from-delhi" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10000">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2245,9 +2245,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2285,7 +2285,7 @@
          </div>
       </div>
       <div class="tour-card-list tour-card-list--v2 tour-carousel">
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide30">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide30">
             <div data-href="/tours/kodaikanal-homestay-with-mountain-view" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21177">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -2299,9 +2299,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Best Seller
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Best Seller
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2327,7 +2327,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide31">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide31">
             <div data-href="/tours/a-relaxing-retreat-amidst-kalhatty-ghats-of-ooty" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21049">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -2341,9 +2341,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2369,7 +2369,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide32">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide32">
             <div data-href="/tours/a-quiet-hideaway-amidst-the-lush-outdoors-of-wayanad" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="11775">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
@@ -2383,9 +2383,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Bookings Enabled
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Bookings Enabled
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2411,7 +2411,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" role="tabpanel" id="slick-slide33">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide33">
             <div data-href="/tours/a-wild-vacation-retreat-tucked-in-dandeli-forests" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21039">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2425,9 +2425,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2453,7 +2453,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide34">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide34">
             <div data-href="/tours/cottage-stay-in-nature-chikmagalur" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="13252">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2467,9 +2467,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     SPECIAL OFFERS
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           SPECIAL OFFERS
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2495,7 +2495,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide35">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide35">
             <div data-href="/tours/an-adventurous-getaway-in-the-jungles-of-dandeli" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="11780">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2509,9 +2509,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Bookings Enabled
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Bookings Enabled
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2537,7 +2537,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide36">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide36">
             <div data-href="/tours/a-blissful-farm-retreat-amidst-the-coffee-plantations-of-coorg" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="20963">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2551,9 +2551,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2579,7 +2579,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide37">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide37">
             <div data-href="/tours/a-tranquil-homestay-amidst-coffee-plantations-in-coorg" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21105">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2593,9 +2593,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2621,7 +2621,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide38">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide38">
             <div data-href="/tours/stone-house-overlooking-mountains-in-manali" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="16487">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2635,9 +2635,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Deal Of the Day
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Deal Of the Day
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2663,7 +2663,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide39">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide39">
             <div data-href="/tours/luxurious-homestay-in-kullu-valley-kasol" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9579">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2677,9 +2677,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     New
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           New
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2705,7 +2705,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide310">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide310">
             <div data-href="/tours/modern-chalet-stay-in-pangot" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="16770">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2719,9 +2719,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Best Seller
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Best Seller
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2747,7 +2747,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide311">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide311">
             <div data-href="/tours/an-adventurous-tree-house-near-shimla" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21018">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2761,9 +2761,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Best Seller
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Best Seller
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2789,7 +2789,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide312">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide312">
             <div data-href="/tours/homestay-amidst-silver-oak-trees-chikmagalur" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="9590">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2803,9 +2803,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     SPECIAL OFFERS
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           SPECIAL OFFERS
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2831,7 +2831,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide313">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide313">
             <div data-href="/tours/a-weekend-homestay-in-sakleshpur" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="20937">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2845,9 +2845,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2873,7 +2873,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide314">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide314">
             <div data-href="/tours/cozy-villa-stay-on-the-hilltop-of-kasauli" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21019">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2887,9 +2887,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Best Seller
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Best Seller
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2915,7 +2915,7 @@
                </div>
             </div>
          </div>
-         <div class="tour-card-v2"  aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide315">
+         <div class="tour-card-v2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide315">
             <div data-href="/tours/a-comfortable-getaway-with-river-view-in-tirthan" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="21058">
                <div class="tour-card-v2__banner">
                   <picture class="lazy-picture tour-card-v2__image">
@@ -2929,9 +2929,9 @@
                   <div class="tour-card-v2__legibility-gradient"></div>
                   <div class="tour-card-v2__banner-data-wrap">
                      <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
+                        <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                           Featured
+                        </span>
                      </span>
                      <ul class="tour-card-v2__additional-info">
                         <span class="icon-pin-bold"></span>
@@ -2976,12 +2976,12 @@
          </div>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
       </button>
    </div>
 </div>
@@ -3026,7 +3026,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 4,025
+                        ₹ 4,025
                      </span>
                   </div>
                </div>
@@ -3038,7 +3038,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,450
+                        ₹ 3,450
                      </span>
                   </div>
                </div>
@@ -3050,7 +3050,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 4,025
+                        ₹ 4,025
                      </span>
                   </div>
                </div>
@@ -3062,7 +3062,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 7,415
+                        ₹ 7,415
                      </span>
                   </div>
                </div>
@@ -3074,7 +3074,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 6,750
+                        ₹ 6,750
                      </span>
                   </div>
                </div>
@@ -3086,7 +3086,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 200
+                        ₹ 200
                      </span>
                   </div>
                </div>
@@ -3098,7 +3098,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 500
+                        ₹ 500
                      </span>
                   </div>
                </div>
@@ -3113,7 +3113,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,750
+                        ₹ 3,750
                      </span>
                   </div>
                </div>
@@ -3125,7 +3125,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,456
+                        ₹ 3,456
                      </span>
                   </div>
                </div>
@@ -3137,7 +3137,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 650
+                        ₹ 650
                      </span>
                   </div>
                </div>
@@ -3149,7 +3149,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 4,700
+                        ₹ 4,700
                      </span>
                   </div>
                </div>
@@ -3161,7 +3161,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 5,625
+                        ₹ 5,625
                      </span>
                   </div>
                </div>
@@ -3173,7 +3173,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 4,125
+                        ₹ 4,125
                      </span>
                   </div>
                </div>
@@ -3185,7 +3185,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 4,350
+                        ₹ 4,350
                      </span>
                   </div>
                </div>
@@ -3200,7 +3200,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,886
+                        ₹ 3,886
                      </span>
                   </div>
                </div>
@@ -3212,7 +3212,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,976
+                        ₹ 3,976
                      </span>
                   </div>
                </div>
@@ -3224,7 +3224,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,768
+                        ₹ 3,768
                      </span>
                   </div>
                </div>
@@ -3236,7 +3236,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 50
+                        ₹ 50
                      </span>
                   </div>
                </div>
@@ -3248,7 +3248,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,818
+                        ₹ 3,818
                      </span>
                   </div>
                </div>
@@ -3260,7 +3260,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,850
+                        ₹ 3,850
                      </span>
                   </div>
                </div>
@@ -3272,7 +3272,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 600
+                        ₹ 600
                      </span>
                   </div>
                </div>
@@ -3287,7 +3287,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 400
+                        ₹ 400
                      </span>
                   </div>
                </div>
@@ -3299,7 +3299,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 563
+                        ₹ 563
                      </span>
                   </div>
                </div>
@@ -3311,7 +3311,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 286
+                        ₹ 286
                      </span>
                   </div>
                </div>
@@ -3323,7 +3323,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,800
+                        ₹ 3,800
                      </span>
                   </div>
                </div>
@@ -3335,7 +3335,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 286
+                        ₹ 286
                      </span>
                   </div>
                </div>
@@ -3347,7 +3347,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 805
+                        ₹ 805
                      </span>
                   </div>
                </div>
@@ -3362,7 +3362,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,456
+                        ₹ 3,456
                      </span>
                   </div>
                </div>
@@ -3374,7 +3374,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 5,625
+                        ₹ 5,625
                      </span>
                   </div>
                </div>
@@ -3386,7 +3386,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 120
+                        ₹ 120
                      </span>
                   </div>
                </div>
@@ -3398,7 +3398,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 4,350
+                        ₹ 4,350
                      </span>
                   </div>
                </div>
@@ -3410,7 +3410,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,750
+                        ₹ 3,750
                      </span>
                   </div>
                </div>
@@ -3422,7 +3422,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 4,125
+                        ₹ 4,125
                      </span>
                   </div>
                </div>
@@ -3434,7 +3434,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 4,700
+                        ₹ 4,700
                      </span>
                   </div>
                </div>
@@ -3449,7 +3449,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,886
+                        ₹ 3,886
                      </span>
                   </div>
                </div>
@@ -3461,7 +3461,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,976
+                        ₹ 3,976
                      </span>
                   </div>
                </div>
@@ -3473,7 +3473,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,768
+                        ₹ 3,768
                      </span>
                   </div>
                </div>
@@ -3485,7 +3485,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 600
+                        ₹ 600
                      </span>
                   </div>
                </div>
@@ -3497,7 +3497,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 3,850
+                        ₹ 3,850
                      </span>
                   </div>
                </div>
@@ -3509,7 +3509,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 300
+                        ₹ 300
                      </span>
                   </div>
                </div>
@@ -3521,7 +3521,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 1,000
+                        ₹ 1,000
                      </span>
                   </div>
                </div>
@@ -3536,7 +3536,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 7,415
+                        ₹ 7,415
                      </span>
                   </div>
                </div>
@@ -3548,7 +3548,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 250
+                        ₹ 250
                      </span>
                   </div>
                </div>
@@ -3560,7 +3560,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 234
+                        ₹ 234
                      </span>
                   </div>
                </div>
@@ -3572,7 +3572,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 700
+                        ₹ 700
                      </span>
                   </div>
                </div>
@@ -3584,7 +3584,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 4,025
+                        ₹ 4,025
                      </span>
                   </div>
                </div>
@@ -3596,7 +3596,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 200
+                        ₹ 200
                      </span>
                   </div>
                </div>
@@ -3608,7 +3608,7 @@
                   <div class="nearby-destinations__destination-pricing-wrap">
                      Starts at
                      <span class="nearby-destinations__destination-price">
-                     ₹ 550
+                        ₹ 550
                      </span>
                   </div>
                </div>

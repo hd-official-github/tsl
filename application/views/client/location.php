@@ -2,7 +2,7 @@
 </div>
 <div class="banner-section-container">
    <picture class="bg-image">
-      <img class="bg-image" srcset="<?php echo "assets/images/bang_bg.jpg" ?> " alt="">
+      <img class="bg-image" srcset="<?php echo base_url() . "assets/images/bang_bg.jpg" ?> " alt="">
    </picture>
    <div class="intro-top-container">
       <div class="container">
@@ -12,16 +12,16 @@
                   <ul class="breadcrumbs" itemscope="" itemtype="">
                      <li itemprop="itemListElement" itemscope="" itemtype="">
                         <a itemtype="" itemprop="item" href="<?php echo base_url(); ?>">
-                        <span itemprop="name">Home</span>
+                           <span itemprop="name">Home</span>
                         </a>
                         <meta itemprop="position" content="1">
                      </li>
                      <li itemprop="itemListElement" itemscope="" itemtype="">
                         <a itemtype="" itemprop="item" href="">
-                        <span itemprop="name"><?php foreach ($details->result() as $item) {
-                           echo $item->location;
-                           break;
-                           } ?></span>
+                           <span itemprop="name"><?php foreach ($details->result() as $item) {
+                                                      echo $item->location;
+                                                      break;
+                                                   } ?></span>
                         </a>
                         <meta itemprop="position" content="2">
                      </li>
@@ -37,17 +37,17 @@
                      <div class="input-group dropdown show" onclick="dropwhat()">
                         <input type="text" name="selected_cat_name" id="keyval" class="form-control border-0 px-0  keyval bg-transparent valofcat" autocomplete="off" placeholder="Ex: food, service, barber, hotel" data-toggle="dropdown" value="" aria-haspopup="true" aria-expanded="ture" style='box-shadow:none; color:black; cursor:pointer;'>
                         <a href="#" class="input-group-append text-decoration-none" data-toggle="dropdown">
-                        <i class="fas fa-chevron-down"></i>
+                           <i class="fas fa-chevron-down"></i>
                         </a>
                         <ul class="dropdown-menu form-search-ajax ulclsw" aria-labelledby="key-word" x-placement='top-start' style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(20px, -205px, 0px);">
                            <?php foreach ($cat->result() as $row) { ?>
-                           <li class="dropdown-item item">
-                              <p class="fit-height" value="<?php echo $row->id; ?>" text="<?php echo $row->category_name; ?>" onclick="getval(this)">
-                                 <span class="lisize">
-                                 <?php echo $row->category_name; ?>
-                                 </span>
-                              </p>
-                           </li>
+                              <li class="dropdown-item item">
+                                 <p class="fit-height" value="<?php echo $row->id; ?>" text="<?php echo $row->category_name; ?>" onclick="getval(this)">
+                                    <span class="lisize">
+                                       <?php echo $row->category_name; ?>
+                                    </span>
+                                 </p>
+                              </li>
                            <?php } ?>
                         </ul>
                      </div>
@@ -57,15 +57,15 @@
                      <div class="input-group dropdown show" onclick="drop()">
                         <input type="text" autocomplete="off" id="subloc" name="selected_subloc" class="form-control form-control-mini border-0 px-0 bg-transparent" placeholder="San Francisco" data-toggle="dropdown" value="" aria-haspopup="true" style='box-shadow:none; color:black; cursor:pointer;'>
                         <a href="#" class="input-group-append text-decoration-none" data-toggle="dropdown">
-                        <i class="fas fa-chevron-down"></i>
+                           <i class="fas fa-chevron-down"></i>
                         </a>
                         <ul class="dropdown-menu form-search-ajax ulcls" aria-labelledby="key-word" x-placement='top-start' style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(20px, -205px, 0px);">
                            <?php foreach ($subloc->result() as $row) { ?>
-                           <li class="dropdown-item item">
-                              <p class="lisize fit-height" value="<?php echo $row->sub_loc_name; ?>" onclick="getsublocval(this)">
-                                 <?php echo $row->sub_loc_name; ?>
-                              </p>
-                           </li>
+                              <li class="dropdown-item item">
+                                 <p class="lisize fit-height" value="<?php echo $row->sub_loc_name; ?>" onclick="getsublocval(this)">
+                                    <?php echo $row->sub_loc_name; ?>
+                                 </p>
+                              </li>
                            <?php } ?>
                         </ul>
                      </div>
@@ -82,28 +82,28 @@
 </div>
 <script>
    $("#search").click((e) => {
-       e.preventDefault();
-       var cat = $("#keyval").val();
-       var subloc = $("#subloc").val();
-   
-       var s1 = window.location.href;
-       var ca = s1.split('/');
-   
-       var cl = `<?php echo base_url(); ?>` + `${ca[4]}` + `/` + `${cat}` + `-in-` + `${subloc}`;
-       window.location.href = cl.trim();
+      e.preventDefault();
+      var cat = $("#keyval").val();
+      var subloc = $("#subloc").val();
+
+      var s1 = window.location.href;
+      var ca = s1.split('/');
+
+      var cl = `<?php echo base_url(); ?>` + `${ca[4]}` + `/` + `${cat}` + `-in-` + `${subloc}`;
+      window.location.href = cl.trim();
    });
 </script>
 <div class="col-sm-12 bg-white" style='margin:0px; padding:15px; border-bottom:1px solid grey;'>
    <?php foreach ($cat->result() as $row) { ?>
-   <div class='secondary_navbar mx-5 animated bounceInUp'>
-      <div class='secondary-icon'>
-         <a href="<?php echo $row->location . '/' . $row->category_name ?>" class='text-decorate'>
-            <img src="<?php echo $row->icon; ?>" alt="icon" class='image-icon'>
-            <p class='pag' style='text-align:center;'> <?php echo $row->category_name; ?></p>
-         </a>
+      <div class='secondary_navbar mx-5 animated bounceInUp'>
+         <div class='secondary-icon'>
+            <a href="<?php echo $row->location . '/' . $row->category_name ?>" class='text-decorate'>
+               <img src="<?php echo $row->icon; ?>" alt="icon" class='image-icon'>
+               <p class='pag' style='text-align:center;'> <?php echo $row->category_name; ?></p>
+            </a>
+         </div>
       </div>
-   </div>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
    <?php } ?>
 </div>
 <!-- Trending Section -->
@@ -112,55 +112,55 @@
       <div class="multi-line-header multi-line-header--centered">
          <div class="multi-line-header__title">
             Top Brands in <?php foreach ($details->result() as $row) {
-               echo $row->location;
-               break;
-               } ?>
+                              echo $row->location;
+                              break;
+                           } ?>
             <!-- <span class="icon-flash icon-trending"></span> -->
          </div>
       </div>
       <div class="tour-card-list tour-card-list--v2 tour-carousel">
          <?php foreach ($feature1->result() as $row) { ?>
-         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide00">
-            <div data-href="<?php echo base_url() . $row->location; ?>/detail/<?php echo str_replace(" ", "-", $row->business_name); ?>" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2430">
-               <div class="tour-card-v2__banner">
-                  <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
-                     <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 1024px)" srcset="<?php echo $row->main_image; ?>">
-                     <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 768px)" srcset="<?php echo $row->main_image; ?>">
-                     <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 576px)" srcset="<?php echo $row->main_image; ?>">
-                     <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 320px)" srcset="<?php echo $row->main_image; ?>">
-                     <source data-srcset="<?php echo $row->main_image; ?>" media="(max-width: 320px)" srcset="<?php echo $row->main_image; ?>">
-                     <img alt="<?php echo $row->main_img_alt; ?>" class="tour-card-v2__image" data-srcset="<?php echo $row->main_image; ?>" data-src="<?php echo $row->main_image; ?>" src="" srcset="<?php echo $row->main_image; ?>">
-                  </picture>
-                  <div class="tour-card-v2__legibility-gradient"></div>
-                  <div class="tour-card-v2__banner-data-wrap">
-                     <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     Featured
-                     </span>
-                     </span>
-                     <ul class="tour-card-v2__additional-info">
-                        <span class="icon-pin-bold"></span>
-                        <span class="tour-card-v2__location"><?php echo $row->location; ?></span>
-                        <span class="tour-card-v2__location-duration-separator">|</span>
-                        <span><?php echo $row->sub_location; ?></span>
-                     </ul>
+            <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide00">
+               <div data-href="<?php echo base_url() . $row->location; ?>/detail/<?php echo str_replace(" ", "-", $row->business_name); ?>" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2430">
+                  <div class="tour-card-v2__banner">
+                     <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                        <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 1024px)" srcset="<?php echo $row->main_image; ?>">
+                        <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 768px)" srcset="<?php echo $row->main_image; ?>">
+                        <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 576px)" srcset="<?php echo $row->main_image; ?>">
+                        <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 320px)" srcset="<?php echo $row->main_image; ?>">
+                        <source data-srcset="<?php echo $row->main_image; ?>" media="(max-width: 320px)" srcset="<?php echo $row->main_image; ?>">
+                        <img alt="<?php echo $row->main_img_alt; ?>" class="tour-card-v2__image" data-srcset="<?php echo $row->main_image; ?>" data-src="<?php echo $row->main_image; ?>" src="" srcset="<?php echo $row->main_image; ?>">
+                     </picture>
+                     <div class="tour-card-v2__legibility-gradient"></div>
+                     <div class="tour-card-v2__banner-data-wrap">
+                        <span class="tour-card-v2__tags">
+                           <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                              Featured
+                           </span>
+                        </span>
+                        <ul class="tour-card-v2__additional-info">
+                           <span class="icon-pin-bold"></span>
+                           <span class="tour-card-v2__location"><?php echo $row->location; ?></span>
+                           <span class="tour-card-v2__location-duration-separator">|</span>
+                           <span><?php echo $row->sub_location; ?></span>
+                        </ul>
+                     </div>
                   </div>
-               </div>
-               <div class="tour-card-v2__details-wrap">
-                  <a href="/tours/kudremukh-trek-in-chikmagalur" class="tour-card-v2__name text-decoration-none" target="_blank" tabindex="-1"><?php echo $row->features; ?></a>
-                  <div class="tour-card-v2__reviews-wrap">
-                     <div class="icon-star-empty"></div>
-                     <div class="tour-card-v2__average-rating"><?php echo $row->rating; ?></div>
-                  </div>
-                  <div class="tour-card-v2__price-and-cta-wrap">
-                     <div class="tour-card-v2__pricing">
-                        <span class="current-price"><span class="currency-type">₹</span><?php echo $row->price_range; ?></span>
-                        <span class="old-price"><span class="currency-type">₹</span>2,949</span>
+                  <div class="tour-card-v2__details-wrap">
+                     <a href="/tours/kudremukh-trek-in-chikmagalur" class="tour-card-v2__name text-decoration-none" target="_blank" tabindex="-1"><?php echo $row->features; ?></a>
+                     <div class="tour-card-v2__reviews-wrap">
+                        <div class="icon-star-empty"></div>
+                        <div class="tour-card-v2__average-rating"><?php echo $row->rating; ?></div>
+                     </div>
+                     <div class="tour-card-v2__price-and-cta-wrap">
+                        <div class="tour-card-v2__pricing">
+                           <span class="current-price"><span class="currency-type">₹</span><?php echo $row->price_range; ?></span>
+                           <span class="old-price"><span class="currency-type">₹</span>2,949</span>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
          <?php } ?>
       </div>
    </div>
@@ -175,18 +175,18 @@
             <img src="<?php echo base_url() . 'uploads/banners/1.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
          </div>
          <?php foreach ($banner1->result() as $row) { ?>
-         <div class="carousel-item ">
-            <img src="<?php echo $row->img_url_desk; ?>" class="d-block w-100 " style='height:300px' alt="<?php echo $row->img_alt_desktop; ?>">
-         </div>
+            <div class="carousel-item ">
+               <img src="<?php echo $row->img_url_desk; ?>" class="d-block w-100 " style='height:300px' alt="<?php echo $row->img_alt_desktop; ?>">
+            </div>
          <?php } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCont" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselCont" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
       </button>
    </div>
 </div>
@@ -194,52 +194,59 @@
    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
-            <img src="<?php echo base_url() . 'uploads/banners/2.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
+            <img src="<?php echo base_url() ?>/uploads/banners/1.jpg" class="d-block w-100" style='height:300px' alt="...">
          </div>
          <?php foreach ($banner1->result() as $row) { ?>
-         <div class="carousel-item ">
-            <img src="<?php echo $row->img_url_mob; ?>" class="d-block w-100 " style='height:300px' alt="<?php echo $row->img_alt_mobile; ?>">
-         </div>
+            <div class="carousel-item ">
+               <img src="<?php echo $row->img_url_mob; ?>" class="d-block w-100 " style='height:300px' alt="<?php echo $row->img_alt_mobile; ?>">
+            </div>
          <?php } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
       </button>
    </div>
 </div>
 <style>
    @media (max-width:768px) {
-   .desktop_banner1 {
-   display: none;
+      .desktop_banner1 {
+         display: none;
+      }
+
+      .mobile_banner1 {
+         display: block;
+      }
+
+      .desktop_banner2 {
+         display: none;
+      }
+
+      .mobile_banner2 {
+         display: block;
+      }
    }
-   .mobile_banner1 {
-   display: block;
-   }
-   .desktop_banner2 {
-   display: none;
-   }
-   .mobile_banner2 {
-   display: block;
-   }
-   }
+
    @media (min-width:768px) {
-   .desktop_banner1 {
-   display: block;
-   }
-   .mobile_banner1 {
-   display: none;
-   }
-   .desktop_banner2 {
-   display: block;
-   }
-   .mobile_banner2 {
-   display: none;
-   }
+      .desktop_banner1 {
+         display: block;
+      }
+
+      .mobile_banner1 {
+         display: none;
+      }
+
+      .desktop_banner2 {
+         display: block;
+      }
+
+      .mobile_banner2 {
+         display: none;
+      }
    }
 </style>
 <section class="section__trending">
@@ -253,47 +260,47 @@
       </div>
       <div class="tour-card-list tour-card-list--v2 tour-carousel">
          <?php foreach ($feature2->result() as $row) { ?>
-         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide10">
-            <div data-href="<?php echo base_url() . $row->location; ?>/detail/<?php echo str_replace(" ", "-", $row->business_name); ?>" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10192">
-               <div class="tour-card-v2__banner">
-                  <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
-                     <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 1024px)" srcset="<?php echo $row->main_image; ?>">
-                     <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 768px)" srcset="<?php echo $row->main_image; ?>">
-                     <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 576px)" srcset="<?php echo $row->main_image; ?>">
-                     <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 320px)" srcset="<?php echo $row->main_image; ?>">
-                     <source data-srcset="<?php echo $row->main_image; ?>" media="(max-width: 320px)" srcset="<?php echo $row->main_image; ?>">
-                     <img alt="<?php echo $row->main_img_alt; ?>" class="tour-card-v2__image" data-srcset="<?php echo $row->main_image; ?>" data-src="<?php echo $row->main_image; ?>" src="" srcset="<?php echo $row->main_image; ?>">
-                  </picture>
-                  <div class="tour-card-v2__legibility-gradient"></div>
-                  <div class="tour-card-v2__banner-data-wrap">
-                     <span class="tour-card-v2__tags">
-                     <span class="tour-card-v2__tag tour-card-v2__tag--flag">
-                     New Arrival
-                     </span>
-                     </span>
-                     <ul class="tour-card-v2__additional-info">
-                        <span class="icon-pin-bold"></span>
-                        <span class="tour-card-v2__location"><?php echo $row->location; ?></span>
-                        <span class="tour-card-v2__location-duration-separator">|</span>
-                        <span><?php echo $row->sub_location; ?></span>
-                     </ul>
+            <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide10">
+               <div data-href="<?php echo base_url() . $row->location; ?>/detail/<?php echo str_replace(" ", "-", $row->business_name); ?>" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="10192">
+                  <div class="tour-card-v2__banner">
+                     <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded">
+                        <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 1024px)" srcset="<?php echo $row->main_image; ?>">
+                        <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 768px)" srcset="<?php echo $row->main_image; ?>">
+                        <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 576px)" srcset="<?php echo $row->main_image; ?>">
+                        <source data-srcset="<?php echo $row->main_image; ?>" media="(min-width: 320px)" srcset="<?php echo $row->main_image; ?>">
+                        <source data-srcset="<?php echo $row->main_image; ?>" media="(max-width: 320px)" srcset="<?php echo $row->main_image; ?>">
+                        <img alt="<?php echo $row->main_img_alt; ?>" class="tour-card-v2__image" data-srcset="<?php echo $row->main_image; ?>" data-src="<?php echo $row->main_image; ?>" src="" srcset="<?php echo $row->main_image; ?>">
+                     </picture>
+                     <div class="tour-card-v2__legibility-gradient"></div>
+                     <div class="tour-card-v2__banner-data-wrap">
+                        <span class="tour-card-v2__tags">
+                           <span class="tour-card-v2__tag tour-card-v2__tag--flag">
+                              New Arrival
+                           </span>
+                        </span>
+                        <ul class="tour-card-v2__additional-info">
+                           <span class="icon-pin-bold"></span>
+                           <span class="tour-card-v2__location"><?php echo $row->location; ?></span>
+                           <span class="tour-card-v2__location-duration-separator">|</span>
+                           <span><?php echo $row->sub_location; ?></span>
+                        </ul>
+                     </div>
                   </div>
-               </div>
-               <div class="tour-card-v2__details-wrap">
-                  <a href="/tours/aloha-resort-stay-with-spa-experience-flat-40-off" class="tour-card-v2__name text-decoration-none" target="_blank" tabindex="-1"><?php echo $row->features; ?></a>
-                  <div class="tour-card-v2__reviews-wrap">
-                     <div class="icon-star-empty"></div>
-                     <div class="tour-card-v2__average-rating"><?php echo $row->rating; ?></div>
-                  </div>
-                  <div class="tour-card-v2__price-and-cta-wrap">
-                     <div class="tour-card-v2__pricing">
-                        <span class="current-price"><span class="currency-type">₹</span><?php echo $row->price_range; ?></span>
-                        <span class="old-price"><span class="currency-type">₹</span>8,600</span>
+                  <div class="tour-card-v2__details-wrap">
+                     <a href="/tours/aloha-resort-stay-with-spa-experience-flat-40-off" class="tour-card-v2__name text-decoration-none" target="_blank" tabindex="-1"><?php echo $row->features; ?></a>
+                     <div class="tour-card-v2__reviews-wrap">
+                        <div class="icon-star-empty"></div>
+                        <div class="tour-card-v2__average-rating"><?php echo $row->rating; ?></div>
+                     </div>
+                     <div class="tour-card-v2__price-and-cta-wrap">
+                        <div class="tour-card-v2__pricing">
+                           <span class="current-price"><span class="currency-type">₹</span><?php echo $row->price_range; ?></span>
+                           <span class="old-price"><span class="currency-type">₹</span>8,600</span>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
          <?php } ?>
       </div>
    </div>
@@ -304,21 +311,22 @@
    <div id="carouselEx" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
-            <img src="<?php echo 'uploads/banners/112.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
+            <img src="<?php echo base_url() . '/uploads/banners/112.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
          </div>
          <?php foreach ($banner2->result() as $row) { ?>
-         <div class="carousel-item">
-            <img src="<?php echo $row->img_url_desk; ?>" class="d-block w-100" style='height:300px' alt="<?php echo $row->img_alt_desktop; ?>">
-         </div>
+
+            <div class="carousel-item">
+               <img src="<?php echo $row->img_url_desk; ?>" class="d-block w-100" style='height:300px' alt="<?php echo $row->img_alt_desktop; ?>">
+            </div>
          <?php } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselEx" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselEx" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
       </button>
    </div>
 </div>
@@ -329,18 +337,18 @@
             <img src="<?php echo base_url() . 'assets/images/b2.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
          </div>
          <?php foreach ($banner2->result() as $row) { ?>
-         <div class="carousel-item">
-            <img src="<?php echo $row->img_url_mob; ?>" class="d-block w-100" style='height:300px' alt="<?php echo $row->img_alt_mobile; ?>">
-         </div>
+            <div class="carousel-item">
+               <img src="<?php echo $row->img_url_mob; ?>" class="d-block w-100" style='height:300px' alt="<?php echo $row->img_alt_mobile; ?>">
+            </div>
          <?php } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCos" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselCos" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
       </button>
    </div>
 </div>
@@ -352,29 +360,29 @@
       <div class="travel-news-section__wrap">
          <div class="travel-news-section__list">
             <?php foreach ($blogs->result() as $row) { ?>
-            <a target="_blank" class="travel-news-section__list-item travel-news">
-               <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="<?php echo $row->blog_img; ?>" data-srcset="<?php echo $row->blog_img; ?>" src="<?php echo $row->blog_img; ?>" srcset="<?php echo $row->blog_img; ?>">
-               <div class="travel-news__details">
-                  <div class="travel-news__title">
-                     <?php echo $row->blog_desc; ?>
+               <a target="_blank" class="travel-news-section__list-item travel-news">
+                  <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="<?php echo $row->blog_img; ?>" data-srcset="<?php echo $row->blog_img; ?>" src="<?php echo $row->blog_img; ?>" srcset="<?php echo $row->blog_img; ?>">
+                  <div class="travel-news__details">
+                     <div class="travel-news__title">
+                        <?php echo $row->blog_desc; ?>
+                     </div>
+                     <div class="travel-news__info"><?php echo $row->date_created; ?></div>
                   </div>
-                  <div class="travel-news__info"><?php echo $row->date_created; ?></div>
-               </div>
-            </a>
+               </a>
             <?php } ?>
-            <a class="generic-info__link view-more-link text-decoration-none" href="<?php echo base_url().$this->uri->segment(1); ?>/blogs/list">Know More <span class="icon-right-arrow"></span></a>
+            <a class="generic-info__link view-more-link text-decoration-none" href="<?php echo base_url() . $this->uri->segment(1); ?>/blogs/list">Know More <span class="icon-right-arrow"></span></a>
          </div>
          <?php foreach ($feature_blog->result() as $row) { ?>
-         <a href='<?php echo base_url().$row->location; ?>/blogs/<?php echo $row->slug; ?>' target="_blank"  style='text-decoration:none;'>
-            <img class="lazy-image travel-news-section__featured-image lazy-image-loaded" sizes="100vw" data-src="<?php echo $row->blog_img; ?>" data-srcset="" src="<?php echo $row->blog_img; ?>" srcset="">
-            <div class="travel-news-section__featured-title offset-1">
-               <?php echo $row->blog_title; ?>
-            </div>
-            <div class="travel-news-section__featured-snippet offset-1">
-               <?php echo $row->blog_desc; ?>
-            </div>
-            <span class="travel-news-section__featured-read-more view-more-link" style="float:right;">Read Full Article <span class="icon-right-arrow"></span></span>
-         </a>
+            <a href='<?php echo base_url() . $row->location; ?>/blogs/<?php echo $row->slug; ?>' target="_blank" style='text-decoration:none;'>
+               <img class="lazy-image travel-news-section__featured-image lazy-image-loaded" sizes="100vw" data-src="<?php echo $row->blog_img; ?>" data-srcset="" src="<?php echo $row->blog_img; ?>" srcset="">
+               <div class="travel-news-section__featured-title offset-1">
+                  <?php echo $row->blog_title; ?>
+               </div>
+               <div class="travel-news-section__featured-snippet offset-1">
+                  <?php echo $row->blog_desc; ?>
+               </div>
+               <span class="travel-news-section__featured-read-more view-more-link" style="float:right;">Read Full Article <span class="icon-right-arrow"></span></span>
+            </a>
          <?php } ?>
       </div>
    </div>

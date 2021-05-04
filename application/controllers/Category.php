@@ -87,31 +87,31 @@ class Category extends CI_Controller
         $this->load->view('client/list', $data);
         $this->load->view('client/includes/footer');
     }
-    public function sublocation()
-    {
-        $loc = $this->uri->segment(1);
-        $subloc = str_replace("-", " ", $this->uri->segment(2));
-        $cat =  str_replace('-', " ", $this->uri->segment(3));
-        $subcat = str_replace('-', " ", $this->uri->segment(4));
-        $this->load->model('catogery_model');
-        $id = $this->catogery_model->getcat_id($cat);
-        $data['sub_cat'] = $this->catogery_model->get_subcat_from_list($id, $subloc, $subcat);
-        foreach ($data['sub_cat']->result() as $row) {
-            $data['subloc'] = $row->sub_location;
-        }
-        $data['subcategory'] = $data['sub_cat'];
-        $data['all_list'] = $this->catogery_model->get_all_subcat_bysubloc($loc, $subloc, $id, $subcat);
-        $data['sub_cat'] = $data['all_list'];
-        $data['all_subcat'] = $this->catogery_model->get_all_subcat($cat, $loc);
-        $data['cat'] = $this->catogery_model->get_cat_name($id);
-        $city = $this->catogery_model->get_city($id);
-        $data['catloc'] = $this->catogery_model->getmatch_loc($city, $data['sub_cat']->num_rows());
-        $data['details'] = $this->catogery_model->geta_meta_details($subcat, $loc);
-        $data['bgcolor'] = "background:#f07c7c";
-        $this->load->view('client/includes/header', $data);
-        $this->load->view('client/list', $data);
-        $this->load->view('client/includes/footer');
-    }
+    // public function sublocation()
+    // {
+    //     $loc = $this->uri->segment(1);
+    //     $subloc = str_replace("-", " ", $this->uri->segment(2));
+    //     $cat =  str_replace('-', " ", $this->uri->segment(3));
+    //     $subcat = str_replace('-', " ", $this->uri->segment(4));
+    //     $this->load->model('catogery_model');
+    //     $id = $this->catogery_model->getcat_id($cat);
+    //     $data['sub_cat'] = $this->catogery_model->get_subcat_from_list($id, $subloc, $subcat);
+    //     foreach ($data['sub_cat']->result() as $row) {
+    //         $data['subloc'] = $row->sub_location;
+    //     }
+    //     $data['subcategory'] = $data['sub_cat'];
+    //     $data['all_list'] = $this->catogery_model->get_all_subcat_bysubloc($loc, $subloc, $id, $subcat);
+    //     $data['sub_cat'] = $data['all_list'];
+    //     $data['all_subcat'] = $this->catogery_model->get_all_subcat($cat, $loc);
+    //     $data['cat'] = $this->catogery_model->get_cat_name($id);
+    //     $city = $this->catogery_model->get_city($id);
+    //     $data['catloc'] = $this->catogery_model->getmatch_loc($city, $data['sub_cat']->num_rows());
+    //     $data['details'] = $this->catogery_model->geta_meta_details($subcat, $loc);
+    //     $data['bgcolor'] = "background:#f07c7c";
+    //     $this->load->view('client/includes/header', $data);
+    //     $this->load->view('client/list', $data);
+    //     $this->load->view('client/includes/footer');
+    // }
     function show_sub_catlist($subcat, $location, $sublocation)  // params => ayurvedicspa, banagalore, kormangala
     {
         $this->load->model('catogery_model');

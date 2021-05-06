@@ -18,6 +18,7 @@ class Main extends CI_Controller
             redirect(base_url() . '404');
         }
         $data['subloc'] = $this->catogery_model->getsub_loc($name);
+
         $data['cat'] = $this->catogery_model->getcat($name);
         $data['footer'] = $this->catogery_model->get_footer($name);
         $data['details'] = $this->catogery_model->get_detail_by_locname($name);

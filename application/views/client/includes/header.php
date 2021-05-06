@@ -58,12 +58,13 @@
                            <li class="desktop-hidden"><a href="/" class="main-header-link">Home</a></li>
                            <li class="divider desktop-hidden"></li>
                            <li><a href="" class="gift-link">
-                                 <span class="text btnstyle" style="font-size:14px;"> New Bussiness</span>
+                                 <span class="text btnstyle" style="font-size:14px;"> Add your Bussiness</span>
                               </a>
                            </li>
                            <li class="divider desktop-hidden"></li>
-                           <li id="header-login-wrap">
-                              <span data-href="" class="main-header-link trigger-login-popup onclick-link" style='font-size:initial;'>Log In</span>
+                           <li><a href="" class="gift-link">
+                                 <span class="text btnstyle" style="font-size:14px;"> Login</span>
+                              </a>
                            </li>
                            <li class="divider desktop-hidden"></li>
                            <li class="desktop-hidden"><a href="" class="main-header-link">Help</a></li>

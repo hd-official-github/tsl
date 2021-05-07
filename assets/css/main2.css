@@ -7523,13 +7523,13 @@ form, fieldset {
     }
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
     #mobile-nav-drop .mobile-tool-list li:not(.no-underline):hover {
-        /* -webkit-box-shadow: 0px 3px 0px 0px #f07c7c;
+        -webkit-box-shadow: 0px 3px 0px 0px #f07c7c;
     -moz-box-shadow: 0px 3px 0px 0px #f07c7c;
-    box-shadow: 0px 3px 0px 0px #f07c7c; */
+    box-shadow: 0px 3px 0px 0px #f07c7c;
     }
-}
+} */
 
 #mobile-nav-drop .mobile-tool-list li .main-header-link {
     color: #fff;
@@ -7937,13 +7937,13 @@ form, fieldset {
     }
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
     #mobile-nav-drop .mobile-tool-list li:not(.no-underline):hover {
-        /* -webkit-box-shadow: 0px 3px 0px 0px #f07c7c;
+        -webkit-box-shadow: 0px 3px 0px 0px #f07c7c;
         -moz-box-shadow: 0px 3px 0px 0px #f07c7c;
-        box-shadow: 0px 3px 0px 0px #f07c7c; */
+        box-shadow: 0px 3px 0px 0px #f07c7c;
     }
-}
+} */
 
 #mobile-nav-drop .mobile-tool-list li .main-header-link {
     color: #fff;

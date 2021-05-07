@@ -58,7 +58,7 @@
                            <li class="desktop-hidden"><a href="/" class="main-header-link">Home</a></li>
                            <li class="divider desktop-hidden"></li>
                            <li><a href="" class="gift-link">
-                                 <span class="text btnstyle" style="font-size:14px;"> Add your Bussiness</span>
+                                 <span class="text btnstyle" style="font-size:14px;"> List your Business</span>
                               </a>
                            </li>
                            <li class="divider desktop-hidden"></li>

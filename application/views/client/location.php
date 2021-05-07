@@ -168,7 +168,7 @@
 <!-- //////////////////////////////////////////////////////////////////// -->
 <!-- Carousel -->
 <br><br>
-<div class="container desktop_banner1">
+<div class="container-fluid desktop_banner1">
    <div id="carouselCont" class="carousel slide" data-bs-ride="carousel" data-bs-interval='1200'>
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
@@ -190,7 +190,7 @@
       </button>
    </div>
 </div>
-<div class="container mobile_banner1">
+<div class="container-fluid mobile_banner1">
    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
@@ -307,7 +307,7 @@
 </section>
 <!-- Carousel for banner  -->
 <br><br><br><br>
-<div class="container desktop_banner2">
+<div class="container-fluid desktop_banner2">
    <div id="carouselEx" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
@@ -329,7 +329,7 @@
       </button>
    </div>
 </div>
-<div class="container mobile_banner2">
+<div class="container-fluid mobile_banner2">
    <div id="carouselCos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">

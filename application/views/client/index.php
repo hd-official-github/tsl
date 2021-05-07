@@ -73,8 +73,8 @@
 <section class="escapes">
    <div class="container">
       <div class="escapes__content">
-         <span class="escapes__title">Find The Perfect Escape</span>
-         <span class="escapes__caption">Discover your ideal Experience</span>
+         <span class="escapes__title">Bust out from your stressed life with thespaline's exotic spa deals</span>
+         <span class="escapes__caption">Discover amazing spa and massage offers around you.</span>
       </div>
       <div class="escapes__images">
          <a href="/collections/top-rated-himalayan-experiences" target="_blank" class="escapes__image-wrap">
@@ -1584,24 +1584,43 @@
 
 <!-- Carousel for banner  -->
 <br><br>
-<div class="container">
-   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
+<div class="container-fluid desktop_banner1">
+   <div id="carouselCont" class="carousel slide" data-bs-ride="carousel" data-bs-interval='1200'>
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
-            <img src="<?php echo base_url() . 'assets/images/building-one.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
+            <img src="<?php echo base_url() . 'assets/images/deals.png'; ?>" class="d-block w-100" style='height:300px' alt="...">
          </div>
-         <div class="carousel-item">
-            <img src="<?php echo base_url() . 'assets/images/building.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
+         <div class="carousel-item ">
+            <img src="<?php echo base_url() . 'assets/images/add2.png'; ?>" class="d-block w-100 " style='height:300px' alt="">
          </div>
-         <div class="carousel-item">
-            <img src="<?php echo base_url() . 'assets/images/one.png'; ?>" class="d-block w-100" style='height:300px' alt="...">
-         </div>
+
       </div>
-      <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCont" data-bs-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
          <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselCont" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+      </button>
+   </div>
+</div>
+<div class="container-fluid  mobile_banner1">
+   <div id="carouselCont" class="carousel slide" data-bs-ride="carousel" data-bs-interval='1200'>
+      <div class="carousel-inner" style='height:350px;'>
+         <div class="carousel-item active">
+            <img src="<?php echo base_url() . 'assets/images/addmob2.png'; ?>" class="d-block w-100" style='height:300px' alt="...">
+         </div>
+         <div class="carousel-item ">
+            <img src="<?php echo base_url() . 'assets/images/banner1.png'; ?>" class="d-block w-100 " style='height:300px' alt="">
+         </div>
+
+      </div>
+      <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCont" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselCont" data-bs-slide="next">
          <span class="carousel-control-next-icon" aria-hidden="true"></span>
          <span class="visually-hidden">Next</span>
       </button>

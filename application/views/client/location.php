@@ -393,7 +393,7 @@
          <div class="generic-info__text">With Thrillophilia Gift Cards</div>
          <a target="_blank" class="generic-info__btn view-more-btn view-more-btn--lg" href="">Know More</a>
       </div>
-      <img class="lazy-image generic-info__image lazy-image-loaded limg" sizes="100vw" data-src="" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" srcset="">
+      <img class="lazy-image generic-info__image lazy-image-loaded limg" style='width:100%;' sizes="100vw" data-src="" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" srcset="">
    </div>
 </div>
 <!-- Partners section -->

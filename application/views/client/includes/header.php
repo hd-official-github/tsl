@@ -28,7 +28,7 @@
                <div class="top-panel" style='<?php if (isset($bgcolor)) echo $bgcolor; ?>'>
                   <div class="container">
                      <div class="inner-wrap">
-                        <div href="#" id="header-mobile-nav-opener" class="" style='background:none;'><span></span></div>
+                        <div href="#" id="header-mobile-nav-opener" class="changeback" style='background:none;'><span></span></div>
                         <strong class="logo">
                            <a href="<?php echo base_url(); ?>">
                               <img src='<?php echo base_url() . 'assets/images/logowhite.png'; ?>' class="desktop-logo mobile-hidden logowhite ">
@@ -39,7 +39,7 @@
                         </strong>
                         <div class="search-container">
                            <div href="#" id="header-search-opener" class="desktop-hidden navbar-menu-toggler" data-submenu="adventureExcursionsMobileWrapper" data-menu-loaded="false" data-menu-identifier="adventure_excursions" data-version="mobile">
-                              <span class="icon-search"></span>
+                              <span class=""> <i class="fas fa-search"></i></span>
                            </div>
                            <div class="search-slide">
                               <div class="inner-form-container">
@@ -55,19 +55,21 @@
                      </div>
                      <div id="mobile-nav-drop" class="">
                         <ul class="mobile-tool-list">
-                           <li class="desktop-hidden"><a href="/" class="main-header-link">Home</a></li>
+                        
+                           <li class="desktop-hidden"><a href="<?php echo base_url();?>" class="main-header-link">Home</a>
+                        </li>
                            <li class="divider desktop-hidden"></li>
-                           <li><a href="" class="gift-link">
-                                 <span class="text btnstyle" style="font-size:14px;"> List your Business</span>
+                           <li><a href="" class="gift-link main-header-link business_btn">
+                                Add your business
                               </a>
                            </li>
                            <li class="divider desktop-hidden"></li>
-                           <li><a href="" class="gift-link">
-                                 <span class="text btnstyle" style="font-size:14px;"> Login</span>
+                           <li><a href="/go-to-gift-page" class="gift-link main-header-link business_btn">
+                               Login
                               </a>
                            </li>
                            <li class="divider desktop-hidden"></li>
-                           <li class="desktop-hidden"><a href="" class="main-header-link">Help</a></li>
+                           <li class="desktop-hidden"><a href="https://thrillophilia.freshdesk.com/support/home" class="main-header-link">Help</a></li>
                            <!-- <li class="desktop-hidden"><a href="#">FAQs</a></li> -->
                         </ul>
                      </div>
@@ -76,3 +78,14 @@
             </div>
          </header>
          <input hidden id='fun' value='<?php if (isset($bgcolor)) echo $bgcolor; ?>'>
+         <script>
+            if ($('#fun').val() != "") {
+               $('img').attr('src', "<?php echo base_url() . 'assets/images/logo.png'; ?>");
+               $('.business_btn').css('color', 'black');
+               $('.top-panel .container').css('border-bottom', 'none');
+               $('.changeback').attr('data-attr','#000');
+
+            }
+           
+
+         </script>

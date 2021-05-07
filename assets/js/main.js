@@ -11342,7 +11342,18 @@ var google_remarketing_only = true;
 
 /////////////////////my js////////////////////////
 
-$(function () {
+$(document).ready(function () {
+	
+	$(".logowhite").show();
+		$('.text').css('background','transparent');
+		$('.logowhite').css({'width':'115px','position':'relative','top':'-4px'});
+		
+      
+		
+		$('.onclick-link').css({'color':'white','font-size':'initial'});
+       
+    $('.mobwhitelogo').css('width','115px');
+        $(".logoblack").hide();
 	$(window).scroll(function () {
 		var scroll = $(window).scrollTop();
        
@@ -11355,15 +11366,22 @@ if($('#fun').val()){
     if (scroll >= 60) {
         $(".logowhite").hide();
         $(".logoblack").show();
+		$('.business_btn').css('color','#000');
+		$('.top-panel').css('height','64px');
+		$('.logoblack').css({'width':'115px','position':'relative','top':'-4px'});
 		$('.onclick-link').css({'color':'black','font-size':'initial'});
+		$('.fa-search').css('color','#f07c7c');
 
     }
     if (scroll <= 60) {
         $(".logowhite").show();
 		$('.text').css('background','transparent');
+		$('.logowhite').css({'width':'115px','position':'relative','top':'-4px'});
+
+		$('.business_btn').css('color','white');
 		$('.onclick-link').css({'color':'white','font-size':'initial'});
-
-
+    $('.mobblacklogo').css('width','115px');
+    $('.fa-search').css('color','#fff');
         $(".logoblack").hide();
     } else {
         $(".logoblack").show();
@@ -11431,4 +11449,6 @@ function ques1(obj){
 	$(ans).toggle('slow');
 	
 }
+
+
 

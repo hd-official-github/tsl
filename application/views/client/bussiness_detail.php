@@ -10,7 +10,7 @@
             </nav>
             <?php } ?>
          </div>
-         <hr class="divider divider--thick">
+        
       </div>
       <div class="bg-white p-3 chead secondhead " style='margin-top:-20px; width:100%;'>
          <div class='row'>

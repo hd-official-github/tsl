@@ -6,6 +6,7 @@ class Category extends CI_Controller
     {
         $cat = $this->uri->segment(2);
         $name = $this->uri->segment(1);
+        
         $arr = explode('-in-', $cat);
         if (count($arr) > 1) {
             $this->load->model('catogery_model');
@@ -30,12 +31,12 @@ class Category extends CI_Controller
             }
             $data['sub_cat'] = $this->catogery_model->get_all_subcat($cat, $name);
 
-            $data['bgcolor'] = "background:#f07c7c";
+            $data['bgcolor'] = "background:#fff";
             $data['feature1'] = $this->catogery_model->get_feature1();
             $data['feature2'] = $this->catogery_model->get_feature2();
             $data['blogs'] = $this->catogery_model->get_blogs($name);
-            $data['banner1'] = $this->catogery_model->get_banner1($name);
-            $data['banner2'] = $this->catogery_model->get_banner2($name);
+            $data['banner1'] = $this->catogery_model->get_banner1($name,$cat);
+            $data['banner2'] = $this->catogery_model->get_banner2($name,$cat);
             $data['footer'] = $this->catogery_model->get_footer_of_cat($cat);
             $data['feature_blog'] = $this->catogery_model->get_feature_blog($name);
             $this->load->view('client/includes/header', $data);
@@ -62,7 +63,7 @@ class Category extends CI_Controller
             $data['cat'] = $this->catogery_model->get_cat_name($id);
             $city = $this->catogery_model->get_city($id);
             $data['catloc'] = $this->catogery_model->getmatch_loc($loc, $data['sub_cat']->num_rows());
-            $data['bgcolor'] = "background:#f07c7c";
+            $data['bgcolor'] = "background:#fff";
             $this->load->view('client/includes/header', $data);
             $this->load->view('client/list', $data);
             $this->load->view('client/includes/footer');
@@ -84,7 +85,7 @@ class Category extends CI_Controller
         $city = $this->catogery_model->get_city($id);
         // $data['subloc']=$arr[1];
         $data['catloc'] = $this->catogery_model->getmatch_loc($city, $data['sub_cat']->num_rows());
-        $data['bgcolor'] = "background:#f07c7c";
+        $data['bgcolor'] = "background:#fff";
         $this->load->view('client/includes/header', $data);
         $this->load->view('client/list', $data);
         $this->load->view('client/includes/footer');
@@ -141,7 +142,7 @@ class Category extends CI_Controller
         $city = $this->catogery_model->get_city($id);
         $data['catloc'] = $this->catogery_model->getmatch_loc($city, $data['sub_cat']->num_rows());
         $data['details'] = $this->catogery_model->geta_meta_details($subcat, $loc);
-        $data['bgcolor'] = "background:#f07c7c";
+        $data['bgcolor'] = "background:#fff";
         $this->load->view('client/includes/header', $data);
         $this->load->view('client/list', $data);
         $this->load->view('client/includes/footer');

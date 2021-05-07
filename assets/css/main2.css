@@ -508,7 +508,7 @@ input[type="text"]:focus:-ms-input-placeholder {
 
 @media (max-width: 1023px) {
     .section__intro__main.intro-heading .intro-heading__title .intro-heading__animation-window {
-        animation: swapTitleMobile 8s cubic-bezier(0.22, 1, 0.36, 1) 3s infinite forwards;
+        animation: swapTitleMobile 8s cubic-bezier(0, 0, 0, 0) 3s infinite forwards;
     }
 }
 
@@ -7755,6 +7755,7 @@ form, fieldset {
 
 .icon-search:before {
     content: "";
+    color: #000;
 }
 
 #header {
@@ -7778,6 +7779,7 @@ form, fieldset {
 @media (min-width: 1024px) {
     #header.transparent-nav .header-base .top-panel .container {
         border-bottom: 1px solid #a0a0a0;
+        height:64px;
     }
 }
 
@@ -7927,10 +7929,12 @@ form, fieldset {
         justify-content: center;
     }
     #mobile-nav-drop .mobile-tool-list li:not(:last-child) {
-        margin-right: 15px;
+        margin-right: 40px;
     }
 }
-
+.business_btn{
+    color:#fff;
+}
 @media (max-width: 1023px) {
     #mobile-nav-drop .mobile-tool-list li:not(:last-child) {
         margin-right: 0;
@@ -8026,6 +8030,11 @@ form, fieldset {
         right: 0;
         height: 1px;
         transition: 0.3s ease 0s;
+    }
+    .lazy-picture:before{
+        background-image:-webkit-gradient(linear,left top,left bottom,color-stop(24%,rgba(150, 40, 40, 0.02)),color3-stop(97%,rgb(173, 51, 51)));
+
+        
     }
     #header-mobile-nav-opener:after, #header-mobile-nav-opener:before {
         top: 0;

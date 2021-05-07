@@ -31,6 +31,7 @@ class Main extends CI_Controller
         $data['banner1'] = $this->catogery_model->get_banner1($name);
 
         $data['banner2'] = $this->catogery_model->get_banner2($name);
+    
         $data['feature_blog'] = $this->catogery_model->get_feature_blog($name);
         $this->load->view('client/includes/header');
         $this->load->view('client/location', $data);

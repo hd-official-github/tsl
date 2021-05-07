@@ -170,14 +170,16 @@ class Catogery_model  extends CI_Model
         $this->db->where('loc', $name);
         return $this->db->get('blogs', 4, 0);
     }
-    function get_banner1($city)
+    function get_banner1($city,$cat=NULL)
     {
-        $this->db->where('location', $city);
+        $this->db->where(array('location'=>$city,'cat'=>$cat));
         return $this->db->get('business_banner1');
     }
-    function get_banner2($city)
+    function get_banner2($city,$cat=NULL)
     {
-        $this->db->where('location', $city);
+        
+        $this->db->where(array('location'=>$city,'cat'=>$cat));
+
         return $this->db->get('business_banner2');
     }
     function get_feature_blog($city)

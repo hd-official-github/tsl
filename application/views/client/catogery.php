@@ -1,3 +1,8 @@
+<style>
+   #header.transparent-nav .header-base .top-panel .container .inner-wrap #header-mobile-nav-opener:not(.hamburger-slide-in) span:after, #header.transparent-nav .header-base .top-panel .container .inner-wrap #header-mobile-nav-opener:not(.hamburger-slide-in):before, #header.transparent-nav .header-base .top-panel .container .inner-wrap #header-mobile-nav-opener:not(.hamburger-slide-in):after, #header.transparent-nav .header-base .top-panel .container .inner-wrap #header-mobile-nav-opener:not(.hamburger-slide-in) span{
+      background: #000;
+   }
+</style>
 <div class="row subcatof_spa" style='margin-top:98px; width:auto; height:115px;'>
 
     <div class="col-sm-12 bg-white newscroll " style='margin:0px; overflow:scroll; height:115px; overflow:auto; white-space:nowrap;overflow-y:hidden;'>
@@ -12,7 +17,41 @@
 </div>
 
 
-
+<section class="section__trending">
+   <div class="container">
+      <div class="multi-line-header multi-line-header--centered">
+         <div class="multi-line-header__title">
+            Featured Spa Deals
+            <span class="icon-flash icon-trending"></span>
+         </div>
+         <div class="multi-line-header__caption">Upto 70% Off</div>
+      </div>
+      <div class="tour-card-list tour-card-list--v2 tour-carousel">
+         <div class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide00">
+            <div data-href="/tours/kudremukh-trek-in-chikmagalur" target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2430">
+               <div class="tour-card-v2__banner" style="background-image:-webkit-gradient(linear,left top,left bottom,color-stop(24%,rgba(33,33,33,.02)),color-stop(97%,#000)); border-radius:12px;">
+                  <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded" style='background-image: url(<?php echo base_url().'assets/images/banner1.png'?>);'>
+                     <!-- <img src="<?php echo base_url().'assets/images/banner1.png';?>" alt=""> -->
+                  </picture>
+                  <div class="tour-card-v2__legibility-gradient"></div>
+                  <div class="tour-card-v2__banner-data-wrap">
+                     <span class="tour-card-v2__tags" style='font-size:20px; font-weight:bold;'>
+                       Span in kormangla
+                     </span>
+                     <ul class="tour-card-v2__additional-info">
+                     <span class="tour-card-v2__tags">
+                       22 listing in kormangla
+                     </span>
+                     </ul>
+                  </div>
+               </div>
+              
+            </div>
+         </div>
+         
+      </div>
+   </div>
+</section>
 
 
 

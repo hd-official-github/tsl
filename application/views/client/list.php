@@ -1,3 +1,8 @@
+<style>
+   #header.transparent-nav .header-base .top-panel .container .inner-wrap #header-mobile-nav-opener:not(.hamburger-slide-in) span:after, #header.transparent-nav .header-base .top-panel .container .inner-wrap #header-mobile-nav-opener:not(.hamburger-slide-in):before, #header.transparent-nav .header-base .top-panel .container .inner-wrap #header-mobile-nav-opener:not(.hamburger-slide-in):after, #header.transparent-nav .header-base .top-panel .container .inner-wrap #header-mobile-nav-opener:not(.hamburger-slide-in) span{
+      background: #000;
+   }
+</style>
 <div class="wrapper-content wrapper-content--ud" infinite-scroll="">
    <div class="wrapper">
       <div class='container breadcrab'>
@@ -13,8 +18,8 @@
                   echo $row->category_name;                                                       } ?></a>
             </nav>
          </div>
-         <hr class="divider divider--thick">
-      </div>
+        
+      </div><br><br>
       <div class="container">
          <div class="row">
             <div class="col-sm-12 setoverflow newscroll" style='margin:0px; overflow:scroll; white-space:nowrap;'>

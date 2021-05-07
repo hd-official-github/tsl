@@ -24,10 +24,12 @@ class Category extends CI_Controller
             //for url =>bangalore/spa
             $this->load->model('catogery_model');
             $q = $this->catogery_model->validate_category($cat);
+
             if (!$q > 0) {
                 redirect(base_url() . '404');
             }
             $data['sub_cat'] = $this->catogery_model->get_all_subcat($cat, $name);
+
             $data['bgcolor'] = "background:#f07c7c";
             $data['feature1'] = $this->catogery_model->get_feature1();
             $data['feature2'] = $this->catogery_model->get_feature2();

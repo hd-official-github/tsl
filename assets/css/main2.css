@@ -445,7 +445,7 @@ input[type="text"]:focus:-ms-input-placeholder {
 
 .section__intro {
     height: calc(100vh - 50px);
-    background: url(https://ui-assets-gc.thrillophilia.com/assets/homepage/homepage-banner-c4fa88e01600255e68dacedd5aca1be04c1361b0c871e58746dca0617239c212.jpg), rgba(0, 0, 0, 0.4);
+    background: url('../images/bg.jpg'), rgba(0, 0, 0, 0.4);
     background-size: cover;
     background-blend-mode: saturation;
 }
@@ -453,6 +453,7 @@ input[type="text"]:focus:-ms-input-placeholder {
 @media (min-width: 1024px) {
     .section__intro {
         background-position: center center;
+        background: url('../images/bg.jpg'), rgba(0, 0, 0, 0.4);
         padding-bottom: 30px;
         height: 100vh;
     }
@@ -1022,6 +1023,7 @@ input[type="text"]:focus:-ms-input-placeholder {
 
 .tour-card-list .slick-arrow [class*="icon-"], .destination-attraction-card-list .slick-arrow [class*="icon-"] {
     background: linear-gradient(to right, #ff7102, #ff7102 19%, #ff0256);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1767,7 +1769,7 @@ input[type="text"]:focus:-ms-input-placeholder {
 
 @media (max-width: 1023px) {
     #home-banner-search .twitter-typeahead .search-wrap__input-bar {
-        width: 350px;
+        width: 336.6px;
     }
 }
 

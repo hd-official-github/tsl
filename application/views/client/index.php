@@ -1,16 +1,16 @@
 </div>
 <!-- Intro banner section -->
-<section class="section__intro" style="height: 70vh;">
+<section class="section__intro" style="height: 80vh;">
    <div class="container">
       <div class="section__intro__main intro-heading">
          <div class="intro-heading__title">
-            <div class="intro-heading__base">It's time for new</div>
+            <div class="intro-heading__base">Discover Best Spa around You</div>
             <div class="intro-heading__animated">
                <div class="intro-heading__animation-window">
-                  <div class="intro-heading__animated-item">Experiences</div>
-                  <div class="intro-heading__animated-item">Adventures</div>
-                  <div class="intro-heading__animated-item">Escapes</div>
-                  <div class="intro-heading__animated-item">Thrills</div>
+                  <div class="intro-heading__animated-item">Retreats</div>
+                  <div class="intro-heading__animated-item">Therapies</div>
+                  <div class="intro-heading__animated-item">Ayurveda</div>
+                  <div class="intro-heading__animated-item">Massage</div>
                   <div class="intro-heading__animated-item">Experiences</div>
                </div>
             </div>
@@ -78,81 +78,81 @@
       </div>
       <div class="escapes__images">
          <a href="/collections/top-rated-himalayan-experiences" target="_blank" class="escapes__image-wrap">
-            <img class="lazy-image escapes__image lazy-image-loaded" alt="Himalayan Experiences" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@2x-9d8fb087b2887472b068700c67b139461380188f40078cbec91b78b48de9069c.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@1x-485ea4a3443af57a52ac7a4c1731562fbfebf2a438ed65c13681cbfa1886ac27.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-3@2x-9d8fb087b2887472b068700c67b139461380188f40078cbec91b78b48de9069c.jpg 2x">
+            <img class="lazy-image escapes__image lazy-image-loaded" alt="Himalayan Experiences" sizes="100vw" src="<?php echo base_url() ?>assets/images/homead1.png">
          </a>
          <a href="/tags/luxury-deals" target="_blank" class="escapes__image-wrap">
-            <img class="lazy-image escapes__image lazy-image-loaded" alt="Luxury Deals" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@2x-3e48a35f0e320e1486e1dbfb52408993928961314342e59f74b8aa433b873d43.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@1x-c260a2639d93f40ab2088a8fc48140cb23ed403ec23ec2d4b294b094dbd851b9.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-2@2x-3e48a35f0e320e1486e1dbfb52408993928961314342e59f74b8aa433b873d43.jpg 2x">
+            <img class="lazy-image escapes__image lazy-image-loaded" alt="Luxury Deals" sizes="100vw" src="<?php echo base_url() ?>assets/images/week.png">
          </a>
          <a href="" target="_blank" class="escapes__image-wrap">
-            <img class="lazy-image escapes__image lazy-image-loaded" alt="Multi Day Tours" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@2x-740689da3e808db996224ad4cd5a8e7fd20b15c5498d57775effb198ebf400a2.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@1x-d50370acdf235255a5855efd059e90fcc5114dba1b97964461f5b26a9f3f1afb.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/escapes/escapes-1@2x-740689da3e808db996224ad4cd5a8e7fd20b15c5498d57775effb198ebf400a2.jpg 2x">
+            <img class="lazy-image escapes__image lazy-image-loaded" alt="Multi Day Tours" sizes="100vw" src="<?php echo base_url() ?>assets/images/salon.png"" >
          </a>
       </div>
    </div>
 </section>
-<section class="luxury-experiences">
-   <div class="container">
-      <a href="" class="luxury-experiences__banner">
-         <img class="lazy-image luxury-experiences__banner-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@2x-c06da52ed7b6229841d27107e36a50f6e8c0e0353abb44ce325aa649ebcc8a62.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@2x-c06da52ed7b6229841d27107e36a50f6e8c0e0353abb44ce325aa649ebcc8a62.jpg 2x">
-         <div class="luxury-experiences__banner-content">
-            <div class="luxury-experiences__banner-upto">UPTO</div>
-            <div class="luxury-experiences__banner-discount">
-               <div class="discount-left">70</div>
-               <div class="discount-right">
-                  <div class="percent-sign">%</div>
-                  <div class="off-text">OFF</div>
+<section class=" luxury-experiences">
+            <div class="container">
+               <a href="" class="luxury-experiences__banner">
+                  <img class="lazy-image luxury-experiences__banner-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg" data-srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@2x-c06da52ed7b6229841d27107e36a50f6e8c0e0353abb44ce325aa649ebcc8a62.jpg 2x" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg" srcset="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@1x-0be610af1d7d015e15f9899dae3ce570f911d5cd7f286e09ac78cfb1e724ca48.jpg 1x, https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main-2@2x-c06da52ed7b6229841d27107e36a50f6e8c0e0353abb44ce325aa649ebcc8a62.jpg 2x">
+                  <div class="luxury-experiences__banner-content">
+                     <div class="luxury-experiences__banner-upto">UPTO</div>
+                     <div class="luxury-experiences__banner-discount">
+                        <div class="discount-left">70</div>
+                        <div class="discount-right">
+                           <div class="percent-sign">%</div>
+                           <div class="off-text">OFF</div>
+                        </div>
+                     </div>
+                     <div class="luxury-experiences__banner-bottom-text">
+                        On Luxury Experiences
+                     </div>
+                     <button type="button" class="luxury-experiences__cta-btn">Book Now</button>
+                  </div>
+               </a>
+               <div class="luxury-experiences__grid">
+                  <a href="bangalore" class="luxury-experiences__grid-item">
+                     <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/bangalore-dc510132bac08ce8ad851bf96cf84794b4911ab8ef365fead935fa254b733d8f.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/bangalore-dc510132bac08ce8ad851bf96cf84794b4911ab8ef365fead935fa254b733d8f.jpg" srcset="">
+                     <div class="luxury-experiences__grid-item-title">BANGALORE</div>
+                  </a>
+                  <a href="mumbai" class="luxury-experiences__grid-item">
+                     <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/mumbai-855677843252b0e44ff6a2b278f3824e6e6fe8067a5ecde6984689d164fd62fa.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/mumbai-855677843252b0e44ff6a2b278f3824e6e6fe8067a5ecde6984689d164fd62fa.jpg" srcset="">
+                     <div class="luxury-experiences__grid-item-title">MUMBAI</div>
+                  </a>
+                  <a href="/states/goa/tags/luxury-deals" class="luxury-experiences__grid-item">
+                     <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/goa-f5346cede02a317d2041e5f815361ccbe2b8f48fad5b8402d4d937d7989f981d.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/goa-f5346cede02a317d2041e5f815361ccbe2b8f48fad5b8402d4d937d7989f981d.jpg" srcset="">
+                     <div class="luxury-experiences__grid-item-title">GOA</div>
+                  </a>
+                  <a href="/collections/resorts-around-delhi" class="luxury-experiences__grid-item">
+                     <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/delhi-f97eeaf977f3931f757a2562599b98c91c4e9f7d48a22650626574b6298f07e5.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/delhi-f97eeaf977f3931f757a2562599b98c91c4e9f7d48a22650626574b6298f07e5.jpg" srcset="">
+                     <div class="luxury-experiences__grid-item-title">DELHI</div>
+                  </a>
+                  <a href="/cities/coorg/tags/luxury-deals" class="luxury-experiences__grid-item">
+                     <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/coorg-f42ae30e5829c56d215c816511b209d341c7a292009fbdb1d5b05788006b4ff6.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/coorg-f42ae30e5829c56d215c816511b209d341c7a292009fbdb1d5b05788006b4ff6.jpg" srcset="">
+                     <div class="luxury-experiences__grid-item-title">COORG</div>
+                  </a>
+                  <a href="/cities/lonavala/tags/luxury-deals" class="luxury-experiences__grid-item">
+                     <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/lonavala-ce674c47510e0d9c1b869cbec755d12d6ee842be2c1ea836f575362de042606b.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/lonavala-ce674c47510e0d9c1b869cbec755d12d6ee842be2c1ea836f575362de042606b.jpg" srcset="">
+                     <div class="luxury-experiences__grid-item-title">LONAVALA</div>
+                  </a>
+                  <a href="/cities/kabini/tags/luxury-deals" class="luxury-experiences__grid-item">
+                     <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/kabini-d1e9aa81a80caf8d78394d913428bb7a202ef15c592702babd5930175db98cd2.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/kabini-d1e9aa81a80caf8d78394d913428bb7a202ef15c592702babd5930175db98cd2.jpg" srcset="">
+                     <div class="luxury-experiences__grid-item-title">KABINI</div>
+                  </a>
+                  <a href="/cities/rishikesh/tags/luxury-deals" class="luxury-experiences__grid-item">
+                     <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/rishikesh-e6d20c38e539244d1d727d57ec5d9aa16d1cc2eb0b2074317b344ae2b82bf5c6.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/rishikesh-e6d20c38e539244d1d727d57ec5d9aa16d1cc2eb0b2074317b344ae2b82bf5c6.jpg" srcset="">
+                     <div class="luxury-experiences__grid-item-title">RISHIKESH</div>
+                  </a>
+                  <a target="_blank" href="/tags/luxury-deals" class="luxury-experiences__grid-item luxury_view luxury-experiences__grid-item--btn view-more-btn">
+                     View All
+                  </a>
                </div>
             </div>
-            <div class="luxury-experiences__banner-bottom-text">
-               On Luxury Experiences
-            </div>
-            <button type="button" class="luxury-experiences__cta-btn">Book Now</button>
-         </div>
-      </a>
-      <div class="luxury-experiences__grid">
-         <a href="Bengaluru" class="luxury-experiences__grid-item">
-            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/bangalore-dc510132bac08ce8ad851bf96cf84794b4911ab8ef365fead935fa254b733d8f.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/bangalore-dc510132bac08ce8ad851bf96cf84794b4911ab8ef365fead935fa254b733d8f.jpg" srcset="">
-            <div class="luxury-experiences__grid-item-title">BANGALORE</div>
-         </a>
-         <a href="mumbai" class="luxury-experiences__grid-item">
-            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/mumbai-855677843252b0e44ff6a2b278f3824e6e6fe8067a5ecde6984689d164fd62fa.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/mumbai-855677843252b0e44ff6a2b278f3824e6e6fe8067a5ecde6984689d164fd62fa.jpg" srcset="">
-            <div class="luxury-experiences__grid-item-title">MUMBAI</div>
-         </a>
-         <a href="/states/goa/tags/luxury-deals" class="luxury-experiences__grid-item">
-            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/goa-f5346cede02a317d2041e5f815361ccbe2b8f48fad5b8402d4d937d7989f981d.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/goa-f5346cede02a317d2041e5f815361ccbe2b8f48fad5b8402d4d937d7989f981d.jpg" srcset="">
-            <div class="luxury-experiences__grid-item-title">GOA</div>
-         </a>
-         <a href="/collections/resorts-around-delhi" class="luxury-experiences__grid-item">
-            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/delhi-f97eeaf977f3931f757a2562599b98c91c4e9f7d48a22650626574b6298f07e5.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/delhi-f97eeaf977f3931f757a2562599b98c91c4e9f7d48a22650626574b6298f07e5.jpg" srcset="">
-            <div class="luxury-experiences__grid-item-title">DELHI</div>
-         </a>
-         <a href="/cities/coorg/tags/luxury-deals" class="luxury-experiences__grid-item">
-            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/coorg-f42ae30e5829c56d215c816511b209d341c7a292009fbdb1d5b05788006b4ff6.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/coorg-f42ae30e5829c56d215c816511b209d341c7a292009fbdb1d5b05788006b4ff6.jpg" srcset="">
-            <div class="luxury-experiences__grid-item-title">COORG</div>
-         </a>
-         <a href="/cities/lonavala/tags/luxury-deals" class="luxury-experiences__grid-item">
-            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/lonavala-ce674c47510e0d9c1b869cbec755d12d6ee842be2c1ea836f575362de042606b.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/lonavala-ce674c47510e0d9c1b869cbec755d12d6ee842be2c1ea836f575362de042606b.jpg" srcset="">
-            <div class="luxury-experiences__grid-item-title">LONAVALA</div>
-         </a>
-         <a href="/cities/kabini/tags/luxury-deals" class="luxury-experiences__grid-item">
-            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/kabini-d1e9aa81a80caf8d78394d913428bb7a202ef15c592702babd5930175db98cd2.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/kabini-d1e9aa81a80caf8d78394d913428bb7a202ef15c592702babd5930175db98cd2.jpg" srcset="">
-            <div class="luxury-experiences__grid-item-title">KABINI</div>
-         </a>
-         <a href="/cities/rishikesh/tags/luxury-deals" class="luxury-experiences__grid-item">
-            <img class="lazy-image luxury-experiences__grid-image lazy-image-loaded" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/rishikesh-e6d20c38e539244d1d727d57ec5d9aa16d1cc2eb0b2074317b344ae2b82bf5c6.jpg" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/rishikesh-e6d20c38e539244d1d727d57ec5d9aa16d1cc2eb0b2074317b344ae2b82bf5c6.jpg" srcset="">
-            <div class="luxury-experiences__grid-item-title">RISHIKESH</div>
-         </a>
-         <a target="_blank" href="/tags/luxury-deals" class="luxury-experiences__grid-item luxury_view luxury-experiences__grid-item--btn view-more-btn">
-            View All
-         </a>
-      </div>
-   </div>
 </section>
 <!-- Trending Section -->
 <section class="section__trending">
    <div class="container">
       <div class="multi-line-header multi-line-header--centered">
          <div class="multi-line-header__title">
-            Luxury Resort Deals
+            Featured Spa Deals
             <span class="icon-flash icon-trending"></span>
          </div>
          <div class="multi-line-header__caption">Upto 70% Off</div>

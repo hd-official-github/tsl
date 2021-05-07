@@ -22,6 +22,9 @@ class Main extends CI_Controller
         $data['cat'] = $this->catogery_model->getcat($name);
         $data['footer'] = $this->catogery_model->get_footer($name);
         $data['details'] = $this->catogery_model->get_detail_by_locname($name);
+        $data['city_name'] = $name;
+        // print_r($data['details']);
+        // die;
         $data['feature1'] = $this->catogery_model->get_feature1();
         $data['feature2'] = $this->catogery_model->get_feature2();
         $data['blogs'] = $this->catogery_model->get_blogs($name);

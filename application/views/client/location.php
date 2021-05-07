@@ -2,7 +2,7 @@
 </div>
 <div class="banner-section-container">
    <picture class="bg-image">
-      <img class="bg-image" srcset="<?php echo base_url() . "assets/images/bang_bg.jpg" ?> " alt="">
+      <img class="bg-image" srcset="<?php echo base_url() . "assets/images/ads/hm.jpg" ?> " alt="">
    </picture>
    <div class="intro-top-container">
       <div class="container">
@@ -93,28 +93,28 @@
       window.location.href = cl.trim();
    });
 </script>
-<div class="col-sm-12 bg-white" style='margin:0px; padding:15px; border-bottom:1px solid grey;'>
-   <?php foreach ($cat->result() as $row) { ?>
-      <div class='secondary_navbar mx-5 animated bounceInUp'>
-         <div class='secondary-icon'>
-            <a href="<?php echo $row->location . '/' . $row->category_name ?>" class='text-decorate'>
-               <img src="<?php echo $row->icon; ?>" alt="icon" class='image-icon'>
-               <p class='pag' style='text-align:center;'> <?php echo $row->category_name; ?></p>
-            </a>
+<div class="container">
+   <div class="col-sm-12 bg-white" style='margin:0px; padding:15px; border-bottom:1px solid grey;'>
+      <?php foreach ($cat->result() as $row) { ?>
+         <div class='secondary_navbar animated bounceInUp'>
+            <div class='secondary-icon'>
+               <a href="<?php echo base_url() . $row->location . '/' . $row->category_name ?>" class='text-decorate'>
+                  <img src="<?php echo $row->icon; ?>" alt="icon" class='image-icon'>
+                  <p class='pag' style='text-align:center;'> <?php echo $row->category_name; ?></p>
+               </a>
+            </div>
          </div>
-      </div>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <?php } ?>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <?php } ?>
+   </div>
 </div>
+
 <!-- Trending Section -->
 <section class="section__trending">
    <div class="container">
       <div class="multi-line-header multi-line-header--centered">
          <div class="multi-line-header__title">
-            Top Brands in <?php foreach ($details->result() as $row) {
-                              echo $row->location;
-                              break;
-                           } ?>
+            Top Brands in <?php echo $city_name; ?>
             <!-- <span class="icon-flash icon-trending"></span> -->
          </div>
       </div>

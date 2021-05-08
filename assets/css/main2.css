@@ -6999,6 +6999,7 @@ img {
 
 .lazy-image {
     opacity: 1;
+    width: 100%;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -7779,7 +7780,7 @@ form, fieldset {
 @media (min-width: 1024px) {
     #header.transparent-nav .header-base .top-panel .container {
         border-bottom: 1px solid #a0a0a0;
-        height:64px;
+        height: 64px;
     }
 }
 
@@ -7932,9 +7933,11 @@ form, fieldset {
         margin-right: 40px;
     }
 }
-.business_btn{
-    color:#fff;
+
+.business_btn {
+    color: #fff;
 }
+
 @media (max-width: 1023px) {
     #mobile-nav-drop .mobile-tool-list li:not(:last-child) {
         margin-right: 0;
@@ -8031,10 +8034,8 @@ form, fieldset {
         height: 1px;
         transition: 0.3s ease 0s;
     }
-    .lazy-picture:before{
-        background-image:-webkit-gradient(linear,left top,left bottom,color-stop(24%,rgba(150, 40, 40, 0.02)),color3-stop(97%,rgb(173, 51, 51)));
-
-        
+    .lazy-picture:before {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(24%, rgba(150, 40, 40, 0.02)), color3-stop(97%, rgb(173, 51, 51)));
     }
     #header-mobile-nav-opener:after, #header-mobile-nav-opener:before {
         top: 0;

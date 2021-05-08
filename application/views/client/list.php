@@ -55,7 +55,7 @@
       </div>
       <div class="container mt-3">
          <div class="row">
-            <div class="col-sm-4 filter mt-4">
+            <div class="col-sm-3 filter mt-4">
                <promo-slider>
                   <div class="position-relative card-main  promo-slider-wrapper mt-3" style='border-radius:5px;'>
                      <div class="all-promo-wrapper">
@@ -129,7 +129,7 @@
                   </div>
                </promo-slider>
             </div>
-            <div class="col-sm-8 col-m-8 col-l-9 listing-grid">
+            <div class="col-sm-9 col-m-9 col-lg-9 listing-grid">
                <merchant-listing-grid>
                   <div class="row fl-row fl-row--wrap fl-row--full-gutter" style="display:flex; place-content:flex-start;">
                      <?php foreach ($sub_cat->result() as $row) { ?>
@@ -175,7 +175,7 @@
                                     </div>
                                  </div>
                               </div>
-                              <div class="card-main__footer">
+                              <!-- <div class="card-main__footer">
                                  <div class="section content-footer border-radius--bottom" style='height:57px;'>
                                     <div class="fl-row fl-row--middle" style='display:inline-block; color:black; font-weight:600;'>
                                        <span><img src="<?php echo base_url() . 'assets/images/review2.png'; ?>" alt="" style='height:28px; width:27px; display:inline-flex;'></span>
@@ -193,7 +193,7 @@
                                        
                                     </div>
                                  </div>
-                              </div>
+                              </div> -->
                            </a>
                         
                         </merchant-list-card>
@@ -201,17 +201,37 @@
                      <?php } ?>
                      <!-- mycarousel -->
                      <div class="container mt-5">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
+                        <div id="carouselControl" class="carousel slide banner_desktop" data-bs-ride="carousel" data-bs-interval="1200">
                            <div class="carousel-inner" style="height:350px; border-radius:5px 5px 5px 5px;">
+                           <div class="carousel-item active">
+                                 <img src="<?php echo base_url().'assets/images/banner1.png';?>" class="d-block w-100 " style="height:300px" alt="">
+                              </div>
+                           <?php foreach($banner->result() as $row) { ?>
                               <div class="carousel-item">
-                                 <img src="http://localhost/tsl/assets/images/building-one.jpg" class="d-block w-100 " style="height:300px" alt="...">
+                                 <img src=" <?php echo $row->img_url_desk;?>" class="d-block w-100 " style="height:300px" alt="<?php echo $row->img_alt_desktop;?>">
                               </div>
+                           <?php }?>
+                           </div>
+                           <button class="carousel-control-prev" style="margin-top:-20px;" type="button" data-bs-target="#carouselControl" data-bs-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Previous</span>
+                           </button>
+                           <button class="carousel-control-next" type="button" style="margin-top:-20px;" data-bs-target="#carouselControl" data-bs-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Next</span>
+                           </button>
+                        </div>
+
+                        <div id="carouselExampleControls" class="carousel slide banner_mobile" data-bs-ride="carousel" data-bs-interval="1200">
+                           <div class="carousel-inner" style="height:350px; border-radius:5px 5px 5px 5px;">
+                           <div class="carousel-item active">
+                                 <img src="<?php echo base_url().'assets/images/banner1.png';?>" class="d-block w-100 " style="height:300px" alt="">
+                              </div>
+                           <?php foreach($banner->result() as $row) { ?>
                               <div class="carousel-item">
-                                 <img src="http://localhost/tsl/assets/images/building.jpg" class="d-block w-100" style="height:300px" alt="...">
+                                 <img src=" <?php echo $row->img_url_mob;?>" class="d-block w-100 " style="height:300px" alt="<?php echo $row->img_alt_mobile;?>">
                               </div>
-                              <div class="carousel-item active">
-                                 <img src="http://localhost/tsl/assets/images/one.png" class="d-block w-100" style="height:300px" alt="...">
-                              </div>
+                           <?php }?>
                            </div>
                            <button class="carousel-control-prev" style="margin-top:-20px;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -237,9 +257,9 @@
                                              <!---->
                                              <div class="margin-right-s card-rating__listing">
                                                 <div class="card-rating mt-3 margin-bottom-zero nb--4-5">
-                                                   <!----><img alt="nb" class="card-rating__nb" height="10" src="<?php echo base_url() . 'assets/images/sl_icon.png'; ?>" data-lzled="true">
-                                                   <span class="card-rating__img"></span>
-                                                   <!----><span class="card-rating__value font-weight-bold line-height-default"><?php echo $row->rating; ?></span>
+                                                  <div style="background: green; height:20px; width:42px; text-align:center; margin-left:8px; ">
+                                                  
+                                                   <!----><span class="card-rating__value font-weight-bold line-height-default" style='margin-top:12px; position:relative; top:5px; font-size:12px; color:#fff;'><?php echo $row->rating; ?></span></div>
                                                 </div>
                                              </div>
                                              <!---->
@@ -271,7 +291,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="card-main__footer">
+                                 <!-- <div class="card-main__footer">
                                     <div class="section content-footer border-radius--bottom" style='height:57px;'>
                                        <div class="fl-row fl-row--middle" style="display:inline-block; color:black; font-weight:600;">
                                           <span><img src="<?php echo base_url() . 'assets/images/review2.png'; ?>" alt="" style='height:28px; width:27px; display:inline-flex;'></span>
@@ -288,7 +308,7 @@
                                           </span>
                                        </div>
                                     </div>
-                                 </div>
+                                 </div> -->
                               </a>
                            </merchant-list-card>
                         </div>
@@ -305,3 +325,21 @@
    </div>
 </div>
 </div>
+<style>
+   @media (min-width:1023px){
+      .banner_mobile{
+         display: none;
+      }
+      .banner_desktop{
+         display: block;
+      }
+   }
+   @media (max-width:1023px){
+      .banner_mobile{
+         display: block;
+      }
+      .banner_desktop{
+         display: none;
+      }
+   }
+</style>

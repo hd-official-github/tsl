@@ -57,22 +57,23 @@
                         <ul class="mobile-tool-list">
                         
                            <li class="desktop-hidden"><a href="<?php echo base_url();?>" class="main-header-link">Home</a>
-                        </li>
+                           </li>
                            <li class="divider desktop-hidden"></li>
-                           <li><a href="" class="gift-link main-header-link business_btn">
+                           <li><a href="" class="gift-link main-header-link business_btn mob_btn">
                                 Add your business
                               </a>
                            </li>
                            <li class="divider desktop-hidden"></li>
-                           <li><a href="/go-to-gift-page" class="gift-link main-header-link business_btn">
+                           <li><a href="" class="gift-link main-header-link business_btn mob_btn">
                                Login
                               </a>
                            </li>
                            <li class="divider desktop-hidden"></li>
-                           <li class="desktop-hidden"><a href="https://thrillophilia.freshdesk.com/support/home" class="main-header-link">Help</a></li>
+                           <li class="desktop-hidden"><a href="" class="main-header-link">Help</a></li>
                            <!-- <li class="desktop-hidden"><a href="#">FAQs</a></li> -->
                         </ul>
                      </div>
+
                   </div>
                </div>
             </div>
@@ -86,6 +87,9 @@
                $('.changeback').attr('data-attr','#000');
 
             }
-           
+            if($('#mobile-nav-drop').hasClass('slideIn')){
+               alert("hii");
+            }
+          
 
          </script>

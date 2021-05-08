@@ -55,7 +55,10 @@ class Category extends CI_Controller
             redirect(base_url() . '404');
         } else {
             $this->load->model('catogery_model');
+            
             $id = $this->catogery_model->getcat_id($cat);
+            $data['banner'] = $this->catogery_model->get_banner_forlist();
+            
             $data['all_subcat'] = $this->catogery_model->get_all_subcat($cat, $loc);
             $data['sub_cat'] = $this->catogery_model->get_subcat_from_lists($id, $loc, $subcat);
             $data['subcategory'] = $data['sub_cat'];

@@ -175,6 +175,10 @@ class Catogery_model  extends CI_Model
         $this->db->where(array('location'=>$city,'cat'=>$cat));
         return $this->db->get('business_banner1');
     }
+    function get_banner_forlist()
+    {
+            return $this->db->get('business_banner_forlist');     
+    }
     function get_banner2($city,$cat=NULL)
     {
         

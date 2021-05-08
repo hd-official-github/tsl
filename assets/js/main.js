@@ -11374,11 +11374,17 @@ if($('#fun').val()){
 
     }
     if (scroll <= 60) {
+		if($('body').hasClass('has-modal')){
+		$('.business_btn').css('color','black');
+			
+		}else{
+			$('.business_btn').css('color','white');
+		}
         $(".logowhite").show();
 		$('.text').css('background','transparent');
 		$('.logowhite').css({'width':'115px','position':'relative','top':'-4px'});
-
-		$('.business_btn').css('color','white');
+		
+		
 		$('.onclick-link').css({'color':'white','font-size':'initial'});
     $('.mobblacklogo').css('width','115px');
     $('.fa-search').css('color','#fff');

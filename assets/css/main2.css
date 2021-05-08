@@ -8034,6 +8034,19 @@ form, fieldset {
         height: 1px;
         transition: 0.3s ease 0s;
     }
+    /* @media (max-width:1023px){
+        .first_nav{
+            display: none;
+        }
+        .second_nav{
+            display: block;
+        }
+    }
+    @media (min-width:1024px){
+        .first_nav{
+            display: block;
+        }
+    } */
     .lazy-picture:before {
         background-image: -webkit-gradient(linear, left top, left bottom, color-stop(24%, rgba(150, 40, 40, 0.02)), color3-stop(97%, rgb(173, 51, 51)));
     }

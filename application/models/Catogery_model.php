@@ -170,19 +170,19 @@ class Catogery_model  extends CI_Model
         $this->db->where('loc', $name);
         return $this->db->get('blogs', 4, 0);
     }
-    function get_banner1($city,$cat=NULL)
+    function get_banner1($city, $cat = NULL)
     {
-        $this->db->where(array('location'=>$city,'cat'=>$cat));
+        $this->db->where(array('location' => $city, 'cat' => $cat));
         return $this->db->get('business_banner1');
     }
     function get_banner_forlist()
     {
-            return $this->db->get('business_banner_forlist');     
+        return $this->db->get('business_banner_forlist');
     }
-    function get_banner2($city,$cat=NULL)
+    function get_banner2($city, $cat = NULL)
     {
-        
-        $this->db->where(array('location'=>$city,'cat'=>$cat));
+
+        $this->db->where(array('location' => $city, 'cat' => $cat));
 
         return $this->db->get('business_banner2');
     }
@@ -261,5 +261,10 @@ class Catogery_model  extends CI_Model
         foreach ($q->result() as $row) {
             return $row->category_name;
         }
+    }
+    function get_sub_location($loc)
+    {
+        $this->db->where('location_name', $loc);
+        return $this->db->get('sub_location');
     }
 }

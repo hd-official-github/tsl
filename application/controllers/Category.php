@@ -6,7 +6,7 @@ class Category extends CI_Controller
     {
         $cat = $this->uri->segment(2);
         $name = $this->uri->segment(1);
-        
+
         $arr = explode('-in-', $cat);
         if (count($arr) > 1) {
             $this->load->model('catogery_model');
@@ -34,9 +34,12 @@ class Category extends CI_Controller
             $data['bgcolor'] = "background:#fff";
             $data['feature1'] = $this->catogery_model->get_feature1();
             $data['feature2'] = $this->catogery_model->get_feature2();
+            $data['sublocs'] = $this->catogery_model->get_sub_location($this->uri->segment(1));
+            $data['city'] = $this->uri->segment(1);
+
             $data['blogs'] = $this->catogery_model->get_blogs($name);
-            $data['banner1'] = $this->catogery_model->get_banner1($name,$cat);
-            $data['banner2'] = $this->catogery_model->get_banner2($name,$cat);
+            $data['banner1'] = $this->catogery_model->get_banner1($name, $cat);
+            $data['banner2'] = $this->catogery_model->get_banner2($name, $cat);
             $data['footer'] = $this->catogery_model->get_footer_of_cat($cat);
             $data['feature_blog'] = $this->catogery_model->get_feature_blog($name);
             $this->load->view('client/includes/header', $data);
@@ -55,10 +58,10 @@ class Category extends CI_Controller
             redirect(base_url() . '404');
         } else {
             $this->load->model('catogery_model');
-            
+
             $id = $this->catogery_model->getcat_id($cat);
             $data['banner'] = $this->catogery_model->get_banner_forlist();
-            
+
             $data['all_subcat'] = $this->catogery_model->get_all_subcat($cat, $loc);
             $data['sub_cat'] = $this->catogery_model->get_subcat_from_lists($id, $loc, $subcat);
             $data['subcategory'] = $data['sub_cat'];

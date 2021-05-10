@@ -351,41 +351,58 @@
       </button>
    </div>
 </div>
-<section class="travel-news-section">
+<!-- <section class="travel-news-section">
    <div class="container">
       <div class="multi-line-header multi-line-header--centered">
          <div class="multi-line-header__title">Latest Travel Trends</div>
       </div>
       <div class="travel-news-section__wrap">
          <div class="travel-news-section__list">
-            <?php foreach ($blogs->result() as $row) { ?>
+            <?php #foreach ($blogs->result() as $row) { 
+            ?>
                <a target="_blank" class="travel-news-section__list-item travel-news">
-                  <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="<?php echo $row->blog_img; ?>" data-srcset="<?php echo $row->blog_img; ?>" src="<?php echo $row->blog_img; ?>" srcset="<?php echo $row->blog_img; ?>">
+                  <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="<?php #echo $row->blog_img; 
+                                                                                                         ?>" data-srcset="<?php #echo $row->blog_img; 
+                                                                                                                                                      ?>" src="<?php #echo $row->blog_img; 
+                                                                                                                                                                                          ?>" srcset="<?php #echo $row->blog_img; 
+                                                                                                                                                                                                                                 ?>">
                   <div class="travel-news__details">
                      <div class="travel-news__title">
-                        <?php echo $row->blog_desc; ?>
+                        <?php #echo $row->blog_desc; 
+                        ?>
                      </div>
-                     <div class="travel-news__info"><?php echo $row->date_created; ?></div>
+                     <div class="travel-news__info"><?php #echo $row->date_created; 
+                                                      ?></div>
                   </div>
                </a>
-            <?php } ?>
-            <a class="generic-info__link view-more-link text-decoration-none" href="<?php echo base_url() . $this->uri->segment(1); ?>/blogs/list">Know More <span class="icon-right-arrow"></span></a>
+            <?php #} 
+            ?>
+            <a class="generic-info__link view-more-link text-decoration-none" href="<?php #echo base_url() . $this->uri->segment(1); 
+                                                                                    ?>/blogs/list">Know More <span class="icon-right-arrow"></span></a>
          </div>
-         <?php foreach ($feature_blog->result() as $row) { ?>
-            <a href='<?php echo base_url() . $row->location; ?>/blogs/<?php echo $row->slug; ?>' target="_blank" style='text-decoration:none;'>
-               <img class="lazy-image travel-news-section__featured-image lazy-image-loaded" sizes="100vw" data-src="<?php echo $row->blog_img; ?>" data-srcset="" src="<?php echo $row->blog_img; ?>" srcset="">
+         <?php #foreach ($feature_blog->result() as $row) { 
+         ?>
+            <a href='<?php #echo base_url() . $row->location; 
+                     ?>/blogs/<?php #echo $row->slug; 
+                                                                        ?>' target="_blank" style='text-decoration:none;'>
+               <img class="lazy-image travel-news-section__featured-image lazy-image-loaded" sizes="100vw" data-src="<?php #echo $row->blog_img; 
+                                                                                                                     ?>" data-srcset="" src="<?php #echo $row->blog_img; 
+                                                                                                                                                                           ?>" srcset="">
                <div class="travel-news-section__featured-title offset-1">
-                  <?php echo $row->blog_title; ?>
+                  <?php #echo $row->blog_title; 
+                  ?>
                </div>
                <div class="travel-news-section__featured-snippet offset-1">
-                  <?php echo $row->blog_desc; ?>
+                  <?php #echo $row->blog_desc; 
+                  ?>
                </div>
                <span class="travel-news-section__featured-read-more view-more-link" style="float:right;">Read Full Article <span class="icon-right-arrow"></span></span>
             </a>
-         <?php } ?>
+         <?php #} 
+         ?>
       </div>
    </div>
-</section>
+</section> -->
 <div class="generic-info generic-info--ltr">
    <div class="container">
       <div class="generic-info__details">

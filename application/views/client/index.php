@@ -1593,6 +1593,12 @@
          <div class="carousel-item ">
             <img src="<?php echo base_url() . 'assets/images/add2.png'; ?>" class="d-block w-100 " style='height:300px' alt="">
          </div>
+         <div class="carousel-item ">
+            <img src="<?php echo base_url() . 'assets/images/banner/salon.png'; ?>" class="d-block w-100 " style='height:300px' alt="">
+         </div>
+         <div class="carousel-item ">
+            <img src="<?php echo base_url() . 'assets/images/banner/sale.png'; ?>" class="d-block w-100 " style='height:300px' alt="">
+         </div>
 
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCont" data-bs-slide="prev">
@@ -1614,7 +1620,12 @@
          <div class="carousel-item ">
             <img src="<?php echo base_url() . 'assets/images/banner1.png'; ?>" class="d-block w-100 " style='height:300px' alt="">
          </div>
-
+         <div class="carousel-item ">
+            <img src="<?php echo base_url() . 'assets/images/banner/salonmob.png'; ?>" class="d-block w-100 " style='height:300px' alt="">
+         </div>
+         <div class="carousel-item ">
+            <img src="<?php echo base_url() . 'assets/images/banner/spa.png'; ?>" class="d-block w-100 " style='height:300px' alt="">
+         </div>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCont" data-bs-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -2259,7 +2270,7 @@
       </div>
    </div>
 </section>
-<section class="travel-news-section">
+<!-- <section class="travel-news-section">
    <div class="container">
       <div class="multi-line-header multi-line-header--centered">
          <div class="multi-line-header__title">Latest Travel Trends</div>
@@ -2322,7 +2333,7 @@
          </a>
       </div>
    </div>
-</section>
+</section> -->
 <div class="generic-info generic-info--ltr">
    <div class="container">
       <div class="generic-info__details">
@@ -2334,7 +2345,7 @@
    </div>
 </div>
 <!-- Partners section -->
-<section class="section__partners">
+<!-- <section class="section__partners">
    <div class="container">
       <div class="multi-line-header multi-line-header--centered">
          <div class="multi-line-header__title">Our Partners</div>
@@ -2421,5 +2432,5 @@
          </div>
       </div>
    </div>
-</section>
+</section> -->
 </div>

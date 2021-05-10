@@ -13,9 +13,9 @@
             <nav class="fl-row">
                <a class="text-uppercase text-decoration-none" href="<?php echo base_url(); ?>">Thespaline</a>
                <a class="text-uppercase text-decoration-none" href="<?php echo base_url() . $this->uri->segment(1); ?>">Deals in <?php foreach ($sub_cat->result() as $row) {
-                                                                                                                                 echo $row->location;
-                                                                                                                                 break;
-                                                                                                                              } ?></a>
+                                                                                                                                    echo $row->location;
+                                                                                                                                    break;
+                                                                                                                                 } ?></a>
                <a class="text-uppercase cursor-default text-decoration-none" href=""><?php if (isset($subloc)) {
                                                                                           echo $subloc;
                                                                                        } else echo "Different spa's" ?></a>
@@ -57,8 +57,8 @@
                                                       } else {
                                                          echo "Spa";
                                                       } ?> in <span><?php if (isset($subloc)) {
-                                                                                                                                                                                                   echo $subloc;
-                                                                                                                                                                                                } else echo $this->uri->segment(1); ?></span></div>
+                                                                        echo $subloc;
+                                                                     } else echo $this->uri->segment(1); ?></span></div>
             </div>
          </div>
          <div class="bg-white p-3 chead secondhead" style='margin-top:-20px; width:100%;'>
@@ -73,8 +73,8 @@
                                                                            } else {
                                                                               echo "Spa";
                                                                            } ?> in <?php if (isset($subloc)) {
-                                                                                                                                                                                                                  echo $subloc;
-                                                                                                                                                                                                               } else echo $this->uri->segment(1); ?></h3>
+                                                                                       echo $subloc;
+                                                                                    } else echo $this->uri->segment(1); ?></h3>
                </div>
             </div>
          </div>

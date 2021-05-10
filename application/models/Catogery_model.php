@@ -267,4 +267,14 @@ class Catogery_model  extends CI_Model
         $this->db->where('location_name', $loc);
         return $this->db->get('sub_location');
     }
+    function getcity_banner1($city)
+    {
+        $this->db->where(array('location' => $city, 'cat' => NULL));
+        return $this->db->get('business_banner1');
+    }
+    function getcity_banner2($city)
+    {
+        $this->db->where('location', $city);
+        return $this->db->get('business_banner2');
+    }
 }

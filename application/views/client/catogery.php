@@ -34,8 +34,9 @@
             <div data-href="#" class="tour-card-v2" aria-hidden="true" role="tabpanel" id="slick-slide00">
                <div target="_blank" class="tour-card-v2__wrap onclick-link " data-id="2430">
                   <div class="tour-card-v2__banner" style="background-image:-webkit-gradient(linear,left top,left bottom,color-stop(24%,rgba(33,33,33,.02)),color-stop(97%,#000)); border-radius:12px;">
-                     <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded" style='background-image: url(<?php echo base_url() . 'assets/images/banner1.png' ?>);'>
-                        <!-- <img src="<?php echo base_url() . 'assets/images/banner1.png'; ?>" alt=""> -->
+                     <picture class="lazy-picture tour-card-v2__image lazy-picture-loaded" style='background-image: url(<?php echo $row->subloc_img; ?>);'>
+                        <!-- <img src="<?php #echo base_url() . 'assets/images/banner1.png'; 
+                                       ?>" alt=""> -->
                      </picture>
                      <div class="tour-card-v2__legibility-gradient"></div>
                      <div class="tour-card-v2__banner-data-wrap">
@@ -119,17 +120,25 @@
 <!-- //////////////////////////////////////////////////////////////////// -->
 <!-- Carousel -->
 <br><br>
-<div class="container desktop_banner1">
+<div class="container-fluid desktop_banner1">
    <div id="carouselCont" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner" style='height:350px;'>
          <div class="carousel-item active">
             <img src="<?php echo base_url() . 'uploads/banners/1.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
          </div>
-         <?php foreach ($banner1->result() as $row) { ?>
-            <div class="carousel-item ">
-               <img src="<?php echo $row->img_url_desk; ?>" class="d-block w-100 " style='height:300px' alt="<?php echo $row->img_alt_desktop; ?>">
-            </div>
-         <?php } ?>
+         <?php
+         if ($banner1->num_rows() == 0) {
+            echo '
+            <div class="carousel-item active">
+               <img src="' . base_url() . 'assets/images/placeholder_pc.png" class="d-block w-100" style="height:300px">
+            </div>';
+         } else { ?>
+         <?php foreach ($banner1->result() as $row) {
+               echo '<div class="carousel-item active">
+                  <img src="' . $row->img_url_desk . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_desktop . '">
+               </div>';
+            }
+         } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCont" data-bs-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -147,11 +156,19 @@
          <div class="carousel-item active">
             <img src="<?php echo base_url() . 'uploads/banners/2.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
          </div>
-         <?php foreach ($banner1->result() as $row) { ?>
-            <div class="carousel-item ">
-               <img src="<?php echo $row->img_url_mob; ?>" class="d-block w-100 " style='height:300px' alt="<?php echo $row->img_alt_mobile; ?>">
-            </div>
-         <?php } ?>
+         <?php
+         if ($banner1->num_rows() == 0) {
+            echo '
+            <div class="carousel-item active">
+               <img src="' . base_url() . 'assets/images/placeholder_mob.png" class="d-block w-100" style="height:300px">
+            </div>';
+         } else { ?>
+         <?php foreach ($banner1->result() as $row) {
+               echo '<div class="carousel-item active">
+                  <img src="' . $row->img_url_mob . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_mobile . '">
+               </div>';
+            }
+         } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -222,14 +239,20 @@
 <div class="container desktop_banner2">
    <div id="carouselEx" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner" style='height:350px;'>
-         <div class="carousel-item active">
-            <img src="<?php echo base_url() . 'uploads/banners/112.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
-         </div>
-         <?php foreach ($banner2->result() as $row) { ?>
-            <div class="carousel-item">
-               <img src="<?php echo $row->img_url_desk; ?>" class="d-block w-100" style='height:300px' alt="<?php echo $row->img_alt_desktop; ?>">
-            </div>
-         <?php } ?>
+
+         <?php
+         if ($banner2->num_rows() == 0) {
+            echo '
+            <div class="carousel-item active">
+               <img src="' . base_url() . 'assets/images/placeholder_pc.png" class="d-block w-100" style="height:300px">
+            </div>';
+         } else { ?>
+         <?php foreach ($banner2->result() as $row) {
+               echo '<div class="carousel-item active">
+                  <img src="' . $row->img_url_desk . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_desktop . '">
+               </div>';
+            }
+         } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselEx" data-bs-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -247,11 +270,19 @@
          <div class="carousel-item active">
             <img src="<?php echo base_url() . 'assets/images/b2.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
          </div>
-         <?php foreach ($banner2->result() as $row) { ?>
-            <div class="carousel-item">
-               <img src="<?php echo $row->img_url_mob; ?>" class="d-block w-100" style='height:300px' alt="<?php echo $row->img_alt_mobile; ?>">
-            </div>
-         <?php } ?>
+         <?php
+         if ($banner2->num_rows() == 0) {
+            echo '
+            <div class="carousel-item active">
+               <img src="' . base_url() . 'assets/images/placeholder_mob.png" class="d-block w-100" style="height:300px">
+            </div>';
+         } else { ?>
+         <?php foreach ($banner2->result() as $row) {
+               echo '<div class="carousel-item active">
+                  <img src="' . $row->img_url_mob . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_mobile . '">
+               </div>';
+            }
+         } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCos" data-bs-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -263,42 +294,59 @@
       </button>
    </div>
 </div>
-<section class="travel-news-section">
+<!-- <section class="travel-news-section">
    <div class="container">
       <div class="multi-line-header multi-line-header--centered">
          <div class="multi-line-header__title">Latest Travel Trends</div>
       </div>
       <div class="travel-news-section__wrap">
          <div class="travel-news-section__list">
-            <?php foreach ($blogs->result() as $row) { ?>
+            <?php #foreach ($blogs->result() as $row) { 
+            ?>
                <a target="" class="travel-news-section__list-item travel-news">
-                  <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="<?php echo $row->blog_img; ?>" data-srcset="<?php echo $row->blog_img; ?>" src="<?php echo $row->blog_img; ?>" srcset="<?php echo $row->blog_img; ?>">
+                  <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="<?php #echo $row->blog_img; 
+                                                                                                         ?>" data-srcset="<?php #echo $row->blog_img; 
+                                                                                                                           ?>" src="<?php #echo $row->blog_img; 
+                                                                                                                                    ?>" srcset="<?php #echo $row->blog_img; 
+                                                                                                                                                ?>">
                   <div class="travel-news__details">
                      <div class="travel-news__title">
-                        <?php echo $row->blog_desc; ?>
+                        <?php #echo $row->blog_desc; 
+                        ?>
                      </div>
-                     <div class="travel-news__info"><?php echo $row->date_created; ?></div>
+                     <div class="travel-news__info"><?php #echo $row->date_created; 
+                                                      ?></div>
                   </div>
                </a>
-            <?php } ?>
-            <a class="generic-info__link view-more-link text-decoration-none" href="<?php echo base_url() . $this->uri->segment(1); ?>/blogs/list">Know More <span class="icon-right-arrow"></span></a>
+            <?php #} 
+            ?>
+            <a class="generic-info__link view-more-link text-decoration-none" href="<?php #echo base_url() . $this->uri->segment(1); 
+                                                                                    ?>/blogs/list">Know More <span class="icon-right-arrow"></span></a>
          </div>
-         <?php foreach ($feature_blog->result() as $row) { ?>
-            <a href='<?php echo base_url() . $row->location; ?>/blogs/<?php echo $row->slug; ?>' target="" style='text-decoration:none;'>
-               <img class="lazy-image travel-news-section__featured-image lazy-image-loaded" sizes="100vw" data-src="<?php echo $row->blog_img; ?>" data-srcset="" src="<?php echo $row->blog_img; ?>" srcset="">
+         <?php #foreach ($feature_blog->result() as $row) { 
+         ?>
+            <a href='<?php #echo base_url() . $row->location; 
+                     ?>/blogs/<? #php  echo $row->slug; 
+                              ?>' target="" style='text-decoration:none;'>
+               <img class="lazy-image travel-news-section__featured-image lazy-image-loaded" sizes="100vw" data-src="<?php #echo $row->blog_img; 
+                                                                                                                     ?>" data-srcset="" src="<? #php  echo $row->blog_img; 
+                                                                                                                                             ?>" srcset="">
                <div class="travel-news-section__featured-title offset-1">
-                  <?php echo $row->blog_title; ?>
+                  <?php #echo $row->blog_title; 
+                  ?>
                </div>
                <div class="travel-news-section__featured-snippet offset-1">
-                  <?php echo $row->blog_desc; ?>
+                  <?php #echo $row->blog_desc; 
+                  ?>
                </div>
                <span class="travel-news-section__featured-read-more view-more-link" style="float:right;">Read Full Article <span class="icon-right-arrow"></span></span>
             </a>
-         <?php } ?>
+         <?php #} 
+         ?>
       </div>
    </div>
-</section>
-<div class="generic-info generic-info--ltr">
+</section> -->
+<!-- <div class="generic-info generic-info--ltr">
    <div class="container">
       <div class="generic-info__details">
          <div class="generic-info__title">Gift an Experience</div>
@@ -307,9 +355,9 @@
       </div>
       <img class="lazy-image generic-info__image lazy-image-loaded limg" sizes="100vw" data-src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" data-srcset="" src="https://ui-assets-gc.thrillophilia.com/assets/homepage/gift-cards-78b72042445e315512f84d9d75380aeb7ace65f45f1fd65474780a9b0c942bb0.png" srcset="">
    </div>
-</div>
+</div> -->
 <!-- Partners section -->
-<section class="section__partners">
+<!-- <section class="section__partners">
    <div class="container">
       <div class="multi-line-header multi-line-header--centered">
          <div class="multi-line-header__title">Our Partners</div>
@@ -396,7 +444,7 @@
          </div>
       </div>
    </div>
-</section>
+</section> -->
 </div>
 </div>
 </section>

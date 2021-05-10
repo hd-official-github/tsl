@@ -171,14 +171,19 @@
 <div class="container-fluid desktop_banner1">
    <div id="carouselCont" class="carousel slide" data-bs-ride="carousel" data-bs-interval='1200'>
       <div class="carousel-inner" style='height:350px;'>
-         <div class="carousel-item active">
-            <img src="<?php echo base_url() . 'uploads/banners/1.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
-         </div>
-         <?php foreach ($banner1->result() as $row) { ?>
-            <div class="carousel-item ">
-               <img src="<?php echo $row->img_url_desk; ?>" class="d-block w-100 " style='height:300px' alt="<?php echo $row->img_alt_desktop; ?>">
-            </div>
-         <?php } ?>
+         <?php
+         if ($banner1->num_rows() == 0) {
+            echo '
+            <div class="carousel-item active">
+               <img src="' . base_url() . 'assets/images/placeholder_pc.png" class="d-block w-100" style="height:300px">
+            </div>';
+         } else { ?>
+         <?php foreach ($banner1->result() as $row) {
+               echo '<div class="carousel-item active">
+                  <img src="' . $row->img_url_desk . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_desktop . '">
+               </div>';
+            }
+         } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCont" data-bs-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -193,14 +198,19 @@
 <div class="container-fluid mobile_banner1">
    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
-         <div class="carousel-item active">
-            <img src="<?php echo base_url() ?>/uploads/banners/1.jpg" class="d-block w-100" style='height:300px' alt="...">
-         </div>
-         <?php foreach ($banner1->result() as $row) { ?>
-            <div class="carousel-item ">
-               <img src="<?php echo $row->img_url_mob; ?>" class="d-block w-100 " style='height:300px' alt="<?php echo $row->img_alt_mobile; ?>">
-            </div>
-         <?php } ?>
+         <?php
+         if ($banner1->num_rows() == 0) {
+            echo '
+            <div class="carousel-item active">
+               <img src="' . base_url() . 'assets/images/placeholder_mob.png" class="d-block w-100" style="height:300px">
+            </div>';
+         } else { ?>
+         <?php foreach ($banner1->result() as $row) {
+               echo '<div class="carousel-item active">
+                  <img src="' . $row->img_url_mob . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_mobile . '">
+               </div>';
+            }
+         } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -310,14 +320,19 @@
 <div class="container-fluid desktop_banner2">
    <div id="carouselEx" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
-         <div class="carousel-item active">
-            <img src="<?php echo base_url() . '/uploads/banners/112.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
-         </div>
-         <?php foreach ($banner2->result() as $row) { ?>
-            <div class="carousel-item">
-               <img src="<?php echo $row->img_url_desk; ?>" class="d-block w-100" style='height:300px' alt="<?php echo $row->img_alt_desktop; ?>">
-            </div>
-         <?php } ?>
+         <?php
+         if ($banner2->num_rows() == 0) {
+            echo '
+            <div class="carousel-item active">
+               <img src="' . base_url() . 'assets/images/placeholder_pc.png" class="d-block w-100" style="height:300px">
+            </div>';
+         } else { ?>
+         <?php foreach ($banner2->result() as $row) {
+               echo '<div class="carousel-item active">
+                  <img src="' . $row->img_url_desk . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_desktop . '">
+               </div>';
+            }
+         } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselEx" data-bs-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -332,14 +347,19 @@
 <div class="container-fluid mobile_banner2">
    <div id="carouselCos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1200">
       <div class="carousel-inner" style='height:350px;'>
-         <div class="carousel-item active">
-            <img src="<?php echo base_url() . 'assets/images/b2.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
-         </div>
-         <?php foreach ($banner2->result() as $row) { ?>
-            <div class="carousel-item">
-               <img src="<?php echo $row->img_url_mob; ?>" class="d-block w-100" style='height:300px' alt="<?php echo $row->img_alt_mobile; ?>">
-            </div>
-         <?php } ?>
+         <?php
+         if ($banner2->num_rows() == 0) {
+            echo '
+            <div class="carousel-item active">
+               <img src="' . base_url() . 'assets/images/placeholder_mob.png" class="d-block w-100" style="height:300px">
+            </div>';
+         } else { ?>
+         <?php foreach ($banner2->result() as $row) {
+               echo '<div class="carousel-item active">
+                  <img src="' . $row->img_url_mob . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_mobile . '">
+               </div>';
+            }
+         } ?>
       </div>
       <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCos" data-bs-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -363,9 +383,9 @@
                <a target="_blank" class="travel-news-section__list-item travel-news">
                   <img class="lazy-image travel-news__image lazy-image-loaded" sizes="100vw" data-src="<?php #echo $row->blog_img; 
                                                                                                          ?>" data-srcset="<?php #echo $row->blog_img; 
-                                                                                                                                                      ?>" src="<?php #echo $row->blog_img; 
-                                                                                                                                                                                          ?>" srcset="<?php #echo $row->blog_img; 
-                                                                                                                                                                                                                                 ?>">
+                                                                                                                           ?>" src="<?php #echo $row->blog_img; 
+                                                                                                                                    ?>" srcset="<?php #echo $row->blog_img; 
+                                                                                                                                                ?>">
                   <div class="travel-news__details">
                      <div class="travel-news__title">
                         <?php #echo $row->blog_desc; 
@@ -384,10 +404,10 @@
          ?>
             <a href='<?php #echo base_url() . $row->location; 
                      ?>/blogs/<?php #echo $row->slug; 
-                                                                        ?>' target="_blank" style='text-decoration:none;'>
+                              ?>' target="_blank" style='text-decoration:none;'>
                <img class="lazy-image travel-news-section__featured-image lazy-image-loaded" sizes="100vw" data-src="<?php #echo $row->blog_img; 
                                                                                                                      ?>" data-srcset="" src="<?php #echo $row->blog_img; 
-                                                                                                                                                                           ?>" srcset="">
+                                                                                                                                             ?>" srcset="">
                <div class="travel-news-section__featured-title offset-1">
                   <?php #echo $row->blog_title; 
                   ?>

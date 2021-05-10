@@ -36,6 +36,7 @@ class Category extends CI_Controller
             $data['feature2'] = $this->catogery_model->get_feature2();
             $data['sublocs'] = $this->catogery_model->get_sub_location($this->uri->segment(1));
             $data['city'] = $this->uri->segment(1);
+            $data['cat'] = $this->uri->segment(2);
 
             $data['blogs'] = $this->catogery_model->get_blogs($name);
             $data['banner1'] = $this->catogery_model->get_banner1($name, $cat);

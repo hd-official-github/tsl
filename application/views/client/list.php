@@ -102,7 +102,11 @@
                                           <div class="promo__off">
                                           </div>
                                           <div class="promo__title">
-                                             <p class="font-weight-semibold" style='font-size:14px; color:grey'> Valid on all prepaid deals | No minimum purchase</p>
+                                             <p class="font-weight-semibold" style='font-size:14px; color:grey; width: 258px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;'>Valid on all prepaid deals | No min purchase</p>
                                           </div>
                                           <!---->
                                           <div class="promo__code clearfix position-relative">

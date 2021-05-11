@@ -57,7 +57,7 @@
    </div>
 </section>
 
-
+</div>
 
 
 
@@ -116,73 +116,77 @@
          <?php } ?>
       </div>
    </div>
+   <div class="container-fluid desktop_banner1">
+      <div id="carouselCont" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner" style='height:350px;'>
+            <div class="carousel-item active">
+               <img src="<?php echo base_url() . 'uploads/banners/1.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
+            </div>
+            <?php
+            if ($banner1->num_rows() == 0) {
+               echo '
+            <div class="carousel-item ">
+               <img src="' . base_url() . 'assets/images/placeholder_pc.png" class="d-block w-100" style="height:300px">
+            </div>';
+            } else { ?>
+            <?php foreach ($banner1->result() as $row) {
+                  echo '<div class="carousel-item ">
+                  <img src="' . $row->img_url_desk . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_desktop . '">
+               </div>';
+               }
+            } ?>
+         </div>
+         <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCont" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselCont" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+   </div>
+
+   <div class="container mobile_banner1">
+      <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner" style='height:350px;'>
+            <div class="carousel-item active">
+               <img src="<?php echo base_url() . 'uploads/banners/2.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
+            </div>
+            <?php
+            if ($banner1->num_rows() == 0) {
+               echo '
+            <div class="carousel-item ">
+               <img src="' . base_url() . 'assets/images/placeholder_mob.png" class="d-block w-100" style="height:300px">
+            </div>';
+            } else { ?>
+            <?php foreach ($banner1->result() as $row) {
+                  echo '<div class="carousel-item ">
+                  <img src="' . $row->img_url_mob . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_mobile . '">
+               </div>';
+               }
+            } ?>
+         </div>
+         <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+   </div>
 </section>
 <!-- //////////////////////////////////////////////////////////////////// -->
 <!-- Carousel -->
 <br><br>
-<div class="container-fluid desktop_banner1">
-   <div id="carouselCont" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner" style='height:350px;'>
-         <div class="carousel-item active">
-            <img src="<?php echo base_url() . 'uploads/banners/1.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
-         </div>
-         <?php
-         if ($banner1->num_rows() == 0) {
-            echo '
-            <div class="carousel-item active">
-               <img src="' . base_url() . 'assets/images/placeholder_pc.png" class="d-block w-100" style="height:300px">
-            </div>';
-         } else { ?>
-         <?php foreach ($banner1->result() as $row) {
-               echo '<div class="carousel-item active">
-                  <img src="' . $row->img_url_desk . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_desktop . '">
-               </div>';
-            }
-         } ?>
-      </div>
-      <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCont" data-bs-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselCont" data-bs-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Next</span>
-      </button>
-   </div>
-</div>
-<div class="container mobile_banner1">
-   <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner" style='height:350px;'>
-         <div class="carousel-item active">
-            <img src="<?php echo base_url() . 'uploads/banners/2.jpg'; ?>" class="d-block w-100" style='height:300px' alt="...">
-         </div>
-         <?php
-         if ($banner1->num_rows() == 0) {
-            echo '
-            <div class="carousel-item active">
-               <img src="' . base_url() . 'assets/images/placeholder_mob.png" class="d-block w-100" style="height:300px">
-            </div>';
-         } else { ?>
-         <?php foreach ($banner1->result() as $row) {
-               echo '<div class="carousel-item active">
-                  <img src="' . $row->img_url_mob . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_mobile . '">
-               </div>';
-            }
-         } ?>
-      </div>
-      <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselControls" data-bs-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Next</span>
-      </button>
-   </div>
-</div>
+
+
 <style>
 
 </style>
+</div>
 <section class="section__trending">
    <div class="container">
       <div class="multi-line-header multi-line-header--centered">
@@ -233,67 +237,72 @@
          <?php } ?>
       </div>
    </div>
-</section>
-<!-- Carousel for banner  -->
-<br><br>
-<div class="container desktop_banner2">
-   <div id="carouselEx" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner" style='height:350px;'>
-
-         <?php
-         if ($banner2->num_rows() == 0) {
-            echo '
-            <div class="carousel-item active">
+   <div class=" desktop_banner2 container-fluid">
+      <div id="carouselEx" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner" style='height:350px;'>
+         <div class="carousel-item active">
+               <img src="<?php echo base_url() . 'assets/images/b2.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
+            </div>
+            <?php
+            if ($banner2->num_rows() == 0) {
+               echo '
+            <div class="carousel-item ">
                <img src="' . base_url() . 'assets/images/placeholder_pc.png" class="d-block w-100" style="height:300px">
             </div>';
-         } else { ?>
-         <?php foreach ($banner2->result() as $row) {
-               echo '<div class="carousel-item active">
+            } else { ?>
+            <?php foreach ($banner2->result() as $row) {
+                  echo '<div class="carousel-item ">
                   <img src="' . $row->img_url_desk . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_desktop . '">
                </div>';
-            }
-         } ?>
-      </div>
-      <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselEx" data-bs-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselEx" data-bs-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Next</span>
-      </button>
-   </div>
-</div>
-<div class="container mobile_banner2">
-   <div id="carouselCos" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner" style='height:350px;'>
-         <div class="carousel-item active">
-            <img src="<?php echo base_url() . 'assets/images/b2.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
+               }
+            } ?>
          </div>
-         <?php
-         if ($banner2->num_rows() == 0) {
-            echo '
+         <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselEx" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselEx" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+   </div>
+   <div class="container mobile_banner2">
+      <div id="carouselCos" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner" style='height:350px;'>
             <div class="carousel-item active">
+               <img src="<?php echo base_url() . 'assets/images/b2.jpg'; ?>" class="d-block w-100 " style='height:300px' alt="...">
+            </div>
+            <?php
+            if ($banner2->num_rows() == 0) {
+               echo '
+            <div class="carousel-item ">
                <img src="' . base_url() . 'assets/images/placeholder_mob.png" class="d-block w-100" style="height:300px">
             </div>';
-         } else { ?>
-         <?php foreach ($banner2->result() as $row) {
-               echo '<div class="carousel-item active">
+            } else { ?>
+            <?php foreach ($banner2->result() as $row) {
+                  echo '<div class="carousel-item ">
                   <img src="' . $row->img_url_mob . '" class="d-block w-100 " style="height:300px" alt="' . $row->img_alt_mobile . '">
                </div>';
-            }
-         } ?>
+               }
+            } ?>
+         </div>
+         <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselCos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+         </button>
       </div>
-      <button class="carousel-control-prev" style='margin-top:-20px;' type="button" data-bs-target="#carouselCos" data-bs-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" style='margin-top:-20px;' data-bs-target="#carouselCos" data-bs-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Next</span>
-      </button>
    </div>
-</div>
+</section>
+
+
+<!-- Carousel for banner  -->
+<br><br>
+
 <!-- <section class="travel-news-section">
    <div class="container">
       <div class="multi-line-header multi-line-header--centered">
@@ -445,7 +454,3 @@
       </div>
    </div>
 </section> -->
-</div>
-</div>
-</section>
-</div>

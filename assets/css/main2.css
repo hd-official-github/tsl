@@ -6405,9 +6405,24 @@ input, button, textarea {
     text-align: justify;
     max-width: fit-content;
 }
-
+@media (max-width:1025px){
+    .first-img,.forth-img,.th-img{
+        display: none;
+    }
+    .main-cont{
+        padding-left: 0px;
+        margin-top: -300px;
+    }
+   
+}
+@media (min-width:1025px){
+    .main-cont{
+        padding-left: 150px;
+    
+    }
+}
 .feature {
-    height: 19px;
+    height: 22px;
     width: 26px;
 }
 
@@ -8057,6 +8072,7 @@ form, fieldset {
         bottom: 0;
         top: auto;
     }
+    
     #header-mobile-nav-opener span:after {
         left: 0;
         right: 0;
@@ -8185,12 +8201,13 @@ input {
 
 body {
     color: #000;
-    background: #f6f8fb;
+    background: #f9f9f9 !important;
     font: 1.3rem/1.54 sans-serif;
     min-width: 320px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif !important ;
 }
 
 img {

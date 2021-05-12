@@ -62,7 +62,7 @@ class Main extends CI_Controller
     }
     public function bussiness_detail()
     {
-        $data['bgcolor'] = "background:#f07c7c";
+        $data['bgcolor'] = "background:#fff";
 
         $business_name = str_replace("-", " ", $this->uri->segment(3));
         $this->load->model('catogery_model');

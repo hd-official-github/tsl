@@ -75,6 +75,12 @@ class Main extends CI_Controller
         $data['review'] = $this->catogery_model->get_review_all($b_id);
         $data['faq'] = $this->catogery_model->get_faq($b_id);
         $data['image'] = $this->catogery_model->get_business_image($b_id);
+        // $num = $data['image']->num_rows();
+        // if($num==1){
+        //    echo '<div class="col-sm-12 first-img" style="max-height:500px">
+        //    <img src="'.for($i; $i<$nums; $i++){ echo $i->image_url; break;.'" alt="" style="height:100%; width:100%"></div>';
+        // }else if($num==2){
+        // }
         $data['recommanded'] = $this->catogery_model->get_recommanded($cat_id, $loc, $business_name);
         $this->load->view('client/includes/header', $data);
         $this->load->view('client/bussiness_detail', $data);

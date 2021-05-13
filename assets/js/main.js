@@ -11412,6 +11412,7 @@ $(function () {
 		$('.onclick-link').css({'color':'#000','font-size':'initial'});
 
 		}
+		
 		if (scroll <= 50) {
 			$(".mobwhitelogo").show();
 		$('.trigger-login-popup').css({'color':'#fff','font-size':'initial'});

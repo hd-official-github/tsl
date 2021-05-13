@@ -5586,6 +5586,7 @@ body {
 .multi-line-header--centered {
     padding-left: 0;
     text-align: center;
+    
 }
 
 .multi-line-header--centered:before {
@@ -6405,16 +6406,7 @@ input, button, textarea {
     text-align: justify;
     max-width: fit-content;
 }
-@media (max-width:1025px){
-    .first-img,.forth-img,.th-img{
-        display: none;
-    }
-    .main-cont{
-        padding-left: 0px;
-        margin-top: -300px;
-    }
-   
-}
+
 @media (min-width:1025px){
     .main-cont{
         padding-left: 150px;

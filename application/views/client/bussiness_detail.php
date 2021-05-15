@@ -10,7 +10,8 @@
 </div>
 <div class="wrapper-content wrapper-content--ud" infinite-scroll="">
 <div class="container-fluid" style=' margin-top:-29px;'>
-   <div class="row" style='max-height:500px;'>
+   <div class="row deskslider" style='max-height:500px;'>
+   
       <?php $c = count($image->result());
          if ($c == 1) { ?>
       <div class="col-sm-12 first-img" style='max-height:500px'>
@@ -27,14 +28,14 @@
             } ?>" alt="" style='height:100%; width:100%'>
       </div>
       <div class="col-sm-4 sec-img" style="max-height: 500px;">
-         <img onclick="openModal();currentSlide(1)" class="hover-shadow cursor" src="<?php $a = 1;
+         <img onclick="openModal();currentSlide(1)" class="hover-shadow cursor c-sec" src="<?php $a = 1;
             foreach ($image->result() as $row) {
                if ($a == 2) {
                   echo $row->image_url;
                   break;
                }
                $a++;
-            } ?>" alt="" style='height:100%; width:100%'>
+            } ?>" alt="" style='width:100%'>
       </div>
       <?php } else if ($c == 0) { ?>
       <div class="col-sm-12 first-img" style='max-height:500px'>
@@ -51,7 +52,7 @@
             } ?>" alt="" style='height:100%; width:100%'>
       </div>
       <div class="col-sm-4 sec-img" style="max-height: 250px;">
-         <img onclick="openModal();currentSlide(1)" class="hover-shadow cursor" src="<?php $a = 0;
+         <img onclick="openModal();currentSlide(1)" class="hover-shadow cursor c-sec" src="<?php $a = 0;
             foreach ($image->result() as $row) {
                if ($a == 1) {
                   echo $row->image_url;
@@ -78,7 +79,7 @@
                } ?>" alt="" style='height:100%; width:100%;'>
          </div>
          <div class="col-sm-4 sec-img gallery" style="max-height: 250px;">
-            <img onclick="openModal();currentSlide(1)" class="hover-shadow cursor" src="<?php $a = 1;
+            <img onclick="openModal();currentSlide(1)" class="hover-shadow cursor c-sec" src="<?php $a = 1;
                foreach ($image->result() as $row) {
                   if ($a == 2) {
                      echo $row->image_url;
@@ -109,7 +110,7 @@
                } ?>" alt="" style='height:100%; width:100%;'>
          </div>
          <div class="col-sm-4 sec-img gallery" style="max-height: 250px;">
-            <img onclick="openModal();currentSlide(1)" class="hover-shadow cursor" src="<?php $a = 1;
+            <img onclick="openModal();currentSlide(1)" class="hover-shadow cursor c-sec" src="<?php $a = 1;
                foreach ($image->result() as $row) {
                   if ($a == 2) {
                      echo $row->image_url;
@@ -133,6 +134,7 @@
             </div>
                
                <?php }?>
+              
          </div>
       </div>
       <div class="wrapper main-cont" style='margin-top:-80px'>
@@ -161,7 +163,7 @@
          <!-- /////the bottom row  -->
          <div class="container mt-5 p-0 align-center f-detail" style="margin-bottom:-224px;">
             <div class="row">
-               <div class="col-sm-8 card-info" style="padding-left:0px !important; margin-top:75px;">
+               <div class="col-sm-8 card-info" style="padding-left:0px !important;">
                   <!-- <div class="col-sm-8" style="display: contents;">
                      <div class="multi-line-header multi-line-header--centered" style="">
                      <div class="multi-line-header__title" style='letter-spacing:1px;'>
@@ -187,11 +189,11 @@
                                              <div style="margin-left:13px;" class="mt-4">
                                                 <div class="promo__title">
                                                    <merchant-rating>
-                                                      <div class="margin-right-s card-rating__listing" style="margin-top: -8px; margin-left:-10px;">
-                                                         <div class="card-rating margin-bottom-zero nb--4-5">
-                                                            <img alt="nb" class="card-rating__nb" height="10" src="<?php echo base_url() . 'assets/images/sl_icon.png'; ?>" data-lzled="true">
-                                                            <span class="card-rating__img"></span>
-                                                            <span class="card-rating__value font-weight-bold line-height-default" style='font-size:small;'><?php echo $row->rating; ?></span>
+                                                      <div class="margin-right-s card-rating__listing" style="margin-top: -8px;">
+                                                         <div class="card-rating margin-bottom-zero nb--4-5" style='height:24px; width:45px; background:green; color
+                                                         :#fff; display:flex; align-items:center;'>
+                                                            
+                                                            <span class="card-rating__value font-weight-bold line-height-default" style='font-size:small; width:45px; display:inline-block; text-align:center;'><?php echo $row->rating; ?></span>
                                                             <span><a class='text-decoration-none font-weight-bold' style='color: #010101; font-size:small; margin-left:5px;'></a></span>
                                                          </div>
                                                       </div>
@@ -212,12 +214,15 @@
                                        </div>
                                     </div>
                                  </promo-card>
+
                               </div>
                            </div>
                         </div>
                      </div>
                      <?php } ?>
                   </promo-slider>
+                 
+
                </div>
                <div class="col-sm-4 price_n_dis">
                   <span>
@@ -254,7 +259,7 @@
                      </div>
                   </div>
                </div>
-               <!-- <div class="col-sm-8 col-m-8 col-l-9 listing-grid card-carousel">
+               <div class="col-sm-12 col-m-12 col-l-12 listing-grid card-carousel">
                   <div class="container p-0">
                   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner" style=" border-radius:5px; height:100%;">
@@ -279,8 +284,13 @@
                   </button>
                   </div>
                   </div>
-                  </div> -->
+               </div>
             </div>
+         </div>
+     
+         <div class="row text-light  p-3 container-fluid" style='position:fixed; z-index:9999; margin-left:-20px; background:#f07c7c; height:50px;' id='footer'>
+         <table style='width:100%;'><tr><td align="center" style='font-size: 28px;'><a href="tel:1234567891" style='color:#000'><i class="fas fa-mobile-alt"></i></a></td>
+         <td align="center" style='font-size:28px; '><i class="far fa-envelope" onclick="open_enForm()"></i></td></tr></table>
          </div>
          <!-- /////the next row/// -->
          <div class="container f-ur">
@@ -295,8 +305,8 @@
                         </div>
                         <div class="col-sm-6 col-xs-6 col-md-6 ">
                            <?php foreach ($details->result() as $row) { ?>
-                           <img src="<?php echo base_url() . 'assets/images/loc.png'; ?>" alt="" class='feature'>
-                           <h3 class='fstate'><?php echo $row->features; ?></h3>
+                           <img src="<?php echo base_url() . 'assets/images/feature.png'; ?>" alt="" class='feature'>
+                           <h4 class='fstate' style='font-size:13px;'><?php echo $row->features; ?></h4>
                            <br>
                            <?php } ?>
                         </div>
@@ -318,7 +328,7 @@
                         </div>
                      </div>
                      <div class="mapouter">
-                        <div class="gmap_canvas" style='text-align:left'>
+                        <div class="gmap_canvas" style='text-align:left; margin-top:5px;'>
                            <?php foreach ($details->result() as $row) {
                               echo $row->map_loc;
                               } ?><br>
@@ -355,60 +365,52 @@
                               CONTACT US
                            </div>
                         </div>
-                        <div class='col-sm-1 mt-1'>
-                           <img src="<?php echo base_url() . 'assets/images/location.png'; ?>" style='height:30px; width:32px;'>
+                        <div class='col-sm-1 mt-1 p-2' style="display: inline-flex;">
+                           <img src="<?php echo base_url() . 'assets/images/location.png'; ?>" style='height:30px; width:32px;'><span class='mt-2 mx-3' style='font-size:13px; text-align:justify;'><?php echo $row->address; ?></span>
                         </div>
                         <?php foreach ($details->result() as $row) {  ?>
-                        <div class='col-sm-11 mt-2'><span style='font-size:13px; text-align:justify;'><?php echo $row->address; ?></span>
+                       
+                        <div class="row mt-1 p-2">
+                           <div class='col-sm-1' style="display: inline-flex; width:auto">
+                              <img src="<?php echo base_url() . 'assets/images/building.png'; ?>" style='height:30px; width:32px;'><span class='mt-2 mx-3' style='font-size:13px; text-align:justify;'><?php echo $row->location . '/ ' . $row->sub_location; ?></span>
+                           </div>
+                         
                         </div>
-                        <div class="row mt-1">
-                           <div class='col-sm-1'>
-                              <img src="<?php echo base_url() . 'assets/images/building.png'; ?>" style='height:30px; width:32px;'>
+                        <div class="row mt-1 p-2">
+                           <div class='col-sm-1' style="display: inline-flex; width:auto;">
+                              <img src="<?php echo base_url() . 'assets/images/web.png'; ?>" style='height:30px; width:32px;'><span class='mt-2 mx-3' style='font-size:13px; text-align:justify;'>Visit on our website <a href="www.abc.com" class='text-decoration-none'><?php echo $row->website; ?></a></span>
                            </div>
-                           <div class='col-sm-11 mt-1'><span style='font-size:13px; text-align:justify;'><?php echo $row->location . '/ ' . $row->sub_location; ?></span>
-                           </div>
+                          
                         </div>
-                        <div class="row mt-1">
-                           <div class='col-sm-1'>
-                              <img src="<?php echo base_url() . 'assets/images/web.png'; ?>" style='height:30px; width:32px;'>
+                        <div class="row mt-1 p-2">
+                           <div class='col-sm-1' style="display:inline-flex; width:auto;">
+                              <img src="<?php echo base_url() . 'assets/images/mail.png'; ?>" style='height:30px; width:32px;'><span class='mt-2 mx-3' style='font-size:13px; text-align:justify;'><?php echo $row->email; ?></span>
                            </div>
-                           <div class='col-sm-11 mt-1'><span style='font-size:13px; text-align:justify;'>Visit on our website <a href="www.abc.com" class='text-decoration-none'><?php echo $row->website; ?></a></span>
-                           </div>
+                           
                         </div>
-                        <div class="row mt-1">
-                           <div class='col-sm-1'>
-                              <img src="<?php echo base_url() . 'assets/images/mail.png'; ?>" style='height:30px; width:32px;'>
+                        <div class="row mt-1 p-2">
+                           <div class='col-sm-1' style="display: inline-flex; width:auto;">
+                              <img src="<?php echo base_url() . 'assets/images/tel.png'; ?>" style='height:30px; width:32px;'><span  class='mt-2 mx-3' style='font-size:13px; text-align:justify;'><?php echo $row->mobno; ?></span>
                            </div>
-                           <div class='col-sm-11 mt-1'><span style='font-size:13px; text-align:justify;'><?php echo $row->email; ?></span>
-                           </div>
+                           
                         </div>
-                        <div class="row mt-1">
-                           <div class='col-sm-1'>
-                              <img src="<?php echo base_url() . 'assets/images/tel.png'; ?>" style='height:30px; width:32px;'>
+                        <div class="row mt-1 p-2 ">
+                           <div class='col-sm-1' style="display: inline-flex; width:auto;">
+                              <img src="<?php echo base_url() . 'assets/images/facebook.png'; ?>" style='height:30px; width:32px;'><a href="" class="text-decoration-none mt-2 mx-3" style='font-size:13px; text-align:justify;'><?php echo $row->facebook; ?></a>
                            </div>
-                           <div class='col-sm-11 mt-1'><span style='font-size:13px; text-align:justify;'><?php echo $row->mobno; ?></span>
-                           </div>
+                          
                         </div>
-                        <div class="row mt-1">
-                           <div class='col-sm-1'>
-                              <img src="<?php echo base_url() . 'assets/images/facebook.png'; ?>" style='height:30px; width:32px;'>
+                        <div class="row mt-1 p-2">
+                           <div class='col-sm-1' style="display: inline-flex; width:auto;">
+                              <img src="<?php echo base_url() . 'assets/images/twitter.png'; ?>" style='height:30px; width:32px;'><a href="" class="text-decoration-none mt-2 mx-3" style='font-size:13px; text-align:justify;'><?php echo $row->twitter; ?></a>
                            </div>
-                           <div class='col-sm-11 mt-1'><a href="" class="text-decoration-none" style='font-size:13px; text-align:justify;'><?php echo $row->facebook; ?></a>
-                           </div>
+                           
                         </div>
-                        <div class="row mt-1">
-                           <div class='col-sm-1'>
-                              <img src="<?php echo base_url() . 'assets/images/twitter.png'; ?>" style='height:30px; width:32px;'>
+                        <div class="row p-2">
+                           <div class='col-sm-1' style="display: inline-flex; width:auto;">
+                              <img src="<?php echo base_url() . 'assets/images/insta.png'; ?>" style='height:30px; width:32px;'><a href="" class="text-decoration-none mt-2 mx-3" style='font-size:13px; text-align:justify;'><?php echo $row->instagram; ?></a>
                            </div>
-                           <div class='col-sm-11 mt-1'><a href="" class="text-decoration-none" style='font-size:13px; text-align:justify;'><?php echo $row->twitter; ?></a>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class='col-sm-1'>
-                              <img src="<?php echo base_url() . 'assets/images/insta.png'; ?>" style='height:30px; width:32px;'>
-                           </div>
-                           <div class='col-sm-11'><a href="" class="text-decoration-none" style='font-size:13px; text-align:justify;'><?php echo $row->instagram; ?></a>
-                           </div>
+                          
                         </div>
                         <?php } ?>
                      </div>
@@ -517,19 +519,7 @@
 
 
    <div class="row">
-  <!-- <div class="column">
-    <img src="<?php echo base_url().'assets/images/a.jpg'; ?>" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="<?php echo base_url().'assets/images/a.jpg'; ?>" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="<?php echo base_url().'assets/images/a.jpg'; ?>" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="<?php echo base_url().'assets/images/a.jpg'; ?>" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-</div> -->
+  
 
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
@@ -539,12 +529,12 @@
      ?>
     <div class="mySlides">
       <div class="numbertext"> <?php echo $c.'/'.$n; $c++;?>  </div>
-      <img src="<?php echo $row->image_url; ?>" style="width:1198px; height:627px;">
+      <img class='m-img' src="<?php echo $row->image_url; ?>">
     </div>
 <?php }} else{ ?>
    <div class="mySlides">
       <div class="numbertext"> <?php echo $c.'/'.$n+1; ?>  </div>
-      <img src="<?php foreach($details->result() as $val){echo $val->main_image;} ?>" style="width:1198px; height:627px;">
+      <img class='m-img' src="<?php foreach($details->result() as $val){echo $val->main_image;} ?>">
     </div>
    <?php }?>
    
@@ -655,6 +645,7 @@
    </div>
 </section>
 <div>
+
 <footer id="footer" class="footer ">
 <div class="container">
    <div class="pre-footer">
@@ -774,6 +765,44 @@
          </div>
       </div>
    </div>
+
+   <!-- ////modal/// -->
+   <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style='z-index:99999'>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" style="padding:87px;">
+      <div class="modal-header" style="color:black;">
+        <h1 class="modal-title" id="exampleModalLongTitle">Contact with us</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="display: none;"> 
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style='width:160%; margin-left:-41px;'>
+        <form action="">
+           <div class="form-group">
+              <label for="name" style='font-size:16px; color:#000'>Name : </label>
+              <input type="text" name = 'name' class = 'form-control' placeholder="Enter Name">
+           </div>
+           <div class="form-group mt-2">
+              <label for="email" style='font-size:16px; color:#000'>Email : </label>
+              <input type="text" name = 'email' class = 'form-control' placeholder="Enter Email">
+           </div>
+           <div class="form-group mt-2">
+              <label for="phone" style='font-size:16px; color:#000'>Mob no : </label>
+              <input type="text" name = 'mobno' class = 'form-control' placeholder="Enter Mobile number">
+           </div>
+        </form>
+      </div>
+      <div class="modal-footer" style="position: relative; left:47px;">
+        <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal" onclick="closemodel()">Close</button>
+        <button type="button" class="btn btn-primary" style="height: 30px;">Send Enquiry</button>
+      </div>
+    </div>
+  </div>
+</div>
+   <!-- end of modal -->
    <div class="footer-content">
       <div class="footer-logo">
          <a href="" class="logo-link">
@@ -809,8 +838,12 @@
             </span>
          </li>
       </ul>
+
    </div>
+
 </div>
+</footer>
+
 <style>
    @media (min-width:1023px) {
    .main-cont {
@@ -857,11 +890,25 @@
    .mgl {
    margin-left: -90px;
    }
+   .card-carousel{
+      display: none;
+   }
+   .m-img{
+      width:1198px; height:627px;
+   }
+   .card-info{
+      margin-top: 75px;
+   }
+   .c-sec{
+      height:100%;
+   }
+   
    }
    @media (max-width:1025px) {
    .first-img,
    .forth-img,
-   .th-img {
+   .th-img,
+   .forth-img {
    display: none;
    }
    .main-cont {
@@ -878,8 +925,12 @@
    box-shadow: 0 0 16px rgb(0 0 0 / 4%);
    top: 0px;
    left: 0px;
-   margin-top: 290px;
+   margin-top: -17px;
    z-index: 0;
+   height: 530px;;
+   }
+   .card-info{
+      margin-top: -250px;
    }
    .feature_data {
    margin-top: 270px;
@@ -894,15 +945,13 @@
    .f-detail {
    margin-bottom: 0px;
    }
-   .f-detail .row {
-   margin-top: -326px;
-   }
+  
    .f-ur {
    position: relative;
-   top: 190px;
+   /* top: 190px; */
    }
    .lc {
-   margin-top: 210px;
+   /* margin-top: 210px; */
    margin-left: 0;
    }
    .mgl {
@@ -912,7 +961,37 @@
    width: 110%;
    margin-left: -90px;
    }
+   .card-carousel{
+      display: none;
    }
+   .close{
+      left:0px !important;
+      top:-30px;
+   }
+   .modal-content{
+      height:auto !important;
+      width: auto !important;
+      margin-left: 10px !important;
+   
+   }
+   .m-img{
+      width:100%;
+      height: 215px;
+   }
+   .c-sec{
+      height:auto;
+   }
+   .promo{
+      margin-left: 7px;
+   }
+   #footer{
+     bottom: 0px;
+     
+     position: sticky;
+     width: 100%;
+  
+   }
+}
 
 
    
@@ -1051,6 +1130,9 @@ img {
 .demo {
   opacity: 0.6;
 }
+.fade:not(.show){
+   opacity: 1;
+}
 
 .active,
 .demo:hover {
@@ -1108,7 +1190,17 @@ function showSlides(n) {
 }
 </script>
 
-
+<script>
+   function open_enForm(){ 
+      
+      $('#exampleModal').toggle();
+     
+      
+   }
+   function closemodel(){
+      $('#exampleModal').css('display','none');
+   }
+</script>
 
 
    

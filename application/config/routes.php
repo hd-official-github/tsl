@@ -55,6 +55,10 @@ $route['404'] = 'errors';
 
 
 $route['search'] = 'main/submit_search';
+$route['thespaline-business'] = 'Add_Business/index';
+$route['thespaline-business/login'] = 'Add_Business/login';
+$route['thespaline-business/signup'] = 'Add_Business/signup';
+// $route['thespaline-business/login'] = 'Add_Business/login';
 // $route['cat'] = 'main/catogery';
 // $route['detail'] = 'main/bussiness_detail';
 

@@ -59,17 +59,17 @@
                      </div>
                      <div id="mobile-nav-drop" class="">
                         <ul class="mobile-tool-list">
-                        
-                           <li class="desktop-hidden"><a href="<?php echo base_url();?>" class="main-header-link">Home</a>
+
+                           <li class="desktop-hidden"><a href="<?php echo base_url(); ?>" class="main-header-link">Home</a>
                            </li>
                            <li class="divider desktop-hidden"></li>
-                           <li><a href="" class="gift-link main-header-link business_btn mob_btn">
-                                Add your business
+                           <li><a href="<?php echo base_url(); ?>thespaline-business" class="gift-link main-header-link business_btn mob_btn">
+                                 Add your business
                               </a>
                            </li>
                            <li class="divider desktop-hidden"></li>
                            <li><a href="" class="gift-link main-header-link business_btn mob_btn">
-                               Login
+                                 Login
                               </a>
                            </li>
                            <li class="divider desktop-hidden"></li>
@@ -88,18 +88,17 @@
                $('img').attr('src', "<?php echo base_url() . 'assets/images/logo.png'; ?>");
                $('.business_btn').css('color', 'black');
                $('.top-panel .container').css('border-bottom', 'none');
-               $('.changeback').attr('data-attr','#000');
+               $('.changeback').attr('data-attr', '#000');
 
             }
             // if($(body).hasClass('has-modal')){
             //    alert("hii");
             // }
-          function d_nav(){
-            $('body').css('overflow','hidden');
-            
-            if($('body').hasClass('has-modal')){
-               $('body').css('overflow','auto');
-            }
-          }
+            function d_nav() {
+               $('body').css('overflow', 'hidden');
 
+               if ($('body').hasClass('has-modal')) {
+                  $('body').css('overflow', 'auto');
+               }
+            }
          </script>
